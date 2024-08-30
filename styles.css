@@ -36,9 +36,28 @@ header {
 }
 
 .header-content {
-    flex-grow: 1;
-    text-align: left;
+    text-align: left; /* Centre le texte horizontalement */
+    margin-top: 20px; /* Espace entre la photo et le texte */
 }
+
+.header-content h1 {
+    font-size: 28px; /* Taille du nom */
+    margin-bottom: 20px; /* Espace sous le nom */
+}
+
+.contact-info {
+    font-size: 18px; /* Taille de la police pour les informations de contact */
+    line-height: 1.8; /* Espacement entre les lignes */
+    margin-top: 10px; /* Décalage vers le bas pour commencer le texte sous le nom */
+}
+
+.icon {
+    width: 20px; /* Taille des icônes */
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
 
 h1 {
     margin: 0;
