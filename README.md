@@ -8,15 +8,15 @@ Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votr
 
 - **[Git](https://git-scm.com/)** : Pour cloner le dépôt.
 - **[Make](https://www.gnu.org/software/make/)** : Pour exécuter les commandes définies dans le `Makefile`.
-- **[Python](https://www.python.org/)** (si vous utilisez Python pour servir les fichiers statiques) : Python doit être installé pour exécuter un serveur local.
+- **[Python](https://www.python.org/)** : Python doit être installé pour exécuter un serveur local.
 
 ## Cloner le Dépôt
 
 Clonez ce dépôt en utilisant Git :
 
 ```bash
-git clone https://github.com/Luthr91/Luthor91.github.io.git
-cd Luthor91.github.io
+git clone https://github.com/Luthor91/aboutme.git
+cd aboutme
 ```
 
 ## Utilisation du Makefile
@@ -29,4 +29,4 @@ make serve
 ## Accéder à la Page Web
 Une fois le serveur démarré, ouvrez votre navigateur web et allez à l'adresse suivante :
 
-[http://127.0.0.1:8000](http://127.0.0.1:8000)
+[http://127.0.0.1:8000](http://127.0.0.1:8000/CV)
