@@ -1,6 +1,16 @@
 {
     "items": [
         {
+            "title": "Apple reportedly plans to drop USB-A ports with the M4 Mac mini",
+            "link": "https://www.engadget.com/computing/apple-reportedly-plans-to-drop-usb-a-ports-with-the-m4-mac-mini-and-is-working-on-a-low-end-magic-keyboard-154306266.html",
+            "description": "No Description"
+        },
+        {
+            "title": "Show HN: Ban 'Any updates' emails \u2013 this is super-efficient client communication",
+            "link": "https://www.reallysimplepage.com",
+            "description": "i Looking for 100 beta users to use RSP for free in return for great feedback i p I x27 ve made a Monday x2F Google Sheets hybrid making it really easy to share structured data with clients in real time with no extra effort from you This eliminates clients..."
+        },
+        {
             "title": "'weekend warrior' could be as good for brain health as exercising over the week",
             "link": "https://medicalxpress.com/news/2024-08-weekend-warrior-good-brain-health.html",
             "description": "No Description"
@@ -49,16 +59,6 @@
             "title": "Measuring frecency (a combination of frequency and recency) with exponential dec",
             "link": "https://wiki.mozilla.org/index.php?title=User:Jesse/NewFrecency&mobileaction=toggle_view_desktop",
             "description": "No Description"
-        },
-        {
-            "title": "Ask HN: Best offline-only eBook reader?",
-            "link": "No Link",
-            "description": "During a hike I crushed the screen of my Kobo Aura HD a device which I x27 ve used and loved for many years It x27 s never been connected to the Internet and it x27 s never given me any grief about it p I want a new device..."
-        },
-        {
-            "title": "Show HN: AI-generated Business Ideas Podcast: Daily summary of all discussions",
-            "link": "https://startupideasagent.substack.com/",
-            "description": "I programmed this podcast creator x2F agent Now instead of listening to hours of youtube videos every day one can just listen to a few minutes of summaries of business ideas mentioned or discussed and dive deeper if interested all source links with timestamps are provided as well It is..."
         }
     ]
 }

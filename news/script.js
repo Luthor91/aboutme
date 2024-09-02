@@ -3,7 +3,28 @@ document.addEventListener('DOMContentLoaded', () => {
     const newsList = document.getElementById('news-list');
     const errorMessage = document.getElementById('error-message');
 
-    const fetchData = async (source) => {
+    const username = 'Luthor91';
+    const repo = 'aboutme';
+    const branch = 'main';
+
+    const fetchDataFromGitHub = async (source) => {
+        const url = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/datas/${source}_datas.json`;
+        try {
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const data = await response.json();
+            displayArticles(data.items);
+        } catch (error) {
+            console.error('Fetch error from GitHub:', error);
+            errorMessage.textContent = 'Failed to load data from GitHub. Trying local data...';
+            // Try to load from local file as fallback
+            fetchDataFromLocal(source);
+        }
+    };
+
+    const fetchDataFromLocal = async (source) => {
         try {
             const response = await fetch(`/datas/${source}_datas.json`);
             if (!response.ok) {
@@ -12,9 +33,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json();
             displayArticles(data.items);
         } catch (error) {
-            console.error('Fetch error:', error);
+            console.error('Fetch error from local:', error);
             errorMessage.textContent = 'Failed to load data. Please try again later.';
         }
+    };
+
+    const fetchData = async (source) => {
+        // Attempt to fetch data from GitHub first
+        await fetchDataFromGitHub(source);
     };
 
     const displayArticles = (items) => {
