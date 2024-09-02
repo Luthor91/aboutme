@@ -2,9 +2,35 @@ import requests
 import xml.etree.ElementTree as ET
 import json
 import re
-from globals import MAX_WORDS_DESCRIPTION, MAX_ARTICLES, KEYWORDS_TO_SKIP
+
+# URL du fichier de configuration sur GitHub
+CONFIG_URL = "https://raw.githubusercontent.com/Luthor91/aboutme/main/config/config.json"
+
+# Fonction pour charger la configuration depuis GitHub
+def load_config():
+    try:
+        response = requests.get(CONFIG_URL)
+        response.raise_for_status()  # Vérifie les erreurs HTTP
+        config = response.json()
+        return config
+    except requests.RequestException as e:
+        print(f"Erreur lors du chargement de la configuration: {e}")
+        # Valeurs par défaut en cas d'échec de chargement de la configuration
+        return {
+            "maxFilteredArticles": 30,
+            "maxDescriptionLength": 150,
+            "maxWordsDescription": 50,
+            "maxAttempts": 20,
+            "maxWordLength": 30,
+            "keywordsToSkip": ["paywall", "fermented"]
+        }
+
+config = load_config()
 
 # Constantes de configuration
+MAX_ARTICLES = config["maxFilteredArticles"]
+MAX_WORDS_DESCRIPTION = config["maxWordsDescription"]
+KEYWORDS_TO_SKIP = config["keywordsToSkip"]
 URL = "https://rss.slashdot.org/Slashdot/slashdotMain"
 
 # Fonction pour limiter la description à un nombre maximum de mots
@@ -51,7 +77,7 @@ for item in root.findall('rss:item', namespaces):
         })
 
 # Sauvegarder les données en JSON
-json_path = 'datas/slashdot_datas.json'
+json_path = 'config/slashdot_datas.json'
 with open(json_path, 'w') as f:
     json.dump({'items': items}, f, indent=4)
 

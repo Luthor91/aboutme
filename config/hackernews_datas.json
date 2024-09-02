@@ -1,6 +1,16 @@
 {
     "items": [
         {
+            "title": "Let's go build a minimal Docker image (2018)",
+            "link": "https://medium.com/lotharschulz/build-a-minimal-docker-image-4722deae9d86",
+            "description": "No Description"
+        },
+        {
+            "title": "Heartbroken by the Sonos App Disaster and What's Happened to the Company",
+            "link": "https://old.reddit.com/r/sonos/comments/1f79vk6/former_sonos_engineer_here_heartbroken_by_the_app/",
+            "description": "No Description"
+        },
+        {
             "title": "Chess Stockfish engine GUI with JavaScript",
             "link": "https://github.com/david-oruna/stockfish-gui",
             "description": "No Description"
@@ -123,16 +133,6 @@
         {
             "title": "Ex-Google CEO's Interview: \"You Have No Idea What's Coming\" [video]",
             "link": "https://www.youtube.com/watch?v=EUeryhp8HSQ",
-            "description": "No Description"
-        },
-        {
-            "title": "Mother's gut microbiome during pregnancy shapes baby's brain development",
-            "link": "https://medicalxpress.com/news/2024-08-mother-gut-microbiome-pregnancy-baby.html",
-            "description": "No Description"
-        },
-        {
-            "title": "Simple Testing Can Prevent Most Critical Failures (2014) [pdf]",
-            "link": "https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf",
             "description": "No Description"
         }
     ]
