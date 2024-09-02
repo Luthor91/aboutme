@@ -1,6 +1,6 @@
 /* Styles pour le mode sombre */
 body.dark-mode {
-    background-color: #121212;
+    background-color: #1f1f1f;
     color: #ffffff; /* Changez la couleur en blanc pour la rendre lisible sur un fond sombre */
 }
 

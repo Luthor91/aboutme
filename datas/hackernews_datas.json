@@ -1,6 +1,11 @@
 {
     "items": [
         {
+            "title": "CrowdStrike faces onslaught of legal action from faulty software update",
+            "link": "https://techcrunch.com/2024/09/02/crowdstrike-faces-onslaught-of-legal-action-from-faulty-software-update/",
+            "description": "No Description"
+        },
+        {
             "title": "Feeding gut microbes to nourish the brain: the diet\u2013microbiota\u2013gut\u2013brain axis",
             "link": "https://www.nature.com/articles/s42255-024-01108-6",
             "description": "No Description"
@@ -53,11 +58,6 @@
         {
             "title": "Becoming a CTO (2021)",
             "link": "https://blog.kevingoldsmith.com/2021/11/01/becoming-a-cto/",
-            "description": "No Description"
-        },
-        {
-            "title": "Anatomy of an Internet Argument",
-            "link": "https://defenderofthebasic.substack.com/p/anatomy-of-an-internet-argument",
             "description": "No Description"
         }
     ]
