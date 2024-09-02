@@ -1,6 +1,11 @@
 {
     "items": [
         {
+            "title": "UART Terminal: A Web-Based Serial Communication Tool Built with React",
+            "link": "https://github.com/baturyilmaz/uartterminal.com",
+            "description": "No Description"
+        },
+        {
             "title": "Blameless PostMortems and a Just Culture",
             "link": "https://www.etsy.com/codeascraft/blameless-postmortems",
             "description": "No Description"
@@ -11,7 +16,7 @@
             "description": "No Description"
         },
         {
-            "title": "Original \"Baby Is Three\" by Theodore Sturgeon",
+            "title": "Original \"Baby Is Three\" by Theodore Sturgeon (1952)",
             "link": "https://archive.org/details/galaxymagazine-1952-10",
             "description": "No Description"
         },
@@ -48,11 +53,6 @@
         {
             "title": "RAO-SS: A Prototype of Run-Time Auto-Tuning Facility for Sparse Direct Solvers",
             "link": "https://arxiv.org/abs/2408.11880",
-            "description": "No Description"
-        },
-        {
-            "title": "Glue and Coprocessor Architectures",
-            "link": "https://vitalik.eth.limo/general/2024/09/02/gluecp.html",
             "description": "No Description"
         }
     ]

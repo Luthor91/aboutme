@@ -186,38 +186,37 @@ body {
 /* Styles pour les petits écrans (téléphones) */
 @media only screen and (max-width: 768px) {
     .tabs {
-        flex-direction: column; /* Empiler les onglets verticalement */
-        width: 20%; /* Occuper 20% de la largeur de l'écran */
-        min-width: 120px; /* Assurer une taille minimum raisonnable */
+        flex-direction: column;
+        width: 20%;
+        min-width: 120px;
     }
 
     .tab-button {
-        border-radius: 0; /* Retirer les coins arrondis */
-        width: 100%; /* Faire en sorte que les boutons remplissent la largeur de la colonne */
-        text-align: left; /* Aligner le texte à gauche */
-        padding: 10px 20px; /* Ajuster le padding pour un meilleur affichage */
+        border-radius: 0;
+        width: 100%;
+        text-align: left
+        padding: 10px 20px;
     }
 
     .content {
-        width: 80%; /* Occuper le reste de la largeur de l'écran */
-        margin-left: 20%; /* Placer la section de contenu à côté des onglets */
+        width: 80%;
+        margin-left: 20%;
     }
 }
 
-/* Pour les écrans encore plus petits (moins de 576px de large) */
 @media only screen and (max-width: 576px) {
     .tabs {
-        width: 100%; /* Onglets occupent toute la largeur */
-        margin-bottom: 10px; /* Ajouter un espace sous les onglets */
+        width: 100%;
+        margin-bottom: 10px;
     }
 
     .content {
-        width: 90%; /* Contenu occupe toute la largeur */
-        margin-left: 0; /* Aucun espace à gauche */
+        width: 90%;
+        margin-left: 0;
     }
 
     .tab-button {
-        font-size: 14px; /* Réduire la taille du texte pour les très petits écrans */
-        padding: 8px 15px; /* Ajuster le padding pour un affichage plus compact */
+        font-size: 14px;
+        padding: 8px 15px;
     }
 }
