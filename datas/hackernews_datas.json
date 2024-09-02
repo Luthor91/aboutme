@@ -1,6 +1,46 @@
 {
     "items": [
         {
+            "title": "NoCode-X",
+            "link": "https://www.nocode-x.com/",
+            "description": "No Description"
+        },
+        {
+            "title": "Zero to One, Then to Shit",
+            "link": "https://medium.com/@oshibka404/zero-to-one-then-to-shit-cf949aea5b3b",
+            "description": "No Description"
+        },
+        {
+            "title": "Brazil Supreme Court unanimously upholds judge's decision to block X/Twitter",
+            "link": "https://apnews.com/article/brazil-musk-x-platform-moraes-shutdown-6942614705a4e85064f1d98628b49295",
+            "description": "No Description"
+        },
+        {
+            "title": "Licensing is packaging",
+            "link": "https://keygen.sh/blog/licensing-is-packaging/",
+            "description": "No Description"
+        },
+        {
+            "title": "Tech firms were fighting a war for talent. Now they are waging war on talent",
+            "link": "http://www.rosspettit.com/2024/08/for-years-tech-was-fighting-war-for.html",
+            "description": "No Description"
+        },
+        {
+            "title": "The architect Mariam Issoufou on excavating the past to build Africa's future",
+            "link": "https://www.theguardian.com/global-development/article/2024/sep/02/nigerien-architect-african-mariam-issoufou",
+            "description": "No Description"
+        },
+        {
+            "title": "25-Pair Color Code",
+            "link": "https://en.wikipedia.org/wiki/25-pair_color_code",
+            "description": "No Description"
+        },
+        {
+            "title": "Web scraping with GPT-4o: powerful but expensive",
+            "link": "https://blancas.io/blog/ai-web-scraper/",
+            "description": "No Description"
+        },
+        {
             "title": "CrowdStrike faces onslaught of legal action from faulty software update",
             "link": "https://techcrunch.com/2024/09/02/crowdstrike-faces-onslaught-of-legal-action-from-faulty-software-update/",
             "description": "No Description"
@@ -18,46 +58,6 @@
         {
             "title": "Summing Blue Noise Octaves Like Perlin Noise",
             "link": "https://blog.demofox.org/2024/09/02/summing-blue-noise-octaves-like-perlin-noise/",
-            "description": "No Description"
-        },
-        {
-            "title": "Language Models as Agent Models (2022)",
-            "link": "https://arxiv.org/abs/2212.01681",
-            "description": "No Description"
-        },
-        {
-            "title": "How Postgres Is Misused and Abused in the Wild",
-            "link": "https://karenjex.blogspot.com/2024/07/how-postgres-is-misused-and-abused.html",
-            "description": "No Description"
-        },
-        {
-            "title": "Radian Aerospace wants to reinvent the space rocket \u2013 as a space plane \u2013 CNN",
-            "link": "https://www.cnn.com/science/radian-spaceplane-rocket-sled-spc/index.html",
-            "description": "No Description"
-        },
-        {
-            "title": "Big Tech Sees Like a State (2020)",
-            "link": "https://www.thediff.co/archive/big-tech-sees-like-a-state/",
-            "description": "No Description"
-        },
-        {
-            "title": "The Silicon Valley Canon: On the Pa\u0131de\u00eda of the American Tech Elite",
-            "link": "https://scholars-stage.org/the-silicon-valley-canon-on-the-paideia-of-the-american-tech-elite/",
-            "description": "No Description"
-        },
-        {
-            "title": "Beware of Your Static Database Credentials",
-            "link": "https://infisical.com/blog/from-static-to-dynamic-db-credentials",
-            "description": "No Description"
-        },
-        {
-            "title": "One Woman's Quest to Map the Paris Flea Market",
-            "link": "https://www.nytimes.com/2024/08/27/style/paris-puces-flea-market.html",
-            "description": "No Description"
-        },
-        {
-            "title": "Becoming a CTO (2021)",
-            "link": "https://blog.kevingoldsmith.com/2021/11/01/becoming-a-cto/",
             "description": "No Description"
         }
     ]

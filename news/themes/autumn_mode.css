@@ -10,6 +10,7 @@ body.autumn-mode {
 
 .autumn-mode .tabs {
     background-color: #D2691E; /* Brun foncé, couleur de la cannelle */
+    border-bottom: 3px solid #4A3B2A;
 }
 
 .autumn-mode .tab-button {

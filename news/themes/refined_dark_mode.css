@@ -10,6 +10,7 @@ body.refined-dark-mode {
 
 .refined-dark-mode .tabs {
     background-color: #737BAD; /* Couleur des onglets */
+    border-bottom: 3px solid #B5B5D6;
 }
 
 .refined-dark-mode .tab-button {
