@@ -1,9 +1,17 @@
+/* Styles par défaut (mode clair) */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     margin: 0;
     padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #007bff;
 }
 
 .tabs {
@@ -33,20 +41,25 @@ body {
 
 .search-bar {
     margin: 20px 0;
-    text-align: center;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
 }
 
 #search-input {
-    width: 80%;
-    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px 20px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    transition: border-color 0.3s;
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 #search-input:focus {
     border-color: #007bff;
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.5);
     outline: none;
 }
 
@@ -61,7 +74,6 @@ body {
     color: red;
     font-weight: bold;
     margin-top: 20px;
-    text-align: center;
 }
 
 #news-list {
@@ -104,6 +116,108 @@ body {
     margin: 10px 0 0;
     color: #666;
     font-style: italic;
-    word-wrap: break-word; /* Ajoute des sauts de ligne pour éviter le débordement */
-    overflow-wrap: break-word; /* Pour les navigateurs modernes */
+}
+
+/* Styles pour le mode sombre */
+.dark-mode body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .header {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .tabs {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .tab-button {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+.dark-mode .tab-button:hover {
+    background-color: #555;
+}
+
+.dark-mode .tab-button.active {
+    background-color: #555;
+}
+
+.dark-mode #search-input {
+    border-color: #444;
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+}
+
+.dark-mode #search-input:focus {
+    border-color: #76c7c0;
+    box-shadow: 0 2px 8px rgba(118, 199, 192, 0.5);
+}
+
+.dark-mode .content {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+}
+
+.dark-mode #news-list li {
+    background-color: #2c2c2c;
+    border: 1px solid #444;
+}
+
+.dark-mode #news-list li:hover {
+    background-color: #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.dark-mode #news-list h3 {
+    color: #e0e0e0;
+}
+
+.dark-mode #news-list a {
+    color: #76c7c0;
+}
+
+.dark-mode #news-list p.description {
+    color: #b0b0b0;
+}
+
+/* Styles pour les petits écrans (téléphones) */
+@media only screen and (max-width: 768px) {
+    .tabs {
+        flex-direction: column; /* Empiler les onglets verticalement */
+        width: 20%; /* Occuper 20% de la largeur de l'écran */
+        min-width: 120px; /* Assurer une taille minimum raisonnable */
+    }
+
+    .tab-button {
+        border-radius: 0; /* Retirer les coins arrondis */
+        width: 100%; /* Faire en sorte que les boutons remplissent la largeur de la colonne */
+        text-align: left; /* Aligner le texte à gauche */
+        padding: 10px 20px; /* Ajuster le padding pour un meilleur affichage */
+    }
+
+    .content {
+        width: 80%; /* Occuper le reste de la largeur de l'écran */
+        margin-left: 20%; /* Placer la section de contenu à côté des onglets */
+    }
+}
+
+/* Pour les écrans encore plus petits (moins de 576px de large) */
+@media only screen and (max-width: 576px) {
+    .tabs {
+        width: 100%; /* Onglets occupent toute la largeur */
+        margin-bottom: 10px; /* Ajouter un espace sous les onglets */
+    }
+
+    .content {
+        width: 90%; /* Contenu occupe toute la largeur */
+        margin-left: 0; /* Aucun espace à gauche */
+    }
+
+    .tab-button {
+        font-size: 14px; /* Réduire la taille du texte pour les très petits écrans */
+        padding: 8px 15px; /* Ajuster le padding pour un affichage plus compact */
+    }
 }

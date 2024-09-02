@@ -3,18 +3,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const newsList = document.getElementById('news-list');
     const errorMessage = document.getElementById('error-message');
     const searchInput = document.getElementById('search-input');
+    const toggleThemeButton = document.getElementById('toggle-theme');
 
     const username = 'Luthor91';
     const repo = 'aboutme';
     const branch = 'main';
     const maxFilteredArticles = 10;
-    const maxDescriptionLength = 150; // Limite de longueur de description pour éviter le débordement
+    const maxDescriptionLength = 150;
 
     const getRawUrl = (source) => `https://raw.githubusercontent.com/${username}/${repo}/${branch}/datas/${source}_datas.json`;
 
     let articles = [];
 
     const fetchDataFromGitHub = async (source) => {
+        if (source === undefined) return;
+        
         const url = getRawUrl(source);
         try {
             const response = await fetch(url);
@@ -27,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             console.error('Fetch error from GitHub:', error);
             errorMessage.textContent = 'Failed to load data from GitHub. Trying local data...';
-            // Try to load from local file as fallback
             fetchDataFromLocal(source);
         }
     };
@@ -96,15 +98,14 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const adjustDescriptionWidth = () => {
-        // Ajuster dynamiquement la longueur des descriptions
         const descriptions = document.querySelectorAll('#news-list p.description');
         descriptions.forEach(desc => {
             const parentWidth = desc.parentElement.clientWidth;
             const textWidth = desc.scrollWidth;
             if (textWidth > parentWidth) {
-                desc.style.whiteSpace = 'pre-wrap'; // Permet de forcer les sauts de ligne
+                desc.style.whiteSpace = 'pre-wrap';
             } else {
-                desc.style.whiteSpace = 'normal'; // Réinitialiser si nécessaire
+                desc.style.whiteSpace = 'normal';
             }
         });
     };
@@ -121,6 +122,12 @@ document.addEventListener('DOMContentLoaded', () => {
             tab.classList.add('active');
             fetchData(tab.dataset.source);
         });
+    });
+
+    toggleThemeButton.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        toggleThemeButton.textContent = isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode';
     });
 
     fetchData('hackernews');

@@ -1,48 +1,58 @@
 {
     "items": [
         {
-            "title": "DVWA: Test and Improve Your Web Security Skills with Damn Vulnerable Web App",
-            "link": "https://github.com/digininja/DVWA",
+            "title": "Blameless PostMortems and a Just Culture",
+            "link": "https://www.etsy.com/codeascraft/blameless-postmortems",
             "description": "No Description"
         },
         {
-            "title": "Swiftide 0.9, a Rust native library for building LLM applications with RAG",
-            "link": "https://bosun.ai/posts/swiftide-0-9/",
+            "title": "When NYC tried to ban cars",
+            "link": "https://www.theguardian.com/cities/2016/jun/01/new-york-city-ban-cars-gridlock-sam-schwartz-manhattan",
             "description": "No Description"
         },
         {
-            "title": "30th Annual Interactive Fiction Competition",
-            "link": "https://ifcomp.org",
+            "title": "Original \"Baby Is Three\" by Theodore Sturgeon",
+            "link": "https://archive.org/details/galaxymagazine-1952-10",
             "description": "No Description"
         },
         {
-            "title": "Rust Maintainer for Linux Kernel Resigns",
-            "link": "https://ostechnix.com/rust-maintainer-for-linux-kernel-resigns/",
+            "title": "Researchers cut to the chase on the physics of paper cuts",
+            "link": "https://physicsworld.com/a/researchers-cut-to-the-chase-on-the-physics-of-paper-cuts/",
             "description": "No Description"
         },
         {
-            "title": "Nvidia earnings: \"Sees demand for new Blackwell chips\"",
-            "link": "https://www.home.saxo/content/articles/equities/nvidia-earnings-sees-incredible-demand-for-new-blackwell-chips-28082024",
+            "title": "Biohybrid robots controlled by electrical impulses \u2013 in mushrooms",
+            "link": "https://news.cornell.edu/stories/2024/08/biohybrid-robots-controlled-electrical-impulses-mushrooms",
             "description": "No Description"
         },
         {
-            "title": "Pico CSS: Minimal CSS Framework for Semantic HTML",
-            "link": "https://picocss.com",
+            "title": "Perplexing the Web, One Probability Puzzle at a Time",
+            "link": "https://www.quantamagazine.org/perplexing-the-web-one-probability-puzzle-at-a-time-20240829/",
             "description": "No Description"
         },
         {
-            "title": "Beyond Turing: Testing LLMs for Intelligence",
-            "link": "https://cacm.acm.org/news/beyond-turing-testing-llms-for-intelligence/",
+            "title": "Buy Immortal Mahavatar Babaji's New Gospel",
+            "link": "https://digitalpublisher999.itch.io/newgospel",
             "description": "No Description"
         },
         {
-            "title": "Speeding up rustc by being lazy",
-            "link": "https://davidlattimore.github.io/posts/2024/06/05/speeding-up-rustc-by-being-lazy.html",
+            "title": "Musk's Twitter investors have lost billions in value",
+            "link": "https://www.washingtonpost.com/technology/2024/09/01/musk-twitter-investors-underwater/",
             "description": "No Description"
         },
         {
-            "title": "Pascal Worked Better With C Than C Did [video]",
-            "link": "https://www.youtube.com/watch?v=Mu21YW4H6ns",
+            "title": "Founder Mode and Dunbar's Number",
+            "link": "https://graphthinking.blogspot.com/2024/09/founder-mode-and-dunbars-number.html",
+            "description": "No Description"
+        },
+        {
+            "title": "RAO-SS: A Prototype of Run-Time Auto-Tuning Facility for Sparse Direct Solvers",
+            "link": "https://arxiv.org/abs/2408.11880",
+            "description": "No Description"
+        },
+        {
+            "title": "Glue and Coprocessor Architectures",
+            "link": "https://vitalik.eth.limo/general/2024/09/02/gluecp.html",
             "description": "No Description"
         }
     ]
