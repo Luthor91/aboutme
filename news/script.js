@@ -7,8 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const repo = 'aboutme';
     const branch = 'main';
 
+    const getRawUrl = (source) => `https://raw.githubusercontent.com/${username}/${repo}/${branch}/datas/${source}_datas.json`;
+
     const fetchDataFromGitHub = async (source) => {
-        const url = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/datas/${source}_datas.json`;
+        const url = getRawUrl(source);
         try {
             const response = await fetch(url);
             if (!response.ok) {
