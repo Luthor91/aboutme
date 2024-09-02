@@ -1,6 +1,16 @@
 {
     "items": [
         {
+            "title": "Show HN: Preprocessing Tool for Generating Hashes",
+            "link": "https://github.com/riicchhaarrd/hg",
+            "description": "I dabbled a bit with compile time hashing of strings and most ways seem to incur a heavy penalty on the compile time cost in C Recently I came across a href https x2F x2F handmade network x2F forums x2F t x2F 1507 compile_time_string_hashing_with_c_constexpr_vs _your_own_preprocessor rel nofollow https x2F x2F..."
+        },
+        {
+            "title": "Lusid: Self Hosted iMessage Python Client",
+            "link": "https://github.com/yevbar/lusid",
+            "description": "No Description"
+        },
+        {
             "title": "Reducing game download sizes with lossy spritesheets",
             "link": "https://www.construct.net/en/blogs/construct-official-blog-1/reducing-download-sizes-lossy-1884",
             "description": "No Description"
@@ -43,16 +53,6 @@
         {
             "title": "Ray Tracing in One Weekend in Rust",
             "link": "https://github.com/robshape/rayman",
-            "description": "No Description"
-        },
-        {
-            "title": "Video Search Engine",
-            "link": "https://www.videosearch.io/",
-            "description": "No Description"
-        },
-        {
-            "title": "Chains: Exploration of an Alternative to Sender/Receiver \u2013 Sean Parent [video]",
-            "link": "https://www.youtube.com/watch?v=nQpXOx0D7I8",
             "description": "No Description"
         }
     ]

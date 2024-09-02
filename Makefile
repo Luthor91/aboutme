@@ -25,15 +25,15 @@ install:
 	$(PYTHON) -m venv venv
 	./venv/bin/pip install -r requirements.txt
 
-update_news:
+update:
 	$(PYTHON) -m venv venv
 	./venv/bin/pip install -r requirements.txt
 	. venv/bin/activate
 	$(PYTHON) scripts/fetch_hn_data.py
 	$(PYTHON) scripts/fetch_sd_data.py
 
-update: 
-	make update_news
+deploy: 
+	make update
 	@git add .
 	@git commit -m "update news data"
 	@git push $(GIT_REPO)
