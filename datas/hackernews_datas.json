@@ -1,6 +1,21 @@
 {
     "items": [
         {
+            "title": "Sghjoityrty",
+            "link": "https://communicators.ncsu.edu/forum/tedswoodworking-reviews-a-word-of-caution-from-an-honest-analytic",
+            "description": "No Description"
+        },
+        {
+            "title": "Data-driveThe role of electrode utilization in extending cycle life",
+            "link": "https://www.cell.com/joule/abstract/S2542-4351(24)00353-2",
+            "description": "No Description"
+        },
+        {
+            "title": "Show HN: Modern CI/CD Platform for Kubernetes",
+            "link": "https://github.com/devtron-labs/devtron",
+            "description": "No Description"
+        },
+        {
             "title": "Reasonable Colors is a color system for building accessible, nice palettes",
             "link": "https://www.reasonable.work/colors/",
             "description": "No Description"
@@ -43,21 +58,6 @@
         {
             "title": "Vampire Domestication: Taming Yesterday's Nightmares for a Better Tomorrow",
             "link": "https://www.rifters.com/real/progress.htm",
-            "description": "No Description"
-        },
-        {
-            "title": "Unbearably slow query and batch job",
-            "link": "https://www.scudata.com/html/Unbearably-slow-query-and-batch-job.html",
-            "description": "No Description"
-        },
-        {
-            "title": "We once more have no full-time managers at 37signals",
-            "link": "https://world.hey.com/dhh/we-once-more-have-no-full-time-managers-at-37signals-f8611085",
-            "description": "No Description"
-        },
-        {
-            "title": "Differing Values in a Team Are Costly",
-            "link": "https://rtpg.co/2024/08/31/cost-of-a-values-gap/",
             "description": "No Description"
         }
     ]

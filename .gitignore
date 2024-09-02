@@ -1,0 +1,7 @@
+# Exclure le répertoire virtuel
+venv/
+
+# Exclure les fichiers de cache et autres
+*.pyc
+__pycache__/
+*.pyo
