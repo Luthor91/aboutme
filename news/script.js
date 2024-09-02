@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const username = 'Luthor91';
     const repo = 'aboutme';
     const branch = 'main';
-    const maxFilteredArticles = 10;
+    const maxFilteredArticles = 30;
     const maxDescriptionLength = 150;
 
     const getRawUrl = (source) => `https://raw.githubusercontent.com/${username}/${repo}/${branch}/datas/${source}_datas.json`;

@@ -2,7 +2,7 @@ import requests
 import xml.etree.ElementTree as ET
 import json
 import re
-from globals import MAX_WORDS_DESCRIPTION, MAX_ATTEMPTS, MAX_ARTICLES, KEYWORDS_TO_SKIP
+from globals import MAX_WORDS_DESCRIPTION, MAX_ARTICLES, KEYWORDS_TO_SKIP
 
 # Constantes de configuration
 URL = "https://rss.slashdot.org/Slashdot/slashdotMain"

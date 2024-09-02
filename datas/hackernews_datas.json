@@ -1,6 +1,31 @@
 {
     "items": [
         {
+            "title": "String Theorists Accidentally Find a New Formula for Pi",
+            "link": "https://www.scientificamerican.com/article/string-theorists-accidentally-find-a-new-formula-for-pi/",
+            "description": "No Description"
+        },
+        {
+            "title": "Gelsinger opens up about Intel troubles amid talk of possible split",
+            "link": "https://www.theregister.com/2024/08/30/gelsinger_discusses_intel_troubles/",
+            "description": "No Description"
+        },
+        {
+            "title": "The Art of Finishing",
+            "link": "https://www.bytedrum.com/posts/art-of-finishing/",
+            "description": "No Description"
+        },
+        {
+            "title": "Scientists Make 'Cyborg Worms' with a Brain Guided by AI",
+            "link": "https://www.scientificamerican.com/article/scientists-make-cyborg-worms-with-a-brain-guided-by-ai/",
+            "description": "No Description"
+        },
+        {
+            "title": "Study predicts a new quantum crystal in fractionally filled moir\u00e9 superlattices",
+            "link": "https://phys.org/news/2024-08-quantum-anomalous-crystal-fractionally-moir.html",
+            "description": "No Description"
+        },
+        {
             "title": "Pin and Suffering in Async Rust",
             "link": "https://fasterthanli.me/articles/pin-and-suffering",
             "description": "No Description"
@@ -108,26 +133,6 @@
         {
             "title": "Brazil Supreme Court unanimously upholds judge's decision to block X/Twitter",
             "link": "https://apnews.com/article/brazil-musk-x-platform-moraes-shutdown-6942614705a4e85064f1d98628b49295",
-            "description": "No Description"
-        },
-        {
-            "title": "Licensing is packaging",
-            "link": "https://keygen.sh/blog/licensing-is-packaging/",
-            "description": "No Description"
-        },
-        {
-            "title": "Tech firms were fighting a war for talent. Now they are waging war on talent",
-            "link": "http://www.rosspettit.com/2024/08/for-years-tech-was-fighting-war-for.html",
-            "description": "No Description"
-        },
-        {
-            "title": "The architect Mariam Issoufou on excavating the past to build Africa's future",
-            "link": "https://www.theguardian.com/global-development/article/2024/sep/02/nigerien-architect-african-mariam-issoufou",
-            "description": "No Description"
-        },
-        {
-            "title": "25-Pair Color Code",
-            "link": "https://en.wikipedia.org/wiki/25-pair_color_code",
             "description": "No Description"
         }
     ]
