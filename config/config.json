@@ -1,0 +1,8 @@
+{
+    "maxFilteredArticles": 30,
+    "maxDescriptionLength": 150,
+    "maxWordsDescription": 50,
+    "maxAttempts": 20,
+    "maxWordLength": 30,
+    "keywordsToSkip": ["paywall", "fermented"]
+}
