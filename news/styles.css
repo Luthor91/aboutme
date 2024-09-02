@@ -134,7 +134,7 @@ body {
 /* Styles pour les petits écrans (téléphones) */
 @media only screen and (max-width: 768px) {
     :root {
-        --header-height: 60px; /* Ajustez cette valeur si nécessaire */
+        --header-height: 50px; /* Réduire la hauteur du header pour les petits écrans */
     }
 
     .tabs {
@@ -160,7 +160,7 @@ body {
 /* Styles pour les très petits écrans (jusqu'à 580px) */
 @media only screen and (max-width: 580px) {
     :root {
-        --header-height: 70px; /* Ajustez cette valeur si nécessaire */
+        --header-height: 40px; /* Réduire légèrement la hauteur du header pour les très petits écrans */
     }
 
     .tabs {

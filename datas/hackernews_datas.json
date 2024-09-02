@@ -1,6 +1,21 @@
 {
     "items": [
         {
+            "title": "Why people stay after local economies collapse",
+            "link": "https://theconversation.com/why-people-stay-after-local-economies-collapse-a-story-of-home-among-the-ghosts-of-shuttered-steel-mills-231370",
+            "description": "No Description"
+        },
+        {
+            "title": "Bitcoin ATM scams are soaring \u2013 and older adults are increasingly the victims",
+            "link": "https://www.cnbc.com/2024/09/01/bitcoin-atm-scams-surge-disproportionately-duping-older-adults.html",
+            "description": "No Description"
+        },
+        {
+            "title": "Play Evazor (Retro Gaming)",
+            "link": "https://t3x.org/t3x/0/programs.html#evazor",
+            "description": "No Description"
+        },
+        {
             "title": "America resembles the dying Soviet Union",
             "link": "https://www.newstatesman.com/comment/2024/08/how-america-resembles-the-dying-soviet-union",
             "description": "No Description"
@@ -29,21 +44,6 @@
             "title": "'Dancing' raisins \u2212 a simple kitchen experiment",
             "link": "https://theconversation.com/dancing-raisins-a-simple-kitchen-experiment-reveals-how-objects-can-extract-energy-from-their-environment-and-come-to-life-223255",
             "description": "No Description"
-        },
-        {
-            "title": "Brazil Court votes unanimously to uphold X ban. Users switch to Threads, Bluesky",
-            "link": "https://www.euronews.com/next/2024/09/02/brazilian-court-to-vote-on-upholding-x-ban-as-users-switch-to-threads-and-bluesky",
-            "description": "No Description"
-        },
-        {
-            "title": "GPD Duo",
-            "link": "https://gpd.hk/gpdduo",
-            "description": "No Description"
-        },
-        {
-            "title": "Show HN: Tarot Card Generator",
-            "link": "https://www.youtarot.app/",
-            "description": "Hey HN p I know Tarot might not be the typical topic here but I wanted to share a fun project I worked on over the weekend with my girlfriend p We built a Tarot card app that uses the latest in AI image generation I used Modal com to..."
         }
     ]
 }
