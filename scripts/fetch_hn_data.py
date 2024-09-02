@@ -5,6 +5,7 @@ import re
 # URL de l'API pour récupérer les articles les plus récents
 url = "https://hn.algolia.com/api/v1/search_by_date?tags=story&hitsPerPage=12"
 max_words_description = 50  # Nombre maximum de mots dans la description
+max_attempts = 20  # Nombre maximum d'articles à vérifier
 
 # Effectuer une requête GET pour obtenir les données
 response = requests.get(url)
@@ -19,12 +20,18 @@ def limit_words(text, max_words):
 
 # Extraire les articles
 items = []
+count = 0
 for hit in data['hits']:
-    items.append({
-        'title': hit.get('title', 'No Title'),
-        'link': hit.get('url', 'No Link'),
-        'description': limit_words(hit.get('story_text', 'No Description'), max_words_description)
-    })
+    link = hit.get('url', 'No Link')
+    if link and link != 'No Link':
+        if count >= max_attempts:
+            break
+        items.append({
+            'title': hit.get('title', 'No Title'),
+            'link': link,
+            'description': limit_words(hit.get('story_text', 'No Description'), max_words_description)
+        })
+        count += 1
 
 # Sauvegarder les données en JSON
 json_path = 'datas/hackernews_datas.json'
