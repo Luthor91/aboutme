@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const newsList = document.getElementById('news-list');
     const errorMessage = document.getElementById('error-message');
     const searchInput = document.getElementById('search-input');
-    const toggleThemeButton = document.getElementById('toggle-theme');
+    const themeSelect = document.getElementById('theme-select');
 
     const username = 'Luthor91';
     const repo = 'aboutme';
@@ -114,6 +114,17 @@ document.addEventListener('DOMContentLoaded', () => {
         displayArticles();
     };
 
+    const switchTheme = (theme) => {
+        document.body.classList.remove('light-mode', 'dark-mode', 'autumn-mode', 'refined-dark-mode');
+        document.body.classList.add(`${theme}-mode`);
+        localStorage.setItem('selectedTheme', theme); // Sauvegarde du thème sélectionné
+    };
+
+    // Appliquer le thème enregistré ou par défaut
+    const savedTheme = localStorage.getItem('selectedTheme') || 'light';
+    switchTheme(savedTheme);
+    themeSelect.value = savedTheme;
+
     searchInput.addEventListener('input', onSearchInput);
 
     tabs.forEach(tab => {
@@ -124,11 +135,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    toggleThemeButton.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-        const isDarkMode = document.body.classList.contains('dark-mode');
-        toggleThemeButton.textContent = isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode';
+    themeSelect.addEventListener('change', (event) => {
+        switchTheme(event.target.value);
     });
 
-    fetchData('hackernews');
+    // Initial fetch for default tab
+    const defaultTab = document.querySelector('.tab-button[data-source="hackernews"]');
+    if (defaultTab) {
+        defaultTab.classList.add('active');
+        fetchData('hackernews');
+    }
+
+    switchTheme(savedTheme);  // Appliquer le thème lors du chargement
 });

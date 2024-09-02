@@ -1,58 +1,63 @@
 {
     "items": [
         {
-            "title": "Show HN: Broadcast Box OBS Livestreaming as low as 120ms latency",
-            "link": "https://github.com/glimesh/broadcast@",
+            "title": "Feeding gut microbes to nourish the brain: the diet\u2013microbiota\u2013gut\u2013brain axis",
+            "link": "https://www.nature.com/articles/s42255-024-01108-6",
             "description": "No Description"
         },
         {
-            "title": "Book Review: \"2040\" by Pedro Domingos",
-            "link": "https://scottaaronson.blog/?p=8256",
+            "title": "\"SILENCE\" all Chrome tabs in a click",
+            "link": "https://github.com/sahilmore-git/tabs-silencer",
             "description": "No Description"
         },
         {
-            "title": "Why Not Open Source?",
-            "link": "https://yaak.app/blog/why-not-open-source",
+            "title": "Summing Blue Noise Octaves Like Perlin Noise",
+            "link": "https://blog.demofox.org/2024/09/02/summing-blue-noise-octaves-like-perlin-noise/",
             "description": "No Description"
         },
         {
-            "title": "macOS firewall slows DNS queries",
-            "link": "https://lapcatsoftware.com/articles/2024/8/6.html",
+            "title": "Language Models as Agent Models (2022)",
+            "link": "https://arxiv.org/abs/2212.01681",
             "description": "No Description"
         },
         {
-            "title": "UART Terminal: A Web-Based Serial Communication Tool Built with React",
-            "link": "https://github.com/baturyilmaz/uartterminal.com",
+            "title": "How Postgres Is Misused and Abused in the Wild",
+            "link": "https://karenjex.blogspot.com/2024/07/how-postgres-is-misused-and-abused.html",
             "description": "No Description"
         },
         {
-            "title": "Blameless PostMortems and a Just Culture",
-            "link": "https://www.etsy.com/codeascraft/blameless-postmortems",
+            "title": "Radian Aerospace wants to reinvent the space rocket \u2013 as a space plane \u2013 CNN",
+            "link": "https://www.cnn.com/science/radian-spaceplane-rocket-sled-spc/index.html",
             "description": "No Description"
         },
         {
-            "title": "When NYC tried to ban cars",
-            "link": "https://www.theguardian.com/cities/2016/jun/01/new-york-city-ban-cars-gridlock-sam-schwartz-manhattan",
+            "title": "Big Tech Sees Like a State (2020)",
+            "link": "https://www.thediff.co/archive/big-tech-sees-like-a-state/",
             "description": "No Description"
         },
         {
-            "title": "Original \"Baby Is Three\" by Theodore Sturgeon (1952)",
-            "link": "https://archive.org/details/galaxymagazine-1952-10",
+            "title": "The Silicon Valley Canon: On the Pa\u0131de\u00eda of the American Tech Elite",
+            "link": "https://scholars-stage.org/the-silicon-valley-canon-on-the-paideia-of-the-american-tech-elite/",
             "description": "No Description"
         },
         {
-            "title": "Researchers cut to the chase on the physics of paper cuts",
-            "link": "https://physicsworld.com/a/researchers-cut-to-the-chase-on-the-physics-of-paper-cuts/",
+            "title": "Beware of Your Static Database Credentials",
+            "link": "https://infisical.com/blog/from-static-to-dynamic-db-credentials",
             "description": "No Description"
         },
         {
-            "title": "Biohybrid robots controlled by electrical impulses \u2013 in mushrooms",
-            "link": "https://news.cornell.edu/stories/2024/08/biohybrid-robots-controlled-electrical-impulses-mushrooms",
+            "title": "One Woman's Quest to Map the Paris Flea Market",
+            "link": "https://www.nytimes.com/2024/08/27/style/paris-puces-flea-market.html",
             "description": "No Description"
         },
         {
-            "title": "Perplexing the Web, One Probability Puzzle at a Time",
-            "link": "https://www.quantamagazine.org/perplexing-the-web-one-probability-puzzle-at-a-time-20240829/",
+            "title": "Becoming a CTO (2021)",
+            "link": "https://blog.kevingoldsmith.com/2021/11/01/becoming-a-cto/",
+            "description": "No Description"
+        },
+        {
+            "title": "Anatomy of an Internet Argument",
+            "link": "https://defenderofthebasic.substack.com/p/anatomy-of-an-internet-argument",
             "description": "No Description"
         }
     ]

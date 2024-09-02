@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSS Reader</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="themes/autumn_mode.css">
+    <link rel="stylesheet" href="themes/refined_dark_mode.css">
+    <link rel="stylesheet" href="themes/dark_mode.css">
 </head>
 <body>
     <div class="header">
-        <button id="toggle-theme" class="tab-button">Switch to Dark Mode</button>
+        <select id="theme-select" class="tab-button">
+            <option value="light">Light Mode</option>
+            <option value="dark">Dark Mode</option>
+            <option value="autumn">Autumn Mode</option>
+            <option value="refined-dark">Custom Dark Mode</option>
+        </select>
     </div>
     <div class="tabs">
-        <button class="tab-button" data-source="hackernews">Hacker News</button>
+        <button class="tab-button active" data-source="hackernews">Hacker News</button>
         <button class="tab-button" data-source="slashdot">Slashdot</button>
     </div>
     <div class="search-bar">

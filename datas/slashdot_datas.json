@@ -1,6 +1,36 @@
 {
     "items": [
         {
+            "title": "Rust for Linux Maintainer Steps Down in Frustration With 'Nontechnical Nonsense'",
+            "link": "https://linux.slashdot.org/story/24/09/02/194205/rust-for-linux-maintainer-steps-down-in-frustration-with-nontechnical-nonsense?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Efforts to add Rust code to the Linux kernel has suffered a setback as one of the maintainers of the Rust for Linux project has stepped down citing frustration with nontechnical nonsense The Register Wedson Almeida Filho a software engineer at Microsoft who has overseen the Rust for Linux project..."
+        },
+        {
+            "title": "Japan Struggles To Popularize a Four-Day Workweek",
+            "link": "https://slashdot.org/story/24/09/02/1810207/japan-struggles-to-popularize-a-four-day-workweek?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Notorious for a hardworking culture Japan launched an initiative to help people cut back But three years into the effort the country is having a hard time coaxing people to take a four day workweek From a report Japanese lawmakers first proposed a shorter work week in 2021 The guidelines..."
+        },
+        {
+            "title": "Google's James Manyika: 'The Productivity Gains From AI Are Not Guaranteed'",
+            "link": "https://tech.slashdot.org/story/24/09/02/1633202/googles-james-manyika-the-productivity-gains-from-ai-are-not-guaranteed?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Google executive James Manyika has warned that AI s impact on productivity is not guaranteed Editor s note the link may be paywalled despite predictions of trillion dollar economic potential From the report Right now everyone from my old colleagues at McKinsey Global Institute to Goldman Sachs are putting out..."
+        },
+        {
+            "title": "Abolish the Penny?",
+            "link": "https://news.slashdot.org/story/24/09/02/1539211/abolish-the-penny?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "schwit1 shares a report If you are reading this and live in America or used to live in America or maybe just went to America one time many years ago then you are almost certainly performing unpaid labor for the U S government and have been for years How By..."
+        },
+        {
+            "title": "Windows 11 is Now the Most Popular OS For PC Gaming",
+            "link": "https://tech.slashdot.org/story/24/09/02/1510212/windows-11-is-now-the-most-popular-os-for-pc-gaming?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Microsoft s Windows 11 operating system has surpassed Windows 10 usage for Steam users for the first time since its launch in 2021 From a report Windows 10 has been holding strong in recent years despite Microsoft s plans to end support for Windows 10 in October 2025 There are..."
+        },
+        {
+            "title": "Intel CEO To Pitch Board on Plans To Shed Assets, Cut Costs",
+            "link": "https://slashdot.org/story/24/09/02/1353217/intel-ceo-to-pitch-board-on-plans-to-shed-assets-cut-costs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "An anonymous reader shares a report Intel CEO Pat Gelsinger and key executives are expected to present a plan later this month to the company s board of directors to slice off unnecessary businesses and revamp capital spending according to a source familiar with the matter as they try to..."
+        },
+        {
             "title": "What's Holding Back America's Move to Electric Cars?",
             "link": "https://tech.slashdot.org/story/24/09/02/0237206/whats-holding-back-americas-move-to-electric-cars?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "Let s get one thing out of the way writes the Verge s transportation editor Contrary to what you may have heard about U S sales of electric vehicles mdash sales are up Consumer insights company JD Power is projecting that 1 2 million EVs will be sold in the..."
@@ -44,36 +74,6 @@
             "title": "Trump Sons Plan Crypto Startup",
             "link": "https://news.slashdot.org/story/24/09/01/1914233/trump-sons-plan-crypto-startup?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "To make America the crypto capital of the planet former U S President Donald Trump promised crypto friendly policies writes Politico which could have a new beneficiary his own family Trump has vowed to enact an array of pro crypto policies in a bid to win votes mdash and campaign..."
-        },
-        {
-            "title": "'My Fake Job In Y2K Preparedness'",
-            "link": "https://it.slashdot.org/story/24/09/01/1643238/my-fake-job-in-y2k-preparedness?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Long time Slashdot reader theodp writes The Contingency Contingent is Leigh Claire La Berge s amazing tale of what she calls her fake job in Y2K preparedness La Berge offers an insider s view of the madness that ensued when Y2K panic gave rise to seemingly limitless spending at mega..."
-        },
-        {
-            "title": "A Simple Blood Test Predicts a Person's Heart Disease Risk 30 Years Out, Study Finds",
-            "link": "https://science.slashdot.org/story/24/08/31/2217244/a-simple-blood-test-predicts-a-persons-heart-disease-risk-30-years-out-study-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "An anonymous Slashdot reader shared this report from NBC News A new approach to a routine blood test could predict a person s 30 year risk of heart disease research published Saturday in the New England Journal of Medicine found Doctors have long assessed their patients risk for cardiovascular disease..."
-        },
-        {
-            "title": "Was the Arrest of Telegram's CEO Inevitable?",
-            "link": "https://yro.slashdot.org/story/24/09/01/0141216/was-the-arrest-of-telegrams-ceo-inevitable?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Casey Newton former senior editor at the Verge weighs in on Platformer about the arrest of Telegram CEO Pavel Durov Fending off onerous speech regulations and overzealous prosecutors requires that platform builders act responsibly Telegram never even pretended to Officially Telegram s terms of service prohibit users from posting illegal..."
-        },
-        {
-            "title": "Open Source Redis Fork 'Valkey' Has Momentum, Improvements, and Speed, Says Dirk Hohndel",
-            "link": "https://news.slashdot.org/story/24/09/01/072220/open-source-redis-fork-valkey-has-momentum-improvements-and-speed-says-dirk-hohndel?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Dirk Hohndel a Linux kernel developer and long time open source leader wanted his audience at KubeCon CloudNativeCon Open Source Summit China 2024 Summit China to know he s not a Valkey developer writes Steven J Vaughan Nichols He s a Valkey user and fan Hohndel opened his speech by..."
-        },
-        {
-            "title": "Does Dark Matter Come From Black Holes Formed Before the Big Bang?",
-            "link": "https://science.slashdot.org/story/24/09/01/016209/does-dark-matter-come-from-black-holes-formed-before-the-big-bang?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "The Big Bang may not have been the beginning of the universe writes LiveScience citing a theory of cosmology that suggests the universe can bounce between phases of contraction and expansion The recent study suggests that dark matter could be composed of black holes formed before the Big Bang during..."
-        },
-        {
-            "title": "VS Code Fork 'Cursor' - the ChatGPT of Coding?",
-            "link": "https://developers.slashdot.org/story/24/09/01/0618230/vs-code-fork-cursor---the-chatgpt-of-coding?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Sometimes an artificial intelligence tool comes out of nowhere and dominates the conversation on social media writes Tom s Guide This week that app is Cursor an AI coding tool that uses models like Claude 3 5 Sonnet and GPT 4o to make it easier than ever to build your..."
         }
     ]
 }

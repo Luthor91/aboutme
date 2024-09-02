@@ -39,7 +39,7 @@ items = []
 for item in root.findall('rss:item', namespaces):
     title = item.find('rss:title', namespaces).text if item.find('rss:title', namespaces) is not None else 'No Title'
     link = item.find('rss:link', namespaces).text if item.find('rss:link', namespaces) is not None else 'No Link'
-    description = item.find('rss:description', namespaces).text if item.find('rss:description', namespaces) is not None else 'No Description'
+    description = item.find('rss:description', namespaces).text if item.find('rss:description', namespaces) is not None else ''
     
     if link and link != 'No Link' and not contains_keyword(title, KEYWORDS_TO_SKIP):
         if len(items) >= MAX_ARTICLES:
