@@ -1,6 +1,16 @@
 {
     "items": [
         {
+            "title": "Why Not Open Source?",
+            "link": "https://yaak.app/blog/why-not-open-source",
+            "description": "No Description"
+        },
+        {
+            "title": "macOS firewall slows DNS queries",
+            "link": "https://lapcatsoftware.com/articles/2024/8/6.html",
+            "description": "No Description"
+        },
+        {
             "title": "UART Terminal: A Web-Based Serial Communication Tool Built with React",
             "link": "https://github.com/baturyilmaz/uartterminal.com",
             "description": "No Description"
@@ -38,21 +48,6 @@
         {
             "title": "Buy Immortal Mahavatar Babaji's New Gospel",
             "link": "https://digitalpublisher999.itch.io/newgospel",
-            "description": "No Description"
-        },
-        {
-            "title": "Musk's Twitter investors have lost billions in value",
-            "link": "https://www.washingtonpost.com/technology/2024/09/01/musk-twitter-investors-underwater/",
-            "description": "No Description"
-        },
-        {
-            "title": "Founder Mode and Dunbar's Number",
-            "link": "https://graphthinking.blogspot.com/2024/09/founder-mode-and-dunbars-number.html",
-            "description": "No Description"
-        },
-        {
-            "title": "RAO-SS: A Prototype of Run-Time Auto-Tuning Facility for Sparse Direct Solvers",
-            "link": "https://arxiv.org/abs/2408.11880",
             "description": "No Description"
         }
     ]
