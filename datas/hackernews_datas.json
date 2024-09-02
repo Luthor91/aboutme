@@ -1,6 +1,11 @@
 {
     "items": [
         {
+            "title": "Book Review: \"2040\" by Pedro Domingos",
+            "link": "https://scottaaronson.blog/?p=8256",
+            "description": "No Description"
+        },
+        {
             "title": "Why Not Open Source?",
             "link": "https://yaak.app/blog/why-not-open-source",
             "description": "No Description"
