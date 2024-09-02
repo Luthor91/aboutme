@@ -1,10 +1,10 @@
 import requests
 import json
 import re
-from globals import MAX_WORDS_DESCRIPTION, MAX_ATTEMPTS, MAX_ARTICLES, KEYWORDS_TO_SKIP
+from globals import MAX_WORDS_DESCRIPTION, MAX_ARTICLES, KEYWORDS_TO_SKIP
 
 # Constantes de configuration
-URL = "https://hn.algolia.com/api/v1/search_by_date?tags=story&hitsPerPage=12"
+URL = f"https://hn.algolia.com/api/v1/search_by_date?tags=story&hitsPerPage={MAX_ARTICLES}"
 
 # Fonction pour limiter la description à un nombre maximum de mots
 def limit_words(text, max_words):

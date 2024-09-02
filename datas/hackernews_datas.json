@@ -1,6 +1,11 @@
 {
     "items": [
         {
+            "title": "Pin and Suffering in Async Rust",
+            "link": "https://fasterthanli.me/articles/pin-and-suffering",
+            "description": "No Description"
+        },
+        {
             "title": "Brute-Forcing the LLM Guardrails",
             "link": "https://medium.com/@volkot/brute-forcing-the-llm-guardrails-e02fcd9bc9a4",
             "description": "No Description"
@@ -43,6 +48,86 @@
         {
             "title": "Light-based technique shows 90% accuracy in early prostate cancer detection",
             "link": "https://medicalxpress.com/news/2024-09-based-technique-accuracy-early-prostate.html",
+            "description": "No Description"
+        },
+        {
+            "title": "'Dancing' raisins \u2212 a simple kitchen experiment",
+            "link": "https://theconversation.com/dancing-raisins-a-simple-kitchen-experiment-reveals-how-objects-can-extract-energy-from-their-environment-and-come-to-life-223255",
+            "description": "No Description"
+        },
+        {
+            "title": "Brazil Court votes unanimously to uphold X ban. Users switch to Threads, Bluesky",
+            "link": "https://www.euronews.com/next/2024/09/02/brazilian-court-to-vote-on-upholding-x-ban-as-users-switch-to-threads-and-bluesky",
+            "description": "No Description"
+        },
+        {
+            "title": "GPD Duo",
+            "link": "https://gpd.hk/gpdduo",
+            "description": "No Description"
+        },
+        {
+            "title": "Show HN: Tarot Card Generator",
+            "link": "https://www.youtarot.app/",
+            "description": "Hey HN p I know Tarot might not be the typical topic here but I wanted to share a fun project I worked on over the weekend with my girlfriend p We built a Tarot card app that uses the latest in AI image generation I used Modal com to..."
+        },
+        {
+            "title": "Ex-Google CEO's Interview: \"You Have No Idea What's Coming\" [video]",
+            "link": "https://www.youtube.com/watch?v=EUeryhp8HSQ",
+            "description": "No Description"
+        },
+        {
+            "title": "Mother's gut microbiome during pregnancy shapes baby's brain development",
+            "link": "https://medicalxpress.com/news/2024-08-mother-gut-microbiome-pregnancy-baby.html",
+            "description": "No Description"
+        },
+        {
+            "title": "Simple Testing Can Prevent Most Critical Failures (2014) [pdf]",
+            "link": "https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf",
+            "description": "No Description"
+        },
+        {
+            "title": "The Labyrinthine Rules That Created a Housing Crisis",
+            "link": "https://www.theatlantic.com/ideas/archive/2024/09/jerusalem-demsas-on-the-housing-crisis-book/679666/",
+            "description": "No Description"
+        },
+        {
+            "title": "Cathay Inspects A350 Fleet After Engine Component Failure",
+            "link": "https://aviationweek.com/mro/safety-ops-regulation/cathay-inspects-a350-fleet-after-engine-component-failure",
+            "description": "No Description"
+        },
+        {
+            "title": "Write a Ruby C Extension to Use Clips from Ruby: Part 3",
+            "link": "https://ryjo.codes/articles/write-a-ruby-c-extension-to-use-clips-from-ruby-part-3.html",
+            "description": "No Description"
+        },
+        {
+            "title": "Zero to One, Then to Shit",
+            "link": "https://medium.com/@oshibka404/zero-to-one-then-to-shit-cf949aea5b3b",
+            "description": "No Description"
+        },
+        {
+            "title": "Brazil Supreme Court unanimously upholds judge's decision to block X/Twitter",
+            "link": "https://apnews.com/article/brazil-musk-x-platform-moraes-shutdown-6942614705a4e85064f1d98628b49295",
+            "description": "No Description"
+        },
+        {
+            "title": "Licensing is packaging",
+            "link": "https://keygen.sh/blog/licensing-is-packaging/",
+            "description": "No Description"
+        },
+        {
+            "title": "Tech firms were fighting a war for talent. Now they are waging war on talent",
+            "link": "http://www.rosspettit.com/2024/08/for-years-tech-was-fighting-war-for.html",
+            "description": "No Description"
+        },
+        {
+            "title": "The architect Mariam Issoufou on excavating the past to build Africa's future",
+            "link": "https://www.theguardian.com/global-development/article/2024/sep/02/nigerien-architect-african-mariam-issoufou",
+            "description": "No Description"
+        },
+        {
+            "title": "25-Pair Color Code",
+            "link": "https://en.wikipedia.org/wiki/25-pair_color_code",
             "description": "No Description"
         }
     ]
