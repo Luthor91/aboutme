@@ -8,12 +8,15 @@
 </head>
 <body>
     <div class="tabs">
-        <button class="tab-button active" data-source="hackernews">Hacker News</button>
+        <button class="tab-button" data-source="hackernews">Hacker News</button>
         <button class="tab-button" data-source="slashdot">Slashdot</button>
+    </div>
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search articles...">
     </div>
     <div class="content">
         <ul id="news-list"></ul>
-        <div id="error-message" class="error-message"></div>
+        <div id="error-message"></div>
     </div>
     <script src="script.js"></script>
 </body>

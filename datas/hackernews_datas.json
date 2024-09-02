@@ -1,54 +1,64 @@
 {
     "items": [
         {
+            "title": "Reducing game download sizes with lossy spritesheets",
+            "link": "https://www.construct.net/en/blogs/construct-official-blog-1/reducing-download-sizes-lossy-1884",
+            "description": "No Description"
+        },
+        {
+            "title": "Modeling and Simulation in Python",
+            "link": "https://allendowney.github.io/ModSimPy/",
+            "description": "No Description"
+        },
+        {
+            "title": "In Leak, Facebook Partner Brags About Listening to Your Phone's Microphone to S",
+            "link": "https://futurism.com/the-byte/facebook-partner-phones-listening-microphone",
+            "description": "No Description"
+        },
+        {
+            "title": "GitHub-dlr: Download individual files and folders from GitHub recursively",
+            "link": "https://github.com/rocktimsaikia/github-dlr",
+            "description": "No Description"
+        },
+        {
+            "title": "Show HN: The first global leaderboard for colors with an ELO ranking",
+            "link": "https://color-arena.agpallav.com/",
+            "description": "Vote for colors and see this leaderboard find the best and worst colors using an ELO ranking"
+        },
+        {
+            "title": "How I Take Notes",
+            "link": "https://blog.ignaciobrasca.com/personal/2024/09/02/how-take-notes.html",
+            "description": "No Description"
+        },
+        {
+            "title": "Banned Books Week: The Bonfire of Wilhelm Reich (2023)",
+            "link": "https://www.kerouac.com/banned-books-week-the-bonfire-of-wilhelm-reich/",
+            "description": "No Description"
+        },
+        {
+            "title": "Behavior Sanitizers in Elixir",
+            "link": "https://blog.brycekerley.net/2024/09/01/elixir-behavior-sanitizer.html",
+            "description": "No Description"
+        },
+        {
+            "title": "Ray Tracing in One Weekend in Rust",
+            "link": "https://github.com/robshape/rayman",
+            "description": "No Description"
+        },
+        {
+            "title": "Video Search Engine",
+            "link": "https://www.videosearch.io/",
+            "description": "No Description"
+        },
+        {
+            "title": "Chains: Exploration of an Alternative to Sender/Receiver \u2013 Sean Parent [video]",
+            "link": "https://www.youtube.com/watch?v=nQpXOx0D7I8",
+            "description": "No Description"
+        },
+        {
             "title": "How to Make Fermented Hot Sauce",
             "link": "https://www.seriouseats.com/fermented-hot-sauce-how-to",
             "description": "No Description"
-        },
-        {
-            "title": "Mathcheap \u2013 A simple dead online LaTeX equation editor",
-            "link": "https://mathcheap.xyz/",
-            "description": "No Description"
-        },
-        {
-            "title": "Using SWI-Prolog in the Browser (WASM)",
-            "link": "https://www.swi-prolog.org/pldoc/man?section=wasm",
-            "description": "No Description"
-        },
-        {
-            "title": "Nvd.nist.gov cert expired yesterday and uses HSTS",
-            "link": "https://nvd.nist.gov/",
-            "description": "No Description"
-        },
-        {
-            "title": "Build as many words as possible from the given letters",
-            "link": "https://twofx.github.io/textgames/",
-            "description": "No Description"
-        },
-        {
-            "title": "What's the fastest serverless database provider?",
-            "link": "https://pilcrow.vercel.app/blog/serverless-database-latency",
-            "description": "No Description"
-        },
-        {
-            "title": "LZ experiment sets new record in search for dark matter \u2013 symmetry magazine",
-            "link": "https://www.symmetrymagazine.org/article/lz-experiment-sets-new-record-in-search-for-dark-matter?language_content_entity=und",
-            "description": "No Description"
-        },
-        {
-            "title": "The race to replace the powerful greenhouse gas that underpins the power grid",
-            "link": "https://www.technologyreview.com/2024/09/02/1103398/greenhouse-gas-grid-sf6/",
-            "description": "No Description"
-        },
-        {
-            "title": "Apple reportedly plans to drop USB-A ports with the M4 Mac mini",
-            "link": "https://www.engadget.com/computing/apple-reportedly-plans-to-drop-usb-a-ports-with-the-m4-mac-mini-and-is-working-on-a-low-end-magic-keyboard-154306266.html",
-            "description": "No Description"
-        },
-        {
-            "title": "Show HN: Ban 'Any updates' emails \u2013 this is super-efficient client communication",
-            "link": "https://www.reallysimplepage.com",
-            "description": "i Looking for 100 beta users to use RSP for free in return for great feedback i p I x27 ve made a Monday x2F Google Sheets hybrid making it really easy to share structured data with clients in real time with no extra effort from you This eliminates clients..."
         }
     ]
 }
