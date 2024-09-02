@@ -1,6 +1,11 @@
 {
     "items": [
         {
+            "title": "Brute-Forcing the LLM Guardrails",
+            "link": "https://medium.com/@volkot/brute-forcing-the-llm-guardrails-e02fcd9bc9a4",
+            "description": "No Description"
+        },
+        {
             "title": "Why people stay after local economies collapse",
             "link": "https://theconversation.com/why-people-stay-after-local-economies-collapse-a-story-of-home-among-the-ghosts-of-shuttered-steel-mills-231370",
             "description": "No Description"
@@ -38,11 +43,6 @@
         {
             "title": "Light-based technique shows 90% accuracy in early prostate cancer detection",
             "link": "https://medicalxpress.com/news/2024-09-based-technique-accuracy-early-prostate.html",
-            "description": "No Description"
-        },
-        {
-            "title": "'Dancing' raisins \u2212 a simple kitchen experiment",
-            "link": "https://theconversation.com/dancing-raisins-a-simple-kitchen-experiment-reveals-how-objects-can-extract-energy-from-their-environment-and-come-to-life-223255",
             "description": "No Description"
         }
     ]
