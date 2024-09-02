@@ -148,3 +148,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     switchTheme(savedTheme);  // Appliquer le thème lors du chargement
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const header = document.querySelector('.header');
+    const tabs = document.querySelector('.tabs');
+
+    const adjustTabsPosition = () => {
+        const headerHeight = header.offsetHeight;
+        tabs.style.top = `${headerHeight}px`;
+    };
+
+    // Initial adjustment
+    adjustTabsPosition();
+
+    // Adjust on window resize
+    window.addEventListener('resize', adjustTabsPosition);
+});

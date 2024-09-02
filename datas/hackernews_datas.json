@@ -1,64 +1,49 @@
 {
     "items": [
         {
-            "title": "NoCode-X",
-            "link": "https://www.nocode-x.com/",
+            "title": "America resembles the dying Soviet Union",
+            "link": "https://www.newstatesman.com/comment/2024/08/how-america-resembles-the-dying-soviet-union",
             "description": "No Description"
         },
         {
-            "title": "Zero to One, Then to Shit",
-            "link": "https://medium.com/@oshibka404/zero-to-one-then-to-shit-cf949aea5b3b",
+            "title": "Moon Time Is a Thing Now\u2013Here's Why It Matters",
+            "link": "https://www.atlasobscura.com/articles/moon-time-zone",
             "description": "No Description"
         },
         {
-            "title": "Brazil Supreme Court unanimously upholds judge's decision to block X/Twitter",
-            "link": "https://apnews.com/article/brazil-musk-x-platform-moraes-shutdown-6942614705a4e85064f1d98628b49295",
+            "title": "Beat your Bot: Building your Moat against AI",
+            "link": "https://aswathdamodaran.substack.com/p/beat-your-bot-building-your-moat",
             "description": "No Description"
         },
         {
-            "title": "Licensing is packaging",
-            "link": "https://keygen.sh/blog/licensing-is-packaging/",
+            "title": "LLM output tokens are upto 200x slower than input tokens",
+            "link": "https://minusx.ai/blog/input-vs-output-tokens/",
             "description": "No Description"
         },
         {
-            "title": "Tech firms were fighting a war for talent. Now they are waging war on talent",
-            "link": "http://www.rosspettit.com/2024/08/for-years-tech-was-fighting-war-for.html",
+            "title": "Light-based technique shows 90% accuracy in early prostate cancer detection",
+            "link": "https://medicalxpress.com/news/2024-09-based-technique-accuracy-early-prostate.html",
             "description": "No Description"
         },
         {
-            "title": "The architect Mariam Issoufou on excavating the past to build Africa's future",
-            "link": "https://www.theguardian.com/global-development/article/2024/sep/02/nigerien-architect-african-mariam-issoufou",
+            "title": "'Dancing' raisins \u2212 a simple kitchen experiment",
+            "link": "https://theconversation.com/dancing-raisins-a-simple-kitchen-experiment-reveals-how-objects-can-extract-energy-from-their-environment-and-come-to-life-223255",
             "description": "No Description"
         },
         {
-            "title": "25-Pair Color Code",
-            "link": "https://en.wikipedia.org/wiki/25-pair_color_code",
+            "title": "Brazil Court votes unanimously to uphold X ban. Users switch to Threads, Bluesky",
+            "link": "https://www.euronews.com/next/2024/09/02/brazilian-court-to-vote-on-upholding-x-ban-as-users-switch-to-threads-and-bluesky",
             "description": "No Description"
         },
         {
-            "title": "Web scraping with GPT-4o: powerful but expensive",
-            "link": "https://blancas.io/blog/ai-web-scraper/",
+            "title": "GPD Duo",
+            "link": "https://gpd.hk/gpdduo",
             "description": "No Description"
         },
         {
-            "title": "CrowdStrike faces onslaught of legal action from faulty software update",
-            "link": "https://techcrunch.com/2024/09/02/crowdstrike-faces-onslaught-of-legal-action-from-faulty-software-update/",
-            "description": "No Description"
-        },
-        {
-            "title": "Feeding gut microbes to nourish the brain: the diet\u2013microbiota\u2013gut\u2013brain axis",
-            "link": "https://www.nature.com/articles/s42255-024-01108-6",
-            "description": "No Description"
-        },
-        {
-            "title": "\"SILENCE\" all Chrome tabs in a click",
-            "link": "https://github.com/sahilmore-git/tabs-silencer",
-            "description": "No Description"
-        },
-        {
-            "title": "Summing Blue Noise Octaves Like Perlin Noise",
-            "link": "https://blog.demofox.org/2024/09/02/summing-blue-noise-octaves-like-perlin-noise/",
-            "description": "No Description"
+            "title": "Show HN: Tarot Card Generator",
+            "link": "https://www.youtarot.app/",
+            "description": "Hey HN p I know Tarot might not be the typical topic here but I wanted to share a fun project I worked on over the weekend with my girlfriend p We built a Tarot card app that uses the latest in AI image generation I used Modal com to..."
         }
     ]
 }

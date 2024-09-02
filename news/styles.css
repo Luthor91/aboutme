@@ -1,3 +1,8 @@
+/* Définir les variables pour la hauteur du header */
+:root {
+    --header-height: 50px; /* Valeur par défaut, ajustez selon la hauteur de votre .header */
+}
+
 /* Styles par défaut (mode clair) */
 body {
     font-family: 'Arial', sans-serif;
@@ -12,12 +17,20 @@ body {
     justify-content: flex-end;
     padding: 10px 20px;
     background-color: #007bff;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: var(--header-height); /* Utilisation de la variable */
 }
 
 .tabs {
     display: flex;
     border-bottom: 3px solid #007bff;
     background-color: #007bff;
+    position: sticky;
+    top: var(--header-height); /* Positionner les onglets juste en dessous de l'en-tête */
+    z-index: 1000;
 }
 
 .tab-button {
@@ -116,4 +129,53 @@ body {
     margin: 10px 0 0;
     color: #666;
     font-style: italic;
+}
+
+/* Styles pour les petits écrans (téléphones) */
+@media only screen and (max-width: 768px) {
+    :root {
+        --header-height: 60px; /* Ajustez cette valeur si nécessaire */
+    }
+
+    .tabs {
+        flex-direction: column;
+        width: 100%;
+        min-width: 120px;
+        top: var(--header-height); /* Positionner les onglets juste en dessous de l'en-tête */
+    }
+
+    .tab-button {
+        border-radius: 0;
+        width: 100%;
+        text-align: left;
+        padding: 10px 20px;
+    }
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Styles pour les très petits écrans (jusqu'à 580px) */
+@media only screen and (max-width: 580px) {
+    :root {
+        --header-height: 70px; /* Ajustez cette valeur si nécessaire */
+    }
+
+    .tabs {
+        width: 100%;
+        margin-bottom: 10px;
+        top: var(--header-height); /* Positionner les onglets juste en dessous de l'en-tête */
+    }
+
+    .content {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .tab-button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
 }

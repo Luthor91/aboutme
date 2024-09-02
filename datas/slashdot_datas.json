@@ -1,6 +1,11 @@
 {
     "items": [
         {
+            "title": "OSOM, the Company Formed From Essential's Ashes, is Apparently in Shambles",
+            "link": "https://slashdot.org/story/24/09/02/1910237/osom-the-company-formed-from-essentials-ashes-is-apparently-in-shambles?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "A former executive of smartphone startup OSOM Products has filed a lawsuit alleging the company s founder misused funds for personal expenses including two Lamborghinis and a lavish lifestyle Mary Ross OSOM s ex Chief Privacy Officer is seeking access to company records in a Delaware court filing OSOM founded..."
+        },
+        {
             "title": "Rust for Linux Maintainer Steps Down in Frustration With 'Nontechnical Nonsense'",
             "link": "https://linux.slashdot.org/story/24/09/02/194205/rust-for-linux-maintainer-steps-down-in-frustration-with-nontechnical-nonsense?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "Efforts to add Rust code to the Linux kernel has suffered a setback as one of the maintainers of the Rust for Linux project has stepped down citing frustration with nontechnical nonsense The Register Wedson Almeida Filho a software engineer at Microsoft who has overseen the Rust for Linux project..."
@@ -69,11 +74,6 @@
             "title": "The Speaker on Boeing's Starliner Spacecraft Has Started Making Strange Noises",
             "link": "https://science.slashdot.org/story/24/09/01/2026212/the-speaker-on-boeings-starliner-spacecraft-has-started-making-strange-noises?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "An anonymous reader shared this report from Ars Technica On Saturday NASA astronaut Butch Wilmore noticed some strange noises emanating from a speaker inside the Starliner spacecraft I ve got a question about Starliner Wilmore radioed down to Mission Control at Johnson Space Center in Houston There s a strange..."
-        },
-        {
-            "title": "Trump Sons Plan Crypto Startup",
-            "link": "https://news.slashdot.org/story/24/09/01/1914233/trump-sons-plan-crypto-startup?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "To make America the crypto capital of the planet former U S President Donald Trump promised crypto friendly policies writes Politico which could have a new beneficiary his own family Trump has vowed to enact an array of pro crypto policies in a bid to win votes mdash and campaign..."
         }
     ]
 }
