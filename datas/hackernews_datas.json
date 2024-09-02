@@ -1,6 +1,11 @@
 {
     "items": [
         {
+            "title": "Show HN: Broadcast Box OBS Livestreaming as low as 120ms latency",
+            "link": "https://github.com/glimesh/broadcast@",
+            "description": "No Description"
+        },
+        {
             "title": "Book Review: \"2040\" by Pedro Domingos",
             "link": "https://scottaaronson.blog/?p=8256",
             "description": "No Description"
@@ -48,11 +53,6 @@
         {
             "title": "Perplexing the Web, One Probability Puzzle at a Time",
             "link": "https://www.quantamagazine.org/perplexing-the-web-one-probability-puzzle-at-a-time-20240829/",
-            "description": "No Description"
-        },
-        {
-            "title": "Buy Immortal Mahavatar Babaji's New Gospel",
-            "link": "https://digitalpublisher999.itch.io/newgospel",
             "description": "No Description"
         }
     ]
