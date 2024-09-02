@@ -1,6 +1,11 @@
 {
     "items": [
         {
+            "title": "What's Holding Back America's Move to Electric Cars?",
+            "link": "https://tech.slashdot.org/story/24/09/02/0237206/whats-holding-back-americas-move-to-electric-cars?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Let s get one thing out of the way writes the Verge s transportation editor Contrary to what you may have heard about U S sales of electric vehicles mdash sales are up Consumer insights company JD Power is projecting that 1 2 million EVs will be sold in the..."
+        },
+        {
             "title": "Apple AirTags Track 'Recycled' Plastic to Unprocessed Piles in an Open-Air Lot",
             "link": "https://news.slashdot.org/story/24/09/02/0423221/apple-airtags-track-recycled-plastic-to-unprocessed-piles-in-an-open-air-lot?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "Houston resident Brandy Deason put an Apple AirTag in her recycling to see where her plastic trash was going writes Tom s Hardware While many might expect the city would drop the recyclables off at a recycling center Deason instead found her trash sitting in an open air lot alongside..."
@@ -69,11 +74,6 @@
             "title": "VS Code Fork 'Cursor' - the ChatGPT of Coding?",
             "link": "https://developers.slashdot.org/story/24/09/01/0618230/vs-code-fork-cursor---the-chatgpt-of-coding?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "Sometimes an artificial intelligence tool comes out of nowhere and dominates the conversation on social media writes Tom s Guide This week that app is Cursor an AI coding tool that uses models like Claude 3 5 Sonnet and GPT 4o to make it easier than ever to build your..."
-        },
-        {
-            "title": "Python Developer Survey:  55% Use Linux, 6% Use Python 2",
-            "link": "https://developers.slashdot.org/story/24/09/01/0256245/python-developer-survey-55-use-linux-6-use-python-2?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "More than 25 000 Python developers from nearly 200 countries took the 7th annual Python Developers Survey between November 2023 and February 2024 with 85 saying Python was their main language Some interesting findings Though Python 2 reached end of life status in April of 2020 last year s survey..."
         }
     ]
 }

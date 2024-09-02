@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const repo = 'aboutme';
     const branch = 'main';
     const maxFilteredArticles = 10;
+    const maxDescriptionLength = 150; // Limite de longueur de description pour éviter le débordement
 
     const getRawUrl = (source) => `https://raw.githubusercontent.com/${username}/${repo}/${branch}/datas/${source}_datas.json`;
 
@@ -47,46 +48,69 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const fetchData = async (source) => {
-        // Attempt to fetch data from GitHub first
         await fetchDataFromGitHub(source);
     };
 
     const filterArticles = (query) => {
-        if (!query) return articles.slice(0, maxFilteredArticles);  // Si aucune requête, afficher les articles par défaut
-    
-        const keywords = query.toLowerCase().split(/\s+/);  // Diviser la requête en mots-clés
-    
+        if (!query) return articles.slice(0, maxFilteredArticles);
+
+        const keywords = query.toLowerCase().split(/\s+/);
+
         return articles
             .filter(item => {
                 const title = item.title.toLowerCase();
                 const description = item.description.toLowerCase();
-                // Vérifie si l'article contient un des mots-clés dans le titre ou la description
                 const containsKeyword = keywords.some(keyword => title.includes(keyword) || description.includes(keyword));
-                return containsKeyword;  // Conserver les articles contenant les mots-clés
+                return containsKeyword;
             })
-            .slice(0, maxFilteredArticles);  // Limiter le nombre d'articles à afficher
+            .slice(0, maxFilteredArticles);
     };
-    
+
+    const truncateDescription = (description, maxLength) => {
+        if (description.length <= maxLength) return description;
+
+        const truncated = description.slice(0, maxLength);
+        const lastSpace = truncated.lastIndexOf(' ');
+
+        return lastSpace > 0 ? truncated.slice(0, lastSpace) + '...' : truncated + '...';
+    };
 
     const displayArticles = () => {
         newsList.innerHTML = '';
-        const query = searchInput.value;    
+        const query = searchInput.value;
         const filteredItems = filterArticles(query);
-        
+
         filteredItems.forEach(item => {
             if (item.link && item.link !== 'No Link') {
                 const listItem = document.createElement('li');
+                const description = truncateDescription(item.description, maxDescriptionLength);
                 listItem.innerHTML = `
                     <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
-                    <p class="description">${item.description}</p>
+                    <p class="description">${description}</p>
                 `;
                 newsList.appendChild(listItem);
+            }
+        });
+
+        adjustDescriptionWidth();
+    };
+
+    const adjustDescriptionWidth = () => {
+        // Ajuster dynamiquement la longueur des descriptions
+        const descriptions = document.querySelectorAll('#news-list p.description');
+        descriptions.forEach(desc => {
+            const parentWidth = desc.parentElement.clientWidth;
+            const textWidth = desc.scrollWidth;
+            if (textWidth > parentWidth) {
+                desc.style.whiteSpace = 'pre-wrap'; // Permet de forcer les sauts de ligne
+            } else {
+                desc.style.whiteSpace = 'normal'; // Réinitialiser si nécessaire
             }
         });
     };
 
     const onSearchInput = () => {
-        displayArticles();  // Refresh articles based on the search input
+        displayArticles();
     };
 
     searchInput.addEventListener('input', onSearchInput);
@@ -99,6 +123,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Load default tab content
     fetchData('hackernews');
 });

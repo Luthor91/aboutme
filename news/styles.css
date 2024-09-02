@@ -104,4 +104,6 @@ body {
     margin: 10px 0 0;
     color: #666;
     font-style: italic;
+    word-wrap: break-word; /* Ajoute des sauts de ligne pour éviter le débordement */
+    overflow-wrap: break-word; /* Pour les navigateurs modernes */
 }
