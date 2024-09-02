@@ -1,13 +1,10 @@
 import requests
 import json
 import re
+from globals import MAX_WORDS_DESCRIPTION, MAX_ATTEMPTS, MAX_ARTICLES, KEYWORDS_TO_SKIP
 
 # Constantes de configuration
 URL = "https://hn.algolia.com/api/v1/search_by_date?tags=story&hitsPerPage=12"
-MAX_WORDS_DESCRIPTION = 50  # Nombre maximum de mots dans la description
-MAX_ATTEMPTS = 20  # Nombre maximum d'articles à vérifier
-MAX_ARTICLES = 10  # Nombre maximum d'articles à afficher
-KEYWORDS_TO_SKIP = ["paywall"]  # Liste de mots-clés à filtrer
 
 # Fonction pour limiter la description à un nombre maximum de mots
 def limit_words(text, max_words):
@@ -26,7 +23,6 @@ data = response.json()
 
 # Extraire les articles
 items = []
-count = 0
 for hit in data['hits']:
     title = hit.get('title', 'No Title')
     link = hit.get('url', 'No Link')

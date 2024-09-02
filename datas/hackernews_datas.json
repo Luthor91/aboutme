@@ -1,6 +1,16 @@
 {
     "items": [
         {
+            "title": "How to Make Fermented Hot Sauce",
+            "link": "https://www.seriouseats.com/fermented-hot-sauce-how-to",
+            "description": "No Description"
+        },
+        {
+            "title": "Mathcheap \u2013 A simple dead online LaTeX equation editor",
+            "link": "https://mathcheap.xyz/",
+            "description": "No Description"
+        },
+        {
             "title": "Using SWI-Prolog in the Browser (WASM)",
             "link": "https://www.swi-prolog.org/pldoc/man?section=wasm",
             "description": "No Description"
@@ -39,16 +49,6 @@
             "title": "Show HN: Ban 'Any updates' emails \u2013 this is super-efficient client communication",
             "link": "https://www.reallysimplepage.com",
             "description": "i Looking for 100 beta users to use RSP for free in return for great feedback i p I x27 ve made a Monday x2F Google Sheets hybrid making it really easy to share structured data with clients in real time with no extra effort from you This eliminates clients..."
-        },
-        {
-            "title": "'weekend warrior' could be as good for brain health as exercising over the week",
-            "link": "https://medicalxpress.com/news/2024-08-weekend-warrior-good-brain-health.html",
-            "description": "No Description"
-        },
-        {
-            "title": "Sghjoityrty",
-            "link": "https://communicators.ncsu.edu/forum/tedswoodworking-reviews-a-word-of-caution-from-an-honest-analytic",
-            "description": "No Description"
         }
     ]
 }

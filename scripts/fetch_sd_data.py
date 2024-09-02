@@ -2,13 +2,10 @@ import requests
 import xml.etree.ElementTree as ET
 import json
 import re
+from globals import MAX_WORDS_DESCRIPTION, MAX_ATTEMPTS, MAX_ARTICLES, KEYWORDS_TO_SKIP
 
 # Constantes de configuration
 URL = "https://rss.slashdot.org/Slashdot/slashdotMain"
-MAX_WORDS_DESCRIPTION = 50  # Nombre maximum de mots dans la description
-MAX_ATTEMPTS = 20  # Nombre maximum d'articles à vérifier
-MAX_ARTICLES = 10  # Nombre maximum d'articles à afficher
-KEYWORDS_TO_SKIP = ["paywall"]  # Liste de mots-clés à filtrer
 
 # Fonction pour limiter la description à un nombre maximum de mots
 def limit_words(text, max_words):
@@ -39,7 +36,6 @@ namespaces = {
 
 # Extraire les articles
 items = []
-count = 0
 for item in root.findall('rss:item', namespaces):
     title = item.find('rss:title', namespaces).text if item.find('rss:title', namespaces) is not None else 'No Title'
     link = item.find('rss:link', namespaces).text if item.find('rss:link', namespaces) is not None else 'No Link'

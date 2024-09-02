@@ -49,6 +49,31 @@
             "title": "A Simple Blood Test Predicts a Person's Heart Disease Risk 30 Years Out, Study Finds",
             "link": "https://science.slashdot.org/story/24/08/31/2217244/a-simple-blood-test-predicts-a-persons-heart-disease-risk-30-years-out-study-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "An anonymous Slashdot reader shared this report from NBC News A new approach to a routine blood test could predict a person s 30 year risk of heart disease research published Saturday in the New England Journal of Medicine found Doctors have long assessed their patients risk for cardiovascular disease..."
+        },
+        {
+            "title": "Was the Arrest of Telegram's CEO Inevitable?",
+            "link": "https://yro.slashdot.org/story/24/09/01/0141216/was-the-arrest-of-telegrams-ceo-inevitable?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Casey Newton former senior editor at the Verge weighs in on Platformer about the arrest of Telegram CEO Pavel Durov Fending off onerous speech regulations and overzealous prosecutors requires that platform builders act responsibly Telegram never even pretended to Officially Telegram s terms of service prohibit users from posting illegal..."
+        },
+        {
+            "title": "Open Source Redis Fork 'Valkey' Has Momentum, Improvements, and Speed, Says Dirk Hohndel",
+            "link": "https://news.slashdot.org/story/24/09/01/072220/open-source-redis-fork-valkey-has-momentum-improvements-and-speed-says-dirk-hohndel?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Dirk Hohndel a Linux kernel developer and long time open source leader wanted his audience at KubeCon CloudNativeCon Open Source Summit China 2024 Summit China to know he s not a Valkey developer writes Steven J Vaughan Nichols He s a Valkey user and fan Hohndel opened his speech by..."
+        },
+        {
+            "title": "Does Dark Matter Come From Black Holes Formed Before the Big Bang?",
+            "link": "https://science.slashdot.org/story/24/09/01/016209/does-dark-matter-come-from-black-holes-formed-before-the-big-bang?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "The Big Bang may not have been the beginning of the universe writes LiveScience citing a theory of cosmology that suggests the universe can bounce between phases of contraction and expansion The recent study suggests that dark matter could be composed of black holes formed before the Big Bang during..."
+        },
+        {
+            "title": "VS Code Fork 'Cursor' - the ChatGPT of Coding?",
+            "link": "https://developers.slashdot.org/story/24/09/01/0618230/vs-code-fork-cursor---the-chatgpt-of-coding?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Sometimes an artificial intelligence tool comes out of nowhere and dominates the conversation on social media writes Tom s Guide This week that app is Cursor an AI coding tool that uses models like Claude 3 5 Sonnet and GPT 4o to make it easier than ever to build your..."
+        },
+        {
+            "title": "Python Developer Survey:  55% Use Linux, 6% Use Python 2",
+            "link": "https://developers.slashdot.org/story/24/09/01/0256245/python-developer-survey-55-use-linux-6-use-python-2?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "More than 25 000 Python developers from nearly 200 countries took the 7th annual Python Developers Survey between November 2023 and February 2024 with 85 saying Python was their main language Some interesting findings Though Python 2 reached end of life status in April of 2020 last year s survey..."
         }
     ]
 }
