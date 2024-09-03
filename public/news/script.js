@@ -108,13 +108,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         tab.addEventListener('click', () => {
             tabs.forEach(btn => {
                 btn.classList.remove('active');
-                dropdownButton.classList.remove('active');
             });
+
             tab.classList.add('active');
-            
-            // Ajouter ou enlever la classe active du bouton déroulant
+
+            // Synchroniser la classe active du bouton déroulant avec l'onglet actif
             if (tab.dataset.source === 'reddit') {
-                dropdownButton.classList.add('active'); 
+                dropdownButton.classList.add('active');
+            } else {
+                dropdownButton.classList.remove('active');
             }
 
             fetchData(tab.dataset.source);
@@ -127,10 +129,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     document.addEventListener('click', (event) => {
-        if (!event.target.matches('.dropdown-button')) {
-            if (redditDropdown.classList.contains('show')) {
-                redditDropdown.classList.remove('show');
-            }
+        if (!event.target.closest('.dropdown-button') && redditDropdown.classList.contains('show')) {
+            redditDropdown.classList.remove('show');
         }
     });
 

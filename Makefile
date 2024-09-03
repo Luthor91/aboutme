@@ -35,7 +35,6 @@ update:
 	$(PYTHON) scripts/fetch_reddit.py
 
 deploy: 
-	make update
 	@git add .
 	@git commit -m "update news data"
 	@git push $(GIT_REPO)
