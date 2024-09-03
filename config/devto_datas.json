@@ -1,14 +1,24 @@
 {
     "items": [
         {
+            "title": "Congrats to the Neon Open Source Starter Kit Challenge Winners!",
+            "link": "https://dev.to/devteam/congrats-to-the-neon-open-source-starter-kit-challenge-winners-247p",
+            "description": "We are excited to announce the winners of the Neon Open Source Starter Kit Challenge today.   The..."
+        },
+        {
+            "title": "Congrats to the Nylas Challenge Winners!",
+            "link": "https://dev.to/devteam/congrats-to-the-nylas-challenge-winners-2kic",
+            "description": "It is time. We are so excited to announce the winners of the Nylas Challenge!  From forest fire..."
+        },
+        {
+            "title": "Top 7 Featured DEV Posts of the Week",
+            "link": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-3co9",
+            "description": "Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the..."
+        },
+        {
             "title": "Meme Monday",
             "link": "https://dev.to/ben/meme-monday-49ph",
             "description": "Meme Monday!  Today's cover image comes from last week's thread.  DEV is an inclusive space! Humor in..."
-        },
-        {
-            "title": "What's on your desk that makes it *your* desk?",
-            "link": "https://dev.to/darkwiiplayer/whats-on-your-desk-that-makes-it-your-desk-lj8",
-            "description": "What do y'all have at your desks that truly makes it *your* desk? Anything goes, no matter how fancy or mundane it is!"
         },
         {
             "title": "Preptember: Preparing for a Successful Hacktoberfest",
@@ -16,9 +26,9 @@
             "description": "Discover how Virtual Coffee's Preptember Challenge prepares both contributors and maintainers for a successful Hacktoberfest. Learn why preparation is necessary for a positive Hacktoberfest and how you can participate."
         },
         {
-            "title": "What was your win this week?",
-            "link": "https://dev.to/devteam/what-was-your-win-this-week-4do6",
-            "description": "\ud83d\udc4b\ud83d\udc4b\ud83d\udc4b\ud83d\udc4b  Looking back on your week -- what was something you're proud of?  All wins count -- big or..."
+            "title": "What's on your desk that makes it *your* desk?",
+            "link": "https://dev.to/darkwiiplayer/whats-on-your-desk-that-makes-it-your-desk-lj8",
+            "description": "What do y'all have at your desks that truly makes it *your* desk? Anything goes, no matter how fancy or mundane it is!"
         },
         {
             "title": "Introducing DEV++",
@@ -34,11 +44,6 @@
             "title": "How I got a job at AWS",
             "link": "https://dev.to/winstonpuckett/how-i-got-a-job-at-aws-5hm3",
             "description": "Background   I had been working at my first software job for 3.5 years and in that time I..."
-        },
-        {
-            "title": "OpenAI is shockingly good at unminifying code",
-            "link": "https://dev.to/punkpeye/openai-is-shockingly-good-at-unminifying-code-fhm",
-            "description": "While browsing the Internet for inspiration, I came across an interesting-looking component.    I..."
         },
         {
             "title": "What was your win this week?",
@@ -61,6 +66,11 @@
             "description": "When I was 21yrs old, life thought me a valuable lesson that I'll never forget:           Nobody..."
         },
         {
+            "title": "OpenAI is shockingly good at unminifying code",
+            "link": "https://dev.to/punkpeye/openai-is-shockingly-good-at-unminifying-code-fhm",
+            "description": "While browsing the Internet for inspiration, I came across an interesting-looking component.    I..."
+        },
+        {
             "title": "The Art of Effective Open Source Contribution",
             "link": "https://dev.to/opensauced/the-art-of-effective-open-source-contribution-36h5",
             "description": "Explore the art of open source success. Learn how to build trust, understand project philosophies, and become a valued community member as an open source contributor."
@@ -69,6 +79,11 @@
             "title": "Meeting my personal writing goals",
             "link": "https://dev.to/andypiper/writing-goals-3p2a",
             "description": "A little while ago I decided to try to get back into blogging a bit more seriously. Once upon a time,..."
+        },
+        {
+            "title": "What was your win this week?",
+            "link": "https://dev.to/devteam/what-was-your-win-this-week-4do6",
+            "description": "\ud83d\udc4b\ud83d\udc4b\ud83d\udc4b\ud83d\udc4b  Looking back on your week -- what was something you're proud of?  All wins count -- big or..."
         },
         {
             "title": "Create Your Own Cloudflare Workers AI LLM Playground Using NuxtHub and NuxtUI",
@@ -134,21 +149,6 @@
             "title": "DEV Search: 20x Latency Reduction By Layering Algolia On Top of Postgres",
             "link": "https://dev.to/devteam/dev-search-20x-latency-reduction-by-layering-algolia-on-top-of-postgres-3845",
             "description": "At DEV, our commitment to open-source development drives our decision-making process, especially..."
-        },
-        {
-            "title": "What was your win this week?",
-            "link": "https://dev.to/devteam/what-was-your-win-this-week-41l0",
-            "description": "\ud83d\udc4b\ud83d\udc4b\ud83d\udc4b\ud83d\udc4b  Reflecting on your week -- what's one thing you're proud of achieving?  Every win matters -- no..."
-        },
-        {
-            "title": "How to Quickly Fix Crowdstrike BSOD",
-            "link": "https://dev.to/ralphsebastian/how-to-quickly-fix-crowdstrike-bsod-58a6",
-            "description": "This issue is affecting millions of computers worldwide, impacting businesses, airlines, and more...."
-        },
-        {
-            "title": "Revisiting my first homepage",
-            "link": "https://dev.to/jswhisperer/revisiting-my-first-homepage-2e2k",
-            "description": "I had to the wayback internet archive to find a snapshot from 2009.  I left it as is and check the..."
         }
     ]
 }

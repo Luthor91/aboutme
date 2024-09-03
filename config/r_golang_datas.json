@@ -2,6 +2,18 @@
     "items": [
         {
             "subreddit": "golang",
+            "title": "SlowSort algorithm",
+            "link": "https://www.reddit.com/r/golang/comments/1f892ls/slowsort_algorithm/",
+            "description": "You re probably aware of QuickSort algorithm but have you heard about SlowSort p s don t run it in prod package main import fmt sync time func main fmt Println SlowSort int 3 1 2 5 4 1 2 func SlowSort arr int int res int done make chan..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Exploring Goja",
+            "link": "https://jtarchie.com/posts/2024-08-30-exploring-goja-a-golang-javascript-runtime",
+            "description": ""
+        },
+        {
+            "subreddit": "golang",
             "title": "Application Lifecycle Handling",
             "link": "https://www.reddit.com/r/golang/comments/1f7xl7x/application_lifecycle_handling/",
             "description": "Hello fellow gophers I ve been using this pattern to handle my application lifecycle func main ctx cancel signal NotifyContext context Background os Interrupt perhaps other signals like syscall SIGINT defer cancel var wg sync WaitGroup wg Add 1 go func defer wg Done defer cancel launch something like an..."
@@ -71,12 +83,6 @@
             "title": "Struggling to Understand Go 1.23 Iterators: How Does the Loop Work?",
             "link": "https://www.reddit.com/r/golang/comments/1f7d89d/struggling_to_understand_go_123_iterators_how/",
             "description": "I have been trying to understand the concept of iterators introduced in the new Go 1 23 release but I m struggling to comprehend how the iteration call happens multiple times and where the boolean value for stopping the loop is obtained Here s my code snippet for reference package..."
-        },
-        {
-            "subreddit": "golang",
-            "title": "Adt ~ \"paramerized enum\" in golang",
-            "link": "https://www.reddit.com/r/golang/comments/1f79ieo/adt_paramerized_enum_in_golang/",
-            "description": "What issues might arise with this solution It is not a complete ADT Abstract Data Type style since Golang does not support recursive interfaces However it may be sufficient for most cases By design it is useful but i m not sure about the performance and such things type TrafficLight..."
         },
         {
             "subreddit": "golang",
@@ -173,12 +179,6 @@
             "title": "Understanding testing ",
             "link": "https://www.reddit.com/r/golang/comments/1f6pr45/understanding_testing/",
             "description": "So to start off I totally understand that we should be testing code and I do write tests for my code what I need to understand is why A few questions come to mind 1 Let s say I have mock test that tests a function to get data from..."
-        },
-        {
-            "subreddit": "golang",
-            "title": "Is there a way to see the memory hex dump in Go for the stack and the heap in VS code like for C?",
-            "link": "https://www.reddit.com/r/golang/comments/1f6p3qt/is_there_a_way_to_see_the_memory_hex_dump_in_go/",
-            "description": "It might sound like I know a lot about hex dumps or debugging by asking such a question but I don t In fact I am brand new I am just doing some very basic C to follow a syllabus on learning about operating systems I was shocked though when..."
         }
     ]
 }

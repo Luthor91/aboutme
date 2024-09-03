@@ -2,6 +2,18 @@
     "items": [
         {
             "subreddit": "C_Programming",
+            "title": "How to Fix This Exe Output File Issue?",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f83rii/how_to_fix_this_exe_output_file_issue/",
+            "description": "Recently my exe output files wont open how to fix this My codes are correct and there are no error so i am very clueless about the issue my previous exe output files works perfectly I appreciate all the answers brothers thank you very much in advance https reddit com..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "dynamic structures in shared memory - round 2",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f80ird/dynamic_structures_in_shared_memory_round_2/",
+            "description": "So two weeks ago I made a thread in here and realized it was too convoluted of an example so I went back to the drawing board and simplified it My goal is to create two programs one that defines a dynamic structure in shared memory and another that attaches..."
+        },
+        {
+            "subreddit": "C_Programming",
             "title": "C3: A Modern Take on C - Exploring the New Kid on the Block.",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f7z1h9/c3_a_modern_take_on_c_exploring_the_new_kid_on/",
             "description": "Hey everyone I ve been diving into C3 lately and wanted to share my thoughts and ask for your opinions As a C programmer I m always interested in exploring new languages that build upon the foundations of C while offering modern features C3 seems to be a promising language..."
@@ -167,18 +179,6 @@
             "title": "Which library should i choose?",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f6efhf/which_library_should_i_choose/",
             "description": "i try to make games with turbo c because i want to make a dos game you know a game cannot have musics i already maked the midi musics but i don t know which library should i use so can anybody tell me a good library for play nidi..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "'launch.json' error keeps popping up and I'm not able to compile at all on VS Code\n",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f6dl7s/launchjson_error_keeps_popping_up_and_im_not_able/",
-            "description": "Ok so I m somewhat of a beginner to coding I ve faced this issue recently with whatever languages I ve tried to work with on VS Code So it might just be their problem but regardless I m asking this query here because I m facing this issue in..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "German special characters in my C program",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f65469/german_special_characters_in_my_c_program/",
-            "description": "solved I have a problem with German special characters \u00c4 \u00e4 \u00dc \u00fc \u00df in my C program they are not displayed correctly in the terminal The program reads each individual character from a text file modifies some characters and lines and then stores everything in a 2D array char..."
         }
     ]
 }

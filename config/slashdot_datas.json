@@ -1,6 +1,36 @@
 {
     "items": [
         {
+            "title": "Halliburton Says Hackers Removed Data in August Cyberattack",
+            "link": "https://it.slashdot.org/story/24/09/03/1650252/halliburton-says-hackers-removed-data-in-august-cyberattack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "U S oilfield services firm Halliburton said on Tuesday an unauthorized third party had accessed and removed data from its systems providing details regarding the cyberattack in August From a report The company said it is evaluating the nature and scope of information that was removed but added that the..."
+        },
+        {
+            "title": "Intel Launches Lunar Lake: Claims Arm-Beating Battery Life, World's Fastest Mobile CPU Cores",
+            "link": "https://hardware.slashdot.org/story/24/09/03/1635235/intel-launches-lunar-lake-claims-arm-beating-battery-life-worlds-fastest-mobile-cpu-cores?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Intel launched its new Core Ultra 200V series processors on Tuesday promising significant improvements in power efficiency performance and battery life over competitors and previous generations The company claims the chips offer historic x86 power efficiency and the world s fastest mobile CPU cores The processors available for pre order..."
+        },
+        {
+            "title": "Mobile Phones Not Linked To Brain Cancer, Biggest Study To Date Finds",
+            "link": "https://science.slashdot.org/story/24/09/03/1610238/mobile-phones-not-linked-to-brain-cancer-biggest-study-to-date-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Mobile phones are not linked to brain and head cancers a comprehensive review of the highest quality evidence available commissioned by the World Health Organization has found From a report Led by the Australian Radiation Protection and Nuclear Safety Agency Arpansa the systematic review examined more than 5 000 studies..."
+        },
+        {
+            "title": "Japan Swelters Through Hottest Summer While Parts of China Log Warmest August on Record",
+            "link": "https://news.slashdot.org/story/24/09/03/1540211/japan-swelters-through-hottest-summer-while-parts-of-china-log-warmest-august-on-record?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Japan has recorded its hottest summer on record after a sweltering three months marked by thousands of instances of extreme heat with meteorologists warning that unseasonably high temperatures will continue through the autumn From a report The average temperature in June July and August was 1 76C higher than the..."
+        },
+        {
+            "title": "Nvidia Takes an Added Role Amid AI Craze: Data-Center Designer",
+            "link": "https://tech.slashdot.org/story/24/09/03/1414215/nvidia-takes-an-added-role-amid-ai-craze-data-center-designer?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Nvidia dominates the chips at the center of the AI boom It wants to conquer almost everything else that makes those chips tick too From a report Chief Executive Jensen Huang is increasingly broadening his company s focus and seeking to widen its advantage over competitors by offering software data..."
+        },
+        {
+            "title": "How Do Gold Nuggets Form? Earthquakes May Be the Key",
+            "link": "https://science.slashdot.org/story/24/09/03/1332228/how-do-gold-nuggets-form-earthquakes-may-be-the-key?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Scientists have finally solved a long standing mystery about the geologic process behind these large pieces of gold found in quartz rock From a report Gold has always been a hot commodity But these days finding a nugget isn t too tricky Much of the world s gold is mined..."
+        },
+        {
             "title": "Canva To Hike Subscription Prices Up To 300% Amid AI Push",
             "link": "https://slashdot.org/story/24/09/03/1254250/canva-to-hike-subscription-prices-up-to-300-amid-ai-push?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "Canva a popular online design platform plans to significantly increase prices for some of its business subscriptions next year citing the addition of generative AI features The company s Teams subscription which supports multiple users will see price hikes of up to 300 in some regions From a report Subscribers..."
@@ -44,36 +74,6 @@
             "title": "Rust for Linux Maintainer Steps Down in Frustration With 'Nontechnical Nonsense'",
             "link": "https://linux.slashdot.org/story/24/09/02/194205/rust-for-linux-maintainer-steps-down-in-frustration-with-nontechnical-nonsense?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "Efforts to add Rust code to the Linux kernel has suffered a setback as one of the maintainers of the Rust for Linux project has stepped down citing frustration with nontechnical nonsense The Register Wedson Almeida Filho a software engineer at Microsoft who has overseen the Rust for Linux project..."
-        },
-        {
-            "title": "Japan Struggles To Popularize a Four-Day Workweek",
-            "link": "https://slashdot.org/story/24/09/02/1810207/japan-struggles-to-popularize-a-four-day-workweek?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Notorious for a hardworking culture Japan launched an initiative to help people cut back But three years into the effort the country is having a hard time coaxing people to take a four day workweek From a report Japanese lawmakers first proposed a shorter work week in 2021 The guidelines..."
-        },
-        {
-            "title": "Google's James Manyika: 'The Productivity Gains From AI Are Not Guaranteed'",
-            "link": "https://tech.slashdot.org/story/24/09/02/1633202/googles-james-manyika-the-productivity-gains-from-ai-are-not-guaranteed?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Google executive James Manyika has warned that AI s impact on productivity is not guaranteed Editor s note the link may be paywalled despite predictions of trillion dollar economic potential From the report Right now everyone from my old colleagues at McKinsey Global Institute to Goldman Sachs are putting out..."
-        },
-        {
-            "title": "Abolish the Penny?",
-            "link": "https://news.slashdot.org/story/24/09/02/1539211/abolish-the-penny?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "schwit1 shares a report If you are reading this and live in America or used to live in America or maybe just went to America one time many years ago then you are almost certainly performing unpaid labor for the U S government and have been for years How By..."
-        },
-        {
-            "title": "Windows 11 is Now the Most Popular OS For PC Gaming",
-            "link": "https://tech.slashdot.org/story/24/09/02/1510212/windows-11-is-now-the-most-popular-os-for-pc-gaming?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Microsoft s Windows 11 operating system has surpassed Windows 10 usage for Steam users for the first time since its launch in 2021 From a report Windows 10 has been holding strong in recent years despite Microsoft s plans to end support for Windows 10 in October 2025 There are..."
-        },
-        {
-            "title": "Intel CEO To Pitch Board on Plans To Shed Assets, Cut Costs",
-            "link": "https://slashdot.org/story/24/09/02/1353217/intel-ceo-to-pitch-board-on-plans-to-shed-assets-cut-costs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "An anonymous reader shares a report Intel CEO Pat Gelsinger and key executives are expected to present a plan later this month to the company s board of directors to slice off unnecessary businesses and revamp capital spending according to a source familiar with the matter as they try to..."
-        },
-        {
-            "title": "What's Holding Back America's Move to Electric Cars?",
-            "link": "https://tech.slashdot.org/story/24/09/02/0237206/whats-holding-back-americas-move-to-electric-cars?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Let s get one thing out of the way writes the Verge s transportation editor Contrary to what you may have heard about U S sales of electric vehicles mdash sales are up Consumer insights company JD Power is projecting that 1 2 million EVs will be sold in the..."
         }
     ]
 }

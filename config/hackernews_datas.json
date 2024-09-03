@@ -1,153 +1,148 @@
 {
     "items": [
         {
-            "title": "Subscriptions theory: how subscription schemes work",
-            "link": "https://logos.substack.com/p/everything-you-want-to-know-about-subscriptions-82dbfbaff75d",
+            "title": "Zyxel warns of critical OS command injection flaw in routers",
+            "link": "https://www.bleepingcomputer.com/news/security/zyxel-warns-of-critical-os-command-injection-flaw-in-routers/",
             "description": "No Description"
         },
         {
-            "title": "Steve Ballmer's incorrect binary search interview question",
-            "link": "https://blog.jgc.org/2024/09/steve-ballmers-binary-search-interview.html",
+            "title": "White House's New Roadmap to Enhance Internet Routing Security [pdf]",
+            "link": "https://www.whitehouse.gov/wp-content/uploads/2024/09/Roadmap-to-Enhancing-Internet-Routing-Security.pdf",
             "description": "No Description"
         },
         {
-            "title": "Cash alone proves inadequate to solve the problems of the poor",
-            "link": "https://www.washingtonpost.com/opinions/2024/09/03/poverty-debt-relief-cash-research/",
+            "title": "How Air Conditioning Took over the American Office",
+            "link": "https://www.bloomberg.com/news/features/2024-09-03/the-disruptive-dominance-of-office-air-conditioning",
             "description": "No Description"
         },
         {
-            "title": "Show HN: UE5 Dungeon Generator Plugin",
-            "link": "https://github.com/shun126/DungeonGenerator",
-            "description": "I m using A for the pathfinding of passages connecting rooms in the UE5 Dungeon Generator plugin but sometimes passages cannot be generated depending on the state If I can determine good conditions to interrupt the A search it would allow for the search of an alternative passage p Sorry..."
-        },
-        {
-            "title": "The Town That Went Feral (2020)",
-            "link": "https://newrepublic.com/article/159662/libertarian-walks-into-bear-book-review-free-town-project",
+            "title": "New Ways to Compile Julia \u2013 Bezanson, Baraldi \u2013 JuliaCon 2024 [video]",
+            "link": "https://www.youtube.com/watch?v=MKdobiCKSu0",
             "description": "No Description"
         },
         {
-            "title": "Rise of the Pint-Size Startup Is Reshaping the U.S. Economy",
-            "link": "https://www.wsj.com/business/entrepreneurship/rise-of-the-pint-size-startup-is-reshaping-the-u-s-economy-d0d30d7c",
+            "title": "Bellman's Lost-in-a-Forest Problem",
+            "link": "https://www.futilitycloset.com/2024/09/03/the-right-track/",
             "description": "No Description"
         },
         {
-            "title": "Comprehensive Data Science Interview Guide: Questions and Answers Repository",
-            "link": "https://github.com/alexeygrigorev/data-science-interviews",
+            "title": "Show HN: Icebreaking AI. A free tool to help you find close friends",
+            "link": "https://www.icebreakinglab.com",
+            "description": "Hello everyone p My name is Alex and I x27 m an expat in a new country Two years ago I moved to Germany where I didn t know anyone Starting the job I realized that becoming close friends with colleagues can be quite challenging and slow The feeling of..."
+        },
+        {
+            "title": "US voters targeted by Chinese influence online, researchers say",
+            "link": "https://www.reuters.com/world/us/us-voters-targeted-by-chinese-influence-online-researchers-say-2024-09-03/",
             "description": "No Description"
         },
         {
-            "title": "FBI Seizure of Mastodon Servers Is a Wakeup Call to Hosts to Protect Users(2023)",
-            "link": "https://www.eff.org/deeplinks/2023/07/fbi-seizure-mastodon-server-wakeup-call-fediverse-users-and-hosts-protect-their",
+            "title": "Infotainment systems? That's so 1986",
+            "link": "https://www.hagerty.com/media/archived/1986-buick-riviera-gcc-touchscreen/",
             "description": "No Description"
         },
         {
-            "title": "Leonid Rogozov",
-            "link": "https://en.wikipedia.org/wiki/Leonid_Rogozov",
+            "title": "Show HN: AIthics Technology",
+            "link": "https://aithics.tech/",
             "description": "No Description"
         },
         {
-            "title": "OpenAI plans to build its own AI chips on TSMC's forthcoming",
-            "link": "https://www.pcgamer.com/software/ai/openai-plans-to-build-its-own-ai-chips-on-tsmcs-forthcoming-16-nm-a16-process-node/",
+            "title": "Musdb18: A dataset of 150 full lengths music tracks with their isolated stems",
+            "link": "https://sigsep.github.io/datasets/musdb.html",
             "description": "No Description"
         },
         {
-            "title": "Refuting: \"US gov data\" confirms \"143,233% rise in cancer due to Covid vaccine\"",
-            "link": "https://sciencebasedmedicine.org/myrna-mantaring-increase-in-cancer/",
+            "title": "Sea Bubbles \u2013 0 Wave, 0 Noise, 0 Emission Water Taxis",
+            "link": "https://www.seabubbles.com/",
             "description": "No Description"
         },
         {
-            "title": "Exponential rate limiting",
-            "link": "https://dotat.at/@/2024-09-02-ewma.html",
+            "title": "librosa: Python library for audio and music analysis",
+            "link": "https://github.com/librosa/librosa",
             "description": "No Description"
         },
         {
-            "title": "FTC Takes Action Against Security Cam Firm Verkada for Failing to Secure Videos",
-            "link": "https://www.ftc.gov/news-events/news/press-releases/2024/08/ftc-takes-action-against-security-camera-firm-verkada-over-charges-it-failed-secure-videos-other",
+            "title": "30% Return Betting on US Presidential Election",
+            "link": "https://kaveh.page/blog/7-percent-us-election-spread",
             "description": "No Description"
         },
         {
-            "title": "Jupiter's moon Ganymede was struck by asteroid bigger than dinosaur-killing rock",
-            "link": "https://www.theguardian.com/science/article/2024/sep/03/jupiter-moon-ganymede-struck-asteroid-bigger-dinosaurs",
+            "title": "Wundercv.com AI Resume Generator",
+            "link": "https://wundercv.com",
             "description": "No Description"
         },
         {
-            "title": "EVs Are Losing Up to 50 Percent of Their Value in One Year",
-            "link": "https://www.wired.com/story/evs-are-losing-up-to-50-percent-of-their-value-in-one-year/",
+            "title": "Zen, CUDA, and Tensor Cores, Part I: The Silicon",
+            "link": "https://www.computerenhance.com/p/zen-cuda-and-tensor-cores-part-i",
             "description": "No Description"
         },
         {
-            "title": "Star Wars Outlaws Stealth Bugs Make It a Crappy Masterpiece",
-            "link": "https://kotaku.com/star-wars-outlaws-stealth-bugs-ubisoft-1851637931",
+            "title": "AWS CLouD NeTWoRkiNg SuiTE 3000",
+            "link": "https://github.com/JudeQuintana/terraform-main",
             "description": "No Description"
         },
         {
-            "title": "When deleting the Intune object Bitlocker is suspended",
-            "link": "https://call4cloud.nl/2022/04/bitlocker-suspended-deleted-intune-object/",
+            "title": "AI-generated media guidelines from Wikimedia Commons",
+            "link": "https://commons.wikimedia.org/wiki/Commons:AI-generated_media",
             "description": "No Description"
         },
         {
-            "title": "Social media, education, and the rise of populist Euroscepticism (2022)",
-            "link": "https://www.nature.com/articles/s41599-022-01317-y",
+            "title": "'winner and loser effects' impact social rank in animals\u2013and humans",
+            "link": "https://phys.org/news/2024-08-winner-loser-effects-impact-social.html",
             "description": "No Description"
         },
         {
-            "title": "Larian Reflects on Baldur's Gate 3's Success, Future Plans, and Canceling DLC",
-            "link": "https://www.ign.com/articles/baldurs-gate-3-one-year-later-larian-interview",
+            "title": "Show HN: Serverless RAG API",
+            "link": "https://customgpt.ai/api/",
             "description": "No Description"
         },
         {
-            "title": "How AI Teaches Machines to Discover Drugs",
-            "link": "https://www.newyorker.com/magazine/2024/09/09/how-machines-learned-to-discover-drugs",
+            "title": "New VWs will answer some of your questions with ChatGPT",
+            "link": "https://www.theverge.com/2024/9/3/24234979/volkswagen-vw-ai-chatgpt-plus-speech-id-4-gti-golf-r-tiguan",
             "description": "No Description"
         },
         {
-            "title": "Case Studies of Successful Online Community Building Platforms",
-            "link": "https://socially.so/blog/5-case-studies-of-successful-online-community-building-platforms",
+            "title": "Intel announces first batch of second-gen \"Lunar Lake\" Core Ultra laptop CPUs",
+            "link": "https://arstechnica.com/gadgets/2024/09/intel-announces-first-batch-of-second-gen-lunar-lake-core-ultra-laptop-cpus/",
             "description": "No Description"
         },
         {
-            "title": "Twelve rules for job applications and interviews",
-            "link": "https://vurt.org/articles/twelve-rules/",
+            "title": "Log File Compression with Zstandard VFS (Go) in SQLite (Series)",
+            "link": "https://logdy.dev/blog/post/part-3-log-file-compression-with-zstandard-vfs-in-sqlite-benchmark",
             "description": "No Description"
         },
         {
-            "title": "IBM 305 RAMAC and the 1960 Winter Olympics",
-            "link": "https://pncnmnp.github.io/blogs/ibm-ramac-and-1960-winter-olympics.html",
+            "title": "Show HN: Sustainable iPhone Memberships",
+            "link": "https://afterlifetech.com/",
+            "description": "Hi HN p I m a co founder of a service that offers gently used previous gen iPhones benefits on a subscription basis Our goal is to offer a sustainable alternative to the normal upgrade cycle by extending the life of the devices we already have We call it Afterlife..."
+        },
+        {
+            "title": "Natural Piezoelectric Effect May Build Gold Deposits",
+            "link": "https://arstechnica.com/science/2024/09/natural-piezoelectric-effect-may-build-gold-deposits/",
             "description": "No Description"
         },
         {
-            "title": "Women Lead Record Number of Central Banks, but More Progress Is Needed",
-            "link": "https://www.imf.org/en/Blogs/Articles/2024/08/29/women-lead-record-number-of-central-banks-but-more-progress-is-needed",
+            "title": "Train Jam (2020)",
+            "link": "https://trainjam.com/",
             "description": "No Description"
         },
         {
-            "title": "Side channel vuln in Infineon crypto library",
-            "link": "https://ninjalab.io/eucleak/",
+            "title": "Solar will get too cheap to connect to the power grid",
+            "link": "https://climate.benjames.io/solar-will-get-too-cheap-to-connect-to-the-power-grid/",
             "description": "No Description"
         },
         {
-            "title": "Pixar Image Computer",
-            "link": "https://pixar.fandom.com/wiki/Pixar_Image_Computer",
+            "title": "Sony shutting down Concord, refunds after 2 week launch. 8 year dev, 25k sales",
+            "link": "https://arstechnica.com/gaming/2024/09/two-weeks-after-launch-sony-shooter-concord-goes-offline-and-offers-refunds/",
             "description": "No Description"
         },
         {
-            "title": "Walt Disney Was Right; Our Cities' Problems Are Our Biggest Problems",
-            "link": "https://www.population.fyi/p/walt-disney-was-right-our-cities",
+            "title": "The truth about why we stopped having babies",
+            "link": "https://www.independent.co.uk/life-style/babies-birth-rate-decline-fertility-b2605579.html",
             "description": "No Description"
         },
         {
-            "title": "How the psychiatric narrative hinders those who hear voices Essays",
-            "link": "https://aeon.co/essays/how-the-psychiatric-narrative-hinders-those-who-hear-voices",
-            "description": "No Description"
-        },
-        {
-            "title": "GEOG 862: GPS and GNSS for Geospatial Professionals",
-            "link": "https://www.e-education.psu.edu/geog862/node/1407",
-            "description": "No Description"
-        },
-        {
-            "title": "Claude 3.5 asked to create a superstimulus for itself and humans",
-            "link": "https://twitter.com/repligate/status/1830331774875893925",
+            "title": "A list of awesome CLI apps",
+            "link": "https://github.com/agarrharr/awesome-cli-apps",
             "description": "No Description"
         }
     ]

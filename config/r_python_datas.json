@@ -2,6 +2,36 @@
     "items": [
         {
             "subreddit": "Python",
+            "title": "cookiecutter-uv: A modern template for quickly starting Python projects with uv",
+            "link": "https://www.reddit.com/r/Python/comments/1f85wak/cookiecutteruv_a_modern_template_for_quickly/",
+            "description": "Hey everyone Two years ago I created a cookiecutter project https github com fpgmaas cookiecutter poetry for Python projects using Poetry for dependency management With the recent launch of uv https docs astral sh uv I ve started incorporating it into more of my projects so I decided to develop..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Module Found - Generate missing modules on the fly",
+            "link": "https://www.reddit.com/r/Python/comments/1f83l3f/module_found_generate_missing_modules_on_the_fly/",
+            "description": "Hey everyone I ve been working on this project as part of a talk I m giving at PyCon in my country The talk is about Python s import system where I explain how the import machinery works behind the scenes and then give example extensions to it module found..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Check missing dependencies won't break your package with pytest-missing-modules",
+            "link": "https://www.reddit.com/r/Python/comments/1f8218j/check_missing_dependencies_wont_break_your/",
+            "description": "Supporting optional dependencies like Matplotlib supporting multiple backends can be hard usually to tests When developing my own packages I often had to write custom Pytest fixtures that would fake a module is missing so I could check that my package would still be importable with and without some optional..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "PixelLens for PyCharm: Visualize Numpy, PyTorch,TensorFlow and Pillow data right from the debugger",
+            "link": "https://www.reddit.com/r/Python/comments/1f812xx/pixellens_for_pycharm_visualize_numpy/",
+            "description": "PixelLens for PyCharm I work as a data scientist and I often need to visualize a NumPy array or PyTorch tensor while debugging Typically this involves manually running code in the debug console with matplotlib s imshow or cv2 s imwrite This process becomes even more tedious when the data..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Can we post in reddit subreddit with Praw library? ",
+            "link": "https://www.reddit.com/r/Python/comments/1f80pvx/can_we_post_in_reddit_subreddit_with_praw_library/",
+            "description": "import praw\n\nreddit = praw.Reddit(client_id='YOUR_CLIENT_ID',\n                     client_secret='YOUR_CLIENT_SECRET',\n                     user_agent='YOUR_USER_AGENT',\n                     username='YOUR_REDDIT_USERNAME',\n                     password='YOUR_REDDIT_PASSWORD')\n\nsubreddit = reddit.subreddit('yoursubreddit')\nsubreddit.submit('Post Title', selftext='Your post content here')\n\n\nHas anybody tried to post like this in subreddit via API? \nDoes it work? "
+        },
+        {
+            "subreddit": "Python",
             "title": "Generators underused in corporate settings?",
             "link": "https://www.reddit.com/r/Python/comments/1f7zh22/generators_underused_in_corporate_settings/",
             "description": "I ve worked at a couple of places that used Python And I ve rarely seen anyone regularly using the yield keyword I also very rarely see people using lazy comprehensions like foo parse line for line in file bar sum postprocess item for item in foo And so I..."
@@ -149,36 +179,6 @@
             "title": "Discover Esmerald: A New Player in the Developer Ecosystem",
             "link": "https://www.reddit.com/r/Python/comments/1f6bw3y/discover_esmerald_a_new_player_in_the_developer/",
             "description": "Hello Redditors I know a post about Esmerald was done in the past but I believe it deserves another one I wanted to share something intriguing with you all If you re exploring new tools and frameworks you might want to check out Esmerald a fresh addition to the developer..."
-        },
-        {
-            "subreddit": "Python",
-            "title": "Python Environment variables ",
-            "link": "https://www.reddit.com/r/Python/comments/1f676s2/python_environment_variables/",
-            "description": "What are the most secure Python libraries for managing environment variables, and what is the recommended method for storing sensitive data such as API keys in a Python project - should I use a YAML file or an environment file (e.g. .env)?"
-        },
-        {
-            "subreddit": "Python",
-            "title": "Sunday Daily Thread: What's everyone working on this week?",
-            "link": "https://www.reddit.com/r/Python/comments/1f617a7/sunday_daily_thread_whats_everyone_working_on/",
-            "description": "Weekly Thread What s Everyone Working On This Week Hello r Python It s time to share what you ve been working on Whether it s a work in progress a completed masterpiece or just a rough idea let us know what you re up to How it Works 1..."
-        },
-        {
-            "subreddit": "Python",
-            "title": "Is My CI Pipeline for my Python Library Overkill?",
-            "link": "https://www.reddit.com/r/Python/comments/1f5qlui/is_my_ci_pipeline_for_my_python_library_overkill/",
-            "description": "So this is what my GitHub insights are looking like Date Clones Unique Clones 29 Aug 1376 16 30 Aug 1326 9 The majority of this is just my CI pipeline This is a snippet of the strategy section of the CI strategy matrix python version 3 8 3 9..."
-        },
-        {
-            "subreddit": "Python",
-            "title": "Automate Your Reddit Saved Post Backups with Context Using Reddit Stash",
-            "link": "https://www.reddit.com/r/Python/comments/1f5n53a/automate_your_reddit_saved_post_backups_with/",
-            "description": "Hey Everyone What My Project Does A while back I realized that many of the posts I had saved on Reddit for future reference were disappearing To solve this problem I developed a Python script called Reddit Stash This tool automatically saves your Reddit saved posts and comments along with..."
-        },
-        {
-            "subreddit": "Python",
-            "title": "Saturday Daily Thread: Resource Request and Sharing! Daily Thread",
-            "link": "https://www.reddit.com/r/Python/comments/1f5a0qh/saturday_daily_thread_resource_request_and/",
-            "description": "Weekly Thread Resource Request and Sharing Stumbled upon a useful Python resource Or are you looking for a guide on a specific topic Welcome to the Resource Request and Sharing thread How it Works 1 Request Can t find a resource on a particular topic Ask here 2 Share Found..."
         }
     ]
 }
