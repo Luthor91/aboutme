@@ -2,6 +2,36 @@
     "items": [
         {
             "subreddit": "rust",
+            "title": "Learning Rust for fun and backdoo-rs",
+            "link": "https://security.humanativaspa.it/learning-rust-for-fun-and-backdoo-rs/",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Published my first crate and looking for feedback",
+            "link": "https://www.reddit.com/r/rust/comments/1f7zb1z/published_my_first_crate_and_looking_for_feedback/",
+            "description": "I started out working on an aviation related project where I downloaded the FAA s airspace definition files which are these 600 column wide fixed width monstrosities of text files The libraries I found for parsing fixed width files all had runtime defined data structures that needed to be defined..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "How can I improve my Readme",
+            "link": "https://www.reddit.com/r/rust/comments/1f7y53v/how_can_i_improve_my_readme/",
+            "description": "Hi I recently created a Readme for my GitHub repository using gprm I want to add some personal touch to it and also mention rust a lot more Do you have any idea how I can archive this or any feedback Here is my readme it is actually my profile..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "New Rustling",
+            "link": "https://www.reddit.com/r/rust/comments/1f7w70b/new_rustling/",
+            "description": "Hi I just started learning Rust a bit over a week ago and I m really enjoying it I started with the Rustlings project The Rust Programming Language and articles here and there I m nevertheless a bit concerned that this could be a bit of a departure of what..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Dealing with json-ld in serde_json",
+            "link": "https://www.reddit.com/r/rust/comments/1f7vsk0/dealing_with_jsonld_in_serde_json/",
+            "description": "how would i parse some json-ld in serde\\_json? It's struggling with the @\\\\context field because it's an array of multiple different types. Here's a sample of the json: [https://bin.wanderingwires.net/L+WISb.json](https://bin.wanderingwires.net/L+WISb.json)"
+        },
+        {
+            "subreddit": "rust",
             "title": "Lifetime mismatch when implementing trait method with lifetime parameter",
             "link": "https://www.reddit.com/r/rust/comments/1f7t01d/lifetime_mismatch_when_implementing_trait_method/",
             "description": "I m trying to implement the LogRecord trait for the LogRecordImpl struct but I m running into a lifetime mismatch error Here s my code use std borrow Cow pub trait LogRecord fn set_body lt a gt amp mut self body AnyValue lt a gt derive Debug Clone PartialEq pub..."
@@ -149,36 +179,6 @@
             "title": "Seeking Rust Library for Creating a Virtual Camera",
             "link": "https://www.reddit.com/r/rust/comments/1f72hm0/seeking_rust_library_for_creating_a_virtual_camera/",
             "description": "Hi everyone I m looking for a library either in pure Rust or Rust bindings that allows me to create a virtual camera similar to the one used in OBS Studio Ideally this library would be compatible with both Ubuntu and Windows The virtual camera should function like a physical..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "Netmiko Alternative in Rust - A (small) win for the rust networking community",
-            "link": "https://www.reddit.com/r/rust/comments/1f71yjt/netmiko_alternative_in_rust_a_small_win_for_the/",
-            "description": "Hello dear rustaceans If you ve been programming around the networking world before you probably know the library Netmiko Paramiko written in python If not it s basically a library to manage switches and networking devices through python code automatically Up until recently there has been absolutely no alternative in..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "Axum and Diesel",
-            "link": "https://www.reddit.com/r/rust/comments/1f71wr5/axum_and_diesel/",
-            "description": "i am using diesel in axum and have a connection pool of AsyncPgConnection to be shared among handlers in my routes and each handler is suppose to pool a connection from the pool to perform some action on it but i keep getting a timeout error on polling a connection..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "Announcing httpmock 0.8.0: Record and Playback, HTTPS Support, Proxy Mode, and More New Features!",
-            "link": "https://www.reddit.com/r/rust/comments/1f7036l/announcing_httpmock_080_record_and_playback_https/",
-            "description": "Hi everybody httpmock https github com alexliesenfeld httpmock is a Rust library for mocking responses from HTTP services in your tests and after more than a year of work a new version 0 8 0 alpha has been released with HUGE improvements New Features Record and Playback Record interaction with..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "What's everyone working on this week (36/2024)?",
-            "link": "https://www.reddit.com/r/rust/comments/1f702zv/whats_everyone_working_on_this_week_362024/",
-            "description": "New week, new Rust! What are you folks up to? Answer here or over at [rust-users](https://users.rust-lang.org/t/whats-everyone-working-on-this-week-36-2024/116937?u=llogiq)!"
-        },
-        {
-            "subreddit": "rust",
-            "title": "Hey Rustaceans! Got a question? Ask here (36/2024)!",
-            "link": "https://www.reddit.com/r/rust/comments/1f701ou/hey_rustaceans_got_a_question_ask_here_362024/",
-            "description": "Mystified about strings Borrow checker have you in a headlock Seek help here There are no stupid questions only docs that haven t been written yet Please note that if you include code examples to e g show a compiler error or surprising result linking a playground https play rust..."
         }
     ]
 }

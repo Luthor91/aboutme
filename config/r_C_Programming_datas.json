@@ -2,6 +2,30 @@
     "items": [
         {
             "subreddit": "C_Programming",
+            "title": "C3: A Modern Take on C - Exploring the New Kid on the Block.",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7z1h9/c3_a_modern_take_on_c_exploring_the_new_kid_on/",
+            "description": "Hey everyone I ve been diving into C3 lately and wanted to share my thoughts and ask for your opinions As a C programmer I m always interested in exploring new languages that build upon the foundations of C while offering modern features C3 seems to be a promising language..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "I was hoping some people might be willing to look over and review my \"memory allocator\"",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7ym7c/i_was_hoping_some_people_might_be_willing_to_look/",
+            "description": "Hello I ve been working on memory allocator of sorts for dynamic memory in particular basically it uses a fake address space ram or whatever the proper term is i forgor and allows you to malloc to this memory which gives you a fake pointer you can use to read..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Help for writing code guidelines",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7ygqv/help_for_writing_code_guidelines/",
+            "description": "Which style F1 F2 F3 better represents or should represent the guidelines of your code Please comment c The function f never returns nullptr int f void F1 int p f if p nullptr assert false return using p void F2 int p f assert p nullptr using p void..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Do you think an in-memory relational database can be faster than C++ STL Map?",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7xu7d/do_you_think_an_inmemory_relational_database_can/",
+            "description": "CrossDB is a written in C.\n\nhttps://github.com/crossdb-org/crossdb\n\nBenchmark Test vs. C++ STL Map and HashMap\n\nhttps://crossdb.org/blog/benchmark/crossdb-vs-stlmap/\n\nCrossDB in-memory database performance is between C++ STL Map and HashMap."
+        },
+        {
+            "subreddit": "C_Programming",
             "title": "Does it make sense to write your own operating system kernel right now",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f7thp7/does_it_make_sense_to_write_your_own_operating/",
             "description": "I've been learning the C programming language for a few months now, and I've been thinking about writing my own kernel, is there any point in writing one even as practice"
@@ -28,7 +52,7 @@
             "subreddit": "C_Programming",
             "title": "[Project] pack.c - Fast and Efficient File Compression Tool",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f7gr56/project_packc_fast_and_efficient_file_compression/",
-            "description": "it is a powerful command line utility for file compression and decompression built with efficiency in mind Leveraging the speed of ZSTD pack c delivers high performance compression with minimal data loss pack c is designed to be both fast and easy to use offering a streamlined command line interface..."
+            "description": "it is a powerful command line utility for file compression and decompression built with efficiency in mind Leveraging the speed of ZSTD pack c delivers high performance compression with no data loss pack c is designed to be both fast and easy to use offering a streamlined command line interface..."
         },
         {
             "subreddit": "C_Programming",
@@ -155,30 +179,6 @@
             "title": "German special characters in my C program",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f65469/german_special_characters_in_my_c_program/",
             "description": "solved I have a problem with German special characters \u00c4 \u00e4 \u00dc \u00fc \u00df in my C program they are not displayed correctly in the terminal The program reads each individual character from a text file modifies some characters and lines and then stores everything in a 2D array char..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "Help with duplicates in int array",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f613t6/help_with_duplicates_in_int_array/",
-            "description": "I have an exercise where I need to find dupes in an int array This is an entry level C class Given a user entered list of ints we need to write a function to count the duplicates The trick is obviously to not count the same numbers twice FYI..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "Impostor syndrome: Sometimes my code does not feel authentic",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f5y8wu/impostor_syndrome_sometimes_my_code_does_not_feel/",
-            "description": "Idk if this is the right place but maybe other people share this experience I work on a project and am so excited to finish it I work really hard on it but afterwards it just doesn t feel like its mine 90 of the code is fully my own..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "How can I use these function pointers used as fields in a struct? ",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f5xhbj/how_can_i_use_these_function_pointers_used_as/",
-            "description": "typedef struct f int opens char name int p void closes void f I m new to C and don t fully understand how I can use these pointers in the structs How can I use these function pointers to define the functions and then call them to be used..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "Why does my programme segfault?",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f5qsn4/why_does_my_programme_segfault/",
-            "description": "    #include &lt;stdio.h&gt;\n    \n    int factorial(int n)\n    {\n    \n      if ( n == 0 )\n        {\n          return n;\n        }\n      else if ( n == 1 )\n        {\n          return n;\n        }\n      else\n        {\n          return factorial(n) + factorial(n - 1);\n        }\n    }\n    \n    int main(void)\n    {\n      printf(\"%d\\n\", factorial(5));\n      return 0;\n    }"
         }
     ]
 }

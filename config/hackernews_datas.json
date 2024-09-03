@@ -1,148 +1,153 @@
 {
     "items": [
         {
-            "title": "Clean Architecture: Theming with Tailwind and CSS Variables",
-            "link": "https://www.sitepoint.com/theming-tailwind-css-variables-clean-architecture/",
+            "title": "Subscriptions theory: how subscription schemes work",
+            "link": "https://logos.substack.com/p/everything-you-want-to-know-about-subscriptions-82dbfbaff75d",
             "description": "No Description"
         },
         {
-            "title": "Apache's odd behavior for requests with a domain with a dot at the end",
-            "link": "https://utcc.utoronto.ca/~cks/space/blog/web/ApacheDomainDotConfusion",
+            "title": "Steve Ballmer's incorrect binary search interview question",
+            "link": "https://blog.jgc.org/2024/09/steve-ballmers-binary-search-interview.html",
             "description": "No Description"
         },
         {
-            "title": "Seed Phrase Generation and Checker",
-            "link": "https://github.com/themailer/Seed-Phrase-Generator",
+            "title": "Cash alone proves inadequate to solve the problems of the poor",
+            "link": "https://www.washingtonpost.com/opinions/2024/09/03/poverty-debt-relief-cash-research/",
             "description": "No Description"
         },
         {
-            "title": "Python HTTP Clients: Requests vs. Httpx vs. Aiohttp",
-            "link": "https://www.speakeasy.com/post/python-http-clients-requests-vs-httpx-vs-aiohttp",
+            "title": "Show HN: UE5 Dungeon Generator Plugin",
+            "link": "https://github.com/shun126/DungeonGenerator",
+            "description": "I m using A for the pathfinding of passages connecting rooms in the UE5 Dungeon Generator plugin but sometimes passages cannot be generated depending on the state If I can determine good conditions to interrupt the A search it would allow for the search of an alternative passage p Sorry..."
+        },
+        {
+            "title": "The Town That Went Feral (2020)",
+            "link": "https://newrepublic.com/article/159662/libertarian-walks-into-bear-book-review-free-town-project",
             "description": "No Description"
         },
         {
-            "title": "SAP removes CTO Jurgen Muller for inappropriate behavior at an event",
-            "link": "https://infotechlead.com/cloud/sap-removes-cto-jurgen-muller-for-inappropriate-behavior-at-an-event-86537",
+            "title": "Rise of the Pint-Size Startup Is Reshaping the U.S. Economy",
+            "link": "https://www.wsj.com/business/entrepreneurship/rise-of-the-pint-size-startup-is-reshaping-the-u-s-economy-d0d30d7c",
             "description": "No Description"
         },
         {
-            "title": "Chat with All Your Apps",
-            "link": "https://chat.klu.so/",
+            "title": "Comprehensive Data Science Interview Guide: Questions and Answers Repository",
+            "link": "https://github.com/alexeygrigorev/data-science-interviews",
             "description": "No Description"
         },
         {
-            "title": "Scaling up worker cooperatives through the franchise model",
-            "link": "https://www.ilo.org/resource/article/brightlyr-scaling-worker-cooperatives-through-franchise-model",
+            "title": "FBI Seizure of Mastodon Servers Is a Wakeup Call to Hosts to Protect Users(2023)",
+            "link": "https://www.eff.org/deeplinks/2023/07/fbi-seizure-mastodon-server-wakeup-call-fediverse-users-and-hosts-protect-their",
             "description": "No Description"
         },
         {
-            "title": "Build a Modern Table of Contents in Gatsby Without DOM Fetching or Extra Plugins",
-            "link": "https://jsdev.space//table-of-contents-gatsby/",
+            "title": "Leonid Rogozov",
+            "link": "https://en.wikipedia.org/wiki/Leonid_Rogozov",
             "description": "No Description"
         },
         {
-            "title": "Aranet Radon Plus (Measure air quality parameters)",
-            "link": "https://aranet.com/en/home/products/aranet-radon-sensor/",
+            "title": "OpenAI plans to build its own AI chips on TSMC's forthcoming",
+            "link": "https://www.pcgamer.com/software/ai/openai-plans-to-build-its-own-ai-chips-on-tsmcs-forthcoming-16-nm-a16-process-node/",
             "description": "No Description"
         },
         {
-            "title": "Why Google Gave Up on Being Woke",
-            "link": "https://www.youtube.com/watch?v=BeItWbAOpmY",
+            "title": "Refuting: \"US gov data\" confirms \"143,233% rise in cancer due to Covid vaccine\"",
+            "link": "https://sciencebasedmedicine.org/myrna-mantaring-increase-in-cancer/",
             "description": "No Description"
         },
         {
-            "title": "Create an online course using YouTube videos and Google Sheet",
-            "link": "https://www.youtube.com/watch?v=8VkeTlrpdls",
+            "title": "Exponential rate limiting",
+            "link": "https://dotat.at/@/2024-09-02-ewma.html",
             "description": "No Description"
         },
         {
-            "title": "Show HN: Tech-Savvy Virtual Assistant for Entrepreneurs",
-            "link": "https://www.virtualally.pro/",
+            "title": "FTC Takes Action Against Security Cam Firm Verkada for Failing to Secure Videos",
+            "link": "https://www.ftc.gov/news-events/news/press-releases/2024/08/ftc-takes-action-against-security-camera-firm-verkada-over-charges-it-failed-secure-videos-other",
             "description": "No Description"
         },
         {
-            "title": "Why don't more people use Linux?",
-            "link": "https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f53",
+            "title": "Jupiter's moon Ganymede was struck by asteroid bigger than dinosaur-killing rock",
+            "link": "https://www.theguardian.com/science/article/2024/sep/03/jupiter-moon-ganymede-struck-asteroid-bigger-dinosaurs",
             "description": "No Description"
         },
         {
-            "title": "Burnout Paradise, Temping, the Morrison Game Factory",
-            "link": "https://mssv.net/2024/09/03/burnout-paradise-temping-the-morrison-game-factory/",
+            "title": "EVs Are Losing Up to 50 Percent of Their Value in One Year",
+            "link": "https://www.wired.com/story/evs-are-losing-up-to-50-percent-of-their-value-in-one-year/",
             "description": "No Description"
         },
         {
-            "title": "Fixing the Incorrect Keyboard Layout at macOS Login",
-            "link": "https://renecoignard.com/fixing-the-incorrect-keyboard-layout-at-macos-login/",
+            "title": "Star Wars Outlaws Stealth Bugs Make It a Crappy Masterpiece",
+            "link": "https://kotaku.com/star-wars-outlaws-stealth-bugs-ubisoft-1851637931",
             "description": "No Description"
         },
         {
-            "title": "Chiselled Ubuntu for Python",
-            "link": "https://hub.docker.com/r/ubuntu/python",
+            "title": "When deleting the Intune object Bitlocker is suspended",
+            "link": "https://call4cloud.nl/2022/04/bitlocker-suspended-deleted-intune-object/",
             "description": "No Description"
         },
         {
-            "title": "Mobile Advertising \"Active Listening\" an Overview",
-            "link": "https://www.cmglocalsolutions.com",
+            "title": "Social media, education, and the rise of populist Euroscepticism (2022)",
+            "link": "https://www.nature.com/articles/s41599-022-01317-y",
             "description": "No Description"
         },
         {
-            "title": "Dutch DPA imposes a fine on Clearview because of illegal data collection",
-            "link": "https://autoriteitpersoonsgegevens.nl/en/current/dutch-dpa-imposes-a-fine-on-clearview-because-of-illegal-data-collection-for-facial-recognition",
+            "title": "Larian Reflects on Baldur's Gate 3's Success, Future Plans, and Canceling DLC",
+            "link": "https://www.ign.com/articles/baldurs-gate-3-one-year-later-larian-interview",
             "description": "No Description"
         },
         {
-            "title": "Interview Sidekick",
-            "link": "https://interviewsidekick.com",
+            "title": "How AI Teaches Machines to Discover Drugs",
+            "link": "https://www.newyorker.com/magazine/2024/09/09/how-machines-learned-to-discover-drugs",
             "description": "No Description"
         },
         {
-            "title": "EVM+PoW = Digital Gratitude",
-            "link": "https://github.com/mkermani144/amore",
+            "title": "Case Studies of Successful Online Community Building Platforms",
+            "link": "https://socially.so/blog/5-case-studies-of-successful-online-community-building-platforms",
             "description": "No Description"
         },
         {
-            "title": "Macintosh Type/Creator Codes: Improving Id of Files from macOS Classic",
-            "link": "https://ipres2024.pubpub.org/pub/frnya0ft/release/1",
+            "title": "Twelve rules for job applications and interviews",
+            "link": "https://vurt.org/articles/twelve-rules/",
             "description": "No Description"
         },
         {
-            "title": "Haunted \u2013 Hooks for Web Components",
-            "link": "https://hauntedhooks.netlify.app/",
+            "title": "IBM 305 RAMAC and the 1960 Winter Olympics",
+            "link": "https://pncnmnp.github.io/blogs/ibm-ramac-and-1960-winter-olympics.html",
             "description": "No Description"
         },
         {
-            "title": "The final days of Advent of Code 2023",
-            "link": "https://medium.com/@olivier.koch/finishing-the-advent-of-code-in-the-summer-7740d86f1a4d",
+            "title": "Women Lead Record Number of Central Banks, but More Progress Is Needed",
+            "link": "https://www.imf.org/en/Blogs/Articles/2024/08/29/women-lead-record-number-of-central-banks-but-more-progress-is-needed",
             "description": "No Description"
         },
         {
-            "title": "Over 1k Vancouver Airbnb hosts defy new BC short-term rental rules",
-            "link": "https://openhousing.ca/2024/05/17/over-1000-vancouver-airbnb-hosts-defy-new-bc-short-term-rental-rules/",
+            "title": "Side channel vuln in Infineon crypto library",
+            "link": "https://ninjalab.io/eucleak/",
             "description": "No Description"
         },
         {
-            "title": "Show HN: Fe/Male Switch Startup Game",
-            "link": "https://femaleswitch.app/",
+            "title": "Pixar Image Computer",
+            "link": "https://pixar.fandom.com/wiki/Pixar_Image_Computer",
             "description": "No Description"
         },
         {
-            "title": "How to choose the right lithium-ion battery",
-            "link": "https://www.energy-x.org/",
+            "title": "Walt Disney Was Right; Our Cities' Problems Are Our Biggest Problems",
+            "link": "https://www.population.fyi/p/walt-disney-was-right-our-cities",
             "description": "No Description"
         },
         {
-            "title": "Pgllm: Use LLMs in Postgres",
-            "link": "https://github.com/Florents-Tselai/pgllm",
+            "title": "How the psychiatric narrative hinders those who hear voices Essays",
+            "link": "https://aeon.co/essays/how-the-psychiatric-narrative-hinders-those-who-hear-voices",
             "description": "No Description"
         },
         {
-            "title": "How the buildings you occupy might be affecting your brain",
-            "link": "https://psyche.co/ideas/how-the-buildings-you-occupy-might-be-affecting-your-brain",
+            "title": "GEOG 862: GPS and GNSS for Geospatial Professionals",
+            "link": "https://www.e-education.psu.edu/geog862/node/1407",
             "description": "No Description"
         },
         {
-            "title": "Titanic: Striking images reveal depths of ship's slow decay",
-            "link": "https://www.bbc.com/news/articles/crkm82enkgko",
+            "title": "Claude 3.5 asked to create a superstimulus for itself and humans",
+            "link": "https://twitter.com/repligate/status/1830331774875893925",
             "description": "No Description"
         }
     ]

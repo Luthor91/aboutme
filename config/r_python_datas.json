@@ -2,15 +2,27 @@
     "items": [
         {
             "subreddit": "Python",
-            "title": "Tuesday Daily Thread: Advanced questions",
-            "link": "https://www.reddit.com/r/Python/comments/1f7lwin/tuesday_daily_thread_advanced_questions/",
-            "description": "Weekly Wednesday Thread Advanced Questions Dive deep into Python with our Advanced Questions thread This space is reserved for questions about more advanced Python topics frameworks and best practices How it Works 1 Ask Away Post your advanced Python questions here 2 Expert Insights Get answers from experienced developers 3..."
+            "title": "Generators underused in corporate settings?",
+            "link": "https://www.reddit.com/r/Python/comments/1f7zh22/generators_underused_in_corporate_settings/",
+            "description": "I ve worked at a couple of places that used Python And I ve rarely seen anyone regularly using the yield keyword I also very rarely see people using lazy comprehensions like foo parse line for line in file bar sum postprocess item for item in foo And so I..."
         },
         {
             "subreddit": "Python",
-            "title": "I wrote a simple batch script for compiling (with or without venv) to make your life easier",
-            "link": "https://www.reddit.com/r/Python/comments/1f7jlxr/i_wrote_a_simple_batch_script_for_compiling_with/",
-            "description": "I m a novice programmer and fully expect to get laughed out of the room here but personally I found it to be rather annoying to have to manually launch my venv and then type the commands each time I wanted to compile so with the help of ChatGPT I..."
+            "title": "pdf-nupper: n-up (combine) pages in PDF files",
+            "link": "https://www.reddit.com/r/Python/comments/1f7xfpq/pdfnupper_nup_combine_pages_in_pdf_files/",
+            "description": "What My Project Does I ve been using a Python script to n up PDF files for some time when printing PDFs N upping means combining a few pages to a single page For example you can combine a PDF that has lecture slides as 2x2 so 4 slides will..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Spyder 6 IDE Released",
+            "link": "https://www.reddit.com/r/Python/comments/1f7w2rn/spyder_6_ide_released/",
+            "description": "Spyder 6 has been released. The Spyder IDE now has standalone installers for Windows, Linux and Mac. Alternatively it can be installed using a conda-forge Python environment:\n\n[https://github.com/spyder-ide/spyder/releases](https://github.com/spyder-ide/spyder/releases) "
+        },
+        {
+            "subreddit": "Python",
+            "title": "Tuesday Daily Thread: Advanced questions",
+            "link": "https://www.reddit.com/r/Python/comments/1f7lwin/tuesday_daily_thread_advanced_questions/",
+            "description": "Weekly Wednesday Thread Advanced Questions Dive deep into Python with our Advanced Questions thread This space is reserved for questions about more advanced Python topics frameworks and best practices How it Works 1 Ask Away Post your advanced Python questions here 2 Expert Insights Get answers from experienced developers 3..."
         },
         {
             "subreddit": "Python",
@@ -167,18 +179,6 @@
             "title": "Saturday Daily Thread: Resource Request and Sharing! Daily Thread",
             "link": "https://www.reddit.com/r/Python/comments/1f5a0qh/saturday_daily_thread_resource_request_and/",
             "description": "Weekly Thread Resource Request and Sharing Stumbled upon a useful Python resource Or are you looking for a guide on a specific topic Welcome to the Resource Request and Sharing thread How it Works 1 Request Can t find a resource on a particular topic Ask here 2 Share Found..."
-        },
-        {
-            "subreddit": "Python",
-            "title": "A \"safe\" way to share Python code ?",
-            "link": "https://www.reddit.com/r/Python/comments/1f4qk3j/a_safe_way_to_share_python_code/",
-            "description": "My group built a large ML API which we now must share with other research groups We initially wanted to package the API and send them pip install instructions But we ve been told we are not allowed to share any source code How would one go about this My..."
-        },
-        {
-            "subreddit": "Python",
-            "title": "A write-up of what's new in pip 24.2 \u2014 or why legacy editable installs are deprecated",
-            "link": "https://www.reddit.com/r/Python/comments/1f4zvaw/a_writeup_of_whats_new_in_pip_242_or_why_legacy/",
-            "description": "Hi all Link to post https ichard26 github io blog 2024 08 whats new in pip 24 2 Last time I was here I was speaking with my maintainer of black hat I no longer wear that hat Earlier this year I ve joined the pip triage team About a..."
         }
     ]
 }

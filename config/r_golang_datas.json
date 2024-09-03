@@ -2,6 +2,12 @@
     "items": [
         {
             "subreddit": "golang",
+            "title": "Application Lifecycle Handling",
+            "link": "https://www.reddit.com/r/golang/comments/1f7xl7x/application_lifecycle_handling/",
+            "description": "Hello fellow gophers I ve been using this pattern to handle my application lifecycle func main ctx cancel signal NotifyContext context Background os Interrupt perhaps other signals like syscall SIGINT defer cancel var wg sync WaitGroup wg Add 1 go func defer wg Done defer cancel launch something like an..."
+        },
+        {
+            "subreddit": "golang",
             "title": "Image editor in Go?",
             "link": "https://www.reddit.com/r/golang/comments/1f7vnom/image_editor_in_go/",
             "description": "Hey so I ve been toying around with Go for quite a while and made some projects I found interesting like some CLI tools and a backend server I wanted to take it up a notch and try making an image editor with a GUI in Go I m not..."
@@ -173,12 +179,6 @@
             "title": "Is there a way to see the memory hex dump in Go for the stack and the heap in VS code like for C?",
             "link": "https://www.reddit.com/r/golang/comments/1f6p3qt/is_there_a_way_to_see_the_memory_hex_dump_in_go/",
             "description": "It might sound like I know a lot about hex dumps or debugging by asking such a question but I don t In fact I am brand new I am just doing some very basic C to follow a syllabus on learning about operating systems I was shocked though when..."
-        },
-        {
-            "subreddit": "golang",
-            "title": "Event Dispatcher for a Modular Monolith?",
-            "link": "https://www.reddit.com/r/golang/comments/1f6nh4e/event_dispatcher_for_a_modular_monolith/",
-            "description": "So C# guys have [this Mediator package ](https://github.com/jbogard/MediatR)\n\nDo we have something kinda similar in Go? So multiple Bounded Contexts in a Monolith can communicate with Events?"
         }
     ]
 }
