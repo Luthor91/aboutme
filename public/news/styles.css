@@ -53,9 +53,9 @@ body {
 }
 
 /* Styles pour le menu déroulant */
+/* Styles pour le menu déroulant */
 .dropdown {
     position: relative;
-    display: inline-block;
 }
 
 .dropdown-content {
@@ -82,21 +82,6 @@ body {
 
 .dropdown-content .subreddit-button:hover {
     background-color: #f1f1f1;
-}
-
-/* Bouton Reddit */
-.dropdown-button {
-    background-color: #0056b3; /* Couleur des onglets */
-    color: white;
-    padding: 12px 20px; /* Réduit légèrement la hauteur */
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px 5px 0 0;
-}
-
-.dropdown-button.active {
-    background-color: #003d7a;
 }
 
 .search-bar {
@@ -201,7 +186,8 @@ body {
     /* Ajustement de la taille de dropdownButton */
     .dropdown-button {
         width: 100%; /* Faire en sorte que dropdownButton prenne toute la largeur de l'onglet */
-        padding: 10px 20px; /* Ajuster le padding pour correspondre à tab-button */
+        padding: 10px 20px; /* Ajus ter le padding pour correspondre à tab-button */
+        padding-left: 0px;
         font-size: 14px; /* Réduire la taille de la police */
     }
 

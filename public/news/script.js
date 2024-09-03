@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const searchInput = document.getElementById('search-input');
     const themeSelect = document.getElementById('theme-select');
     const redditDropdown = document.getElementById('reddit-dropdown');
-    const dropdownButton = document.querySelector('.dropdown-button');
+    const dropdownButton = document.getElementById('reddit-button'); // Change the selector for the dropdown button
 
     const getRawUrl = (source) => `https://raw.githubusercontent.com/${username}/${repo}/${branch}/config/${source}_datas.json`;
 
@@ -114,29 +114,29 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Synchroniser la classe active du bouton déroulant avec l'onglet actif
             if (tab.dataset.source === 'reddit') {
-                dropdownButton.classList.add('active');
+                redditDropdown.classList.toggle('show');
             } else {
-                dropdownButton.classList.remove('active');
+                fetchData(tab.dataset.source);
+                redditDropdown.classList.remove('show');
             }
-
-            fetchData(tab.dataset.source);
         });
     });
 
     // Gestion du menu déroulant Reddit
-    dropdownButton.addEventListener('click', () => {
+    dropdownButton.addEventListener('click', (event) => {
+        event.stopPropagation(); // Stop propagation to prevent closing dropdown immediately
         redditDropdown.classList.toggle('show');
     });
 
     document.addEventListener('click', (event) => {
-        if (!event.target.closest('.dropdown-button') && redditDropdown.classList.contains('show')) {
+        if (!event.target.closest('#reddit-button') && !event.target.closest('#reddit-dropdown') && redditDropdown.classList.contains('show')) {
             redditDropdown.classList.remove('show');
         }
     });
 
     redditDropdown.addEventListener('click', (event) => {
         if (event.target.matches('.subreddit-button')) {
-            const subreddit = event.target.dataset.subreddit;
+            const subreddit = event.target.dataset.source; // Use 'data-source' instead of 'data-subreddit'
             fetchData(subreddit);
             dropdownButton.textContent = event.target.textContent;
             redditDropdown.classList.remove('show');

@@ -28,6 +28,7 @@ body.refined-dark-mode {
 
 .refined-dark-mode .dropdown-button {
     background-color: #8C8CAD; /* Brun plus clair que le précédent pour l'état actif */
+    color: #CE2921; /* Texte en rouge pour contraste */
 }
 
 .refined-dark-mode .dropdown-button.active {
