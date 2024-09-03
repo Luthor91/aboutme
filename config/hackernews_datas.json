@@ -1,6 +1,26 @@
 {
     "items": [
         {
+            "title": "Clean Architecture: Theming with Tailwind and CSS Variables",
+            "link": "https://www.sitepoint.com/theming-tailwind-css-variables-clean-architecture/",
+            "description": "No Description"
+        },
+        {
+            "title": "Apache's odd behavior for requests with a domain with a dot at the end",
+            "link": "https://utcc.utoronto.ca/~cks/space/blog/web/ApacheDomainDotConfusion",
+            "description": "No Description"
+        },
+        {
+            "title": "Seed Phrase Generation and Checker",
+            "link": "https://github.com/themailer/Seed-Phrase-Generator",
+            "description": "No Description"
+        },
+        {
+            "title": "Python HTTP Clients: Requests vs. Httpx vs. Aiohttp",
+            "link": "https://www.speakeasy.com/post/python-http-clients-requests-vs-httpx-vs-aiohttp",
+            "description": "No Description"
+        },
+        {
             "title": "SAP removes CTO Jurgen Muller for inappropriate behavior at an event",
             "link": "https://infotechlead.com/cloud/sap-removes-cto-jurgen-muller-for-inappropriate-behavior-at-an-event-86537",
             "description": "No Description"
@@ -26,7 +46,7 @@
             "description": "No Description"
         },
         {
-            "title": "Google Gave Up on Being Woke",
+            "title": "Why Google Gave Up on Being Woke",
             "link": "https://www.youtube.com/watch?v=BeItWbAOpmY",
             "description": "No Description"
         },
@@ -123,21 +143,6 @@
         {
             "title": "Titanic: Striking images reveal depths of ship's slow decay",
             "link": "https://www.bbc.com/news/articles/crkm82enkgko",
-            "description": "No Description"
-        },
-        {
-            "title": "Oasis Ticket Surge Pricing Spurs Misplaced Fury",
-            "link": "https://www.bloomberg.com/opinion/articles/2024-09-03/oasis-reunion-concert-ticketmaster-surge-pricing-spurs-misplaced-fury",
-            "description": "No Description"
-        },
-        {
-            "title": "\"OMG, this is what I need\" is the beginning of the end for most startups [video]",
-            "link": "https://www.youtube.com/shorts/-eM1xyUS5V8",
-            "description": "No Description"
-        },
-        {
-            "title": "ComicChat \u2013 AI Comic Creation and Companionship for Fans",
-            "link": "https://aicomicchat.com/?from=yc",
             "description": "No Description"
         }
     ]

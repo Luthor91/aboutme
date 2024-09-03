@@ -108,16 +108,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         tab.addEventListener('click', () => {
             tabs.forEach(btn => {
                 btn.classList.remove('active');
+                dropdownButton.classList.remove('active');
             });
             tab.classList.add('active');
             
             // Ajouter ou enlever la classe active du bouton déroulant
             if (tab.dataset.source === 'reddit') {
-                dropdownButton.classList.add('active');
-                console.log("active");
-                
-            } else {
-                dropdownButton.classList.remove('active');
+                dropdownButton.classList.add('active'); 
             }
 
             fetchData(tab.dataset.source);
