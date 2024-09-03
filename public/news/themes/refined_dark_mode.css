@@ -26,6 +26,14 @@ body.refined-dark-mode {
     background-color: #B5B5D6; /* Bleu clair pour actif */
 }
 
+.refined-dark-mode .dropdown-button {
+    background-color: #8C8CAD; /* Brun plus clair que le précédent pour l'état actif */
+}
+
+.refined-dark-mode .dropdown-button.active {
+    background-color: #B5B5D6;
+}
+
 .refined-dark-mode .search-bar {
     background-color: #737BAD; /* Fond de la barre de recherche */
 }

@@ -1,0 +1,184 @@
+{
+    "items": [
+        {
+            "subreddit": "Python",
+            "title": "Tuesday Daily Thread: Advanced questions",
+            "link": "https://www.reddit.com/r/Python/comments/1f7lwin/tuesday_daily_thread_advanced_questions/",
+            "description": "Weekly Wednesday Thread Advanced Questions Dive deep into Python with our Advanced Questions thread This space is reserved for questions about more advanced Python topics frameworks and best practices How it Works 1 Ask Away Post your advanced Python questions here 2 Expert Insights Get answers from experienced developers 3..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "I wrote a simple batch script for compiling (with or without venv) to make your life easier",
+            "link": "https://www.reddit.com/r/Python/comments/1f7jlxr/i_wrote_a_simple_batch_script_for_compiling_with/",
+            "description": "I m a novice programmer and fully expect to get laughed out of the room here but personally I found it to be rather annoying to have to manually launch my venv and then type the commands each time I wanted to compile so with the help of ChatGPT I..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Why not just get your plots in numpy?!",
+            "link": "https://www.reddit.com/r/Python/comments/1f7jfgd/why_not_just_get_your_plots_in_numpy/",
+            "description": "Seriously that s the question https github com bedbad justpyplot Why not just have simple plot1 values size title scatter True pt_color gt np ndarray function API that gives you your plot parts like figure and grid axis labels etc as numpy arrays for you to overlay mask render stretch..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Web scraping with GPT-4o: powerful but expensive ",
+            "link": "https://www.reddit.com/r/Python/comments/1f7g0t9/web_scraping_with_gpt4o_powerful_but_expensive/",
+            "description": "Hey folks So I ve been messing around with OpenAI s new structured outputs feature and decided to build an AI powered web scraper Thought I d share some of the cool and not so cool stuff I found The Good This thing can parse some pretty complex tables I..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Synchronize tasks with Windows' Task Manager",
+            "link": "https://www.reddit.com/r/Python/comments/1f7fmj7/synchronize_tasks_with_windows_task_manager/",
+            "description": "What My Project Does This is the code I use in production to fully automatize the process of synchronizing creating updating and deleting scheduled tasks on our Windows server Since there aren t a lot of resources online for working with win32 objects I thought I could share it in..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Anatomy of a Textual User Interface",
+            "link": "https://www.reddit.com/r/Python/comments/1f79kwq/anatomy_of_a_textual_user_interface/",
+            "description": "Hi folks,  \nI wrote about building an AI Chat interface with Python and Textual.\n\n[https://textual.textualize.io/blog/2024/09/15/anatomy-of-a-textual-user-interface/](https://textual.textualize.io/blog/2024/09/15/anatomy-of-a-textual-user-interface/)"
+        },
+        {
+            "subreddit": "Python",
+            "title": "Deta Space is shutting down. ",
+            "link": "https://www.reddit.com/r/Python/comments/1f775pr/deta_space_is_shutting_down/",
+            "description": "After an incredible run we ve made the difficult decision to shut down Deta Space You can continue to login https deta space login for 45 days until sunset on October 17 2024 at which point we will start deleting all apps hosted or installed and data in Collections We..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Smartcut: Super fast cutting and trimming of videos",
+            "link": "https://www.reddit.com/r/Python/comments/1f767df/smartcut_super_fast_cutting_and_trimming_of_videos/",
+            "description": "What My Project Does Smartcut is to my knowledge the most robust open source implementation of frame accurate video cutting without recoding a k a smart cut smart encoding smart render etc It uses PyAV and libavcodec ffmpeg internals to encode a small part of the video near the cutpoints..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Use python -m http.server in SSL",
+            "link": "https://www.reddit.com/r/Python/comments/1f75ga9/use_python_m_httpserver_in_ssl/",
+            "description": "A script to wrap http.server with SSL support\n\n[https://valarmorghulis.io/tech/202409-python-http-serveri-in-ssl/](https://valarmorghulis.io/tech/202409-python-http-serveri-in-ssl/)\n\n"
+        },
+        {
+            "subreddit": "Python",
+            "title": "Error \"returned non-zero exit status 4294967274\"... Do you know what it could be?",
+            "link": "https://www.reddit.com/r/Python/comments/1f74tcw/error_returned_nonzero_exit_status_4294967274_do/",
+            "description": "When debugging code to add subtitles to a video file with the Moviepy library I m getting the error returned non zero exit status 4294967274 Do you know what it could be ffmpeg is unable to correctly interpret the path to the srt subtitle file it concatenates a video file..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Object and Type Unification",
+            "link": "https://www.reddit.com/r/Python/comments/1f731v8/object_and_type_unification/",
+            "description": "Have had a conversation with ChatGPT about the wildest and craziest idea about unifying object and type into a single entity that has the combined functionality of both Essentially the equivalent at the lower level of doing class MyEntity object type ChatGPT Conversation https chatgpt com share a56d0e9d 1458 4111..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Logging insanity in FastAPI on Google App Engine? I Built a Custom Solution!",
+            "link": "https://www.reddit.com/r/Python/comments/1f70wpp/logging_insanity_in_fastapi_on_google_app_engine/",
+            "description": "Hey everyone I ve been working with FastAPI on Google App Engine GAE and found the logging experience to be well frustrating The lack of clear structured logging across the request lifecycle was a major pain point So I decided to create a custom Cloud Logging handler specifically for FastAPI..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Monday Daily Thread: Project ideas!",
+            "link": "https://www.reddit.com/r/Python/comments/1f6syvh/monday_daily_thread_project_ideas/",
+            "description": "Weekly Thread Project Ideas Welcome to our weekly Project Ideas thread Whether you re a newbie looking for a first project or an expert seeking a new challenge this is the place for you How it Works 1 Suggest a Project Comment your project idea be it beginner friendly or..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Introducing fastapi-gae-logging",
+            "link": "https://www.reddit.com/r/Python/comments/1f6s12z/introducing_fastapigaelogging/",
+            "description": "https://github.com/chrisK824/fastapi-gae-logging\n\nCustom Cloud Logging handler for FastAPI applications deployed in Google App Engine. Groups logs coming from the same request lifecycle and propagates the maximum log level throughout the request lifecycle using middleware and context management."
+        },
+        {
+            "subreddit": "Python",
+            "title": "A Minimal ASGI Server",
+            "link": "https://www.reddit.com/r/Python/comments/1f6rh51/a_minimal_asgi_server/",
+            "description": "Here we implement a minimal ASGI server with zero dependencies. Feedback is appreciated! [https://blog.tomhuibregtse.com/a-minimal-asgi-server](https://blog.tomhuibregtse.com/a-minimal-asgi-server)"
+        },
+        {
+            "subreddit": "Python",
+            "title": "Task Tracker from roadmap.sh",
+            "link": "https://www.reddit.com/r/Python/comments/1f6qjdj/task_tracker_from_roadmapsh/",
+            "description": "What my project does A python command line tool to add tasks and track them tasks get stored in a JSON file Add Tasks Add new tasks to your task list Update Tasks Update the description of existing tasks List Tasks Display all tasks or filter them by status todo..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "High School Class",
+            "link": "https://www.reddit.com/r/Python/comments/1f6p0ks/high_school_class/",
+            "description": "My grandson is in HS Signed up for a Python class and was super excited to take it as he enjoyed coding class and wants to work towards a STEM endorsement Anyway only two kids signed up so it won t be offered Any suggestion for a high school level..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "What is a free TTS python library/package or REST API for story narration?",
+            "link": "https://www.reddit.com/r/Python/comments/1f6mhzk/what_is_a_free_tts_python_librarypackage_or_rest/",
+            "description": "I'm making one of those reddit story videos. The ones with the minecraft parkour and subtitles. I just need a TTS software that I can use in python. Any suggestions?\n\nI just want something that isn't robotic and is clear with no accents."
+        },
+        {
+            "subreddit": "Python",
+            "title": "QCut, a quantum circuit-knitting python package",
+            "link": "https://www.reddit.com/r/Python/comments/1f6j2pm/qcut_a_quantum_circuitknitting_python_package/",
+            "description": "What My Project Does QCut is a quantum circuit knitting package for performing wire cuts especially designed to not use reset gates or mid circuit measurements since on early NISQ devices they pose significant errors if available at all QCut has been designed to work with IQM s qpus and..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Github-dlr: Download individual files and folders from Github recursively.",
+            "link": "https://www.reddit.com/r/Python/comments/1f6gwks/githubdlr_download_individual_files_and_folders/",
+            "description": "What My Project Does Github dlr is a terminal tool that lets users download individual folders and files from a Github repository in an easy way without needing to clone the entire project https github com rocktimsaikia github dlr https github com rocktimsaikia github dlr Target Audience Terminal users who..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "I am sharing Python Data Science courses and projects on YouTube",
+            "link": "https://www.reddit.com/r/Python/comments/1f6gt56/i_am_sharing_python_data_science_courses_and/",
+            "description": "Hello I wanted to share that I am sharing free courses and projects on my YouTube Channel I have more than 200 videos and I created playlists for learning Data Science I am leaving the playlist link below have a great day Data Science Full Courses amp Projects gt https..."
+        },
+        {
+            "subreddit": "Python",
+            "title": " Scribo - A simple, efficient and content-first static site generator (SSG)",
+            "link": "https://www.reddit.com/r/Python/comments/1f6f6g3/scribo_a_simple_efficient_and_contentfirst_static/",
+            "description": "Hey guys I was tinkering with a little open source project and thought I d share it with you all It s a static site generator using Python that uses Markdown for content and file system based routing You can install it using pip The project s docs site is..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Discover Esmerald: A New Player in the Developer Ecosystem",
+            "link": "https://www.reddit.com/r/Python/comments/1f6bw3y/discover_esmerald_a_new_player_in_the_developer/",
+            "description": "Hello Redditors I know a post about Esmerald was done in the past but I believe it deserves another one I wanted to share something intriguing with you all If you re exploring new tools and frameworks you might want to check out Esmerald a fresh addition to the developer..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Python Environment variables ",
+            "link": "https://www.reddit.com/r/Python/comments/1f676s2/python_environment_variables/",
+            "description": "What are the most secure Python libraries for managing environment variables, and what is the recommended method for storing sensitive data such as API keys in a Python project - should I use a YAML file or an environment file (e.g. .env)?"
+        },
+        {
+            "subreddit": "Python",
+            "title": "Sunday Daily Thread: What's everyone working on this week?",
+            "link": "https://www.reddit.com/r/Python/comments/1f617a7/sunday_daily_thread_whats_everyone_working_on/",
+            "description": "Weekly Thread What s Everyone Working On This Week Hello r Python It s time to share what you ve been working on Whether it s a work in progress a completed masterpiece or just a rough idea let us know what you re up to How it Works 1..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Is My CI Pipeline for my Python Library Overkill?",
+            "link": "https://www.reddit.com/r/Python/comments/1f5qlui/is_my_ci_pipeline_for_my_python_library_overkill/",
+            "description": "So this is what my GitHub insights are looking like Date Clones Unique Clones 29 Aug 1376 16 30 Aug 1326 9 The majority of this is just my CI pipeline This is a snippet of the strategy section of the CI strategy matrix python version 3 8 3 9..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Automate Your Reddit Saved Post Backups with Context Using Reddit Stash",
+            "link": "https://www.reddit.com/r/Python/comments/1f5n53a/automate_your_reddit_saved_post_backups_with/",
+            "description": "Hey Everyone What My Project Does A while back I realized that many of the posts I had saved on Reddit for future reference were disappearing To solve this problem I developed a Python script called Reddit Stash This tool automatically saves your Reddit saved posts and comments along with..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Saturday Daily Thread: Resource Request and Sharing! Daily Thread",
+            "link": "https://www.reddit.com/r/Python/comments/1f5a0qh/saturday_daily_thread_resource_request_and/",
+            "description": "Weekly Thread Resource Request and Sharing Stumbled upon a useful Python resource Or are you looking for a guide on a specific topic Welcome to the Resource Request and Sharing thread How it Works 1 Request Can t find a resource on a particular topic Ask here 2 Share Found..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "A \"safe\" way to share Python code ?",
+            "link": "https://www.reddit.com/r/Python/comments/1f4qk3j/a_safe_way_to_share_python_code/",
+            "description": "My group built a large ML API which we now must share with other research groups We initially wanted to package the API and send them pip install instructions But we ve been told we are not allowed to share any source code How would one go about this My..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "A write-up of what's new in pip 24.2 \u2014 or why legacy editable installs are deprecated",
+            "link": "https://www.reddit.com/r/Python/comments/1f4zvaw/a_writeup_of_whats_new_in_pip_242_or_why_legacy/",
+            "description": "Hi all Link to post https ichard26 github io blog 2024 08 whats new in pip 24 2 Last time I was here I was speaking with my maintainer of black hat I no longer wear that hat Earlier this year I ve joined the pip triage team About a..."
+        }
+    ]
+}

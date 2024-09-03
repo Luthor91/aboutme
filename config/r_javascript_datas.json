@@ -1,0 +1,184 @@
+{
+    "items": [
+        {
+            "subreddit": "javascript",
+            "title": "W3E framework enhanced W3.css w/JavaScript",
+            "link": "https://w3e.uk",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "I built a video streaming server that makes the content clickable and interactive. Would love any feedback.",
+            "link": "https://github.com/james-a-rob/KodaStream",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] someone help me with transformer.js",
+            "link": "https://www.reddit.com/r/javascript/comments/1f7qpot/askjs_someone_help_me_with_transformerjs/",
+            "description": "code import pipeline from xenova transformers import useState from react export default function App const text setText useState const func async inp gt const summarization await pipeline summarization task Xenova t5 small model const result await summarization inp setText result 0 summary_text func hello return lt h1 className text 3xl..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] ISO Best code coverage tools for JavaScript/CSS",
+            "link": "https://www.reddit.com/r/javascript/comments/1f7fiau/askjs_iso_best_code_coverage_tools_for/",
+            "description": "Hi all I am searching for the best code coverage tools to be found Tools that get into the line numbers Tools like Lighthouse for instance but ones that take into account more than just a single web page Perhaps an entire domain or website At least all the pages..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] Getting image in input=\u201cfile\u201d to display only after the submit button is clicked ",
+            "link": "https://www.reddit.com/r/javascript/comments/1f7dtoc/askjs_getting_image_in_inputfile_to_display_only/",
+            "description": "I am VERY NEW to JS so please help me find the right way to do this I am trying to get an image to display on the webpage through input file I can get it to work with JavaScript when I am using this const loadFile function event let..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] What should I say about my experience, when I have none?",
+            "link": "https://www.reddit.com/r/javascript/comments/1f7brxn/askjs_what_should_i_say_about_my_experience_when/",
+            "description": "I m having an interview with a company and they want 1 year of commercial experience while I ve got none What should I say Is it a good idea to tell them that I worked solo in freelance projects I don t really have any They might ask for..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "Write a domain-specific language in javascript",
+            "link": "https://andi.dev/blog/javascript-dsl",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "AggregateError in JavaScript",
+            "link": "https://www.trevorlasn.com/blog/aggregate-error-in-javascript",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "I've been tracking mentions of JavaScript in job postings since the start of the year!",
+            "link": "https://job.zip/trend/javascript",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "Found an open-source codebase that's similar to Skool (Learning Management System)",
+            "link": "https://github.com/webprodigies/webprodigies-grouple",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] Amazon FEE-2 Phone Interview Scheduled : What Should I Expect?",
+            "link": "https://www.reddit.com/r/javascript/comments/1f6r9xy/askjs_amazon_fee2_phone_interview_scheduled_what/",
+            "description": "Hey everyone I have an FEE 2 phone interview scheduled for this week and I m trying to prepare as best as I can According to the HR the initial phone screening with the Hiring Manager will focus on LeetCode based data structures and algorithms DSA questions However the documents..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] Anybody get Node.js' Single executable applications process to work?",
+            "link": "https://www.reddit.com/r/javascript/comments/1f6ijis/askjs_anybody_get_nodejs_single_executable/",
+            "description": "SOLVED Solution cp home user bin node node_eval echo main nm_nodejs_eval js output sea prep blob gt sea config json node no warnings experimental sea config sea config json bun install postject modify cli js shebang to home user bin node because node is not installed is just in PATH..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] Redux store external changes question",
+            "link": "https://www.reddit.com/r/javascript/comments/1f6de96/askjs_redux_store_external_changes_question/",
+            "description": "noob here what s the recommended approach to bind external changes from the server to the store im thinking of using a single action named EVENT passing in propertyName and value which will be dispatched from a websocket listener my only concern is modularity as components would now have the..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] Is React\u2019s Traditional Component Model Becoming Outdated?",
+            "link": "https://www.reddit.com/r/javascript/comments/1f687yi/askjs_is_reacts_traditional_component_model/",
+            "description": "With all the recent changes and debates surrounding React s future direction especially around the controversial fetch on render approach it seems like the community is questioning whether React s traditional component model is still the best way to handle state and data What do you think Are we reaching..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "How I Created a 3.78MB Docker Image for a JavaScript Service",
+            "link": "https://shenzilong.cn/record/How%20I%20Created%20a%203.78MB%20Docker%20Image%20for%20a%20JavaScript%20Service",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] Evaluating a Few SSGs for Class Project - Community / User Opinions Welcome!",
+            "link": "https://www.reddit.com/r/javascript/comments/1f62toj/askjs_evaluating_a_few_ssgs_for_class_project/",
+            "description": "Hi all I am a student just getting my feet wet for the first time I am hoping to just test a few things out but would love some community input to guide me as I try each one of these out Or maybe your input helps me focus on..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "Node.js REPL from/to the browser",
+            "link": "https://github.com/guest271314/native-messaging-nodejs/tree/eval",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] I\u2019m publishing a library to NPM and I also want to publish a demo project that uses the library. Should I make the demo a separate package?",
+            "link": "https://www.reddit.com/r/javascript/comments/1f5ytoi/askjs_im_publishing_a_library_to_npm_and_i_also/",
+            "description": "I m publishing a type safe QuickBooks OAuth connector and API query tool Short back story I was really unhappy with the official Intuit lib which was extremely out of date and then there is a community lib that is meh Anyway OAuth is tough to demonstrate without actually having..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "I made a free realtime multiplayer 2D cave gem quest game!",
+            "link": "https://vaella.io/",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] Infrastructure Question",
+            "link": "https://www.reddit.com/r/javascript/comments/1f5pnci/askjs_infrastructure_question/",
+            "description": "Hello there so i have a question i have a side project that requires a DB lets say psql and a Next js app with strapi server so I am a bit lost among the deployment choices where would you deploy this stack i was looking over the internet and..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "Showoff Saturday (August 31, 2024)",
+            "link": "https://www.reddit.com/r/javascript/comments/1f5hbgg/showoff_saturday_august_31_2024/",
+            "description": "Did you find or create something cool this week in javascript?       \n\nShow us here!"
+        },
+        {
+            "subreddit": "javascript",
+            "title": "How to mock requests in e2e tests using MSW",
+            "link": "https://programmingarehard.com/2024/08/30/e2e-testing-with-msw-dynamic-mocking.html/",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "Tag.js A better, faster, smaller, and more efficient tagging library for search bars",
+            "link": "https://github.com/Raghav-Uppala/Tag.js",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "How to Integrate Algolia with Node.js for Full-Text Search",
+            "link": "https://codenoun.com/integrate-algolia-with-nodejs/",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "Embrace Intermediate Variables and Early Returns",
+            "link": "https://www.trevorlasn.com/blog/embrace-early-returns-and-intermediate-variables-for-readable-code/",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "hdinf (human-duration in format)\u00a0\u2013 typesafe human-duration expression parser",
+            "link": "https://github.com/gajus/hdinf",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] Any suggestions for a library for checking PDF Integrity?",
+            "link": "https://www.reddit.com/r/javascript/comments/1f4qr5k/askjs_any_suggestions_for_a_library_for_checking/",
+            "description": "Hey folks I am about to embark on a project at work which requires users to upload PDFs that need to be manually reviewed by someone on our team To protect our team and our network we need to ensure that the PDFs don t contain anything inappropriate p rn..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] Have you came across anything like \"SpotAPI\" project in javascript?",
+            "link": "https://www.reddit.com/r/javascript/comments/1f4p6y4/askjs_have_you_came_across_anything_like_spotapi/",
+            "description": "What The Project Does SpotAPI provides a Python wrapper to interact with both private and public Spotify APIs It emulates the requests typically made through a web browser enabling you to access Spotify s rich set of features programmatically SpotAPI uses your Spotify username and password to authenticate allowing you..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] What's Your Go-To Platform for Learning and Why?",
+            "link": "https://www.reddit.com/r/javascript/comments/1f4ow4t/askjs_whats_your_goto_platform_for_learning_and/",
+            "description": "I've been exploring different platforms to upskill in tech and programming, and I'm curious to hear from the community about their experiences.  \n\n\n**So, which one do you think is the best for tech learning and why?**\n\n[View Poll](https://www.reddit.com/poll/1f4ow4t)"
+        },
+        {
+            "subreddit": "javascript",
+            "title": "Exciting Update! watermark-js-plus Now with Enhanced Features for Custom Watermarks! Optimized Multiline and Rich Text Support + New IE11 Compatibility!",
+            "link": "https://github.com/zhensherlock/watermark-js-plus",
+            "description": ""
+        }
+    ]
+}

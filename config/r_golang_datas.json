@@ -1,0 +1,184 @@
+{
+    "items": [
+        {
+            "subreddit": "golang",
+            "title": "How are you dealing with file generation?",
+            "link": "https://www.reddit.com/r/golang/comments/1f7vjvw/how_are_you_dealing_with_file_generation/",
+            "description": "Hi It s been about three days since I ve started learning Go and I m pretty impressed with codegen feature but honestly I can t understand how to deal with it in right way Let s say I wanna create a backend project and generate config and db modules..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "A short article on the differences between \"Type Alias\" and \"New Types\" in Go",
+            "link": "https://perfects.engineering/blog/go_alias_vs_new_types",
+            "description": "As a Golang developer, you\u2019ve probably encountered two seemingly similar ways to define types.\n\nI wrote a short article about it. Let me know your thoughts."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Deploy rabbitMQ consumer in Golang?",
+            "link": "https://www.reddit.com/r/golang/comments/1f7usqv/deploy_rabbitmq_consumer_in_golang/",
+            "description": "I have a small Golang program where the producer adds tasks to RabbitMQ and then the consumer consumes them I use https github com panjf2000 ants https github com panjf2000 ants to manage the worker pool for the consumer This leads me to think of the following questions 1 Should..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "I can not write a net/Conn example about template programming",
+            "link": "https://www.reddit.com/r/golang/comments/1f7tbiv/i_can_not_write_a_netconn_example_about_template/",
+            "description": "head payload head payload AType head 1 byte value indicate the payload length BType head 1 byte value indicate the head payload length const AType 1 BType 2 type Conn struct TheType int raw net Conn func slf Conn ReadFramePayload byte error if slf TheType AType var head make byte..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Testing in Golang - a crash article to get you going",
+            "link": "https://thedevelopercafe.com/articles/testing-in-go-929e2ad2",
+            "description": ""
+        },
+        {
+            "subreddit": "golang",
+            "title": "Cellular Automata terminal simulator in Go`",
+            "link": "https://www.youtube.com/shorts/NTaHi1l9XZg",
+            "description": ""
+        },
+        {
+            "subreddit": "golang",
+            "title": "seq - A Go Iterator Module",
+            "link": "https://www.reddit.com/r/golang/comments/1f7f6vh/seq_a_go_iterator_module/",
+            "description": "seq https pkg go dev github com GodsBoss g seq is a module that builds upon the iterators introduced in Go 1 23 https go dev doc go1 23 Provides the usual suspects like Filter Map or Reduce but also some more interesting mechanisms like throttling or cancellation Comes with..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "pdfcpu rolling on..",
+            "link": "https://www.reddit.com/r/golang/comments/1f7etfg/pdfcpu_rolling_on/",
+            "description": "pdfcpu v0 8 1 is out PDF 2 0 encryption Improved CJK support Extended annotation support Check out countless samples https github com pdfcpu pdfcpu tree master pkg samples https github com pdfcpu pdfcpu tree master pkg samples Check it out https github com pdfcpu pdfcpu releases tag v0 8..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "iteration filter for Go 1.23",
+            "link": "https://www.reddit.com/r/golang/comments/1f7d9pq/iteration_filter_for_go_123/",
+            "description": "You can create filtered iter Seq iter Seq2 It will filter execution of yields given in for range The implementation side processes of iter Seq are not filtered tingtt iterutil github com https github com tingtt iterutil tingtt iterutil pkg go dev https pkg go dev github com tingtt iterutil..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Struggling to Understand Go 1.23 Iterators: How Does the Loop Work?",
+            "link": "https://www.reddit.com/r/golang/comments/1f7d89d/struggling_to_understand_go_123_iterators_how/",
+            "description": "I have been trying to understand the concept of iterators introduced in the new Go 1 23 release but I m struggling to comprehend how the iteration call happens multiple times and where the boolean value for stopping the loop is obtained Here s my code snippet for reference package..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Adt ~ \"paramerized enum\" in golang",
+            "link": "https://www.reddit.com/r/golang/comments/1f79ieo/adt_paramerized_enum_in_golang/",
+            "description": "What issues might arise with this solution It is not a complete ADT Abstract Data Type style since Golang does not support recursive interfaces However it may be sufficient for most cases By design it is useful but i m not sure about the performance and such things type TrafficLight..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Is wails.io used by big tech? ",
+            "link": "https://www.reddit.com/r/golang/comments/1f7994u/is_wailsio_used_by_big_tech/",
+            "description": "I'm trying wails, it's great! Which companies use it?"
+        },
+        {
+            "subreddit": "golang",
+            "title": "go build from debug produces wrong codesigned binary",
+            "link": "https://www.reddit.com/r/golang/comments/1f78qjw/go_build_from_debug_produces_wrong_codesigned/",
+            "description": "This is kind of a random issue if I change a few lines around maybe it ll start working or not Basically here is what happens go build o __debug_bin288148591 gcflags all N l __debug_bin288148591 zsh killed __debug_bin288148591 Then the binary is removed If I remove l it seems to..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "A simple, no-install blogging platform \ud83d\ude2d",
+            "link": "https://tunalog.org/en-us/index.html",
+            "description": ""
+        },
+        {
+            "subreddit": "golang",
+            "title": "Looking for some mentor help in unit testing",
+            "link": "https://www.reddit.com/r/golang/comments/1f771kc/looking_for_some_mentor_help_in_unit_testing/",
+            "description": "Hi,\n\nI am a beginner in Golang. I am struggling to write unit testing code and achieve code coverage. I need some mentor help on this. Please let me know if anyone who can help me on this."
+        },
+        {
+            "subreddit": "golang",
+            "title": "GopherCon Korea 2024",
+            "link": "https://www.reddit.com/r/golang/comments/1f735b0/gophercon_korea_2024/",
+            "description": "Greetings I m part of the team organizing GopherCon Korea 2024 and I m excited to share details about our upcoming conference with you GopherCon Korea 2024 Announcement The annual GopherCon Korea event the largest Go language community gathering in Korea is back again Whether you re a beginner intermediate..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Introducing Kafka Lag Go: A High-Performance, Stateless Kafka Lag Calculator \ud83d\ude80\n",
+            "link": "https://www.reddit.com/r/golang/comments/1f72xxq/introducing_kafka_lag_go_a_highperformance/",
+            "description": "Hi everyone I wanted to share a cool tool I ve been working on called Kafka Lag Go https github com sciclon2 kafka lag go It s a lightweight stateless app that does a great job of calculating Kafka consumer group lag both in offsets and seconds It s built..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Sensible golangci-lint config for existing project?",
+            "link": "https://www.reddit.com/r/golang/comments/1f7190z/sensible_golangcilint_config_for_existing_project/",
+            "description": "Ive just started a new job with the responsibility of brining some best practices and code styles to the existing codebase which is also about to start a big migration They are not currently using golangci lint and I d like to get it into the CI process I didn..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Guys, I'm stuck ",
+            "link": "https://www.reddit.com/r/golang/comments/1f713qi/guys_im_stuck/",
+            "description": "So I was learning Golang for past two months from scratch and I can do crud operations now Then I somehow got into a remote startup and after small interview and I was given a repo which they working on and asked me to clone and analyse everything and understand..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "How Should I Treat GoLang, Struggling to Decide on Programming Pradigms ",
+            "link": "https://www.reddit.com/r/golang/comments/1f70kzm/how_should_i_treat_golang_struggling_to_decide_on/",
+            "description": "I m currently learning Golang and I m finding it a bit tricky to decide on the best approach for structuring my code From what I understand Go doesn t strictly follow any particular programming paradigm It seems to offer a mix allowing for some limited OOP and FP practices..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "If you use gorm, what's your strategy for soft delete? ",
+            "link": "https://www.reddit.com/r/golang/comments/1f6y0lo/if_you_use_gorm_whats_your_strategy_for_soft/",
+            "description": "Gorm has a built in soft delete capability if you use Delete on a model that has gorm DeletedAt type This raises question if I wanna soft delete along with setting other values like status to 0 What d be the best strategy in this case I can think of..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Tree-like TUI file manager in go",
+            "link": "https://www.reddit.com/r/golang/comments/1f6v7ad/treelike_tui_file_manager_in_go/",
+            "description": "Hey folks I recently started developing a TUI file manager in go Currently it only supports basic features like navigation copying moving renaming deleting files etc but it s biggest advantage for me is the nested tree rendering much like in GNU tree I already find it useful when i..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Interective CLI with Cobra",
+            "link": "https://www.reddit.com/r/golang/comments/1f6uih6/interective_cli_with_cobra/",
+            "description": "Hello I m trying to make Interactive CLI and thought that Cobra will be good decision but i have problem I want my CLI to listen user input and answer for every command not for only one at start It should be something like this me gt gt go run..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Tinygo: Control Wifi of the Adafruit Matrix Portal M4",
+            "link": "https://www.reddit.com/r/golang/comments/1f6tehq/tinygo_control_wifi_of_the_adafruit_matrix_portal/",
+            "description": "How can I create an HTTP server on an Adafruit Matrix Portal M4 Wifi using TinyGo?"
+        },
+        {
+            "subreddit": "golang",
+            "title": "Pipewire API",
+            "link": "https://www.reddit.com/r/golang/comments/1f6shh7/pipewire_api/",
+            "description": "Hey Gophers Has anyone found or developed a Go package to talk to Pipewire on Linux My GitHub and pkg go dev http pkg go dev search fu has failed me I d love a way to both monitor Pipewire usage e g is the microphone being used and control..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "TCP Connection strange party error? IPV6 - GUI App",
+            "link": "https://www.reddit.com/r/golang/comments/1f6pthl/tcp_connection_strange_party_error_ipv6_gui_app/",
+            "description": "Hello I have been developing stuff for the past month and been getting warmed up with golang loving it a lot so far But i have reached a roadblock that i cannot find online any solutions Here is the error i am receiving gt Dial tcp 8080 connectex A connection..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Understanding testing ",
+            "link": "https://www.reddit.com/r/golang/comments/1f6pr45/understanding_testing/",
+            "description": "So to start off I totally understand that we should be testing code and I do write tests for my code what I need to understand is why A few questions come to mind 1 Let s say I have mock test that tests a function to get data from..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Is there a way to see the memory hex dump in Go for the stack and the heap in VS code like for C?",
+            "link": "https://www.reddit.com/r/golang/comments/1f6p3qt/is_there_a_way_to_see_the_memory_hex_dump_in_go/",
+            "description": "It might sound like I know a lot about hex dumps or debugging by asking such a question but I don t In fact I am brand new I am just doing some very basic C to follow a syllabus on learning about operating systems I was shocked though when..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Event Dispatcher for a Modular Monolith?",
+            "link": "https://www.reddit.com/r/golang/comments/1f6nh4e/event_dispatcher_for_a_modular_monolith/",
+            "description": "So C# guys have [this Mediator package ](https://github.com/jbogard/MediatR)\n\nDo we have something kinda similar in Go? So multiple Bounded Contexts in a Monolith can communicate with Events?"
+        },
+        {
+            "subreddit": "golang",
+            "title": "niljson - A simple Go package for unmarshalling null-able JSON types",
+            "link": "https://www.reddit.com/r/golang/comments/1f6mw8d/niljson_a_simple_go_package_for_unmarshalling/",
+            "description": "Hi everybody I ve just released niljson a simple Go package for unmarshalling null able JSON types If you know the hassle of unmarshalling JSON types like float64 which can be either 0 or null this package is for you It s meant for quick and easy unmarshalling so it..."
+        }
+    ]
+}

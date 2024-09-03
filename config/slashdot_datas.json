@@ -1,6 +1,11 @@
 {
     "items": [
         {
+            "title": "Sweden Caps Screen Time for Kids and Teens",
+            "link": "https://news.slashdot.org/story/24/09/03/0838232/sweden-caps-screen-time-for-kids-and-teens?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Children under the age of two should not be exposed to any screens whatsoever and teenagers should have no more than three hours of screen time a day according to guidelines announced by health authorities in Sweden From a report Parents and guardians should think about how they use screens..."
+        },
+        {
             "title": "Europe Jumps On the Train",
             "link": "https://tech.slashdot.org/story/24/09/03/0718243/europe-jumps-on-the-train?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "Night trains are experiencing a resurgence across Europe as travelers seek more environmentally friendly alternatives to flying European Sleeper a Dutch cooperative recently launched a new overnight route from Brussels to Prague extending its existing service to Berlin The 13 hour journey traverses Germany in refurbished 1970s era carriages accommodating..."
@@ -69,11 +74,6 @@
             "title": "Shrinkwrap 'Contract' Found At Costco On... Collagen Peptides",
             "link": "https://yro.slashdot.org/story/24/09/02/038254/shrinkwrap-contract-found-at-costco-on-collagen-peptides?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "Slashdot covered shrinkwrap licenses on software back in 2000 and 2002 But now ewhac Slashdot reader 5 844 writes The user Wraithe on the Mastodon network is reporting that a bottle of Vital Proteins TM collagen peptides purchased at Costco came with a shrinkwrap contract Collagen peptides are often used..."
-        },
-        {
-            "title": "Green Energy from Storage Batteries are Replacing Fossil Fuels in California - and Texas",
-            "link": "https://hardware.slashdot.org/story/24/09/02/0117259/green-energy-from-storage-batteries-are-replacing-fossil-fuels-in-california---and-texas?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "1 9 million solar panels began operating this year in California mdash at a Mortenson facility with 120 000 installed batteries that give it a storage capacity of 3 280 megawatts An article in El Pais notes that this helped California pass 10 000 megawatts of photovoltaic storage in April..."
         }
     ]
 }

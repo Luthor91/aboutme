@@ -1,6 +1,7 @@
 import requests
 import json
 import re
+import os
 
 # URL du fichier de configuration sur GitHub
 CONFIG_URL = "https://raw.githubusercontent.com/Luthor91/aboutme/main/config/config.json"
@@ -23,7 +24,16 @@ def load_config():
             "keywordsToSkip": ["paywall", "fermented"]
         }
 
-# Définir les fonctions avant de les utiliser
+config = load_config()
+
+# Constantes de configuration
+MAX_ARTICLES = config["maxArticles"]
+MAX_WORDS_DESCRIPTION = config["maxWordsDescription"]
+KEYWORDS_TO_SKIP = config["keywordsToSkip"]
+
+# Liste des subreddits à scrapper
+subreddits = ["r/java", "r/javascript", "r/rust", "r/golang", "r/python", "r/C_Programming"]
+
 def contains_keyword(title, keywords):
     return any(keyword.lower() in title.lower() for keyword in keywords)
 
@@ -33,18 +43,9 @@ def limit_words(text, max_words):
         return ' '.join(words[:max_words]) + '...'
     return text
 
-# Charger la configuration
-config = load_config()
-
-# Constantes de configuration
-MAX_ARTICLES = config["maxArticles"]
-MAX_WORDS_DESCRIPTION = config["maxWordsDescription"]
-KEYWORDS_TO_SKIP = config["keywordsToSkip"]
-
-# Liste des subreddits à scrapper
-subreddits = ["r/java", "r/javascript", "r/rust", "r/golang", "r/python", "/C_Programming"]
-
-all_items = []
+# Créer le répertoire de sortie s'il n'existe pas
+output_dir = 'config'
+os.makedirs(output_dir, exist_ok=True)
 
 for subreddit in subreddits:
     URL = f"https://www.reddit.com/{subreddit}/new.json?limit={MAX_ARTICLES}"
@@ -56,24 +57,25 @@ for subreddit in subreddits:
     # Extraire les articles
     items = []
     for post in data['data']['children']:
-        title = post['data']['title']
-        link = post['data']['url']
-        description = post['data']['selftext'] if 'selftext' in post['data'] else ''
+        post_data = post['data']
+        title = post_data.get('title', 'No Title')
+        link = post_data.get('url', 'No Link')
+        description = post_data.get('selftext', '')
 
         if link and not contains_keyword(title, KEYWORDS_TO_SKIP):
             if len(items) >= MAX_ARTICLES:
                 break
             items.append({
-                'subreddit': subreddit,
+                'subreddit': post_data.get('subreddit', 'No Subreddit'),
                 'title': title,
                 'link': link,
                 'description': limit_words(description, MAX_WORDS_DESCRIPTION)
             })
-    all_items.extend(items)
 
-# Sauvegarder les données en JSON
-json_path = 'config/reddit_datas.json'
-with open(json_path, 'w') as json_file:
-    json.dump({'items': all_items}, json_file, indent=4)
+    # Sauvegarder les données en JSON pour chaque subreddit
+    subreddit_filename = subreddit.replace('/', '_') + '_datas.json'
+    json_path = os.path.join(output_dir, subreddit_filename)
+    with open(json_path, 'w') as json_file:
+        json.dump({'items': items}, json_file, indent=4)
 
-print(f"Les données ont été sauvegardées dans {json_path}")
+    print(f"Les données pour {subreddit} ont été sauvegardées dans {json_path}")

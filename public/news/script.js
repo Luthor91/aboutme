@@ -1,206 +1,148 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    // Variables pour la configuration
-    let config = {};
+    // Variables de configuration
     const username = 'Luthor91';
     const repo = 'aboutme';
     const branch = 'main';
+    let config = {};
 
-    // Charger la configuration depuis le fichier JSON hébergé sur GitHub
+    // Charger la configuration depuis GitHub
     const loadConfig = async () => {
         const url = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/config/config.json`;
         try {
             const response = await fetch(url);
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            config = await response.json();
+            config = response.ok ? await response.json() : { maxArticles: 30, maxDescriptionLength: 150 };
         } catch (error) {
             console.error('Fetch error for config:', error);
-            // Valeurs par défaut si le fichier de config ne peut pas être chargé
-            config = {
-                maxArticles: 30,
-                maxDescriptionLength: 150
-            };
+            config = { maxArticles: 30, maxDescriptionLength: 150 };
         }
     };
 
     await loadConfig();
+    const { maxArticles, maxDescriptionLength } = config;
 
+    // Sélecteurs
     const tabs = document.querySelectorAll('.tab-button');
     const newsList = document.getElementById('news-list');
     const errorMessage = document.getElementById('error-message');
     const searchInput = document.getElementById('search-input');
     const themeSelect = document.getElementById('theme-select');
     const redditDropdown = document.getElementById('reddit-dropdown');
-
-    const { maxArticles, maxDescriptionLength } = config;
+    const dropdownButton = document.querySelector('.dropdown-button');
 
     const getRawUrl = (source) => `https://raw.githubusercontent.com/${username}/${repo}/${branch}/config/${source}_datas.json`;
 
-    let articles = [];
-
-    const fetchDataFromGitHub = async (source) => {
-        if (source === undefined) return;
-
+    // Fonction pour récupérer les données
+    const fetchData = async (source) => {
+        if (!source) return;
         const url = getRawUrl(source);
+
         try {
             const response = await fetch(url);
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            const data = await response.json();
-            articles = data.items;
-            displayArticles();
+            const data = response.ok ? await response.json() : await fetch(`/config/${source}_datas.json`).then(r => r.json());
+            displayArticles(data.items);
         } catch (error) {
-            console.error('Fetch error from GitHub:', error);
-            fetchDataFromLocal(source);
-        }
-    };
-
-    const fetchDataFromLocal = async (source) => {
-        try {
-            const response = await fetch(`/config/${source}_datas.json`);
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            const data = await response.json();
-            articles = data.items;
-            displayArticles();
-        } catch (error) {
-            console.error('Fetch error from local:', error);
+            console.error('Fetch error:', error);
             errorMessage.textContent = 'Failed to load data. Please try again later.';
         }
     };
 
-    const fetchData = async (source) => {
-        await fetchDataFromGitHub(source);
-    };
-
-    const filterArticles = (query) => {
+    // Filtrage et affichage des articles
+    const filterArticles = (articles, query) => {
         if (!query) return articles.slice(0, maxArticles);
-
         const keywords = query.toLowerCase().split(/\s+/);
-
-        return articles
-            .filter(item => {
-                const title = item.title.toLowerCase();
-                const description = item.description.toLowerCase();
-                const containsKeyword = keywords.some(keyword => title.includes(keyword) || description.includes(keyword));
-                return containsKeyword;
-            })
-            .slice(0, maxArticles);
+        return articles.filter(item => {
+            const title = item.title.toLowerCase();
+            const description = item.description.toLowerCase();
+            return keywords.some(keyword => title.includes(keyword) || description.includes(keyword));
+        }).slice(0, maxArticles);
     };
 
-    const truncateDescription = (description, maxLength) => {
-        if (description.length <= maxLength) return description;
-
-        const truncated = description.slice(0, maxLength);
+    const truncateDescription = (description) => {
+        if (description.length <= maxDescriptionLength) return description;
+        const truncated = description.slice(0, maxDescriptionLength);
         const lastSpace = truncated.lastIndexOf(' ');
-
         return lastSpace > 0 ? truncated.slice(0, lastSpace) + '...' : truncated + '...';
     };
 
-    const displayArticles = () => {
+    const displayArticles = (articles) => {
         newsList.innerHTML = '';
         const query = searchInput.value;
-        const filteredItems = filterArticles(query);
+        const filteredItems = filterArticles(articles, query);
 
         filteredItems.forEach(item => {
             if (item.link && item.link !== 'No Link') {
                 const listItem = document.createElement('li');
-                const description = truncateDescription(item.description, maxDescriptionLength);
                 listItem.innerHTML = `
                     <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
-                    <p class="description">${description}</p>
+                    <p class="description">${truncateDescription(item.description)}</p>
                 `;
                 newsList.appendChild(listItem);
             }
         });
-
-        adjustDescriptionWidth();
     };
 
-    const adjustDescriptionWidth = () => {
-        const descriptions = document.querySelectorAll('#news-list p.description');
-        descriptions.forEach(desc => {
-            const parentWidth = desc.parentElement.clientWidth;
-            const textWidth = desc.scrollWidth;
-            if (textWidth > parentWidth) {
-                desc.style.whiteSpace = 'pre-wrap';
-            } else {
-                desc.style.whiteSpace = 'normal';
-            }
-        });
-    };
+    // Gestion de la recherche
+    searchInput.addEventListener('input', () => {
+        const articles = Array.from(newsList.querySelectorAll('li')).map(li => ({
+            title: li.querySelector('h3 a').textContent,
+            description: li.querySelector('p.description').textContent,
+            link: li.querySelector('h3 a').href
+        }));
+        displayArticles(articles);
+    });
 
-    const onSearchInput = () => {
-        displayArticles();
-    };
-
+    // Gestion du thème
     const switchTheme = (theme) => {
         document.body.classList.remove('light-mode', 'dark-mode', 'autumn-mode', 'refined-dark-mode');
         document.body.classList.add(`${theme}-mode`);
-        localStorage.setItem('selectedTheme', theme); // Sauvegarde du thème sélectionné
+        localStorage.setItem('selectedTheme', theme);
     };
 
-    // Appliquer le thème enregistré ou par défaut
     const savedTheme = localStorage.getItem('selectedTheme') || 'light';
     switchTheme(savedTheme);
     themeSelect.value = savedTheme;
+    themeSelect.addEventListener('change', (e) => switchTheme(e.target.value));
 
-    searchInput.addEventListener('input', onSearchInput);
-
+    // Gestion des onglets
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
-            tabs.forEach(btn => btn.classList.remove('active'));
+            tabs.forEach(btn => {
+                btn.classList.remove('active');
+            });
             tab.classList.add('active');
-            const source = tab.dataset.source;
-            if (source === 'reddit') {
-                const selectedSubreddit = document.querySelector('.dropdown-content .active');
-                if (selectedSubreddit) {
-                    fetchDataFromGitHub(selectedSubreddit.dataset.subreddit);
-                }
+            
+            // Ajouter ou enlever la classe active du bouton déroulant
+            if (tab.dataset.source === 'reddit') {
+                dropdownButton.classList.add('active');
+                console.log("active");
+                
             } else {
-                fetchData(source);
+                dropdownButton.classList.remove('active');
             }
+
+            fetchData(tab.dataset.source);
         });
     });
 
-    themeSelect.addEventListener('change', (event) => {
-        switchTheme(event.target.value);
+    // Gestion du menu déroulant Reddit
+    dropdownButton.addEventListener('click', () => {
+        redditDropdown.classList.toggle('show');
     });
 
-    // Initial fetch for default tab
-    const defaultTab = document.querySelector('.tab-button[data-source="hackernews"]');
-    if (defaultTab) {
-        defaultTab.classList.add('active');
-        fetchData('hackernews');
-    }
-
-    switchTheme(savedTheme);  // Appliquer le thème lors du chargement
-
-    // Dropdown Reddit functionality
-    const dropdownButtons = document.querySelectorAll('.subreddit-button');
-    dropdownButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            dropdownButtons.forEach(btn => btn.classList.remove('active'));
-            this.classList.add('active');
-            fetchDataFromGitHub(this.dataset.subreddit);
-        });
+    document.addEventListener('click', (event) => {
+        if (!event.target.matches('.dropdown-button')) {
+            if (redditDropdown.classList.contains('show')) {
+                redditDropdown.classList.remove('show');
+            }
+        }
     });
 
-    // Initial adjustment for tabs position
-    const header = document.querySelector('.header');
-    const tabsContainer = document.querySelector('.tabs');
-
-    const adjustTabsPosition = () => {
-        const headerHeight = header.offsetHeight;
-        tabsContainer.style.top = `${headerHeight}px`;
-    };
-
-    // Initial adjustment
-    adjustTabsPosition();
-
-    // Adjust on window resize
-    window.addEventListener('resize', adjustTabsPosition);
+    redditDropdown.addEventListener('click', (event) => {
+        if (event.target.matches('.subreddit-button')) {
+            const subreddit = event.target.dataset.subreddit;
+            fetchData(subreddit);
+            dropdownButton.textContent = event.target.textContent;
+            redditDropdown.classList.remove('show');
+        }
+    });
 });

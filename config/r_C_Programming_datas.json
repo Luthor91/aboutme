@@ -1,0 +1,184 @@
+{
+    "items": [
+        {
+            "subreddit": "C_Programming",
+            "title": "Does it make sense to write your own operating system kernel right now",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7thp7/does_it_make_sense_to_write_your_own_operating/",
+            "description": "I've been learning the C programming language for a few months now, and I've been thinking about writing my own kernel, is there any point in writing one even as practice"
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "I made a random numbers library for cryptography",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7js8z/i_made_a_random_numbers_library_for_cryptography/",
+            "description": "Hey guys it s my first time posting here So long story short one day I wondered how Python s Random library generates random numbers and eventually learned about their use in cryptography Ever since I ve been obsessed with random numbers and made a small C library with quite..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "reading virtual files from /proc/PID in C program - Linux",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7hnyp/reading_virtual_files_from_procpid_in_c_program/",
+            "description": "I m writing a simple program where every process from proc is printed out on the screen and I also want to have the names of each process so I tried file proc 88 status gt it says it s name but when I try to check the file size..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Share your tips and tricks for variable argument functions",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7hk4o/share_your_tips_and_tricks_for_variable_argument/",
+            "description": "I basically always use two main variants of variable argument functions: \n- Passing the number of arguments as first parameter\n- Using NULL as terminator \n\nWhat do you prefer? Why?\n\nDo you have some other tips/custom macros you use when dealing with variable argument functions?\n\n"
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "[Project] pack.c - Fast and Efficient File Compression Tool",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7gr56/project_packc_fast_and_efficient_file_compression/",
+            "description": "it is a powerful command line utility for file compression and decompression built with efficiency in mind Leveraging the speed of ZSTD pack c delivers high performance compression with minimal data loss pack c is designed to be both fast and easy to use offering a streamlined command line interface..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "[Project] A Lightweight ThreadPool Library for C \u2013 Simplify Concurrency in Your C Projects",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7gjs2/project_a_lightweight_threadpool_library_for_c/",
+            "description": "I ve been working on a threadpool library for C that aims to make concurrent task management easier and more efficient The library provides a straightforward way to create a pool of threads and schedule tasks with an emphasis on performance and ease of use Highlights Easy thread pool creation..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "How to to handle X11 Drag 'n Drop (xDND) events",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7fjj3/how_to_to_handle_x11_drag_n_drop_xdnd_events/",
+            "description": "To handle Drag n Drop events with X11 you must use the XDnD protocol Although the XDnD protocol is significantly more complicated than other Drag n Drop APIs it s still relatively simple in theory However implementing it is tedious because it requires properly communicating with the X11 server and..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Badly asked question: Why do malloc/memcpy not violate strict aliasing?",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7faos/badly_asked_question_why_do_mallocmemcpy_not/",
+            "description": "gt The effective type of an object for an access to its stored value is the declared type of the object if any If a value is stored into an object having no declared type through an lvalue having a type that is not a non atomic character type then..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Dependency management",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7e1cf/dependency_management/",
+            "description": "I was reading Make manual and came across this unholy recipe with automatic prerequisite generation d c set e rm f CC M CPPFLAGS lt gt sed s o 1 o g lt gt rm f While I understood the most of it the question arose why can t we..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "How does this union work in the implementation of a phasor in this DSP code?",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f7cwcn/how_does_this_union_work_in_the_implementation_of/",
+            "description": "Hello all hobbyist programmer here I was looking through the source for this music programming software Pure Data and was curious as to the purpose of this union I found in their Phasor Class The code is pretty simple I think but I can t quite figure out how this..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Fflatten: A fast png layers flattener with neon intrinsics.",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f791vh/fflatten_a_fast_png_layers_flattener_with_neon/",
+            "description": "https github com mnyoshie citest blob master scripts src fflatten c https github com mnyoshie citest blob master scripts src fflatten c This a fast png layers flattener which is written in C plus some neon intrinsics and some portable wrapper for machines that don t have it It performs..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "/u/gaiajack's Exquisite Corpse Game: Add your own mechanic to this crowdsourced C/Raylib game on Github",
+            "link": "https://github.com/geajack/gdxc",
+            "description": ""
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Are these 2 bit shifting expressions equal?",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f6yqne/are_these_2_bit_shifting_expressions_equal/",
+            "description": "I have 2 bit shifting expressions based on the table walking process 1 table_entry amp 1ull lt lt 21 1 amp 1ull lt lt 51 1 2 table_entry amp 1ull lt lt 51 21 1 1 lt lt 21 I noticed that for some table _entry values 1 and 2..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Program that reads recipes from the DOS program Edna's Cook Book",
+            "link": "https://github.com/dangarbri/save-edna",
+            "description": "Made this to recover recipes I found stored on my family's old DOS computer. Posted the recipes we programmed in at https://dangarbri.tech/recipes"
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Argv changes after init function ",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f6ry8z/argv_changes_after_init_function/",
+            "description": "So I have struct defined in different file so in main I create pointer and pass it to the initialization function then I parse command line arguments But problem is that after functions is done argv pointing to the same memory as pointer to this struct And it s really..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Project won't run in vscode macOS",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f6narg/project_wont_run_in_vscode_macos/",
+            "description": "SOLVED int main return 0 Even if I try to run this code it still won t work I downloaded Xcode and everything it shows me this error Undefined symbols for architecture arm64 _main referenced from lt initial undefines gt ld symbol s not found for architecture arm64 clang error..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "how to use regex in C?",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f6l20x/how_to_use_regex_in_c/",
+            "description": "Hello everyone env window11 compilator gcc norm c89 i need to use regex in C but cant import regex h in Window i think its only for linux I tried to install PCRE2 but that didnt work i dont really know how to add an external lib such as PCRE2..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Appending a char array and then comparing it",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f6k4uw/appending_a_char_array_and_then_comparing_it/",
+            "description": "I am working on a microcontroller project The data is received one by one I e char buffer 256 buffer 0 123 buffer 1 255 buffer 2 received A buffer 3 received B buffer 4 received C The message could be ABC or HELLO WORLD Its length is variable up..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Can Anyone Tell Me If What I Am Looking For Exists?",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f6jjy1/can_anyone_tell_me_if_what_i_am_looking_for_exists/",
+            "description": "I have a database in C. I want to use a debug on the 1400th input since that's where an error occurs. Do I use input redirection?"
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Can anyone help me please? I'm learning for class and can't understand why the scanf() and printf() aren't reading correctly. It's been 2.5 hours and i cant figure out the problem.",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f6iahw/can_anyone_help_me_please_im_learning_for_class/",
+            "description": "include lt stdio h gt int main char productName 10 int itemsSold float pricePerItem printf What is the name of your product scanf s amp productName printf Product Name s amp productName printf How many items were sold scanf d amp itemsSold printf Items Sold d amp itemsSold printf How..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "not understanding error",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f6gog3/not_understanding_error/",
+            "description": "int main() {\n\n\n\n\n\nint arr\\[2\\]\\[2\\]={1,2,8,4};\n\n\n\nint n;\n\nn=0;\n\nfor(int i=0;i&lt;2;i++){\n\nint sum=0;\n\nfor(int j=0;j&lt;2;j++){\n\nsum +=arr\\[i\\]\\[j\\];\n\n}\n\nif(sum&gt;n){\n\nn=sum;\n\n}\n\n}\n\n}\n\n\n\nprintf(\"%d\\\\n\",n);\n\nreturn 0;\n\n}\n\n"
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Need help understanding output.",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f6evr1/need_help_understanding_output/",
+            "description": "So I am reading binary file a byte at a time My main goal is to read the binary in the buffer and then compare it to the opcode to print the corresponding instruction But I am confused by the output I can see some recognizable opcodes but it s..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Small utility function/lib to check if a string is a valid IPv4 address",
+            "link": "https://github.com/nnathan/valid_ipv4",
+            "description": ""
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Which library should i choose?",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f6efhf/which_library_should_i_choose/",
+            "description": "i try to make games with turbo c because i want to make a dos game you know a game cannot have musics i already maked the midi musics but i don t know which library should i use so can anybody tell me a good library for play nidi..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "'launch.json' error keeps popping up and I'm not able to compile at all on VS Code\n",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f6dl7s/launchjson_error_keeps_popping_up_and_im_not_able/",
+            "description": "Ok so I m somewhat of a beginner to coding I ve faced this issue recently with whatever languages I ve tried to work with on VS Code So it might just be their problem but regardless I m asking this query here because I m facing this issue in..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "German special characters in my C program",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f65469/german_special_characters_in_my_c_program/",
+            "description": "solved I have a problem with German special characters \u00c4 \u00e4 \u00dc \u00fc \u00df in my C program they are not displayed correctly in the terminal The program reads each individual character from a text file modifies some characters and lines and then stores everything in a 2D array char..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Help with duplicates in int array",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f613t6/help_with_duplicates_in_int_array/",
+            "description": "I have an exercise where I need to find dupes in an int array This is an entry level C class Given a user entered list of ints we need to write a function to count the duplicates The trick is obviously to not count the same numbers twice FYI..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Impostor syndrome: Sometimes my code does not feel authentic",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f5y8wu/impostor_syndrome_sometimes_my_code_does_not_feel/",
+            "description": "Idk if this is the right place but maybe other people share this experience I work on a project and am so excited to finish it I work really hard on it but afterwards it just doesn t feel like its mine 90 of the code is fully my own..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "How can I use these function pointers used as fields in a struct? ",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f5xhbj/how_can_i_use_these_function_pointers_used_as/",
+            "description": "typedef struct f int opens char name int p void closes void f I m new to C and don t fully understand how I can use these pointers in the structs How can I use these function pointers to define the functions and then call them to be used..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Why does my programme segfault?",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f5qsn4/why_does_my_programme_segfault/",
+            "description": "    #include &lt;stdio.h&gt;\n    \n    int factorial(int n)\n    {\n    \n      if ( n == 0 )\n        {\n          return n;\n        }\n      else if ( n == 1 )\n        {\n          return n;\n        }\n      else\n        {\n          return factorial(n) + factorial(n - 1);\n        }\n    }\n    \n    int main(void)\n    {\n      printf(\"%d\\n\", factorial(5));\n      return 0;\n    }"
+        }
+    ]
+}

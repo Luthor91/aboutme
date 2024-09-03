@@ -1,0 +1,184 @@
+{
+    "items": [
+        {
+            "subreddit": "rust",
+            "title": "Lifetime mismatch when implementing trait method with lifetime parameter",
+            "link": "https://www.reddit.com/r/rust/comments/1f7t01d/lifetime_mismatch_when_implementing_trait_method/",
+            "description": "I m trying to implement the LogRecord trait for the LogRecordImpl struct but I m running into a lifetime mismatch error Here s my code use std borrow Cow pub trait LogRecord fn set_body lt a gt amp mut self body AnyValue lt a gt derive Debug Clone PartialEq pub..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Binary without ld-linux.so dependency",
+            "link": "https://www.reddit.com/r/rust/comments/1f7ry6n/binary_without_ldlinuxso_dependency/",
+            "description": "Hi I m wondering how to create a binary that does not depend on the dynamic linker ld linux so http ld linux so without removing std from the dependencies is this possible I tried rustflags C target feature crt static C link arg nostartfiles but the resulting binary still..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Rust for Linux maintainer steps down in frustration",
+            "link": "https://www.theregister.com/2024/09/02/rust_for_linux_maintainer_steps_down/",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "dasm 0.1.0 - Tiny instruction assembler currently supporting x86 and amd64 for use in compilers",
+            "link": "https://github.com/DvvCz/dasm",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Suggestions for protecting / anti-cracking paid, offline Rust app ",
+            "link": "https://www.reddit.com/r/rust/comments/1f7n63f/suggestions_for_protecting_anticracking_paid/",
+            "description": "Hey all I acknowledge this is a bit of an odd request but I m looking for any clever ideas people might have in this regard I am developing a desktop application in Rust that I intend to license and sell and as such will not be open sourced The..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "How do I configure per-profile settings in Rust?",
+            "link": "https://www.reddit.com/r/rust/comments/1f7mdn1/how_do_i_configure_perprofile_settings_in_rust/",
+            "description": "Hello I m Java Spring delveoper I m trying to do some batchability work with Rust at work And I m using the profiles that local dev staging and live In Spring I processed it with application profile yml and managed it in the application project But in Rust I..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "[tutorial] Rust lifetimes, subtyping, variance",
+            "link": "https://developerlife.com/2024/09/02/rust-lifetimes/",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Announcing spirv-cross2: new, safe bindings to SPIRV-Cross",
+            "link": "https://www.reddit.com/r/rust/comments/1f7ii96/announcing_spirvcross2_new_safe_bindings_to/",
+            "description": "Hi everyone spirv cross2 https crates io crates spirv cross2 is a brand new set of bindings to the SPIRV Cross C API The old spirv_cross crate predated the SPIRV Cross C API and was based around the C API It hasn t been updated for a couple of years..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Impossible in rust?",
+            "link": "https://www.reddit.com/r/rust/comments/1f7i75v/impossible_in_rust/",
+            "description": "Is it possible in rust to have several threads acessing the same array with elements of the type struct Foo a i32 b i32 Where several threads must read a struct s a immutably but also write to b though the threads only write to their slice of the array..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Ultimate Neovim setup for Rust development, by Let's Get Rusty",
+            "link": "https://www.youtube.com/watch?v=E2mKJ73M9pg",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Required Components, Curves, and the Bevy CLI Working Group - This Week in Bevy",
+            "link": "https://thisweekinbevy.com/issue/2024-09-02-required-components-curves-and-the-bevy-cli-working-group",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Property testing ecosystem in Rust",
+            "link": "https://www.reddit.com/r/rust/comments/1f7e9tv/property_testing_ecosystem_in_rust/",
+            "description": "Could anyone give me recommendation for property testing infrastructure in Rust Which libraries should I start with Which are the most popular May I should consider them just as special case of fuzzying and use a fuzzer P S I have taken a look at proptest and arbitrary I don..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "How to deadlock Tokio application in Rust with just a single mutex",
+            "link": "https://turso.tech/blog/how-to-deadlock-tokio-application-in-rust-with-just-a-single-mutex",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "I rewrote three Rust compiler integrity tests every day throughout the last summer",
+            "link": "https://www.reddit.com/r/rust/comments/1f7e7ei/i_rewrote_three_rust_compiler_integrity_tests/",
+            "description": "Rust is known as a bastion of correctness and impeccably designed language features but did you know that Rust s master repository once hid a festering pit of ambiguity and cursed code The run make https github com rust lang rust tree master tests run make directory contains all compiler..."
+        },
+        {
+            "subreddit": "rust",
+            "title": " Assertables v8.0.0 -- more Rust assert macros for more specific tests ",
+            "link": "https://crates.io/crates/assertables",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Needing Help with Type annotation",
+            "link": "https://www.reddit.com/r/rust/comments/1f79lez/needing_help_with_type_annotation/",
+            "description": "So this is my first OOP project in Rust I m a student of CS and this was a project meant to be made in C using OOP I m reading the Rust book and I have finished all chapter until 16 and then jumped to 17 To start this..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "A TUI for sniffing network traffic using eBPF ",
+            "link": "https://github.com/pythops/oryx",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Query.rs is now support OpenSearch",
+            "link": "https://query.rs/opensearch",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "From Zero to Async in Embedded Rust",
+            "link": "https://www.youtube.com/watch?v=wni5h5vIPhU",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Code Generation with GraphQL in Rust",
+            "link": "https://omarabid.com/rust-graphql",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "What's the best way to detect tokio RwLock deadlock in production?",
+            "link": "https://www.reddit.com/r/rust/comments/1f755jl/whats_the_best_way_to_detect_tokio_rwlock/",
+            "description": "Deadlock is possible if multiple locks and tasks are introduced such as task T1 holding lock L1 and waiting for Lock L2 while task T2 holding L2 and waiting for L1 How can we detect this in production For c c I can simply use gdb to attach to the..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Docker image unpacker",
+            "link": "https://www.reddit.com/r/rust/comments/1f74x8q/docker_image_unpacker/",
+            "description": "Hey guys I already had Docker in my CI and wanted to have private crates so I built a basic command line tool that downloads a Docker image and unzips the files inside the image In my Cargo toml I just had a path pointing to the directory where I..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Excited to announce that Swiftide, a Rust native library for building LLM applications with RAG, now has Lancedb, Fluvio and RAGAS support \n",
+            "link": "https://bosun.ai/posts/swiftide-0-9/",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Help with 'future cannot be sent between threads safely'",
+            "link": "https://www.reddit.com/r/rust/comments/1f742nz/help_with_future_cannot_be_sent_between_threads/",
+            "description": "I have an Engine struct I want my engine to be able to manage its own window It used to be single threaded now I want to add something like this pub fn spawn_threads amp mut self num_threads usize gt Vec lt JoinHandle lt gt gt let mut handles Vec..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Seeking Rust Library for Creating a Virtual Camera",
+            "link": "https://www.reddit.com/r/rust/comments/1f72hm0/seeking_rust_library_for_creating_a_virtual_camera/",
+            "description": "Hi everyone I m looking for a library either in pure Rust or Rust bindings that allows me to create a virtual camera similar to the one used in OBS Studio Ideally this library would be compatible with both Ubuntu and Windows The virtual camera should function like a physical..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Netmiko Alternative in Rust - A (small) win for the rust networking community",
+            "link": "https://www.reddit.com/r/rust/comments/1f71yjt/netmiko_alternative_in_rust_a_small_win_for_the/",
+            "description": "Hello dear rustaceans If you ve been programming around the networking world before you probably know the library Netmiko Paramiko written in python If not it s basically a library to manage switches and networking devices through python code automatically Up until recently there has been absolutely no alternative in..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Axum and Diesel",
+            "link": "https://www.reddit.com/r/rust/comments/1f71wr5/axum_and_diesel/",
+            "description": "i am using diesel in axum and have a connection pool of AsyncPgConnection to be shared among handlers in my routes and each handler is suppose to pool a connection from the pool to perform some action on it but i keep getting a timeout error on polling a connection..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Announcing httpmock 0.8.0: Record and Playback, HTTPS Support, Proxy Mode, and More New Features!",
+            "link": "https://www.reddit.com/r/rust/comments/1f7036l/announcing_httpmock_080_record_and_playback_https/",
+            "description": "Hi everybody httpmock https github com alexliesenfeld httpmock is a Rust library for mocking responses from HTTP services in your tests and after more than a year of work a new version 0 8 0 alpha has been released with HUGE improvements New Features Record and Playback Record interaction with..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "What's everyone working on this week (36/2024)?",
+            "link": "https://www.reddit.com/r/rust/comments/1f702zv/whats_everyone_working_on_this_week_362024/",
+            "description": "New week, new Rust! What are you folks up to? Answer here or over at [rust-users](https://users.rust-lang.org/t/whats-everyone-working-on-this-week-36-2024/116937?u=llogiq)!"
+        },
+        {
+            "subreddit": "rust",
+            "title": "Hey Rustaceans! Got a question? Ask here (36/2024)!",
+            "link": "https://www.reddit.com/r/rust/comments/1f701ou/hey_rustaceans_got_a_question_ask_here_362024/",
+            "description": "Mystified about strings Borrow checker have you in a headlock Seek help here There are no stupid questions only docs that haven t been written yet Please note that if you include code examples to e g show a compiler error or surprising result linking a playground https play rust..."
+        }
+    ]
+}

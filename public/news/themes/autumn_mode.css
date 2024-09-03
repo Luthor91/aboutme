@@ -26,6 +26,14 @@ body.autumn-mode {
     background-color: #8B5A2B; /* Brun plus clair que le précédent pour l'état actif */
 }
 
+.autumn-mode .dropdown-button {
+    background-color: #8B5A2B; /* Brun plus clair que le précédent pour l'état actif */
+}
+
+.autumn-mode .dropdown-button.active {
+    background-color: #8B5A2B;
+}
+
 .autumn-mode .search-bar {
     background-color: #F4E2D4; /* Même fond que le body */
 }
