@@ -1,5 +1,5 @@
 {
-    "maxArticles": 30,
+    "maxFilteredArticles": 30,
     "maxDescriptionLength": 150,
     "maxWordsDescription": 50,
     "maxAttempts": 20,
