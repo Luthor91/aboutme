@@ -198,6 +198,13 @@ body {
         padding: 10px 20px;
     }
 
+    /* Ajustement de la taille de dropdownButton */
+    .dropdown-button {
+        width: 100%; /* Faire en sorte que dropdownButton prenne toute la largeur de l'onglet */
+        padding: 10px 20px; /* Ajuster le padding pour correspondre à tab-button */
+        font-size: 14px; /* Réduire la taille de la police */
+    }
+
     .content {
         width: 100%;
         margin-left: 0;
@@ -224,5 +231,12 @@ body {
     .tab-button {
         font-size: 14px;
         padding: 8px 15px;
+    }
+
+    /* Ajustement de la taille de dropdownButton */
+    .dropdown-button {
+        width: 100%; /* Assurez-vous que le bouton s'adapte bien aux petits écrans */
+        padding: 8px 15px; /* Correspond au padding de tab-button */
+        font-size: 14px; /* Réduire la taille de la police pour s'adapter à l'écran */
     }
 }
