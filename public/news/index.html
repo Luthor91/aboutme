@@ -21,7 +21,17 @@
     <div class="tabs">
         <button class="tab-button active" data-source="hackernews">Hacker News</button>
         <button class="tab-button" data-source="slashdot">Slashdot</button>
-        <button class="tab-button" data-source="reddit">Reddit</button>
+        <div class="tab-button dropdown">
+            <button class="dropdown-button">Reddit</button>
+            <div class="dropdown-content" id="reddit-dropdown">
+                <button class="subreddit-button" data-subreddit="r/C_Programming">r/C_Programming</button>
+                <button class="subreddit-button" data-subreddit="r/java">r/Java</button>
+                <button class="subreddit-button" data-subreddit="r/javascript">r/JavaScript</button>
+                <button class="subreddit-button" data-subreddit="r/rust">r/Rust</button>
+                <button class="subreddit-button" data-subreddit="r/golang">r/Golang</button>
+                <button class="subreddit-button" data-subreddit="r/python">r/Python</button>
+            </div>
+        </div>
         <button class="tab-button" data-source="devto">Dev.to</button>
     </div>
     <div class="search-bar">

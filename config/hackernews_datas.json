@@ -1,6 +1,51 @@
 {
     "items": [
         {
+            "title": "Irving Finkel Teaches Us Cuneiform [video]",
+            "link": "https://www.youtube.com/watch?v=zOwP0KUlnZg",
+            "description": "No Description"
+        },
+        {
+            "title": "Shift Networks",
+            "link": "https://www.jeremykun.com/2024/09/02/shift-networks/",
+            "description": "No Description"
+        },
+        {
+            "title": "Does AI Benefit the World?",
+            "link": "https://chelseatroy.com/2024/08/28/does-ai-benefit-the-world/",
+            "description": "No Description"
+        },
+        {
+            "title": "Simon Peyton Jones' Win32 Cheat Sheet [pdf]",
+            "link": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/Win-32-Cheat-Sheet.pdf",
+            "description": "No Description"
+        },
+        {
+            "title": "Show HN: Instant Deepfake Creator Online",
+            "link": "https://deepfakemaker.io/",
+            "description": "I noticed that while there are many face swapping tools available online very few are truly free to use and even fewer come without any restrictions That x27 s why I decided to create a free online face swapping tool that requires no login Key features include p 1 Real..."
+        },
+        {
+            "title": "Show HN: FaceAI: Instant Face AI Creator",
+            "link": "https://faceai.art/",
+            "description": "An unexpected experiment led me to create an online tool that helps generate high quality facial images ideal for social media profiles and enhancing selfies The key features include p 1 Instant Image Generation Quickly create high quality facial images using text to image technology what you see is what..."
+        },
+        {
+            "title": "How I take notes and my Obsidian setup as a webdeveloper",
+            "link": "https://sebastiandedeyne.com/how-take-notes-my-obsidian-setup",
+            "description": "No Description"
+        },
+        {
+            "title": "Railroad Diagram Generator (from EBNF syntax)",
+            "link": "https://rr.red-dove.com/ui",
+            "description": "No Description"
+        },
+        {
+            "title": "My tryst with polyphasic sleeping (2010)",
+            "link": "https://akshatrathi.com/2010/05/30/my-tryst-with-polyphasic-sleeping/",
+            "description": "No Description"
+        },
+        {
             "title": "A Faster way to scale your Golang side projects using GoForge",
             "link": "https://github.com/tz3/goforge",
             "description": "No Description"
@@ -93,46 +138,6 @@
         {
             "title": "Dungeon Dash \u2013 A super fun command-line RPG game",
             "link": "https://github.com/Faizan711/dungeon-dash/blob/main/README.md",
-            "description": "No Description"
-        },
-        {
-            "title": "Concept Maps Enhance Thinking",
-            "link": "https://xmind.app/blog/concept-map-tutorial/",
-            "description": "No Description"
-        },
-        {
-            "title": "My first time sitting in the back seat while FSD drives me around",
-            "link": "https://twitter.com/WholeMarsBlog/status/1830855281997423105",
-            "description": "No Description"
-        },
-        {
-            "title": "Good artists copy, AI artists ____",
-            "link": "https://www.personalcanon.com/",
-            "description": "No Description"
-        },
-        {
-            "title": "Graph Language Models",
-            "link": "https://aclanthology.org/2024.acl-long.245/",
-            "description": "No Description"
-        },
-        {
-            "title": "Economist explains why India can never grow like China [video]",
-            "link": "https://www.youtube.com/watch?v=zrFWHAyI2W0",
-            "description": "No Description"
-        },
-        {
-            "title": "Typewriter Interview with Elisa Gabbert",
-            "link": "https://austinkleon.substack.com/p/typewriter-interview-with-elisa-gabbert",
-            "description": "No Description"
-        },
-        {
-            "title": "The Drift Toward Unfreedom",
-            "link": "https://www.politico.eu/article/democracy-national-security-freedom-telegram-ceo-pavel-durov-arrest-social-media-giants-regulations-emergency-tech-moguls/",
-            "description": "No Description"
-        },
-        {
-            "title": "Actual Play",
-            "link": "https://en.wikipedia.org/wiki/Actual_play",
             "description": "No Description"
         }
     ]

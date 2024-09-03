@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const errorMessage = document.getElementById('error-message');
     const searchInput = document.getElementById('search-input');
     const themeSelect = document.getElementById('theme-select');
+    const redditDropdown = document.getElementById('reddit-dropdown');
 
     const { maxArticles, maxDescriptionLength } = config;
 
@@ -40,7 +41,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const fetchDataFromGitHub = async (source) => {
         if (source === undefined) return;
-        
+
         const url = getRawUrl(source);
         try {
             const response = await fetch(url);
@@ -153,7 +154,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         tab.addEventListener('click', () => {
             tabs.forEach(btn => btn.classList.remove('active'));
             tab.classList.add('active');
-            fetchData(tab.dataset.source);
+            const source = tab.dataset.source;
+            if (source === 'reddit') {
+                const selectedSubreddit = document.querySelector('.dropdown-content .active');
+                if (selectedSubreddit) {
+                    fetchDataFromGitHub(selectedSubreddit.dataset.subreddit);
+                }
+            } else {
+                fetchData(source);
+            }
         });
     });
 
@@ -169,15 +178,24 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     switchTheme(savedTheme);  // Appliquer le thème lors du chargement
-});
 
-document.addEventListener('DOMContentLoaded', () => {
+    // Dropdown Reddit functionality
+    const dropdownButtons = document.querySelectorAll('.subreddit-button');
+    dropdownButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            dropdownButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+            fetchDataFromGitHub(this.dataset.subreddit);
+        });
+    });
+
+    // Initial adjustment for tabs position
     const header = document.querySelector('.header');
-    const tabs = document.querySelector('.tabs');
+    const tabsContainer = document.querySelector('.tabs');
 
     const adjustTabsPosition = () => {
         const headerHeight = header.offsetHeight;
-        tabs.style.top = `${headerHeight}px`;
+        tabsContainer.style.top = `${headerHeight}px`;
     };
 
     // Initial adjustment
