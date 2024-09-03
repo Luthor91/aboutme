@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             console.error('Fetch error for config:', error);
             // Valeurs par défaut si le fichier de config ne peut pas être chargé
             config = {
-                maxFilteredArticles: 30,
+                maxArticles: 30,
                 maxDescriptionLength: 150
             };
         }
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const searchInput = document.getElementById('search-input');
     const themeSelect = document.getElementById('theme-select');
 
-    const { maxFilteredArticles, maxDescriptionLength } = config;
+    const { maxArticles, maxDescriptionLength } = config;
 
     const getRawUrl = (source) => `https://raw.githubusercontent.com/${username}/${repo}/${branch}/config/${source}_datas.json`;
 
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     const filterArticles = (query) => {
-        if (!query) return articles.slice(0, maxFilteredArticles);
+        if (!query) return articles.slice(0, maxArticles);
 
         const keywords = query.toLowerCase().split(/\s+/);
 
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const containsKeyword = keywords.some(keyword => title.includes(keyword) || description.includes(keyword));
                 return containsKeyword;
             })
-            .slice(0, maxFilteredArticles);
+            .slice(0, maxArticles);
     };
 
     const truncateDescription = (description, maxLength) => {

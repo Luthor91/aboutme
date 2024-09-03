@@ -1,138 +1,138 @@
 {
     "items": [
         {
-            "title": "Let's go build a minimal Docker image (2018)",
-            "link": "https://medium.com/lotharschulz/build-a-minimal-docker-image-4722deae9d86",
+            "title": "Improved algorithm for bipartite matching problem inspired by nervous system",
+            "link": "https://scitechdaily.com/nervous-systems-master-matchmaker-sparks-breakthrough-in-computer-science/",
             "description": "No Description"
         },
         {
-            "title": "Heartbroken by the Sonos App Disaster and What's Happened to the Company",
-            "link": "https://old.reddit.com/r/sonos/comments/1f79vk6/former_sonos_engineer_here_heartbroken_by_the_app/",
+            "title": "NASA explains away noise heard by astronaut in Boeing's Starliner",
+            "link": "https://www.scmp.com/news/world/united-states-canada/article/3276925/nasa-explains-strange-noise-heard-astronaut-boeings-starliner",
             "description": "No Description"
         },
         {
-            "title": "Chess Stockfish engine GUI with JavaScript",
-            "link": "https://github.com/david-oruna/stockfish-gui",
+            "title": "Keeping CALM: When distributed consistency is easy",
+            "link": "https://arxiv.org/abs/1901.01930",
             "description": "No Description"
         },
         {
-            "title": "Is a Disney Theme Park Vacation Still Worth the Price?",
-            "link": "https://www.nytimes.com/2024/08/09/travel/disney-vacation-cost.html",
+            "title": "Make Your Own CDN with NetBSD",
+            "link": "https://it-notes.dragas.net/2024/09/03/make-your-own-cdn-netbsd/",
             "description": "No Description"
         },
         {
-            "title": "NYC Urban Planner answers questions from Twitter",
-            "link": "https://www.youtube.com/watch?v=ldtUrIco_rk",
+            "title": "Show HN: I built a Face Symmetry Test tool \u2013 Analyze facial features instantly",
+            "link": "https://facesymmetrytest.com/",
+            "description": "I&#x27;ve recently developed a simple Face Symmetry Test tool. This web-based application allows users to upload a photo and instantly analyze their facial symmetry."
+        },
+        {
+            "title": "Elon Musk supports replacing democracy with government of high-status males",
+            "link": "https://www.independent.co.uk/news/world/americas/elon-musk-trump-x-views-b2605907.html",
             "description": "No Description"
         },
         {
-            "title": "Activating a Playstation-Only Cheat on PC in Just Nine Bytes",
-            "link": "https://falseceilings.wordpress.com/2020/03/24/activating-a-playstation-only-cheat-on-pc-in-just-nine-bytes/",
+            "title": "The Memory Wall: Past, Present, and Future of DRAM",
+            "link": "https://www.semianalysis.com/p/the-memory-wall",
             "description": "No Description"
         },
         {
-            "title": "Fears children born during lockdown are years behind as they start at school",
-            "link": "https://www.theguardian.com/society/article/2024/sep/01/fears-children-born-lockdown-start-school-covid",
+            "title": "Brazil: ANPD suspends ban on Meta's use of personal data to train AI",
+            "link": "https://www.dataguidance.com/news/brazil-anpd-suspends-ban-metas-use-personal-data-train",
             "description": "No Description"
         },
         {
-            "title": "String Theorists Accidentally Find a New Formula for Pi",
-            "link": "https://www.scientificamerican.com/article/string-theorists-accidentally-find-a-new-formula-for-pi/",
+            "title": "Dysgraphia or: can a MNIST-trained ResNet read my clinically atrocious writing?",
+            "link": "https://timbrell.dev/ai/2024/09/02/can-mnist-resnet-read-my-handwriting.html",
             "description": "No Description"
         },
         {
-            "title": "Gelsinger opens up about Intel troubles amid talk of possible split",
-            "link": "https://www.theregister.com/2024/08/30/gelsinger_discusses_intel_troubles/",
+            "title": "Rest of the world gets a chance to vote in US Presidential Election",
+            "link": "https://www.voteonamerica.com",
             "description": "No Description"
         },
         {
-            "title": "The Art of Finishing",
-            "link": "https://www.bytedrum.com/posts/art-of-finishing/",
+            "title": "Solar will get too cheap to connect to the power grid",
+            "link": "https://climate.benjames.io/solar-off-grid/",
             "description": "No Description"
         },
         {
-            "title": "Scientists Make 'Cyborg Worms' with a Brain Guided by AI",
-            "link": "https://www.scientificamerican.com/article/scientists-make-cyborg-worms-with-a-brain-guided-by-ai/",
+            "title": "The Elements of APIs by John Holdun",
+            "link": "https://johnholdun.com/apis/",
             "description": "No Description"
         },
         {
-            "title": "Study predicts a new quantum crystal in fractionally filled moir\u00e9 superlattices",
-            "link": "https://phys.org/news/2024-08-quantum-anomalous-crystal-fractionally-moir.html",
+            "title": "Economist Eugene Fama: 'Efficient markets is a hypothesis. It's not reality",
+            "link": "https://www.ft.com/content/ec06fe06-6150-4f39-8175-37b9b61a5520",
             "description": "No Description"
         },
         {
-            "title": "Pin and Suffering in Async Rust",
-            "link": "https://fasterthanli.me/articles/pin-and-suffering",
+            "title": "Dungeon Dash \u2013 A super fun command-line RPG game",
+            "link": "https://github.com/Faizan711/dungeon-dash/blob/main/README.md",
             "description": "No Description"
         },
         {
-            "title": "Brute-Forcing the LLM Guardrails",
-            "link": "https://medium.com/@volkot/brute-forcing-the-llm-guardrails-e02fcd9bc9a4",
+            "title": "Concept Maps Enhance Thinking",
+            "link": "https://xmind.app/blog/concept-map-tutorial/",
             "description": "No Description"
         },
         {
-            "title": "Why people stay after local economies collapse",
-            "link": "https://theconversation.com/why-people-stay-after-local-economies-collapse-a-story-of-home-among-the-ghosts-of-shuttered-steel-mills-231370",
+            "title": "My first time sitting in the back seat while FSD drives me around",
+            "link": "https://twitter.com/WholeMarsBlog/status/1830855281997423105",
             "description": "No Description"
         },
         {
-            "title": "Bitcoin ATM scams are soaring \u2013 and older adults are increasingly the victims",
-            "link": "https://www.cnbc.com/2024/09/01/bitcoin-atm-scams-surge-disproportionately-duping-older-adults.html",
+            "title": "Good artists copy, AI artists ____",
+            "link": "https://www.personalcanon.com/",
             "description": "No Description"
         },
         {
-            "title": "Play Evazor (Retro Gaming)",
-            "link": "https://t3x.org/t3x/0/programs.html#evazor",
+            "title": "Graph Language Models",
+            "link": "https://aclanthology.org/2024.acl-long.245/",
             "description": "No Description"
         },
         {
-            "title": "America resembles the dying Soviet Union",
-            "link": "https://www.newstatesman.com/comment/2024/08/how-america-resembles-the-dying-soviet-union",
+            "title": "Economist explains why India can never grow like China [video]",
+            "link": "https://www.youtube.com/watch?v=zrFWHAyI2W0",
             "description": "No Description"
         },
         {
-            "title": "Moon Time Is a Thing Now\u2013Here's Why It Matters",
-            "link": "https://www.atlasobscura.com/articles/moon-time-zone",
+            "title": "Typewriter Interview with Elisa Gabbert",
+            "link": "https://austinkleon.substack.com/p/typewriter-interview-with-elisa-gabbert",
             "description": "No Description"
         },
         {
-            "title": "Beat your Bot: Building your Moat against AI",
-            "link": "https://aswathdamodaran.substack.com/p/beat-your-bot-building-your-moat",
+            "title": "The Drift Toward Unfreedom",
+            "link": "https://www.politico.eu/article/democracy-national-security-freedom-telegram-ceo-pavel-durov-arrest-social-media-giants-regulations-emergency-tech-moguls/",
             "description": "No Description"
         },
         {
-            "title": "LLM output tokens are upto 200x slower than input tokens",
-            "link": "https://minusx.ai/blog/input-vs-output-tokens/",
+            "title": "Actual Play",
+            "link": "https://en.wikipedia.org/wiki/Actual_play",
             "description": "No Description"
         },
         {
-            "title": "Light-based technique shows 90% accuracy in early prostate cancer detection",
-            "link": "https://medicalxpress.com/news/2024-09-based-technique-accuracy-early-prostate.html",
+            "title": "Compact Calendar",
+            "link": "https://time.is/compact_calendar",
             "description": "No Description"
         },
         {
-            "title": "'Dancing' raisins \u2212 a simple kitchen experiment",
-            "link": "https://theconversation.com/dancing-raisins-a-simple-kitchen-experiment-reveals-how-objects-can-extract-energy-from-their-environment-and-come-to-life-223255",
+            "title": "Why Britain Drives on the Left",
+            "link": "https://www.theguardian.com/notesandqueries/query/0,5753,-19385,00.html",
             "description": "No Description"
         },
         {
-            "title": "Brazil Court votes unanimously to uphold X ban. Users switch to Threads, Bluesky",
-            "link": "https://www.euronews.com/next/2024/09/02/brazilian-court-to-vote-on-upholding-x-ban-as-users-switch-to-threads-and-bluesky",
+            "title": "The momentum of the solar energy transition",
+            "link": "https://www.nature.com/articles/s41467-023-41971-7",
             "description": "No Description"
         },
         {
-            "title": "GPD Duo",
-            "link": "https://gpd.hk/gpdduo",
+            "title": "Surging Belief in Alien Visitors Is Becoming a Serious Problem for Our Society",
+            "link": "https://www.sciencealert.com/surging-belief-in-alien-visitors-is-becoming-a-serious-problem-for-our-society",
             "description": "No Description"
         },
         {
-            "title": "Show HN: Tarot Card Generator",
-            "link": "https://www.youtarot.app/",
-            "description": "Hey HN p I know Tarot might not be the typical topic here but I wanted to share a fun project I worked on over the weekend with my girlfriend p We built a Tarot card app that uses the latest in AI image generation I used Modal com to..."
-        },
-        {
-            "title": "Ex-Google CEO's Interview: \"You Have No Idea What's Coming\" [video]",
-            "link": "https://www.youtube.com/watch?v=EUeryhp8HSQ",
+            "title": "Danish Justice Minister Under Fire for Pushing Encryption Ban While Using It",
+            "link": "https://reclaimthenet.org/danish-justice-minister-under-fire-for-pushing-encryption-ban-while-using-it",
             "description": "No Description"
         }
     ]

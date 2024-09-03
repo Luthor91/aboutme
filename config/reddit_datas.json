@@ -1,0 +1,154 @@
+{
+    "items": [
+        {
+            "title": "java : Transforming a plain Future into a CompletableFuture",
+            "link": "https://concurrencydeepdives.com/transform-future-into-completablefuture/",
+            "description": ""
+        },
+        {
+            "title": "java : IO_URING implementation using Project Panama",
+            "link": "https://github.com/davidtos/LIO",
+            "description": ""
+        },
+        {
+            "title": "java : JEP 485: Stream Gatherers (new candidate JEP)",
+            "link": "https://openjdk.org/jeps/485",
+            "description": ""
+        },
+        {
+            "title": "java : String Template removal in JDK 23 was ouchie",
+            "link": "https://www.reddit.com/r/java/comments/1f7ep1r/string_template_removal_in_jdk_23_was_ouchie/",
+            "description": "My project codebase is not even that big, but I had jumped in deep with String templates; prob like 250+ instances of STR and most had to be updated by hand. In the end it wasn't that bad. Very healthy to see Goetz and team not bend to sunk cost..."
+        },
+        {
+            "title": "java : Amazed by Netflix's Game-Changing Contribution to Spring Boot Microservices",
+            "link": "https://www.reddit.com/r/java/comments/1f7buuq/amazed_by_netflixs_gamechanging_contribution_to/",
+            "description": "Been diving into Spring Boot Microservices and I\u2019m seriously impressed by Netflix\u2019s impact. They\u2019ve built tools like Eureka for service discovery, Ribbon for load balancing, and Hystrix for circuit breakers that make managing microservices so much easier. Plus, they\u2019ve open-sourced everything, including OpenFeign for seamless HTTP communication. They\u2019ve really set..."
+        },
+        {
+            "title": "java : Java Classloaders Illustrated",
+            "link": "https://www.reddit.com/r/java/comments/1f79jhr/java_classloaders_illustrated/",
+            "description": "Classloaders are tricky \u2013 popular sources (Wikipedia, Baeldung, DZone) contain outdated, sometimes contradictory information, and this inconsistency was the trigger for writing my article \u2013 a search for clarity in the ClassLoader System maze. Read full at [Medium](https://medium.com/@wakefulinsomnia/how-does-java-classloader-system-work-82eaf378f73b) (\\~10 min) with pictures :) The whole system looks kinda like this:..."
+        },
+        {
+            "title": "java : Part 1: Leveraging OpenAI chat API in Spring Boot",
+            "link": "https://itnext.io/part-1-leveraging-openai-chat-api-in-spring-boot-a2d4b83d0b5a?sk=f49efc1e299aeb13d886f86b1d495376",
+            "description": ""
+        },
+        {
+            "title": "java : A Java Language Cumulative Feature Rollup",
+            "link": "https://blogs.newardassociates.com/blog/2024/java-cumulative-feature-rollup.html",
+            "description": ""
+        },
+        {
+            "title": "java : Mockito and async environment",
+            "link": "https://www.reddit.com/r/java/comments/1f6knsw/mockito_and_async_environment/",
+            "description": "What if you write integration tests, where some processes could be running in the background and you want to modify the behaviour of some Mocks or Spies?\nSome random \"UnfinishedStubbing\" exceptions may appear. \nI have wrote little article explaining how to mitigate it:\nhttps://piotrd.hashnode.dev/mockito-and-strange-unfinishedstubbing-problems\n"
+        },
+        {
+            "title": "java : Rainbow Gum 21+ Logging 0.7 now w/ Spring Boot support",
+            "link": "https://www.reddit.com/r/java/comments/1f6ewjy/rainbow_gum_21_logging_07_now_w_spring_boot/",
+            "description": "[Rainbow Gum](https://github.com/jstachio/rainbowgum) is a modern logging framework that is GraalVM native and JLink friendly that now has [**Spring Boot support.**](https://jstach.io/doc/rainbowgum/current/apidocs/#spring_boot) The output will look identical to logback and the configuration is largely the same. For reference here is the previous post which may answer some questions: *[Rainbow Gum a JDK..."
+        },
+        {
+            "title": "java : Variable Initialization 2.0 #JVMLS  ",
+            "link": "https://youtu.be/ThtrTwooKDc",
+            "description": ""
+        },
+        {
+            "title": "java : bld version 2.1 available, with native support for Java modules, Jpackage, Jmod and Jlink",
+            "link": "https://rife2.com/bld",
+            "description": ""
+        },
+        {
+            "title": "java : Testing the Consistency of Reflection and Annotation processing",
+            "link": "https://www.shadow.determann.io/Shadow-Api/article/ConsistencyTest.html",
+            "description": ""
+        },
+        {
+            "title": "java : GlassFish 7.0.17 released!",
+            "link": "https://github.com/eclipse-ee4j/glassfish/releases/tag/7.0.17",
+            "description": ""
+        },
+        {
+            "title": "java : Why is there no compile time annotation processor for jakarta.ws.rs, like there is Dagger for jakarta.inject?",
+            "link": "https://www.reddit.com/r/java/comments/1f517gx/why_is_there_no_compile_time_annotation_processor/",
+            "description": "Hey folks. Recently I've been playing around with Lambda and API Gateway (which seems to be too complex for me) a lot and I realised there is no easy way of implementing a routing layer for these services' proxy integration, so I thought of the JAX-RS API. When I'm developing..."
+        },
+        {
+            "title": "java : JEP draft: Primitive Types in Patterns, instanceof, and switch (Second Preview)",
+            "link": "https://openjdk.org/jeps/8335876",
+            "description": ""
+        },
+        {
+            "title": "java : SpringOne 2024 talk recordings live",
+            "link": "https://www.youtube.com/playlist?list=PLgGXSWYM2FpPDrv8zmf3oN6SX1prqmESN",
+            "description": ""
+        },
+        {
+            "title": "java : A new connection hub and remote file manager created with Java(FX) - XPipe Status Update ",
+            "link": "https://www.reddit.com/r/java/comments/1f4jjeh/a_new_connection_hub_and_remote_file_manager/",
+            "description": "Hello Java community, I just wanted to give you a short development update on [XPipe](https://github.com/xpipe-io/xpipe). It is a new type of connection hub and remote file manager that allows you to access your entire sever infrastructure from your local machine. It works on top of your installed command-line programs and..."
+        },
+        {
+            "title": "java : Spring Boot CDS support and Project Leyden anticipation",
+            "link": "https://spring.io/blog/2024/08/29/spring-boot-cds-support-and-project-leyden-anticipation",
+            "description": ""
+        },
+        {
+            "title": "java : Reactive Spring Gateway on top of Tomcat",
+            "link": "https://www.reddit.com/r/java/comments/1f3k5gt/reactive_spring_gateway_on_top_of_tomcat/",
+            "description": "Recently, we discovered that we had a dependency that transitively pulled spring-boot-tomcat-starter which made reactive spring gateway run on top of tomcat for years instead of reactor netty without anyone noticing it. We also had many OOM kills in gateway. There is also an issue created by someone about it:..."
+        },
+        {
+            "title": "java : Java AssertJ Features I Wish I Knew Earlier",
+            "link": "https://igorstechnoclub.com/assertj-assertions-i-which-i-knew-earlier/",
+            "description": ""
+        },
+        {
+            "title": "java : Maestro is a simple open-source durable workflow library!",
+            "link": "https://www.reddit.com/r/java/comments/1f2v6iu/maestro_is_a_simple_opensource_durable_workflow/",
+            "description": "Hi everyone, I recently open-sourced this:  \n[https://github.com/lucidity-labs/maestro](https://github.com/lucidity-labs/maestro)\n\nThe idea was inspired by [temporal.io](http://temporal.io), and the goal was to offer most Temporal features, but at a small fraction of the complexity. Maestro is just a Java library and there are no separate deployments required.\n\nI'd love to know your thoughts!"
+        },
+        {
+            "title": "java : Principles of Fluent API Design (David Beaumont @ Google, 20 min)",
+            "link": "https://www.youtube.com/watch?v=VPu-ytfYTeU",
+            "description": ""
+        },
+        {
+            "title": "java : JEP 484: Class-File API. Final for Java 24",
+            "link": "https://openjdk.org/jeps/484",
+            "description": ""
+        },
+        {
+            "title": "java : Spotless vs PMD",
+            "link": "https://www.reddit.com/r/java/comments/1f2fk68/spotless_vs_pmd/",
+            "description": "I've taken over a codebase with both Spotless and PMD. The spotless was using custom rules and wholely ineffective. I changed it to google-java-format. What is PMD? Should I keep it or is it redundant to google-java-format?"
+        },
+        {
+            "title": "java : Type Specialization ",
+            "link": "https://youtu.be/JI09cs2yUgY?si=SGXCjmtEY8a91bs2",
+            "description": ""
+        },
+        {
+            "title": "java : Java Build Scripts",
+            "link": "https://mccue.dev/pages/8-26-24-java-build-scripts",
+            "description": ""
+        },
+        {
+            "title": "java : Modern Java Desktop development in the browser",
+            "link": "https://www.reddit.com/r/java/comments/1f1st9e/modern_java_desktop_development_in_the_browser/",
+            "description": "I've made lots of great improvements this year in SnapCode: [https://reportmill.com/SnapCode](https://reportmill.com/SnapCode) I'm still having fun, but I'm all Woz and no Jobs - I don't know how to attract a following. I've always taken the naive 'Field of Dreams' approach (build it and they will come). Is there a way..."
+        },
+        {
+            "title": "java : Project Leyden #JVMLS",
+            "link": "https://www.youtube.com/watch?v=OOPSU4LnKg0",
+            "description": ""
+        },
+        {
+            "title": "java : Integrated AI Tools in .NET 9: Do we have something similar production ready?",
+            "link": "https://www.reddit.com/r/java/comments/1f0sndv/integrated_ai_tools_in_net_9_do_we_have_something/",
+            "description": "Source: [https://www.mobilize.net/blog/ai-in-dotnet-9](https://www.mobilize.net/blog/ai-in-dotnet-9) After reading the blog post by, I suppose, a .NET consultancy, I'm in awe of how well Microsoft appears to have integrated some modern tooling in their .NET runtime CLI. I know Java is decentralized, and I know Spring is swimming the AI wave. And I'm aware that..."
+        }
+    ]
+}
