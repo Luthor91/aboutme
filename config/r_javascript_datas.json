@@ -2,6 +2,18 @@
     "items": [
         {
             "subreddit": "javascript",
+            "title": "A guide to file uploads in Remix",
+            "link": "https://programmingarehard.com/2024/09/03/remix-file-uploads.html/",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] Promise.all vs custom non-sequential approach",
+            "link": "https://www.reddit.com/r/javascript/comments/1f8adhl/askjs_promiseall_vs_custom_nonsequential_approach/",
+            "description": "Hello,\n\nI'd need some info on Promise.all, as I'm thinking it is just a syntactic sugar.\n\nAre these two implementations the same under the hood?\n\n```\nconst promise1 = someFunction1();\nconst promise2 = someFunction2();\nconst responses = [await promise1, await promise2];\n```\n\nand\n\n`\nconst responses = await Promise.all(promise1, promise2);\n`\n\nThanks"
+        },
+        {
+            "subreddit": "javascript",
             "title": "From atomized client solutions and pet projects to Tagplant.js framework and code library: my JavaScript journey in merging ideas, skill building, and system development. It's a personal project turned system with practical value, not a flashy new thing.",
             "link": "https://github.com/TomasBagdanavicius/tagplant.js",
             "description": ""
@@ -166,18 +178,6 @@
             "subreddit": "javascript",
             "title": "Node.js REPL from/to the browser",
             "link": "https://github.com/guest271314/native-messaging-nodejs/tree/eval",
-            "description": ""
-        },
-        {
-            "subreddit": "javascript",
-            "title": "[AskJS] I\u2019m publishing a library to NPM and I also want to publish a demo project that uses the library. Should I make the demo a separate package?",
-            "link": "https://www.reddit.com/r/javascript/comments/1f5ytoi/askjs_im_publishing_a_library_to_npm_and_i_also/",
-            "description": "I m publishing a type safe QuickBooks OAuth connector and API query tool Short back story I was really unhappy with the official Intuit lib which was extremely out of date and then there is a community lib that is meh Anyway OAuth is tough to demonstrate without actually having..."
-        },
-        {
-            "subreddit": "javascript",
-            "title": "I made a free realtime multiplayer 2D cave gem quest game!",
-            "link": "https://vaella.io/",
             "description": ""
         }
     ]

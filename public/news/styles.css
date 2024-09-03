@@ -1,9 +1,7 @@
-/* Définir les variables pour la hauteur du header */
 :root {
-    --header-height: 50px; /* Valeur par défaut, ajustez selon la hauteur de votre .header */
+    --header-height: 50px; /* Ajustez selon la hauteur de votre .header */
 }
 
-/* Styles par défaut (mode clair) */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -21,16 +19,16 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    height: var(--header-height); /* Utilisation de la variable */
+    height: var(--header-height);
 }
 
 .tabs {
     display: flex;
     border-bottom: 3px solid #007bff;
     background-color: #007bff;
-    position: sticky;
-    top: var(--header-height); /* Positionner les onglets juste en dessous de l'en-tête */
-    z-index: 1000;
+    position: sticky; /* Utilisez position: sticky pour garder les tabs en vue lors du scroll */
+    top: var(--header-height); /* Garder les onglets juste en dessous de l'en-tête */
+    z-index: 999; /* Assurez-vous qu'il reste au-dessus du contenu mais en dessous de l'en-tête */
 }
 
 .tab-button {
@@ -53,13 +51,12 @@ body {
 }
 
 /* Styles pour le menu déroulant */
-/* Styles pour le menu déroulant */
 .dropdown {
     position: relative;
 }
 
 .dropdown-content {
-    display: none; /* Cacher le menu déroulant par défaut */
+    display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -68,7 +65,7 @@ body {
 }
 
 .dropdown-content.show {
-    display: block; /* Afficher le menu déroulant lorsqu'il a la classe 'show' */
+    display: block;
 }
 
 .dropdown-content .subreddit-button {
@@ -172,8 +169,7 @@ body {
     .tabs {
         flex-direction: column;
         width: 100%;
-        min-width: 120px;
-        top: var(--header-height); /* Positionner les onglets juste en dessous de l'en-tête */
+        top: var(--header-height);
     }
 
     .tab-button {
@@ -183,12 +179,11 @@ body {
         padding: 10px 20px;
     }
 
-    /* Ajustement de la taille de dropdownButton */
     .dropdown-button {
-        width: 100%; /* Faire en sorte que dropdownButton prenne toute la largeur de l'onglet */
-        padding: 10px 20px; /* Ajus ter le padding pour correspondre à tab-button */
+        width: 100%;
+        padding: 10px 20px;
         padding-left: 0px;
-        font-size: 14px; /* Réduire la taille de la police */
+        font-size: 14px;
     }
 
     .content {
@@ -200,13 +195,13 @@ body {
 /* Styles pour les très petits écrans (jusqu'à 580px) */
 @media only screen and (max-width: 580px) {
     :root {
-        --header-height: 40px; /* Réduire légèrement la hauteur du header pour les très petits écrans */
+        --header-height: 40px;
     }
 
     .tabs {
         width: 100%;
         margin-bottom: 10px;
-        top: var(--header-height); /* Positionner les onglets juste en dessous de l'en-tête */
+        top: var(--header-height);
     }
 
     .content {
@@ -219,10 +214,9 @@ body {
         padding: 8px 15px;
     }
 
-    /* Ajustement de la taille de dropdownButton */
     .dropdown-button {
-        width: 100%; /* Assurez-vous que le bouton s'adapte bien aux petits écrans */
-        padding: 8px 15px; /* Correspond au padding de tab-button */
-        font-size: 14px; /* Réduire la taille de la police pour s'adapter à l'écran */
+        width: 100%;
+        padding: 8px 15px;
+        font-size: 14px;
     }
 }

@@ -2,6 +2,12 @@
     "items": [
         {
             "subreddit": "rust",
+            "title": "Struggeling with modularizing cli tool",
+            "link": "https://www.reddit.com/r/rust/comments/1f8arxb/struggeling_with_modularizing_cli_tool/",
+            "description": "Hy there I ve written a CLI tool and most of the code is in main rs I have red the rust book and multiple threads blogs about how to modularize but I m still struggeling The tool has multiple commands and subcommands e g profile clone quick mass Intuitively..."
+        },
+        {
+            "subreddit": "rust",
             "title": "Has Rust 1.8.0 broken anyone else's builds?",
             "link": "https://www.reddit.com/r/rust/comments/1f88s0h/has_rust_180_broken_anyone_elses_builds/",
             "description": "This is the first time for me a new version broke one of the sub packages I relied on Heard there was controversy with this release didn t expect it to really break my small program This was the error I got Rust 1 8 breaking time package https preview..."
@@ -173,12 +179,6 @@
             "title": "[tutorial] Rust lifetimes, subtyping, variance",
             "link": "https://developerlife.com/2024/09/02/rust-lifetimes/",
             "description": ""
-        },
-        {
-            "subreddit": "rust",
-            "title": "Announcing spirv-cross2: new, safe bindings to SPIRV-Cross",
-            "link": "https://www.reddit.com/r/rust/comments/1f7ii96/announcing_spirvcross2_new_safe_bindings_to/",
-            "description": "Hi everyone spirv cross2 https crates io crates spirv cross2 is a brand new set of bindings to the SPIRV Cross C API The old spirv_cross crate predated the SPIRV Cross C API and was based around the C API It hasn t been updated for a couple of years..."
         }
     ]
 }

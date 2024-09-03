@@ -21,11 +21,6 @@
             "description": "Meme Monday!  Today's cover image comes from last week's thread.  DEV is an inclusive space! Humor in..."
         },
         {
-            "title": "Preptember: Preparing for a Successful Hacktoberfest",
-            "link": "https://dev.to/virtualcoffee/preptember-preparing-for-a-successful-hacktoberfest-5baa",
-            "description": "Discover how Virtual Coffee's Preptember Challenge prepares both contributors and maintainers for a successful Hacktoberfest. Learn why preparation is necessary for a positive Hacktoberfest and how you can participate."
-        },
-        {
             "title": "What's on your desk that makes it *your* desk?",
             "link": "https://dev.to/darkwiiplayer/whats-on-your-desk-that-makes-it-your-desk-lj8",
             "description": "What do y'all have at your desks that truly makes it *your* desk? Anything goes, no matter how fancy or mundane it is!"
@@ -34,6 +29,11 @@
             "title": "Introducing DEV++",
             "link": "https://dev.to/devteam/introducing-dev-2k6d",
             "description": "I'd like to tell you about a new membership you can take advantage of through DEV \u2014 and lock in..."
+        },
+        {
+            "title": "Preptember: Preparing for a Successful Hacktoberfest",
+            "link": "https://dev.to/virtualcoffee/preptember-preparing-for-a-successful-hacktoberfest-5baa",
+            "description": "Discover how Virtual Coffee's Preptember Challenge prepares both contributors and maintainers for a successful Hacktoberfest. Learn why preparation is necessary for a positive Hacktoberfest and how you can participate."
         },
         {
             "title": "Circles of Truth: Overcomplicating simple commands",

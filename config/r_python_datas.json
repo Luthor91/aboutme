@@ -2,6 +2,18 @@
     "items": [
         {
             "subreddit": "Python",
+            "title": "intra-search : Semantically search within pdf documents.",
+            "link": "https://www.reddit.com/r/Python/comments/1f8adlk/intrasearch_semantically_search_within_pdf/",
+            "description": "Hello everyone I thought it might be good to share a small project I did a couple of weeks back What My Project Does It is a simple tool for performing meaning based semantic search within a pdf document It runs entirely in your local machine and uses internet only..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Snappea: A Simple Task Queue for Python",
+            "link": "https://www.reddit.com/r/Python/comments/1f8a152/snappea_a_simple_task_queue_for_python/",
+            "description": "I ve always been obsessed with making software as easy to install and use as possible That obsession led me to build Snappea a simple lightweight alternative to Celery for managing background tasks in Python applications What My Project Does Snappea is a minimal task queue system that uses SQLite..."
+        },
+        {
+            "subreddit": "Python",
             "title": "cookiecutter-uv: A modern template for quickly starting Python projects with uv",
             "link": "https://www.reddit.com/r/Python/comments/1f85wak/cookiecutteruv_a_modern_template_for_quickly/",
             "description": "Hey everyone Two years ago I created a cookiecutter project https github com fpgmaas cookiecutter poetry for Python projects using Poetry for dependency management With the recent launch of uv https docs astral sh uv I ve started incorporating it into more of my projects so I decided to develop..."
@@ -23,12 +35,6 @@
             "title": "PixelLens for PyCharm: Visualize Numpy, PyTorch,TensorFlow and Pillow data right from the debugger",
             "link": "https://www.reddit.com/r/Python/comments/1f812xx/pixellens_for_pycharm_visualize_numpy/",
             "description": "PixelLens for PyCharm I work as a data scientist and I often need to visualize a NumPy array or PyTorch tensor while debugging Typically this involves manually running code in the debug console with matplotlib s imshow or cv2 s imwrite This process becomes even more tedious when the data..."
-        },
-        {
-            "subreddit": "Python",
-            "title": "Can we post in reddit subreddit with Praw library? ",
-            "link": "https://www.reddit.com/r/Python/comments/1f80pvx/can_we_post_in_reddit_subreddit_with_praw_library/",
-            "description": "import praw\n\nreddit = praw.Reddit(client_id='YOUR_CLIENT_ID',\n                     client_secret='YOUR_CLIENT_SECRET',\n                     user_agent='YOUR_USER_AGENT',\n                     username='YOUR_REDDIT_USERNAME',\n                     password='YOUR_REDDIT_PASSWORD')\n\nsubreddit = reddit.subreddit('yoursubreddit')\nsubreddit.submit('Post Title', selftext='Your post content here')\n\n\nHas anybody tried to post like this in subreddit via API? \nDoes it work? "
         },
         {
             "subreddit": "Python",
@@ -173,12 +179,6 @@
             "title": " Scribo - A simple, efficient and content-first static site generator (SSG)",
             "link": "https://www.reddit.com/r/Python/comments/1f6f6g3/scribo_a_simple_efficient_and_contentfirst_static/",
             "description": "Hey guys I was tinkering with a little open source project and thought I d share it with you all It s a static site generator using Python that uses Markdown for content and file system based routing You can install it using pip The project s docs site is..."
-        },
-        {
-            "subreddit": "Python",
-            "title": "Discover Esmerald: A New Player in the Developer Ecosystem",
-            "link": "https://www.reddit.com/r/Python/comments/1f6bw3y/discover_esmerald_a_new_player_in_the_developer/",
-            "description": "Hello Redditors I know a post about Esmerald was done in the past but I believe it deserves another one I wanted to share something intriguing with you all If you re exploring new tools and frameworks you might want to check out Esmerald a fresh addition to the developer..."
         }
     ]
 }

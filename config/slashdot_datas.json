@@ -1,6 +1,36 @@
 {
     "items": [
         {
+            "title": "M4 Mac Mini Likely To Lose Support For USB-A, Keep Internal Power Supply",
+            "link": "https://apple.slashdot.org/story/24/09/03/2123208/m4-mac-mini-likely-to-lose-support-for-usb-a-keep-internal-power-supply?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "According to Mark Gurman Apple s upcoming M4 Mac mini will undergo a major redesign dropping USB A ports entirely in favor of five USB C ports The new design will also feature front ports for the first time an internal power supply and retain Ethernet HDMI and the headphone..."
+        },
+        {
+            "title": "Nvidia Hit With DOJ Subpoena In Escalating Antitrust Probe",
+            "link": "https://yro.slashdot.org/story/24/09/03/217256/nvidia-hit-with-doj-subpoena-in-escalating-antitrust-probe?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "According to Bloomberg paywalled Nvidia has received a subpoena from the U S Department of Justice as the regulator seeks evidence that the AI computing company violated antitrust laws The antitrust watchdog had previously delivered questionnaires to companies and is now sending legally binding requests notes Reuters Officials are concerned..."
+        },
+        {
+            "title": "Clearview AI Fined $33.7 Million Over 'Illegal Database' of Faces",
+            "link": "https://yro.slashdot.org/story/24/09/03/2059214/clearview-ai-fined-337-million-over-illegal-database-of-faces?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "An anonymous reader quotes a report from the Associated Press The Dutch data protection watchdog on Tuesday issued facial recognition startup Clearview AI with a fine of 33 7 million over its creation of what the agency called an illegal database of billion of photos of faces The Netherlands Data..."
+        },
+        {
+            "title": "Sony Pulls Concord From Sale After Disastrous Launch",
+            "link": "https://games.slashdot.org/story/24/09/03/193238/sony-pulls-concord-from-sale-after-disastrous-launch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "PlayStation hero shooter Concord will be taken offline on September 6 2024 and all players will receive a full refund Sony announced Tuesday From a report Announced on the PlayStation Blog director Ryan Ellis said while many qualities of the experience resonated with players we also recognize that other aspects..."
+        },
+        {
+            "title": "Google Releases Android 15 To Developers",
+            "link": "https://tech.slashdot.org/story/24/09/03/1840256/google-releases-android-15-to-developers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Google has released Android 15 for developers with support for Pixel phones expected in the coming weeks The update will roll out to compatible devices from Samsung Motorola OnePlus and other manufacturers in the following months Key features of Android 15 include single tap passkeys theft detection improved multitasking for..."
+        },
+        {
+            "title": "YubiKeys Are Vulnerable To Cloning Attacks Thanks To Newly Discovered Side Channel",
+            "link": "https://it.slashdot.org/story/24/09/03/1810216/yubikeys-are-vulnerable-to-cloning-attacks-thanks-to-newly-discovered-side-channel?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "The YubiKey 5 the most widely used hardware token for two factor authentication based on the FIDO standard contains a cryptographic flaw that makes the finger size device vulnerable to cloning when an attacker gains brief physical access to it researchers said Tuesday ArsTechnica The cryptographic flaw known as a..."
+        },
+        {
             "title": "Halliburton Says Hackers Removed Data in August Cyberattack",
             "link": "https://it.slashdot.org/story/24/09/03/1650252/halliburton-says-hackers-removed-data-in-august-cyberattack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "U S oilfield services firm Halliburton said on Tuesday an unauthorized third party had accessed and removed data from its systems providing details regarding the cyberattack in August From a report The company said it is evaluating the nature and scope of information that was removed but added that the..."
@@ -44,36 +74,6 @@
             "title": " No Screens Before Age of Two, Swedish Health Authority Tells Parents",
             "link": "https://news.slashdot.org/story/24/09/03/0838232/no-screens-before-age-of-two-swedish-health-authority-tells-parents?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "Children under the age of two should not be exposed to any screens whatsoever and teenagers should have no more than three hours of screen time a day according to guidelines announced by health authorities in Sweden From a report Parents and guardians should think about how they use screens..."
-        },
-        {
-            "title": "Europe Jumps On the Train",
-            "link": "https://tech.slashdot.org/story/24/09/03/0718243/europe-jumps-on-the-train?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Night trains are experiencing a resurgence across Europe as travelers seek more environmentally friendly alternatives to flying European Sleeper a Dutch cooperative recently launched a new overnight route from Brussels to Prague extending its existing service to Berlin The 13 hour journey traverses Germany in refurbished 1970s era carriages accommodating..."
-        },
-        {
-            "title": "Elasticsearch Will Be Open Source Again as CTO Declares Changed Landscape",
-            "link": "https://news.slashdot.org/story/24/09/03/0511245/elasticsearch-will-be-open-source-again-as-cto-declares-changed-landscape?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Elastic creator of popular search engine Elasticsearch and visualization tool Kibana plans to introduce the AGPL open source license alongside its existing licenses The move comes three years after Elastic ditched the Apache 2 0 license sparking controversy in the tech community Founder Shay Banon says the change aims to..."
-        },
-        {
-            "title": "Hewlett Packard To Pursue Mike Lynch's Estate For Up To $4 Billion",
-            "link": "https://slashdot.org/story/24/09/03/0228251/hewlett-packard-to-pursue-mike-lynchs-estate-for-up-to-4-billion?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Hewlett Packard Enterprise has confirmed it will push ahead with a high court lawsuit against the estate of the deceased tech tycoon Mike Lynch in which it is seeking damages of up to 4 billion From a report The US company said in a statement it would follow the legal..."
-        },
-        {
-            "title": "Microsoft Says Its Recall Uninstall Option in Windows 11 is Just a Bug",
-            "link": "https://it.slashdot.org/story/24/09/02/2241242/microsoft-says-its-recall-uninstall-option-in-windows-11-is-just-a-bug?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "An anonymous reader shares a report While the latest update to Windows 11 makes it look like the upcoming Recall feature can be easily removed by users Microsoft tells us it s just a bug and a fix is coming Deskmodder spotted the change last week in the latest 24H2..."
-        },
-        {
-            "title": "OSOM, the Company Formed From Essential's Ashes, is Apparently in Shambles",
-            "link": "https://slashdot.org/story/24/09/02/1910237/osom-the-company-formed-from-essentials-ashes-is-apparently-in-shambles?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "A former executive of smartphone startup OSOM Products has filed a lawsuit alleging the company s founder misused funds for personal expenses including two Lamborghinis and a lavish lifestyle Mary Ross OSOM s ex Chief Privacy Officer is seeking access to company records in a Delaware court filing OSOM founded..."
-        },
-        {
-            "title": "Rust for Linux Maintainer Steps Down in Frustration With 'Nontechnical Nonsense'",
-            "link": "https://linux.slashdot.org/story/24/09/02/194205/rust-for-linux-maintainer-steps-down-in-frustration-with-nontechnical-nonsense?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Efforts to add Rust code to the Linux kernel has suffered a setback as one of the maintainers of the Rust for Linux project has stepped down citing frustration with nontechnical nonsense The Register Wedson Almeida Filho a software engineer at Microsoft who has overseen the Rust for Linux project..."
         }
     ]
 }
