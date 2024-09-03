@@ -52,7 +52,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             displayArticles();
         } catch (error) {
             console.error('Fetch error from GitHub:', error);
-            errorMessage.textContent = 'Failed to load data from GitHub. Trying local data...';
             fetchDataFromLocal(source);
         }
     };

@@ -1,6 +1,31 @@
 {
     "items": [
         {
+            "title": "A Faster way to scale your Golang side projects using GoForge",
+            "link": "https://github.com/tz3/goforge",
+            "description": "No Description"
+        },
+        {
+            "title": "Dutch DPA fines Clearview because illegal data collection for facial recognition",
+            "link": "https://www.autoriteitpersoonsgegevens.nl/en/current/dutch-dpa-imposes-a-fine-on-clearview-because-of-illegal-data-collection-for-facial-recognition",
+            "description": "No Description"
+        },
+        {
+            "title": "The Battery Mineral Loop [pdf]",
+            "link": "https://rmi.org/wp-content/uploads/dlm_uploads/2024/07/the_battery_mineral_loop_report_July.pdf",
+            "description": "No Description"
+        },
+        {
+            "title": "Proton Duo: Unlimited privacy for two",
+            "link": "https://proton.me/blog/proton-duo",
+            "description": "No Description"
+        },
+        {
+            "title": "The Handbook of Applied AI Teams",
+            "link": "https://github.com/oakfr/applied-science-handbook",
+            "description": "No Description"
+        },
+        {
             "title": "Improved algorithm for bipartite matching problem inspired by nervous system",
             "link": "https://scitechdaily.com/nervous-systems-master-matchmaker-sparks-breakthrough-in-computer-science/",
             "description": "No Description"
@@ -108,31 +133,6 @@
         {
             "title": "Actual Play",
             "link": "https://en.wikipedia.org/wiki/Actual_play",
-            "description": "No Description"
-        },
-        {
-            "title": "Compact Calendar",
-            "link": "https://time.is/compact_calendar",
-            "description": "No Description"
-        },
-        {
-            "title": "Why Britain Drives on the Left",
-            "link": "https://www.theguardian.com/notesandqueries/query/0,5753,-19385,00.html",
-            "description": "No Description"
-        },
-        {
-            "title": "The momentum of the solar energy transition",
-            "link": "https://www.nature.com/articles/s41467-023-41971-7",
-            "description": "No Description"
-        },
-        {
-            "title": "Surging Belief in Alien Visitors Is Becoming a Serious Problem for Our Society",
-            "link": "https://www.sciencealert.com/surging-belief-in-alien-visitors-is-becoming-a-serious-problem-for-our-society",
-            "description": "No Description"
-        },
-        {
-            "title": "Danish Justice Minister Under Fire for Pushing Encryption Ban While Using It",
-            "link": "https://reclaimthenet.org/danish-justice-minister-under-fire-for-pushing-encryption-ban-while-using-it",
             "description": "No Description"
         }
     ]

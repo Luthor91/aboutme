@@ -25,7 +25,7 @@ def load_config():
         }
 
 config = load_config()
-print(config)
+
 # Constantes de configuration
 MAX_ARTICLES = config["maxArticles"]
 MAX_WORDS_DESCRIPTION = config["maxWordsDescription"]

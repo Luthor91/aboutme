@@ -31,7 +31,7 @@ update:
 	. venv/bin/activate
 	$(PYTHON) scripts/fetch_hackernews.py
 	$(PYTHON) scripts/fetch_slashdot.py
-	$(PYTHON) scripts/fetch_github.py
+	$(PYTHON) scripts/fetch_devto.py
 	$(PYTHON) scripts/fetch_reddit.py
 
 deploy: 

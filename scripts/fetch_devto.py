@@ -62,7 +62,7 @@ for item in data:
         })
 
 # Sauvegarder les données en JSON
-json_path = 'datas/devto_datas.json'
+json_path = 'config/devto_datas.json'
 with open(json_path, 'w') as f:
     json.dump({'items': items}, f, indent=4)
 
