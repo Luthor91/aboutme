@@ -2,27 +2,33 @@
     "items": [
         {
             "subreddit": "golang",
-            "title": "choose between rust and go for writing a download manager based on aria2",
-            "link": "https://www.reddit.com/r/golang/comments/1f8o5sb/choose_between_rust_and_go_for_writing_a_download/",
-            "description": "Hello everyone I hope you are having a good time What is your opinion and which language do you suggest that I do this project I m at a crossroads between choosing Rust and Golang for my new project I m a full stack developer Python JavaScript and have worked..."
+            "title": "Curious on DI opinions - constructor vs parameter",
+            "link": "https://www.reddit.com/r/golang/comments/1f8sed2/curious_on_di_opinions_constructor_vs_parameter/",
+            "description": "Hello I m curious on the community s opinion on best non framework DI I ve been told by more senior engineers Stat away from setter injection Not sure why But we mainly pass dependencies around via parameters Many of our handlers have messy signatures that rely on many prob..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "How to exclude Mocks created using MockGen in your official package GoDocs",
+            "link": "https://www.reddit.com/r/golang/comments/1f8roml/how_to_exclude_mocks_created_using_mockgen_in/",
+            "description": "I would also like to know .... Is there any way that exported methods defined on unexpected fields be shown in GoDoc ?"
+        },
+        {
+            "subreddit": "golang",
+            "title": "Decoupling receiving and processing of messages",
+            "link": "https://www.reddit.com/r/golang/comments/1f8rn0p/decoupling_receiving_and_processing_of_messages/",
+            "description": "I am currently writing a small service where I receive about 100k JSON payloads per day via https There is a lot of information in that payload that is not yet needed Just a few columns But it can be interesting information later so I want to store the payload..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Is VSCode auto imports broken?",
+            "link": "https://www.reddit.com/r/golang/comments/1f8oovv/is_vscode_auto_imports_broken/",
+            "description": "Hey My VSCode won t suggest and add functions from other packages in my module I expected Intellisense to work similar to a Python project where all functions from the project are listed and when selected an import statement is also automatically added to the top of the file is..."
         },
         {
             "subreddit": "golang",
             "title": "How Namespaced Cache Keys Improve Service Interoperability",
             "link": "https://medium.com/@pliutau/how-namespaced-cache-keys-improve-service-interoperability-0aada70c33ff",
             "description": ""
-        },
-        {
-            "subreddit": "golang",
-            "title": "HTMX gig from upwork",
-            "link": "https://www.reddit.com/r/golang/comments/1f8nv27/htmx_gig_from_upwork/",
-            "description": "Hello everybody last night I got the gig from upwork where I ve to work with htmx backend is yet to decide Basically I ve to build the knowledge base storing application similar to notion or obsidian It is internal tool so in a month I ve to finish it..."
-        },
-        {
-            "subreddit": "golang",
-            "title": "Golang or Typescript",
-            "link": "https://www.reddit.com/r/golang/comments/1f8nlce/golang_or_typescript/",
-            "description": "Hi Gophers currently I m feeling stuck in pursuing further in my career as junior SWE Background story I m working on the current company which they are going to sunset a PHP project soon Now they want us to focus on Typescript for future project I really like Golang..."
         },
         {
             "subreddit": "golang",
@@ -173,12 +179,6 @@
             "title": "Looking for some mentor help in unit testing",
             "link": "https://www.reddit.com/r/golang/comments/1f771kc/looking_for_some_mentor_help_in_unit_testing/",
             "description": "Hi,\n\nI am a beginner in Golang. I am struggling to write unit testing code and achieve code coverage. I need some mentor help on this. Please let me know if anyone who can help me on this."
-        },
-        {
-            "subreddit": "golang",
-            "title": "GopherCon Korea 2024",
-            "link": "https://www.reddit.com/r/golang/comments/1f735b0/gophercon_korea_2024/",
-            "description": "Greetings I m part of the team organizing GopherCon Korea 2024 and I m excited to share details about our upcoming conference with you GopherCon Korea 2024 Announcement The annual GopherCon Korea event the largest Go language community gathering in Korea is back again Whether you re a beginner intermediate..."
         }
     ]
 }

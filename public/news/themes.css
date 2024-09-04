@@ -1,0 +1,84 @@
+/* Thème clair */
+.light-mode {
+    /* Couleurs principales */
+    --primary-color: #007bff;
+    --secondary-color: #0056b3;
+    --hover-color: #003d7a;
+    --text-color: #333;
+    --background-color: #f4f4f4;    
+    --dropdown-background-color: #f9f9f9;
+    --dropdown-text-color: #333;
+
+    /* Couleurs pour les états et éléments supplémentaires */
+    --error-color: red;
+    --news-list-background-color: var(--primary-color);
+    --news-list-hover-background-color: var(--background-color);
+    --news-list-title-color: var(--text-color);
+    --news-list-link-color: var(--primary-color);
+    --news-list-link-hover-color: var(--primary-color);
+    --news-list-description-color: #666;
+    --footer-background-color: var(--background-color);
+    --back-to-top-color: var(--primary-color);
+    --back-to-top-hover-color: var(--primary-color);
+
+    /* Couleurs pour les bordures et ombres */
+    --border-color: #745353;
+    --box-shadow-color: rgba(0, 0, 0, 0.1);
+    --box-shadow-hover-color: rgba(0, 0, 0, 0.2);
+}
+
+.dark-theme {
+    /* Couleurs principales */
+    --primary-color: #4a90e2; /* Bleu clair */
+    --secondary-color: #357abd; /* Bleu moyen */
+    --hover-color: #2a5d9f; /* Bleu foncé */
+    --text-color: #f4f4f4; /* Texte clair */
+    --background-color: #121212; /* Fond très sombre */
+    --dropdown-background-color: #1e1e1e; /* Fond sombre pour le menu déroulant */
+    --dropdown-text-color: #f4f4f4; /* Texte clair */
+
+    /* Couleurs pour les états et éléments supplémentaires */
+    --error-color: #f44336; /* Rouge vif pour les messages d'erreur */
+    --news-list-background-color: #1e1e1e; /* Fond sombre pour les éléments de la liste */
+    --news-list-hover-background-color: #2a2a2a; /* Fond légèrement plus clair au survol */
+    --news-list-title-color: #f4f4f4; /* Texte clair pour les titres */
+    --news-list-link-color: #4a90e2; /* Bleu clair pour les liens */
+    --news-list-link-hover-color: #357abd; /* Bleu moyen pour les liens au survol */
+    --news-list-description-color: #b0b0b0; /* Gris clair pour les descriptions */
+    --footer-background-color: #1e1e1e; /* Fond sombre pour le pied de page */
+    --back-to-top-color: #4a90e2; /* Bleu clair pour le lien de retour en haut */
+    --back-to-top-hover-color: #357abd; /* Bleu moyen pour le lien de retour en haut au survol */
+
+    /* Couleurs pour les bordures et ombres */
+    --border-color: #333; /* Bordures sombres */
+    --box-shadow-color: rgba(0, 0, 0, 0.3); /* Ombre plus prononcée */
+    --box-shadow-hover-color: rgba(0, 0, 0, 0.5); /* Ombre encore plus prononcée au survol */
+}
+
+.autumn-theme {
+    /* Couleurs principales */
+    --primary-color: #ff6f61; /* Orange brûlé */
+    --secondary-color: #e74c3c; /* Rouge foncé */
+    --hover-color: #c0392b; /* Rouge très foncé */
+    --text-color: #2c3e50; /* Gris foncé */
+    --background-color: #f39c12; /* Jaune doré */
+    --dropdown-background-color: #f1c40f; /* Jaune pâle */
+    --dropdown-text-color: #2c3e50; /* Gris foncé */
+
+    /* Couleurs pour les états et éléments supplémentaires */
+    --error-color: #c0392b; /* Rouge très foncé pour les messages d'erreur */
+    --news-list-background-color: #e67e22; /* Orange moyen pour les éléments de la liste */
+    --news-list-hover-background-color: #d35400; /* Orange foncé au survol */
+    --news-list-title-color: #2c3e50; /* Gris foncé pour les titres */
+    --news-list-link-color: #ff6f61; /* Orange brûlé pour les liens */
+    --news-list-link-hover-color: #e74c3c; /* Rouge foncé pour les liens au survol */
+    --news-list-description-color: #7f8c8d; /* Gris moyen pour les descriptions */
+    --footer-background-color: #f39c12; /* Jaune doré pour le pied de page */
+    --back-to-top-color: #ff6f61; /* Orange brûlé pour le lien de retour en haut */
+    --back-to-top-hover-color: #e74c3c; /* Rouge foncé pour le lien de retour en haut au survol */
+
+    /* Couleurs pour les bordures et ombres */
+    --border-color: #d35400; /* Bordures orange foncé */
+    --box-shadow-color: rgba(0, 0, 0, 0.2); /* Ombre douce */
+    --box-shadow-hover-color: rgba(0, 0, 0, 0.4); /* Ombre plus marquée au survol */
+}

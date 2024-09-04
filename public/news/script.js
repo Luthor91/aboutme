@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const searchInput = document.getElementById('search-input');
     const themeSelect = document.getElementById('theme-select');
     const redditDropdown = document.getElementById('reddit-dropdown');
-    const dropdownButton = document.getElementById('reddit-button'); // Change the selector for the dropdown button
+    const dropdownButton = document.getElementById('reddit-button');
     const backToTopButton = document.getElementById('back-to-top');
 
     const getRawUrl = (source) => `https://raw.githubusercontent.com/${username}/${repo}/${branch}/config/${source}_datas.json`;
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         try {
             const response = await fetch(url);
             const data = response.ok ? await response.json() : await fetch(`/config/${source}_datas.json`).then(r => r.json());
-            displayArticles(data.items);
+            displayArticles(data.items, searchInput.value);  // Passe la valeur de recherche à la fonction
         } catch (error) {
             console.error('Fetch error:', error);
             errorMessage.textContent = 'Failed to load data. Please try again later.';
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Filtrage et affichage des articles
     const filterArticles = (articles, query) => {
-        if (!query) return articles.slice(0, maxArticles);
+        if (!query.trim()) return articles.slice(0, maxArticles); // Affiche tous les articles si la recherche est vide
         const keywords = query.toLowerCase().split(/\s+/);
         return articles.filter(item => {
             const title = item.title.toLowerCase();
@@ -65,18 +65,23 @@ document.addEventListener('DOMContentLoaded', async () => {
         return lastSpace > 0 ? truncated.slice(0, lastSpace) + '...' : truncated + '...';
     };
 
-    const displayArticles = (articles) => {
+    const displayArticles = (articles, query) => {
         newsList.innerHTML = '';
-        const query = searchInput.value;
         const filteredItems = filterArticles(articles, query);
-
+    
         filteredItems.forEach(item => {
             if (item.link && item.link !== 'No Link') {
                 const listItem = document.createElement('li');
+                listItem.classList.add('news-list-item');  // Ajout de la classe "news-list-item"
+                
+                // Enveloppe tout le contenu dans un seul lien <a>
                 listItem.innerHTML = `
-                    <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
-                    <p class="description">${truncateDescription(item.description)}</p>
+                    <a href="${item.link}" target="_blank" class="news-list-link">
+                        <h3>${item.title}</h3>
+                        <p class="description">${truncateDescription(item.description)}</p>
+                    </a>
                 `;
+                
                 newsList.appendChild(listItem);
             }
         });
@@ -84,59 +89,52 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Gestion de la recherche
     searchInput.addEventListener('input', () => {
-        const articles = Array.from(newsList.querySelectorAll('li')).map(li => ({
-            title: li.querySelector('h3 a').textContent,
+        const articles = Array.from(newsList.querySelectorAll('.news-list-item')).map(li => ({
+            title: li.querySelector('h3').textContent,
             description: li.querySelector('p.description').textContent,
-            link: li.querySelector('h3 a').href
+            link: li.querySelector('a').href
         }));
-        displayArticles(articles);
+        displayArticles(articles, searchInput.value); // Filtre les articles en fonction de la recherche
     });
 
-    // Gestion du thème
-    const switchTheme = (theme) => {
-        document.body.classList.remove('light-mode', 'dark-mode', 'autumn-mode', 'refined-dark-mode');
-        document.body.classList.add(`${theme}-mode`);
+    // Fonction pour changer le thème
+    const changeTheme = (theme) => {
+        document.body.classList.remove('light-theme', 'dark-theme', 'autumn-theme', 'refined-dark-theme');
+        document.body.classList.add(`${theme}`);
         localStorage.setItem('selectedTheme', theme);
     };
 
+    // Initialisation du thème
     const savedTheme = localStorage.getItem('selectedTheme') || 'light';
-    switchTheme(savedTheme);
-    themeSelect.value = savedTheme;
-    themeSelect.addEventListener('change', (e) => switchTheme(e.target.value));
+    changeTheme(savedTheme);
+    themeSelect.value = savedTheme; 
+
+    // Gestion du changement de thème
+    themeSelect.addEventListener('change', (e) => changeTheme(e.target.value));
 
     // Gestion des onglets
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
-            tabs.forEach(btn => {
-                btn.classList.remove('active');
-            });
-
+            // Retirer la classe "active" de tous les onglets
+            tabs.forEach(t => t.classList.remove('active'));
+    
+            // Ajouter la classe "active" à l'onglet cliqué
             tab.classList.add('active');
-
+    
             // Synchroniser la classe active du bouton déroulant avec l'onglet actif
             if (tab.dataset.source === 'reddit') {
-                redditDropdown.classList.toggle('show');
+                redditDropdown.classList.toggle('show');       
             } else {
+                redditDropdown.classList.remove('show'); // Ferme le dropdown s'il était ouvert
                 fetchData(tab.dataset.source);
-                redditDropdown.classList.remove('show');
             }
         });
-    });
-
-    document.getElementById('menu-toggle').addEventListener('click', function() {
-        const tabs = document.getElementById('tabs');
-        if (tabs.style.display === 'none' || tabs.style.display === '') {
-            tabs.style.display = 'flex';
-        } else {
-            tabs.style.display = 'none';
-        }
     });
 
     // Gestion du menu déroulant Reddit
     dropdownButton.addEventListener('click', (event) => {
         event.stopPropagation(); // Stop propagation to prevent closing dropdown immediately
         redditDropdown.classList.toggle('show');
-        re
     });
 
     document.addEventListener('click', (event) => {
@@ -147,16 +145,18 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     redditDropdown.addEventListener('click', (event) => {
         if (event.target.matches('.subreddit-button')) {
-            const subreddit = event.target.dataset.source; // Use 'data-source' instead of 'data-subreddit'
+            const subreddit = event.target.dataset.source;
             fetchData(subreddit);
             dropdownButton.textContent = event.target.textContent;
             redditDropdown.classList.remove('show');
         }
     });
 
+    // Gestion du bouton retour en haut
     backToTopButton.addEventListener('click', function(event) {
         event.preventDefault();  // Empêche le comportement par défaut du lien
         window.scrollTo({ top: 0, behavior: 'smooth' });  // Faire défiler en douceur vers le haut de la page
     });
 
+    fetchData("hackernews");
 });

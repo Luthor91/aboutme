@@ -11,14 +11,14 @@
             "description": "It is time. We are so excited to announce the winners of the Nylas Challenge!  From forest fire..."
         },
         {
-            "title": "Meme Monday",
-            "link": "https://dev.to/ben/meme-monday-49ph",
-            "description": "Meme Monday!  Today's cover image comes from last week's thread.  DEV is an inclusive space! Humor in..."
-        },
-        {
             "title": "Top 7 Featured DEV Posts of the Week",
             "link": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-3co9",
             "description": "Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the..."
+        },
+        {
+            "title": "Meme Monday",
+            "link": "https://dev.to/ben/meme-monday-49ph",
+            "description": "Meme Monday!  Today's cover image comes from last week's thread.  DEV is an inclusive space! Humor in..."
         },
         {
             "title": "What's on your desk that makes it *your* desk?",

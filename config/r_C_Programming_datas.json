@@ -2,6 +2,30 @@
     "items": [
         {
             "subreddit": "C_Programming",
+            "title": "REVOLUTIONIZE YOUR JOB APPLICATIONS with This AI Tool!",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f8sz90/revolutionize_your_job_applications_with_this_ai/",
+            "description": "Hey C Programmers Ever feel overwhelmed by the job application process I stumbled upon an incredible tool called LinkedIn AI Hawk that could change the way you apply for jobs This AI driven bot automates the LinkedIn job application process allowing you to submit tailored CVs and cover letters for..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Safest way to print to the stdout",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f8ss3d/safest_way_to_print_to_the_stdout/",
+            "description": "I am currently doing a project in C and was wondering what would be the safest way to print to the stdout I will mainly be dealing with strings I know there are safety issues with printf such as type safety and overflows I am currently using fprintf so if..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "White / Black list C program",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f8p523/white_black_list_c_program/",
+            "description": "Hell guys i was working on an email validator by C language in order to master the language And i want to add two external source code for the allowed and the non allowed domaine words and address words So how can I engage two external page to do this..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "What kind of literature would you recommend to a beginner in C?",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f8ovnz/what_kind_of_literature_would_you_recommend_to_a/",
+            "description": "I'm going to start writing in C, what literature can I read first?"
+        },
+        {
+            "subreddit": "C_Programming",
             "title": "Find the size of an array",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f8oh9f/find_the_size_of_an_array/",
             "description": "`void sort(int arr[]) {`\n\n`int length = sizeof(arr)/sizeof(arr[0]);`\n\n`}`\n\n  \nI am using sizeof operator to find the size of an array passed as an argument but an error is coming. Can you please help with this code?"
@@ -155,30 +179,6 @@
             "title": "Program that reads recipes from the DOS program Edna's Cook Book",
             "link": "https://github.com/dangarbri/save-edna",
             "description": "Made this to recover recipes I found stored on my family's old DOS computer. Posted the recipes we programmed in at https://dangarbri.tech/recipes"
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "Argv changes after init function ",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f6ry8z/argv_changes_after_init_function/",
-            "description": "So I have struct defined in different file so in main I create pointer and pass it to the initialization function then I parse command line arguments But problem is that after functions is done argv pointing to the same memory as pointer to this struct And it s really..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "Project won't run in vscode macOS",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f6narg/project_wont_run_in_vscode_macos/",
-            "description": "SOLVED int main return 0 Even if I try to run this code it still won t work I downloaded Xcode and everything it shows me this error Undefined symbols for architecture arm64 _main referenced from lt initial undefines gt ld symbol s not found for architecture arm64 clang error..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "how to use regex in C?",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f6l20x/how_to_use_regex_in_c/",
-            "description": "Hello everyone env window11 compilator gcc norm c89 i need to use regex in C but cant import regex h in Window i think its only for linux I tried to install PCRE2 but that didnt work i dont really know how to add an external lib such as PCRE2..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "Appending a char array and then comparing it",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f6k4uw/appending_a_char_array_and_then_comparing_it/",
-            "description": "I am working on a microcontroller project The data is received one by one I e char buffer 256 buffer 0 123 buffer 1 255 buffer 2 received A buffer 3 received B buffer 4 received C The message could be ABC or HELLO WORLD Its length is variable up..."
         }
     ]
 }

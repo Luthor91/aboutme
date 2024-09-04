@@ -2,9 +2,15 @@
     "items": [
         {
             "subreddit": "Python",
-            "title": "Nemo Agent - Python AI Coder!",
-            "link": "https://www.reddit.com/r/Python/comments/1f8o6fm/nemo_agent_python_ai_coder/",
-            "description": "Hi All I am launching Nemo Agent an open source Python AI coder It creates a full application from a prompt I have tested with leetcode streamlit flask fastapi and tkinter Nemo Agent supports mistral nemo Ollama and OpenAI I would love to get your feedback about the concept implementation..."
+            "title": "Introducing WSCE: A Custom Shell Environment Built with Python",
+            "link": "https://www.reddit.com/r/Python/comments/1f8sslp/introducing_wsce_a_custom_shell_environment_built/",
+            "description": "Over the past few weeks I ve been working on a custom shell environment called WSCE Built entirely in Python it mimics the functionality of an operating system and comes packed with features like a fake boot sequence a text editor and more It s designed to provide a unique..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Introducing fastapi-endpoints. A file-based router plugin",
+            "link": "https://www.reddit.com/r/Python/comments/1f8sf9n/introducing_fastapiendpoints_a_filebased_router/",
+            "description": "Hello everyone This is a project that I started and decided to make it open source What My Project Does This is a file based router for FastAPI It will include all routers into the FastAPI app automatically as it has an auto discovery feature It helped me with the..."
         },
         {
             "subreddit": "Python",
@@ -173,12 +179,6 @@
             "title": "What is a free TTS python library/package or REST API for story narration?",
             "link": "https://www.reddit.com/r/Python/comments/1f6mhzk/what_is_a_free_tts_python_librarypackage_or_rest/",
             "description": "I'm making one of those reddit story videos. The ones with the minecraft parkour and subtitles. I just need a TTS software that I can use in python. Any suggestions?\n\nI just want something that isn't robotic and is clear with no accents."
-        },
-        {
-            "subreddit": "Python",
-            "title": "QCut, a quantum circuit-knitting python package",
-            "link": "https://www.reddit.com/r/Python/comments/1f6j2pm/qcut_a_quantum_circuitknitting_python_package/",
-            "description": "What My Project Does QCut is a quantum circuit knitting package for performing wire cuts especially designed to not use reset gates or mid circuit measurements since on early NISQ devices they pose significant errors if available at all QCut has been designed to work with IQM s qpus and..."
         }
     ]
 }

@@ -4,43 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSS Reader</title>
+    <link rel="stylesheet" href="themes.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="themes/autumn_mode.css">
-    <link rel="stylesheet" href="themes/refined_dark_mode.css">
-    <link rel="stylesheet" href="themes/dark_mode.css">
 </head>
 <body>
     <div class="header">
-        <!-- Bouton Menu Burger -->
-        <button id="menu-toggle" class="menu-toggle">
-            <img src="assets/menu.png" alt="Menu" />
-        </button>
-        <select id="theme-select" class="tab-button">
-            <option value="light">Light Mode</option>
-            <option value="dark">Dark Mode</option>
-            <option value="autumn">Autumn Mode</option>
-            <option value="refined-dark">Refined Dark Mode</option>
-        </select>
-    </div>
+        <!-- Conteneur pour les onglets et le sélecteur de thème -->
+        <div class="tabs-container">
+            <!-- Sélecteur de thème -->
+            <select id="theme-select">
+                <option value="light-mode">Clair</option>
+                <option value="dark-theme">Sombre</option>
+                <option value="autumn-theme">Automne</option>
+            </select>
+            
+            <!-- Onglets (Tabs) -->
+            <div id="tabs" class="tabs">
+                <button class="tab-button active" data-source="hackernews">Hacker News</button>
+                <button class="tab-button" data-source="slashdot">Slashdot</button>
+                
+                <!-- Reddit Dropdown Tab -->
+                <div class="dropdown">
+                    <button class="tab-button" id="reddit-button">Reddit ▼</button>
+                    <div id="reddit-dropdown" class="dropdown-content">
+                        <button class="subreddit-button" data-source="r_C_Programming">C</button>
+                        <button class="subreddit-button" data-source="r_java">Java</button>
+                        <button class="subreddit-button" data-source="r_javascript">JavaScript</button>
+                        <button class="subreddit-button" data-source="r_rust">Rust</button>
+                        <button class="subreddit-button" data-source="r_golang">Golang</button>
+                        <button class="subreddit-button" data-source="r_python">Python</button>
+                    </div>
+                </div>
 
-    <div id="tabs" class="tabs">
-        <button class="tab-button active" data-source="hackernews">Hacker News</button>
-        <button class="tab-button" data-source="slashdot">Slashdot</button>
-        
-        <!-- Reddit Dropdown Tab -->
-        <div class="dropdown">
-            <button class="tab-button" id="reddit-button">Reddit ▼</button>
-            <div id="reddit-dropdown" class="dropdown-content">
-                <button class="subreddit-button" data-source="r_C_Programming">C</button>
-                <button class="subreddit-button" data-source="r_java">Java</button>
-                <button class="subreddit-button" data-source="r_javascript">JavaScript</button>
-                <button class="subreddit-button" data-source="r_rust">Rust</button>
-                <button class="subreddit-button" data-source="r_golang">Golang</button>
-                <button class="subreddit-button" data-source="r_python">Python</button>
+                <button class="tab-button" data-source="devto">Dev.to</button>
             </div>
         </div>
-
-        <button class="tab-button" data-source="devto">Dev.to</button>
     </div>
 
     <div class="search-bar">

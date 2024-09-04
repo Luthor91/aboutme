@@ -1,12 +1,9 @@
 :root {
+    /* Dimensions */
     --header-height: 50px;
-    --primary-color: #007bff;
-    --secondary-color: #0056b3;
-    --hover-color: #003d7a;
-    --text-color: #333;
-    --background-color: #f4f4f4;
 }
 
+/* Styles généraux */
 body {
     font-family: Arial, sans-serif;
     background-color: var(--background-color);
@@ -28,25 +25,43 @@ body {
     height: var(--header-height);
 }
 
-.menu-toggle {
-    background: none;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.menu-toggle img {
-    width: 30px;
-    height: 30px;
-}
-
-.tabs {
-    display: none;
+/* Conteneur pour les onglets et le sélecteur de thème */
+.tabs-container {
+    display: flex;
     align-items: center;
-    justify-content: flex-start;
     background-color: var(--primary-color);
     padding-left: 20px;
     height: var(--header-height);
+    z-index: 10;
+}
+
+/* Style moderne pour le bouton de changement de thème */
+#theme-select {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 15px; /* Espacement entre le sélecteur de thème et les onglets */
+}
+
+#theme-select:hover {
+    background-color: #0056b3;
+}
+
+#theme-select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Onglets (Tabs) */
+.tabs {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
 }
 
 .tab-button {
@@ -70,15 +85,18 @@ body {
 
 .dropdown {
     position: relative;
+    z-index: 11;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
+    top: 100%;
+    left: 0;
+    background-color: var(--dropdown-background-color);
+    color: var(--dropdown-text-color);
     min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-    z-index: 1;
+    box-shadow: 0px 8px 16px 0px var(--box-shadow-color);
 }
 
 .dropdown-content.show {
@@ -86,7 +104,7 @@ body {
 }
 
 .subreddit-button {
-    background-color: white;
+    background-color: var(--dropdown-background-color);
     border: none;
     padding: 12px 16px;
     text-align: left;
@@ -98,6 +116,7 @@ body {
     background-color: var(--background-color);
 }
 
+/* Barre de recherche */
 .search-bar {
     margin: 20px 0;
     padding: 0 20px;
@@ -109,9 +128,9 @@ body {
     width: 100%;
     max-width: 600px;
     padding: 10px 20px;
-    border: 2px solid #ddd;
+    border: 2px solid var(--border-color);
     border-radius: 25px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px var(--box-shadow-color);
     font-size: 16px;
     transition: border-color 0.3s, box-shadow 0.3s;
 }
@@ -122,15 +141,16 @@ body {
     outline: none;
 }
 
+/* Contenu principal */
 .content {
     padding: 20px;
-    background-color: white;
+    background-color: var(--background-color);
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px var(--box-shadow-color);
 }
 
 .error-message {
-    color: red;
+    color: var(--error-color);
     font-weight: bold;
     margin-top: 20px;
 }
@@ -140,64 +160,91 @@ body {
     padding: 0;
 }
 
+/* Style pour les "cards" */
 .news-list-item {
     margin-bottom: 20px;
-    padding: 15px;
-    border: 1px solid #ddd;
+    padding: 0;  /* Supprime le padding du list item, pour l'ajouter au lien */
+    border: 1px solid var(--border-color);
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+    background-color: var(--news-list-background-color);
     transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;  /* S'assure que les coins arrondis sont bien appliqués */
+}
+
+
+.news-list-item a.news-list-link {
+    display: block;
+    padding: 15px;  /* Ajoute le padding ici pour tout l'espace cliquable */
+    text-decoration: none;  /* Enlève la décoration du lien */
+    color: inherit;  /* S'assure que la couleur du texte reste celle du parent */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;  /* S'assure que le padding est pris en compte dans la taille du lien */
 }
 
 .news-list-item:hover {
-    background-color: var(--background-color);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    background-color: var(--news-list-hover-background-color);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.news-list-title {
+.news-list-item a.news-list-link:hover {
+    text-decoration: none;  /* S'assure que le texte ne se transforme pas au survol */
+    color: inherit;  /* Maintient la couleur lors du survol */
+}
+
+.news-list-item h3 {
     margin: 0;
     font-size: 18px;
-    color: var(--text-color);
+    color: var(--news-list-title-color);
 }
 
-.news-list-link {
-    text-decoration: none;
+.news-list-item p {
+    margin-top: 10px;
+    color: var(--news-list-description-color);
+    font-style: italic;
+}
+
+.news-list-item p.description {
+    margin: 10px 0 0;
+}
+
+.news-list-item .news-list-link {
+    display: block;
+    margin-top: 10px;
     color: var(--primary-color);
     font-weight: bold;
+    text-align: left;
+    text-decoration: none;
 }
 
-.news-list-link:hover {
+.news-list-item .news-list-link:hover {
     text-decoration: underline;
-}
-
-.news-list-description {
-    margin: 10px 0 0;
-    color: #666;
-    font-style: italic;
 }
 
 .footer {
     text-align: center;
     padding: 20px;
-    background-color: var(--background-color);
+    background-color: var(--footer-background-color);
 }
 
 .back-to-top {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--back-to-top-color);
     font-weight: bold;
     font-size: 16px;
 }
 
 .back-to-top:hover {
+    color: var(--back-to-top-hover-color);
     text-decoration: underline;
 }
 
 /* Responsive Styles */
 @media (min-width: 768px) {
     .tabs {
-        display: none;
+        display: flex;
     }
 }
 
@@ -214,6 +261,10 @@ body {
     .tab-button {
         width: 100%;
         text-align: left;
+    }
+
+    .dropdown {
+        width: 100%;
     }
 
     .dropdown-button {
@@ -244,7 +295,11 @@ body {
         font-size: 14px;
     }
 
+    .dropdown {
+        width: 100%;
+    }
+
     .dropdown-button {
         font-size: 14px;
     }
-}   
+}

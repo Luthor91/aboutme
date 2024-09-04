@@ -1,6 +1,16 @@
 {
     "items": [
         {
+            "title": "Navy Chiefs Conspired To Get Themselves Illegal Warship Wi-Fi",
+            "link": "https://tech.slashdot.org/story/24/09/04/0424213/navy-chiefs-conspired-to-get-themselves-illegal-warship-wi-fi?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "During a 2023 deployment senior enlisted leaders aboard the Navy ship USS Manchester secretly installed a Starlink Wi Fi network allowing them exclusive internet access in violation of Navy regulations Unauthorized Wi Fi systems like the one then Command Senior Chief Grisel Marrero set up are a massive no no..."
+        },
+        {
+            "title": "Firefox 130 Now Available With WebCodecs API, Third-Party AI Chatbots",
+            "link": "https://news.slashdot.org/story/24/09/04/0413210/firefox-130-now-available-with-webcodecs-api-third-party-ai-chatbots?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Firefox 130 introduces several enhancements including improved local translation handling better Android page load performance and the WebCodecs API for low level audio video processing on desktop platforms Notably it also supports third party AI chatbots like ChatGPT and Google Gemini via the new Firefox Labs feature Phoronix reports The..."
+        },
+        {
             "title": "World's First Zinc-Iron Battery Megafactory Opens For Business",
             "link": "https://hardware.slashdot.org/story/24/09/04/045204/worlds-first-zinc-iron-battery-megafactory-opens-for-business?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "Sweden s Enerpoly has opened the world s first zinc ion battery megafactory near Stockholm aiming for a 100 MWh annual capacity by 2026 According to Enerpoly this megafactory will serve Europe s needs for safe energy storage and also utilize an all European supply chain to boot reports New..."
@@ -64,16 +74,6 @@
             "title": "Halliburton Says Hackers Removed Data in August Cyberattack",
             "link": "https://it.slashdot.org/story/24/09/03/1650252/halliburton-says-hackers-removed-data-in-august-cyberattack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "U S oilfield services firm Halliburton said on Tuesday an unauthorized third party had accessed and removed data from its systems providing details regarding the cyberattack in August From a report The company said it is evaluating the nature and scope of information that was removed but added that the..."
-        },
-        {
-            "title": "Intel Launches Lunar Lake: Claims Arm-Beating Battery Life, World's Fastest Mobile CPU Cores",
-            "link": "https://hardware.slashdot.org/story/24/09/03/1635235/intel-launches-lunar-lake-claims-arm-beating-battery-life-worlds-fastest-mobile-cpu-cores?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Intel launched its new Core Ultra 200V series processors on Tuesday promising significant improvements in power efficiency performance and battery life over competitors and previous generations The company claims the chips offer historic x86 power efficiency and the world s fastest mobile CPU cores The processors available for pre order..."
-        },
-        {
-            "title": "Mobile Phones Not Linked To Brain Cancer, Biggest Study To Date Finds",
-            "link": "https://science.slashdot.org/story/24/09/03/1610238/mobile-phones-not-linked-to-brain-cancer-biggest-study-to-date-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Mobile phones are not linked to brain and head cancers a comprehensive review of the highest quality evidence available commissioned by the World Health Organization has found From a report Led by the Australian Radiation Protection and Nuclear Safety Agency Arpansa the systematic review examined more than 5 000 studies..."
         }
     ]
 }
