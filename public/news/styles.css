@@ -40,6 +40,9 @@ body {
 }
 
 #theme-select {
+    appearance: none; /* Masque la flèche par défaut dans la plupart des navigateurs */
+    -webkit-appearance: none; /* Masque la flèche sur WebKit (Chrome, Safari) */
+    -moz-appearance: none; /* Masque la flèche sur Firefox */
     padding: 10px;
     background-color: var(--primary-color);
     border: none;
@@ -49,6 +52,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-right: 15px;
+    background-image: none; /* Assurez-vous qu'aucune image d'arrière-plan n'est appliquée */
 }
 
 #theme-select:hover {

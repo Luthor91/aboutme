@@ -2,6 +2,12 @@
     "items": [
         {
             "subreddit": "C_Programming",
+            "title": "What makes `scanf` wait?",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f95ljb/what_makes_scanf_wait/",
+            "description": "I m having a tough time finding a single place where this kind of question is answered Bits and pieces but not the whole This was a hand waved part of my early C education and I am only now addressing this gap in my knowledge After reading the C99..."
+        },
+        {
+            "subreddit": "C_Programming",
             "title": "Variidic functions",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f94oc9/variidic_functions/",
             "description": "How variidic functions work And what is va_list And va_arg I SEARCHED ONLINE AND ASKED AI only what I got that those are data types and still do not understand And If you could where to learn about these kind thing since most courses are short and do not include..."
@@ -173,12 +179,6 @@
             "title": "Dependency management",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f7e1cf/dependency_management/",
             "description": "I was reading Make manual and came across this unholy recipe with automatic prerequisite generation d c set e rm f CC M CPPFLAGS lt gt sed s o 1 o g lt gt rm f While I understood the most of it the question arose why can t we..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "How does this union work in the implementation of a phasor in this DSP code?",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f7cwcn/how_does_this_union_work_in_the_implementation_of/",
-            "description": "Hello all hobbyist programmer here I was looking through the source for this music programming software Pure Data and was curious as to the purpose of this union I found in their Phasor Class The code is pretty simple I think but I can t quite figure out how this..."
         }
     ]
 }

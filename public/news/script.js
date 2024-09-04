@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const redditDropdown = document.getElementById('reddit-dropdown');
     const dropdownButton = document.getElementById('reddit-button');
     const backToTopButton = document.getElementById('back-to-top');
-    const dropdownContent = document.getElementById('dropdown-content');
 
     const getRawUrl = (source) => `https://raw.githubusercontent.com/${username}/${repo}/${branch}/config/${source}_datas.json`;
 
@@ -127,13 +126,28 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     });
 
+    // Fonction pour afficher le dropdown à la position du bouton
+    function toggleDropdown() {
+        // Récupérer les coordonnées et dimensions du bouton
+        const rect = dropdownButton.getBoundingClientRect();
+        
+        // Calculer la position du dropdown en fonction du bouton
+        redditDropdown.style.top = `${rect.bottom + window.scrollY}px`; // En dessous du bouton
+        redditDropdown.style.left = `${rect.left + window.scrollX}px`; // Aligné au bouton
+
+        // Basculer la classe "show" pour afficher ou cacher le dropdown
+        redditDropdown.classList.toggle('show');
+        console.log("toggled");
+        
+    }
+
     // Gestion du menu déroulant Reddit
     dropdownButton.addEventListener('click', (event) => {
         event.stopPropagation(); // Stop propagation to prevent closing dropdown immediately
-        redditDropdown.classList.toggle('show');
-        redditDropdown.disabled = !redditDropdown.classList.contains('show');
+        toggleDropdown();
     });
 
+    // Fermer le menu déroulant lorsqu'on clique à l'extérieur
     document.addEventListener('click', (event) => {
         if (!event.target.closest('#reddit-button') && !event.target.closest('#reddit-dropdown') && redditDropdown.classList.contains('show')) {
             redditDropdown.classList.remove('show');
@@ -144,7 +158,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (event.target.matches('.subreddit-button')) {
             const subreddit = event.target.dataset.source;
             fetchData(subreddit);
-            dropdownButton.textContent = event.target.textContent;
+            dropdownButton.textContent = event.target.textContent + '▼';
             redditDropdown.classList.remove('show');
         }
     });

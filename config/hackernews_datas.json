@@ -1,6 +1,51 @@
 {
     "items": [
         {
+            "title": "Positions on Generative AI",
+            "link": "https://evantravers.com/articles/2024/09/03/positions-on-generative-ai/",
+            "description": "No Description"
+        },
+        {
+            "title": "The Digital Credentials API origin trial",
+            "link": "https://developer.chrome.com/blog/digital-credentials-api-origin-trial",
+            "description": "No Description"
+        },
+        {
+            "title": "California is bad for business? Don't tell Californians",
+            "link": "https://www.csmonitor.com/Business/2024/0829/california-spacex-chevron-business-economy",
+            "description": "No Description"
+        },
+        {
+            "title": "Rooftop Habitats on NYC Building",
+            "link": "https://www.javitscenter.com/sustainability/rooftop-habitats/",
+            "description": "No Description"
+        },
+        {
+            "title": "The Long Way to Deforestation: A Type Inference and Elaboration Technique\u2026",
+            "link": "https://dl.acm.org/doi/10.1145/3674634",
+            "description": "No Description"
+        },
+        {
+            "title": "Never Rewrite Podcast",
+            "link": "https://www.neverrewrite.com/podcast",
+            "description": "No Description"
+        },
+        {
+            "title": "AdsCopilot \u2013 My First Chrome Extension",
+            "link": "https://adscopilot.io",
+            "description": "No Description"
+        },
+        {
+            "title": "Art",
+            "link": "https://blog.cloudflare.com/foundation-dns-launch/",
+            "description": "No Description"
+        },
+        {
+            "title": "Code Review Anxiety Workbook",
+            "link": "https://developer-success-lab.gitbook.io/code-review-anxiety-workbook-1",
+            "description": "No Description"
+        },
+        {
             "title": "Show HN: Indiestories (Email Lottery)",
             "link": "https://indiestories.so/",
             "description": "Eleven years ago I signed up to a special newsletter p For the next five years I got an email every single day from different people p Every email came with a story each story was a window into the lives of the writer I loved reading every single one..."
@@ -98,46 +143,6 @@
         {
             "title": "Lesser known parts of Python standard library \u2013 Trickster Dev",
             "link": "https://www.trickster.dev/post/lesser-known-parts-of-python-standard-library/",
-            "description": "No Description"
-        },
-        {
-            "title": "Language Modeling Is Compression",
-            "link": "https://openreview.net/forum?id=jznbgiynus",
-            "description": "No Description"
-        },
-        {
-            "title": "Stop Perfecting Your Config",
-            "link": "https://evantravers.com/articles/2024/07/09/stop-perfecting-your-config-arkadiusz-chmura/",
-            "description": "No Description"
-        },
-        {
-            "title": "Adventures building a spreadsheet engine in Python \u2013 James' Coffee Blog",
-            "link": "https://jamesg.blog/2024/08/21/spreadsheet-engine/",
-            "description": "No Description"
-        },
-        {
-            "title": "Could you host DjangoCon Europe 2026? Call for organizers",
-            "link": "https://www.djangoproject.com/weblog/2024/aug/28/could-you-host-djangocon-europe-2026-cfp/",
-            "description": "No Description"
-        },
-        {
-            "title": "Oakland's new school buses reduce pollution and double as giant batteries",
-            "link": "https://grist.org/transportation/oakland-electric-school-buses-battery-storage/",
-            "description": "No Description"
-        },
-        {
-            "title": "Standardized designs arrive to help build more homes faster",
-            "link": "https://news.gov.bc.ca/releases/2024HOUS0164-001430",
-            "description": "No Description"
-        },
-        {
-            "title": "Show HN: Eloquent \u2013 simplify SQL query construction in Rust",
-            "link": "https://github.com/tjardoo/eloquent-rs",
-            "description": "No Description"
-        },
-        {
-            "title": "Time Appliances Project Call #12 (December 16, 2020) [video]",
-            "link": "https://www.youtube.com/watch?v=wHYvS7MtBok",
             "description": "No Description"
         }
     ]
