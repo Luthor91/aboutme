@@ -67,7 +67,7 @@ body {
 }
 
 .tab-button {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--text-color);
     border: none;
     padding: 10px 20px;
