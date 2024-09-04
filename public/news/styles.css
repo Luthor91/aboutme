@@ -10,8 +10,10 @@ body {
     color: var(--text-color);
     margin: 0;
     padding: 0;
+    overflow-x: hidden; /* Empêcher le défilement horizontal */
 }
 
+/* En-tête */
 .header {
     display: flex;
     align-items: center;
@@ -23,8 +25,8 @@ body {
     top: 0;
     z-index: 1000;
     height: var(--header-height);
-
-    border-bottom: 2px solid black; /* Bordure noire de 5 pixels en bas */
+    border-bottom: 2px solid black;
+    overflow: hidden; /* Empêcher les débordements */
 }
 
 /* Conteneur pour les onglets et le sélecteur de thème */
@@ -37,33 +39,32 @@ body {
     z-index: 10;
 }
 
-/* Style moderne pour le bouton de changement de thème */
 #theme-select {
     padding: 10px;
-    background-color: #007bff;
+    background-color: var(--primary-color);
     border: none;
     border-radius: 5px;
     color: var(--text-color);
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-right: 15px; /* Espacement entre le sélecteur de thème et les onglets */
+    margin-right: 15px;
 }
 
 #theme-select:hover {
-    background-color: #0056b3;
+    background-color: var(--secondary-color);
 }
 
 #theme-select:focus {
     outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    box-shadow: 0 0 5px var(--box-shadow-color);
 }
 
 /* Onglets (Tabs) */
 .tabs {
     display: flex;
-    align-items: left;
-    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
 }
 
 .tab-button {
@@ -85,33 +86,45 @@ body {
     background-color: var(--hover-color);
 }
 
+/* Menu déroulant Reddit */
 .dropdown {
     position: relative;
-    z-index: 11;
+    z-index: 2000;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%;
+    display: none; /* Cacher par défaut */
+    position: absolute; /* Positionner relativement à .dropdown */
+    top: calc(var(--header-height) + 10px); /* Positionner juste en dessous du header */
     left: 0;
+    right: 0; /* S'étendre sur toute la largeur disponible */
+    max-height: 80vh; /* Hauteur maximale pour éviter le débordement */
     background-color: var(--dropdown-background-color);
     color: var(--dropdown-text-color);
-    min-width: 160px;
     box-shadow: 0px 8px 16px 0px var(--box-shadow-color);
+    box-sizing: border-box;
+    z-index: 3000;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Ajout d'un défilement vertical si nécessaire */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0; /* Cacher par défaut */
+    transform: translateY(-10px); /* Positionner légèrement au-dessus */
 }
 
 .dropdown-content.show {
-    display: block;
+    display: flex;
+    opacity: 1; /* Afficher */
+    transform: translateY(0); /* Revenir à la position initiale */
 }
 
 .subreddit-button {
     background-color: var(--dropdown-background-color);
     border: none;
-    padding: 12px 16px;
-    text-align: left;
-    width: 100%;
+    padding: 10px 15px;
+    text-align: center;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .subreddit-button:hover {
@@ -147,46 +160,41 @@ body {
 .content {
     padding: 20px;
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
     background-color: var(--background-color);
-    border-radius: 5px; 
+    border-radius: 5px;
     box-shadow: 0 2px 5px var(--box-shadow-color);
-
-    border-top: 1px solid black; /* Bordure noire de 5 pixels en haut */
 }
 
+/* Messages d'erreur */
 .error-message {
     color: var(--error-color);
     font-weight: bold;
     margin-top: 20px;
 }
 
+/* Liste des articles */
 .news-list {
     list-style-type: none;
     padding: 0;
 }
 
-/* Style pour les "cards" */
 .news-list-item {
     margin-bottom: 20px;
-    padding: 0;  /* Supprime le padding du list item, pour l'ajouter au lien */
+    padding: 0;
     border: 1px solid var(--border-color);
     border-radius: 5px;
     background-color: var(--news-list-background-color);
     transition: background-color 0.3s, box-shadow 0.3s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;  /* S'assure que les coins arrondis sont bien appliqués */
+    overflow: hidden;
 }
-
 
 .news-list-item a.news-list-link {
     display: block;
-    padding: 15px;  /* Ajoute le padding ici pour tout l'espace cliquable */
-    text-decoration: none;  /* Enlève la décoration du lien */
-    color: inherit;  /* S'assure que la couleur du texte reste celle du parent */
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;  /* S'assure que le padding est pris en compte dans la taille du lien */
+    padding: 15px;
+    text-decoration: none;
+    color: inherit;
 }
 
 .news-list-item:hover {
@@ -196,8 +204,7 @@ body {
 }
 
 .news-list-item a.news-list-link:hover {
-    text-decoration: none;  /* S'assure que le texte ne se transforme pas au survol */
-    color: inherit;  /* Maintient la couleur lors du survol */
+    text-decoration: none;
 }
 
 .news-list-item h3 {
@@ -229,6 +236,7 @@ body {
     text-decoration: underline;
 }
 
+/* Pied de page */
 .footer {
     text-align: center;
     padding: 20px;
@@ -250,66 +258,69 @@ body {
 /* Styles pour les écrans de petite taille */
 @media only screen and (max-width: 768px) {
     .dropdown-content {
-        min-width: 100%; /* Faire en sorte que le menu déroulant ait la même largeur que les onglets */
+        min-width: 100%;
+        max-height: 70vh; /* Réduire la hauteur pour les petits écrans */
     }
 
     .subreddit-button {
-        background-color: var(--dropdown-background-color);
-        border: none;
-        padding: 10px 15px; /* Ajuster le padding pour correspondre aux onglets */
-        text-align: center; /* Centrer le texte dans le bouton */
-        width: 100%; /* Faire en sorte que les boutons du menu déroulant aient la même largeur que les onglets */
-        box-sizing: border-box; /* S'assurer que le padding est inclus dans la largeur totale */
-        cursor: pointer;
-        display: inline-block; /* Assurer que les boutons s'affichent correctement */
-        font-size: 16px; /* Taille de police similaire à celle des onglets */
-        height: 100%; /* Assurer que la hauteur des boutons est la même que celle des onglets */
+        padding: 10px 15px;
+        font-size: 16px;
     }
 
-    .subreddit-button:hover {
-        background-color: var(--background-color);
+    .tabs-container {
+        padding-left: 0;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .tab-button {
+        padding: 10px;
+        font-size: 14px;
+        width: 100%;
     }
 }
 
 /* Styles pour les très petits écrans */
 @media only screen and (max-width: 580px) {
+    .header {
+        padding: 5px 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #theme-select {
+        margin: 5px 0;
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .tabs-container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding-left: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: auto;
+    }
+
+    .tab-button {
+        padding: 6px 10px;
+        font-size: 14px;
+        width: auto;
+        flex: 1;
+        box-sizing: border-box;
+    }
+
     .dropdown-content {
-        min-width: 100%; /* Assurer la largeur des éléments du menu déroulant */
+        min-width: 100%;
+        box-sizing: border-box;
+        max-height: 60vh; /* Réduire la hauteur pour les très petits écrans */
     }
 
     .subreddit-button {
-        padding: 8px; /* Ajuster le padding pour les très petits écrans */
-        font-size: 14px; /* Réduire la taille de la police pour les très petits écrans */
-        height: auto; /* Assurer que la hauteur des boutons soit ajustée automatiquement */
+        padding: 8px 12px;
+        font-size: 14px;
+        height: auto;
     }
-}
-
-/* Styles généraux pour les éléments du menu déroulant */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: var(--dropdown-background-color);
-    color: var(--dropdown-text-color);
-    min-width: 100%; /* Assurer que le menu déroulant a la même largeur que les onglets */
-    box-shadow: 0px 8px 16px 0px var(--box-shadow-color);
-    box-sizing: border-box; /* Inclure le padding dans la largeur totale */
-}
-
-.dropdown-content.show {
-    display: block;
-}
-
-.subreddit-button {
-    background-color: var(--dropdown-background-color);
-    border: none;
-    padding: 10px 15px; /* Ajuster le padding pour correspondre aux onglets */
-    text-align: center; /* Centrer le texte dans le bouton */
-    width: 100%; /* Assurer que le bouton prend toute la largeur disponible */
-    cursor: pointer;
-    display: inline-block; /* Assurer que les boutons s'affichent correctement */
-    font-size: 16px; /* Taille de police similaire à celle des onglets */
-    height: 50px; /* Assurer une hauteur uniforme pour tous les boutons */
-    line-height: 1.5; /* Ajuster la hauteur de ligne pour un alignement vertical correct */
 }
