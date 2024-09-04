@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const redditDropdown = document.getElementById('reddit-dropdown');
     const dropdownButton = document.getElementById('reddit-button');
     const backToTopButton = document.getElementById('back-to-top');
+    const dropdownContent = document.getElementById('dropdown-content');
 
     const getRawUrl = (source) => `https://raw.githubusercontent.com/${username}/${repo}/${branch}/config/${source}_datas.json`;
 
@@ -105,7 +106,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     // Initialisation du thème
-    const savedTheme = localStorage.getItem('selectedTheme') || 'light';
+    const savedTheme = localStorage.getItem('selectedTheme') || 'light-theme';
     changeTheme(savedTheme);
     themeSelect.value = savedTheme; 
 
@@ -121,13 +122,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Ajouter la classe "active" à l'onglet cliqué
             tab.classList.add('active');
     
-            // Synchroniser la classe active du bouton déroulant avec l'onglet actif
-            if (tab.dataset.source === 'reddit') {
-                redditDropdown.classList.toggle('show');       
-            } else {
-                redditDropdown.classList.remove('show'); // Ferme le dropdown s'il était ouvert
-                fetchData(tab.dataset.source);
-            }
+            fetchData(tab.dataset.source);
+
         });
     });
 
@@ -135,6 +131,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     dropdownButton.addEventListener('click', (event) => {
         event.stopPropagation(); // Stop propagation to prevent closing dropdown immediately
         redditDropdown.classList.toggle('show');
+        redditDropdown.disabled = !redditDropdown.classList.contains('show');
     });
 
     document.addEventListener('click', (event) => {

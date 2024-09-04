@@ -2,6 +2,12 @@
     "items": [
         {
             "subreddit": "java",
+            "title": "Loom EA builds with changes for JDK 24 [Alan Bateman]",
+            "link": "https://mail.openjdk.org/pipermail/loom-dev/2024-September/007166.html",
+            "description": ""
+        },
+        {
+            "subreddit": "java",
             "title": "Transforming a plain Future into a CompletableFuture",
             "link": "https://concurrencydeepdives.com/transform-future-into-completablefuture/",
             "description": ""
@@ -173,12 +179,6 @@
             "title": "Project Leyden #JVMLS",
             "link": "https://www.youtube.com/watch?v=OOPSU4LnKg0",
             "description": ""
-        },
-        {
-            "subreddit": "java",
-            "title": "Integrated AI Tools in .NET 9: Do we have something similar production ready?",
-            "link": "https://www.reddit.com/r/java/comments/1f0sndv/integrated_ai_tools_in_net_9_do_we_have_something/",
-            "description": "Source https www mobilize net blog ai in dotnet 9 https www mobilize net blog ai in dotnet 9 After reading the blog post by I suppose a NET consultancy I m in awe of how well Microsoft appears to have integrated some modern tooling in their NET runtime CLI..."
         }
     ]
 }

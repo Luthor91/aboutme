@@ -2,6 +2,18 @@
     "items": [
         {
             "subreddit": "Python",
+            "title": "Is Python easier to break into than other languages coming fron experience in a different stack?",
+            "link": "https://www.reddit.com/r/Python/comments/1f92ekl/is_python_easier_to_break_into_than_other/",
+            "description": "Im looking to get out of.net because its a career dead end in my local area but no java jobs consider me even though i have spring boot projects. Python seems less opinionated with libraries like fastapi so i wonder if its easier to break in as a generalist."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Nice looking, data display tables in Python? [+Video]",
+            "link": "https://www.reddit.com/r/Python/comments/1f8zg2c/nice_looking_data_display_tables_in_python_video/",
+            "description": "Ahoy I wanted to share a video my buddies made They maintain the great _tables package a library for building pretty tables with Python e g for publication or the web If that s something you might want to do you might want to check this out Here s their..."
+        },
+        {
+            "subreddit": "Python",
             "title": "Introducing WSCE: A Custom Shell Environment Built with Python",
             "link": "https://www.reddit.com/r/Python/comments/1f8sslp/introducing_wsce_a_custom_shell_environment_built/",
             "description": "Over the past few weeks I ve been working on a custom shell environment called WSCE Built entirely in Python it mimics the functionality of an operating system and comes packed with features like a fake boot sequence a text editor and more It s designed to provide a unique..."
@@ -11,12 +23,6 @@
             "title": "Introducing fastapi-endpoints. A file-based router plugin",
             "link": "https://www.reddit.com/r/Python/comments/1f8sf9n/introducing_fastapiendpoints_a_filebased_router/",
             "description": "Hello everyone This is a project that I started and decided to make it open source What My Project Does This is a file based router for FastAPI It will include all routers into the FastAPI app automatically as it has an auto discovery feature It helped me with the..."
-        },
-        {
-            "subreddit": "Python",
-            "title": "Python script for detection of matching pngs in 4 different ways",
-            "link": "https://www.reddit.com/r/Python/comments/1f8kvlk/python_script_for_detection_of_matching_pngs_in_4/",
-            "description": "Is this script worth sharing I have a python script that works for me in Ubuntu Linux Compares all pngs in a directory same size 4 different ways its a little crazy but it works for me identifying looping in my 4k uhd art videos I make I explode the..."
         },
         {
             "subreddit": "Python",
@@ -173,12 +179,6 @@
             "title": "High School Class",
             "link": "https://www.reddit.com/r/Python/comments/1f6p0ks/high_school_class/",
             "description": "My grandson is in HS Signed up for a Python class and was super excited to take it as he enjoyed coding class and wants to work towards a STEM endorsement Anyway only two kids signed up so it won t be offered Any suggestion for a high school level..."
-        },
-        {
-            "subreddit": "Python",
-            "title": "What is a free TTS python library/package or REST API for story narration?",
-            "link": "https://www.reddit.com/r/Python/comments/1f6mhzk/what_is_a_free_tts_python_librarypackage_or_rest/",
-            "description": "I'm making one of those reddit story videos. The ones with the minecraft parkour and subtitles. I just need a TTS software that I can use in python. Any suggestions?\n\nI just want something that isn't robotic and is clear with no accents."
         }
     ]
 }

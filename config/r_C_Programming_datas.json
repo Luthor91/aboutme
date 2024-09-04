@@ -2,9 +2,33 @@
     "items": [
         {
             "subreddit": "C_Programming",
-            "title": "REVOLUTIONIZE YOUR JOB APPLICATIONS with This AI Tool!",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f8sz90/revolutionize_your_job_applications_with_this_ai/",
-            "description": "Hey C Programmers Ever feel overwhelmed by the job application process I stumbled upon an incredible tool called LinkedIn AI Hawk that could change the way you apply for jobs This AI driven bot automates the LinkedIn job application process allowing you to submit tailored CVs and cover letters for..."
+            "title": "Variidic functions",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f94oc9/variidic_functions/",
+            "description": "How variidic functions work And what is va_list And va_arg I SEARCHED ONLINE AND ASKED AI only what I got that those are data types and still do not understand And If you could where to learn about these kind thing since most courses are short and do not include..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Understanding the Program, But Struggling to write the Code \u2013 Need Guidance!",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f92uvx/understanding_the_program_but_struggling_to_write/",
+            "description": "From Few Months I started learning programming but whenever I solve a question I didn't able to write the code. I started with C language but I'm facing problems what should I do? "
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "why this error is coming everytime!!!!, please anyone help ",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f8zjys/why_this_error_is_coming_everytime_please_anyone/",
+            "description": ""
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Use of relocating loader.",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f8xwhh/use_of_relocating_loader/",
+            "description": "Sorry if this question is not suited for this subreddit but I read that relocating loaders are useful when operating system that starts each program at memory address 0 A programmer writes a program that uses memory addresses 0 through 999 and compiles it The compiled program includes instructions that..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Help in understanding SCM_Rights",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f8ukmr/help_in_understanding_scm_rights/",
+            "description": "So I have a lot of questions regarding SCM _Rights I have listed them down and i know not everyone has the time to answer these many questions So if you can direct me to right resources to learn how the SCM _Rights work and how I can get started..."
         },
         {
             "subreddit": "C_Programming",
@@ -155,30 +179,6 @@
             "title": "How does this union work in the implementation of a phasor in this DSP code?",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f7cwcn/how_does_this_union_work_in_the_implementation_of/",
             "description": "Hello all hobbyist programmer here I was looking through the source for this music programming software Pure Data and was curious as to the purpose of this union I found in their Phasor Class The code is pretty simple I think but I can t quite figure out how this..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "Fflatten: A fast png layers flattener with neon intrinsics.",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f791vh/fflatten_a_fast_png_layers_flattener_with_neon/",
-            "description": "https github com mnyoshie citest blob master scripts src fflatten c https github com mnyoshie citest blob master scripts src fflatten c This a fast png layers flattener which is written in C plus some neon intrinsics and some portable wrapper for machines that don t have it It performs..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "/u/gaiajack's Exquisite Corpse Game: Add your own mechanic to this crowdsourced C/Raylib game on Github",
-            "link": "https://github.com/geajack/gdxc",
-            "description": ""
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "Are these 2 bit shifting expressions equal?",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f6yqne/are_these_2_bit_shifting_expressions_equal/",
-            "description": "I have 2 bit shifting expressions based on the table walking process 1 table_entry amp 1ull lt lt 21 1 amp 1ull lt lt 51 1 2 table_entry amp 1ull lt lt 51 21 1 1 lt lt 21 I noticed that for some table _entry values 1 and 2..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "Program that reads recipes from the DOS program Edna's Cook Book",
-            "link": "https://github.com/dangarbri/save-edna",
-            "description": "Made this to recover recipes I found stored on my family's old DOS computer. Posted the recipes we programmed in at https://dangarbri.tech/recipes"
         }
     ]
 }

@@ -1,9 +1,9 @@
 {
     "items": [
         {
-            "title": "Congrats to the Neon Open Source Starter Kit Challenge Winners!",
-            "link": "https://dev.to/devteam/congrats-to-the-neon-open-source-starter-kit-challenge-winners-247p",
-            "description": "We are excited to announce the winners of the Neon Open Source Starter Kit Challenge today.   The..."
+            "title": "Join us for the next Frontend Challenge: Space Edition \ud83d\udc7e\ud83e\ude90\ud83d\udc7d",
+            "link": "https://dev.to/devteam/join-us-for-the-next-frontend-challenge-space-edition-2d9g",
+            "description": "We just launched a new Frontend Challenge!  Running through September 15, Frontend Challenge: Space..."
         },
         {
             "title": "Congrats to the Nylas Challenge Winners!",
@@ -16,9 +16,9 @@
             "description": "Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the..."
         },
         {
-            "title": "What's on your desk that makes it *your* desk?",
-            "link": "https://dev.to/darkwiiplayer/whats-on-your-desk-that-makes-it-your-desk-lj8",
-            "description": "What do y'all have at your desks that truly makes it *your* desk? Anything goes, no matter how fancy or mundane it is!"
+            "title": "Congrats to the Neon Open Source Starter Kit Challenge Winners!",
+            "link": "https://dev.to/devteam/congrats-to-the-neon-open-source-starter-kit-challenge-winners-247p",
+            "description": "We are excited to announce the winners of the Neon Open Source Starter Kit Challenge today.   The..."
         },
         {
             "title": "Introducing DEV++",
@@ -26,19 +26,24 @@
             "description": "I'd like to tell you about a new membership you can take advantage of through DEV \u2014 and lock in..."
         },
         {
-            "title": "Preptember: Preparing for a Successful Hacktoberfest",
-            "link": "https://dev.to/virtualcoffee/preptember-preparing-for-a-successful-hacktoberfest-5baa",
-            "description": "Discover how Virtual Coffee's Preptember Challenge prepares both contributors and maintainers for a successful Hacktoberfest. Learn why preparation is necessary for a positive Hacktoberfest and how you can participate."
-        },
-        {
             "title": "Meme Monday",
             "link": "https://dev.to/ben/meme-monday-49ph",
             "description": "Meme Monday!  Today's cover image comes from last week's thread.  DEV is an inclusive space! Humor in..."
         },
         {
+            "title": "What's on your desk that makes it *your* desk?",
+            "link": "https://dev.to/darkwiiplayer/whats-on-your-desk-that-makes-it-your-desk-lj8",
+            "description": "What do y'all have at your desks that truly makes it *your* desk? Anything goes, no matter how fancy or mundane it is!"
+        },
+        {
             "title": "Circles of Truth: Overcomplicating simple commands",
             "link": "https://dev.to/tastycode/circles-of-truth-overcomplicating-simple-commands-2lp2",
             "description": "While fixing my air conditioner, I needed to frequently debug what HTTP requests my ESP32 was sending..."
+        },
+        {
+            "title": "Preptember: Preparing for a Successful Hacktoberfest",
+            "link": "https://dev.to/virtualcoffee/preptember-preparing-for-a-successful-hacktoberfest-5baa",
+            "description": "Discover how Virtual Coffee's Preptember Challenge prepares both contributors and maintainers for a successful Hacktoberfest. Learn why preparation is necessary for a positive Hacktoberfest and how you can participate."
         },
         {
             "title": "How I got a job at AWS",
@@ -64,11 +69,6 @@
             "title": "The Greatest Lesson Life Taught Me\u2014One I'll Never Forget",
             "link": "https://dev.to/soulis98/the-greatest-lesson-life-taught-me-one-ill-never-forget-21dd",
             "description": "When I was 21yrs old, life thought me a valuable lesson that I'll never forget:           Nobody..."
-        },
-        {
-            "title": "OpenAI is shockingly good at unminifying code",
-            "link": "https://dev.to/punkpeye/openai-is-shockingly-good-at-unminifying-code-fhm",
-            "description": "While browsing the Internet for inspiration, I came across an interesting-looking component.    I..."
         },
         {
             "title": "The Art of Effective Open Source Contribution",
@@ -146,9 +146,9 @@
             "description": "Last year editing the talks of our conference took a few months. This year, the conversion bit was done in about 5 hours. How? By using the power of \u2026 PHP! "
         },
         {
-            "title": "DEV Search: 20x Latency Reduction By Layering Algolia On Top of Postgres",
-            "link": "https://dev.to/devteam/dev-search-20x-latency-reduction-by-layering-algolia-on-top-of-postgres-3845",
-            "description": "At DEV, our commitment to open-source development drives our decision-making process, especially..."
+            "title": "OpenAI is shockingly good at unminifying code",
+            "link": "https://dev.to/punkpeye/openai-is-shockingly-good-at-unminifying-code-fhm",
+            "description": "While browsing the Internet for inspiration, I came across an interesting-looking component.    I..."
         }
     ]
 }

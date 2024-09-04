@@ -2,6 +2,24 @@
     "items": [
         {
             "subreddit": "javascript",
+            "title": "Made a client side, ads free online utils like base64 encode/decode, json format/minify/escape, pivot data, time convertor, diffs, and more",
+            "link": "http://utils.foo",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "Made a Chrome extension.",
+            "link": "https://chromewebstore.google.com/detail/screenshot-to-pdf/gelhpneijkjockolljcanbnghimbhfbj",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] is there a good library for parsing LDAP DNs?",
+            "link": "https://www.reddit.com/r/javascript/comments/1f8vuor/askjs_is_there_a_good_library_for_parsing_ldap_dns/",
+            "description": "I have a project where a server returns LDAP DN values via a REST API and the FE needs to do parsing on them LDAP DNs have a number of rules the biggest being the handling of special characters I can write my own parsing logic if I have to..."
+        },
+        {
+            "subreddit": "javascript",
             "title": "Explicit is better than implicit",
             "link": "https://www.trevorlasn.com/blog/-explicit-is-better-than-implicit/",
             "description": ""
@@ -20,33 +38,15 @@
         },
         {
             "subreddit": "javascript",
-            "title": "[AskJS] Uninitialized const in the TDZ ",
-            "link": "https://www.reddit.com/r/javascript/comments/1f8kahn/askjs_uninitialized_const_in_the_tdz/",
-            "description": "How in the JavaScript can declare the const variable in tdz in variable environment while we can't declare const without initializing it?"
-        },
-        {
-            "subreddit": "javascript",
             "title": "[AskJS] What do you hate the most about getting your first job that has JS tech?",
             "link": "https://www.reddit.com/r/javascript/comments/1f8h0hs/askjs_what_do_you_hate_the_most_about_getting/",
             "description": "I heard it's very saturated now, is that true?\n\nWhat are the recruiters really looking for? Specific framework or soft skill?\n\nDo they really look for work experience even if it's entry level?"
         },
         {
             "subreddit": "javascript",
-            "title": "[AskJS] How can I get better at JS to do challenges?",
-            "link": "https://www.reddit.com/r/javascript/comments/1f8fbna/askjs_how_can_i_get_better_at_js_to_do_challenges/",
-            "description": "I know the basic JS and construction of simple functions and loops etc But when I try to do Easy code wars challenges I struggle pretty hard What can I do to improve I ve watched several videos on beginners tutorials and grasped what they teach Any other materials you..."
-        },
-        {
-            "subreddit": "javascript",
             "title": "A guide to file uploads in Remix",
             "link": "https://programmingarehard.com/2024/09/03/remix-file-uploads.html/",
             "description": ""
-        },
-        {
-            "subreddit": "javascript",
-            "title": "[AskJS] Promise.all vs custom non-sequential approach",
-            "link": "https://www.reddit.com/r/javascript/comments/1f8adhl/askjs_promiseall_vs_custom_nonsequential_approach/",
-            "description": "Hello,\n\nI'd need some info on Promise.all, as I'm thinking it is just a syntactic sugar.\n\nAre these two implementations the same under the hood?\n\n```\nconst promise1 = someFunction1();\nconst promise2 = someFunction2();\nconst responses = [await promise1, await promise2];\n```\n\nand\n\n`\nconst responses = await Promise.all(promise1, promise2);\n`\n\nThanks"
         },
         {
             "subreddit": "javascript",
@@ -68,21 +68,9 @@
         },
         {
             "subreddit": "javascript",
-            "title": "[AskJS] How long until I\u2019m ready for react? ",
-            "link": "https://www.reddit.com/r/javascript/comments/1f84wb8/askjs_how_long_until_im_ready_for_react/",
-            "description": "Hello Reddit I am proficient in Python I have made a bunch of Flask apps I have been dabbling in JavaScript for a while now probably 3 4 months Went through code academy for most of it and I think I ve finally got a grasp on the language However..."
-        },
-        {
-            "subreddit": "javascript",
             "title": "I'm Building a QuickBook Client with TypeScript",
             "link": "https://github.com/balancer-team/quickbooks-js",
             "description": ""
-        },
-        {
-            "subreddit": "javascript",
-            "title": "[AskJS] Need Small Help",
-            "link": "https://www.reddit.com/r/javascript/comments/1f83ls7/askjs_need_small_help/",
-            "description": "Can anyone please tell me how can I create local UI like [https://iabgpp.com/#](https://iabgpp.com/#)  \nfrom this particular branch   \n--&gt; [https://github.com/IABTechLab/iabgpp-es/pull/58](https://github.com/IABTechLab/iabgpp-es/pull/58)\n\nThanks in Advance."
         },
         {
             "subreddit": "javascript",
@@ -140,12 +128,6 @@
         },
         {
             "subreddit": "javascript",
-            "title": "[AskJS] What should I say about my experience, when I have none?",
-            "link": "https://www.reddit.com/r/javascript/comments/1f7brxn/askjs_what_should_i_say_about_my_experience_when/",
-            "description": "I m having an interview with a company and they want 1 year of commercial experience while I ve got none What should I say Is it a good idea to tell them that I worked solo in freelance projects I don t really have any They might ask for..."
-        },
-        {
-            "subreddit": "javascript",
             "title": "Write a domain-specific language in javascript",
             "link": "https://andi.dev/blog/javascript-dsl",
             "description": ""
@@ -179,6 +161,24 @@
             "title": "[AskJS] Anybody get Node.js' Single executable applications process to work?",
             "link": "https://www.reddit.com/r/javascript/comments/1f6ijis/askjs_anybody_get_nodejs_single_executable/",
             "description": "SOLVED Solution cp home user bin node node_eval echo main nm_nodejs_eval js output sea prep blob gt sea config json node no warnings experimental sea config sea config json bun install postject modify cli js shebang to home user bin node because node is not installed is just in PATH..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] Redux store external changes question",
+            "link": "https://www.reddit.com/r/javascript/comments/1f6de96/askjs_redux_store_external_changes_question/",
+            "description": "noob here what s the recommended approach to bind external changes from the server to the store im thinking of using a single action named EVENT passing in propertyName and value which will be dispatched from a websocket listener my only concern is modularity as components would now have the..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] Is React\u2019s Traditional Component Model Becoming Outdated?",
+            "link": "https://www.reddit.com/r/javascript/comments/1f687yi/askjs_is_reacts_traditional_component_model/",
+            "description": "With all the recent changes and debates surrounding React s future direction especially around the controversial fetch on render approach it seems like the community is questioning whether React s traditional component model is still the best way to handle state and data What do you think Are we reaching..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "How I Created a 3.78MB Docker Image for a JavaScript Service",
+            "link": "https://shenzilong.cn/record/How%20I%20Created%20a%203.78MB%20Docker%20Image%20for%20a%20JavaScript%20Service",
+            "description": ""
         }
     ]
 }

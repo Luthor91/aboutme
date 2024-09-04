@@ -2,6 +2,102 @@
     "items": [
         {
             "subreddit": "rust",
+            "title": "Recommend Beginner level rust project ",
+            "link": "https://www.reddit.com/r/rust/comments/1f92git/recommend_beginner_level_rust_project/",
+            "description": "I am doing rust for almost a month and can code small projects easily now I want to start a beginner level project so can anyone recommend me which project will be good in learning and understanding concepts "
+        },
+        {
+            "subreddit": "rust",
+            "title": "Bevy\u2019s community issues and the state of the project",
+            "link": "https://www.reddit.com/r/rust/comments/1f92122/bevys_community_issues_and_the_state_of_the/",
+            "description": "apologies but this post turned out longer than I expected however these issues have been brewing for awhile and there s significant context that needs to be addressed First of all I m not saying bevy is a bad project from a technical perspective Bevy is actually pretty interesting and..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Async Rust can be a pleasure to work with (without `Send + Sync + 'static`)",
+            "link": "https://emschwartz.me/async-rust-can-be-a-pleasure-to-work-with-without-send-sync-static",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Call for Proposals: Full-Time Open Source Rust Maintainer",
+            "link": "https://www.reddit.com/r/rust/comments/1f90yjh/call_for_proposals_fulltime_open_source_rust/",
+            "description": "A Rust developer into bitcoin and want to help maintain some awesome crates Apply for a BDK Open Source Rust Maintainer Grant The BDK Foundation is seeking proposals for a full time Rust maintainer to support the ongoing development and maintenance of the BDK suite of open source software All..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "No logging in release builds?",
+            "link": "https://www.reddit.com/r/rust/comments/1f90c2v/no_logging_in_release_builds/",
+            "description": "I m building an app that uses the log crate and simple_logger crate to log So my app works just as expected in debug builds All the log output is printed to the console I use Windows But when I do cargo run release nothing is logged not matted what..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "This Month in Redox OS - August 2024",
+            "link": "https://www.redox-os.org/news/this-month-240831/",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Geo-AID v0.5.0 released along with a new gradient descent optimization engine (still looking for contributors)",
+            "link": "https://github.com/Geo-AID/Geo-AID",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "OpenMLS 0.6 released",
+            "link": "https://www.reddit.com/r/rust/comments/1f8xoig/openmls_06_released/",
+            "description": "I m happy to announce the release of OpenMLS v0 6 a significant update to our open source MLS implementation This version includes several new features and improvements Read all details on the blog https blog openmls tech posts 2024 09 04 v0 _6 release https blog openmls tech posts..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Announcing tagged-id",
+            "link": "https://www.reddit.com/r/rust/comments/1f8xoef/announcing_taggedid/",
+            "description": "Hey there I just released a Rust port of a pattern we use internally at work in our Haskell code base The idea is pretty simple in backend services that need to interface with multiple APIs and databases instead of using raw IDs all over the place you can use..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Deploying Rust in Existing Firmware Codebases",
+            "link": "https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "iroh 0.24.0 - Upgrading to Quinn 11",
+            "link": "https://www.iroh.computer/blog/iroh-0-24-0-quinn-11",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Security advisory for the standard library (CVE-2024-43402) | Rust Blog",
+            "link": "https://blog.rust-lang.org/2024/09/04/cve-2024-43402.html",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Firefox will consider a Rust implementation of JPEG-XL",
+            "link": "https://github.com/mozilla/standards-positions/pull/1064",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "aws dynamodb simple helper crate",
+            "link": "https://crates.io/crates/aws-dynamo-derive",
+            "description": "Hi folks I wrote a very simple helper procedual macro crate to simply using aws sdk dynamodb https docs rs aws sdk dynamodb latest aws_sdk_dynamodb I have been working with dynamodb gathering data as the time flows and found the library is a bit verbose to use In order to..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Roast my in-memory- auth token cache",
+            "link": "https://www.reddit.com/r/rust/comments/1f8us5u/roast_my_inmemory_auth_token_cache/",
+            "description": "I m writing a generic in memory cache to store reusable auth tokens The goal is to use this in an axum application that needs to make authenticated calls to external API s The requirements that I set out for myself are 1 Tokens are fetched lazily i e only..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Box: sandboxed development container manager",
+            "link": "https://www.reddit.com/r/rust/comments/1f8tpib/box_sandboxed_development_container_manager/",
+            "description": "Hello i thought i would share a project i ve been working on quite some time a container manager like distrobox but sandboxed by default The project originally started as an experiment using shell scripts and later on i started using it to develop itself I updated it whenever i..."
+        },
+        {
+            "subreddit": "rust",
             "title": "Curious about x86-64 codegen with `relocation-model=pic`",
             "link": "https://www.reddit.com/r/rust/comments/1f8stkz/curious_about_x8664_codegen_with/",
             "description": "I ve been looking at the generated code for a simple function call and when relocation model pic and the same function is called twice the function calls are done indirectly via a register after loading the function address This doesn t happen for C using Clang What s the..."
@@ -68,12 +164,6 @@
         },
         {
             "subreddit": "rust",
-            "title": "Should accessibility be baked in to TUI libraries/apps?",
-            "link": "https://www.reddit.com/r/rust/comments/1f8jwln/should_accessibility_be_baked_in_to_tui/",
-            "description": "I ask because I don\u2019t know if people who need screen readers would use TUI apps much. I don\u2019t know anything about how visually impaired people use tech though\n\n[View Poll](https://www.reddit.com/poll/1f8jwln)"
-        },
-        {
-            "subreddit": "rust",
             "title": "The Rust Programming Language Book chapter 8 exercise critique",
             "link": "https://www.reddit.com/r/rust/comments/1f8ger7/the_rust_programming_language_book_chapter_8/",
             "description": "I wrote a program in Rust after reading Chapter 8 in the Rust Programming Language book This is the final exercise developing a program that takes user input and adds a department an employee or both to a company If you want to see it in my github see my..."
@@ -89,96 +179,6 @@
             "title": "Struggeling with modularizing cli tool",
             "link": "https://www.reddit.com/r/rust/comments/1f8arxb/struggeling_with_modularizing_cli_tool/",
             "description": "Hy there I ve written a CLI tool and most of the code is in main rs I have red the rust book and multiple threads blogs about how to modularize but I m still struggeling The tool has multiple commands and subcommands e g profile clone quick mass Intuitively..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "Has Rust 1.8.0 broken anyone else's builds?",
-            "link": "https://www.reddit.com/r/rust/comments/1f88s0h/has_rust_180_broken_anyone_elses_builds/",
-            "description": "This is the first time for me a new version broke one of the sub packages I relied on Heard there was controversy with this release didn t expect it to really break my small program This was the error I got Rust 1 8 breaking time package https preview..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "memory leak nightmare",
-            "link": "https://www.reddit.com/r/rust/comments/1f87uf0/memory_leak_nightmare/",
-            "description": "Hey everyone I ve been running this project screenpipe https github com mediar ai screenpipe locally for about 24 hours and it ended up using 300 GB of memory This issue has been persisting for weeks and I haven t been able to find a solution Could someone please take..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "An Optimization That's Impossible in Rust!",
-            "link": "https://www.reddit.com/r/rust/comments/1f87siw/an_optimization_thats_impossible_in_rust/",
-            "description": "Article https tunglevo com note an optimization thats impossible in rust https tunglevo com note an optimization thats impossible in rust The other day I came across an article about German string a short string optimization claiming this kind of optimization is impossible in Rust Puzzled by the statement given..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "Rust (code) in documentation with Typst",
-            "link": "https://www.reddit.com/r/rust/comments/1f86qe3/rust_code_in_documentation_with_typst/",
-            "description": "Early evaluation of Typst https github com typst typst suggests that we should use Typst as documentation markup language it is faaaast and easy crossplatform for a new coming 2025 project that is starting from scratch What is the community suggested best package to highlight Rust code in Typst How..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "Seeking feedback for my first rust project ",
-            "link": "https://www.reddit.com/r/rust/comments/1f86j2d/seeking_feedback_for_my_first_rust_project/",
-            "description": "Hi I m coming from Go and recently decided to learn rust to expand my stack and knowledge As my first project as I do in every language I made a simple snake game using raylib Since rust has so many new design patterns I tried my best to use..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "Treehole application built with Leptos",
-            "link": "https://taglinq.com/about",
-            "description": ""
-        },
-        {
-            "subreddit": "rust",
-            "title": "How to participate rust free contribution?",
-            "link": "https://www.reddit.com/r/rust/comments/1f85oxs/how_to_participate_rust_free_contribution/",
-            "description": "Hi all I always want to contribute to some programming community However I don t know where to start due to my background I m a physicist PhD 5 years experience on c and python to program some computational physics code for academia Unsurprisingly we only need something that only..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "My first Rust project: a Node-RED run-time engine prototype",
-            "link": "https://www.reddit.com/r/rust/comments/1f85fxw/my_first_rust_project_a_nodered_runtime_engine/",
-            "description": "Hello people As a project to practice learning Rust I ve created or maybe you could say borrowed heavily from an open source run time engine prototype that s compatible with Node RED in Rust It can directly run flows json workflow files generated by Node RED If you haven..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "Send polymorphic Box&lt;dyn T&gt;",
-            "link": "https://www.reddit.com/r/rust/comments/1f854p7/send_polymorphic_boxdyn_t/",
-            "description": "Is it possible to use Box lt dyn T gt in a Send polymorphic way I have a struct struct Container t Box lt dyn T gt I want to use Container both when T is Send so that Container is Send and not where it s not I could..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "Rust Firebird Client updated to v0.25 with a few features and fixes",
-            "link": "https://cms.firebirdsql.org/en/community-news/rust-firebird-client-updated-to-v0-25-with-a-few-features-and-fixes",
-            "description": ""
-        },
-        {
-            "subreddit": "rust",
-            "title": "Rust adventure to develop a Game Boy emulator - Intro",
-            "link": "https://medium.com/@wolferxy/rust-adventure-to-develop-a-game-boy-emulator-838646ee3a31",
-            "description": ""
-        },
-        {
-            "subreddit": "rust",
-            "title": "Is this trait sealed, or not sealed \u2014 that is the question",
-            "link": "https://predr.ag/blog/is-this-trait-sealed-or-not-sealed/",
-            "description": ""
-        },
-        {
-            "subreddit": "rust",
-            "title": "Done with The Book and Rustlings, what next?",
-            "link": "https://www.reddit.com/r/rust/comments/1f82l41/done_with_the_book_and_rustlings_what_next/",
-            "description": "Hello I am a machine learning researcher with knowledge of Python my main instrument C and C who has decided to learn Rust I don t have immediate use for Rust but want to have it in my toolbox I had read and mostly understood The Book after which I..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "[Media] This weird error shows up whenever I open a rust file in neovim(it uses rust-analyzer) but there is no error shown when I run `cargo check`",
-            "link": "https://i.redd.it/4ndt2wt9wlmd1.png",
-            "description": ""
-        },
-        {
-            "subreddit": "rust",
-            "title": "gccrs August 2024 monthly report",
-            "link": "https://rust-gcc.github.io/2024/09/03/2024-08-monthly-report.html",
-            "description": ""
         }
     ]
 }

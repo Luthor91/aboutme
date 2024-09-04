@@ -1,128 +1,143 @@
 {
     "items": [
         {
-            "title": "Combine web scraping with LLMs to create AI tools in 10 minutes (no clickbait)",
-            "link": "https://blog.apify.com/build-ai-powered-tool/",
+            "title": "Show HN: Indiestories (Email Lottery)",
+            "link": "https://indiestories.so/",
+            "description": "Eleven years ago I signed up to a special newsletter p For the next five years I got an email every single day from different people p Every email came with a story each story was a window into the lives of the writer I loved reading every single one..."
+        },
+        {
+            "title": "What Is an Atomic Clock? (2019)",
+            "link": "https://www.nasa.gov/missions/tech-demonstration/deep-space-atomic-clock/what-is-an-atomic-clock/",
             "description": "No Description"
         },
         {
-            "title": "Show HN: A personalized fitness and dating assistant",
-            "link": "https://www.tryvalentine.com/",
-            "description": "I was looking for a personalized app to help with fitness advice I decided this would be a perfect project to learn React and build a functional site I am using firebase for storage and authentication The site is hosted on vercel I am also using edge functions to stream..."
-        },
-        {
-            "title": "Popular YouTuber dies at 58 after apologizing to fans in heartbreaking clip",
-            "link": "https://www.dailymail.co.uk/news/article-13812309/paul-harrell-youtube-dies-apologizing-fans-video.html",
+            "title": "ASIO warning big tech companies they may be forced to unlock encrypted chats",
+            "link": "https://www.abc.net.au/news/2024-09-05/asio-chief-mike-burgess-warns-tech-companies-encrypted-chats/104308374",
             "description": "No Description"
         },
         {
-            "title": "FreeAgent Integration: Connecting the Dots",
-            "link": "https://novatura.co/blog/connecting-the-dots-with-freeagent/",
+            "title": "Ten years on, \u2018Halt and Catch Fire\u2019 is more urgent than ever",
+            "link": "https://www.texasmonthly.com/arts-entertainment/halt-and-catch-fire-atx-festival-reunion/",
             "description": "No Description"
         },
         {
-            "title": "What Can Large Language Models Capture about Code Functional Equivalence?",
-            "link": "https://arxiv.org/abs/2408.11081",
+            "title": "Can You Behave Randomly?",
+            "link": "https://web.archive.org/web/20200305065324/http://faculty.rhodes.edu/wetzel/random/intro.html",
             "description": "No Description"
         },
         {
-            "title": "Qualcomm's new 8-core Snapdragon chip is aimed at cheaper Arm Windows PCs",
-            "link": "https://arstechnica.com/gadgets/2024/09/qualcomms-new-8-core-snapdragon-chip-is-aimed-at-cheaper-arm-windows-pcs/",
+            "title": "Public inquiries: What is a public inquiry and what is its purpose? (2018)",
+            "link": "https://www.instituteforgovernment.org.uk/article/explainer/public-inquiries",
             "description": "No Description"
         },
         {
-            "title": "Heredocs in Dockerfiles",
-            "link": "https://www.docker.com/blog/introduction-to-heredocs-in-dockerfiles/",
+            "title": "Canada: NDP ends confidence deal with the federal liberals",
+            "link": "https://www.bnnbloomberg.ca/video/shows/the-close/2024/09/04/ndp-ends-confidence-deal-with-the-federal-liberals/",
             "description": "No Description"
         },
         {
-            "title": "EU AI Act: first regulation on artificial intelligence (2023)",
-            "link": "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence",
+            "title": "DIY rail gun for launching model aeroplanes",
+            "link": "https://www.youtube.com/watch?v=v4zTAkLKgm4",
             "description": "No Description"
         },
         {
-            "title": "Forging Swift MT Payment Messages for fun and research (2020)",
-            "link": "https://labs.withsecure.com/publications/forging-swift-mt-payment-messages",
+            "title": "Snapshottable Stores",
+            "link": "https://dl.acm.org/doi/10.1145/3674637",
             "description": "No Description"
         },
         {
-            "title": "Production-ready Docker Containers with uv",
-            "link": "https://hynek.me/articles/docker-uv/",
+            "title": "Physicist MV Ramana on the problem with nuclear power",
+            "link": "https://www.theguardian.com/environment/article/2024/sep/04/mv-ramana-why-nuclear-power-not-solution-energy-needs",
             "description": "No Description"
         },
         {
-            "title": "Reviewing studies of degrowth: Are claims matched by data, methods and policy?",
-            "link": "https://www.sciencedirect.com/science/article/pii/S0921800924002210",
+            "title": "The Many Faces of Cobalamin (Vitamin B12) Deficiency",
+            "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6543499/",
             "description": "No Description"
         },
         {
-            "title": "The dawn of a new startup era",
-            "link": "https://giansegato.com/essays/dawn-new-startup-era",
+            "title": "The for-profit city that might come crashing down",
+            "link": "https://www.nytimes.com/2024/08/28/magazine/prospera-honduras-crypto.html",
             "description": "No Description"
         },
         {
-            "title": "the Earth is spinning so fast that it will soon lose a second",
-            "link": "https://www.africanews.com/2024/03/28/earth-is-spinning-so-fast-that-it-will-soon-lose-a-second/",
+            "title": "Webbrowser \u2013 Convenient web-browser controller",
+            "link": "https://docs.python.org/3/library/webbrowser.html",
             "description": "No Description"
         },
         {
-            "title": "The Age of AI has begun (2023)",
-            "link": "https://www.gatesnotes.com/The-Age-of-AI-Has-Begun",
+            "title": "Old Person Smell",
+            "link": "https://en.wikipedia.org/wiki/Old_person_smell",
             "description": "No Description"
         },
         {
-            "title": "I plan to find a solution for cancer in 365 days",
-            "link": "https://solvecancer.substack.com/",
+            "title": "China's Connected Car Collapse Is a Warning for the American Market",
+            "link": "https://www.thedrive.com/news/chinas-connected-car-collapse-is-a-warning-for-the-american-market",
             "description": "No Description"
         },
         {
-            "title": "NSA to Launch 'No Such Podcast,'",
-            "link": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/article/3888139/nsa-to-launch-no-such-podcast-pulling-back-curtain-on-mission-culture-people/",
+            "title": "Big Boy Letter",
+            "link": "https://en.wikipedia.org/wiki/Big_boy_letter",
             "description": "No Description"
         },
         {
-            "title": "Stuffy, unhealthy or 'just mid' \u2013 are young people over wine?",
-            "link": "https://www.theguardian.com/society/article/2024/sep/04/drinking-wine-gen-z-millenial-alcohol",
+            "title": "Why don't more people use Linux?",
+            "link": "https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f53",
             "description": "No Description"
         },
         {
-            "title": "Andreessen Horowitz Ditches Miami Two Years After Opening Office",
-            "link": "https://www.bloomberg.com/news/articles/2024-09-04/andreessen-horowitz-ditches-miami-two-years-after-opening-office",
+            "title": "Ketamine sets off cascade of antidepressant effects",
+            "link": "https://www.thetransmitter.org/ketamine/ketamine-targets-lateral-habenula-setting-off-cascade-of-antidepressant-effects/",
             "description": "No Description"
         },
         {
-            "title": "Show HN: Graphiti \u2013 LLM-Powered Temporal Knowledge Graphs",
-            "link": "https://github.com/getzep/graphiti",
+            "title": "The EU AI Act Is Here. We're Screwed",
+            "link": "https://eidel.io/the-eu-ai-act-is-here-were-screwed/",
             "description": "No Description"
         },
         {
-            "title": "Ilya Sutskever's SSI Inc raises $1B",
-            "link": "https://www.reuters.com/technology/artificial-intelligence/openai-co-founder-sutskevers-new-safety-focused-ai-startup-ssi-raises-1-billion-2024-09-04/",
+            "title": "Lesser known parts of Python standard library \u2013 Trickster Dev",
+            "link": "https://www.trickster.dev/post/lesser-known-parts-of-python-standard-library/",
             "description": "No Description"
         },
         {
-            "title": "A universal triangulation for flat tori (2022)",
-            "link": "https://arxiv.org/abs/2203.05496",
+            "title": "Language Modeling Is Compression",
+            "link": "https://openreview.net/forum?id=jznbgiynus",
             "description": "No Description"
         },
         {
-            "title": "Chris Lattner on Mojo and Roc [video]",
-            "link": "https://www.youtube.com/watch?v=ENviIxDTmUA",
+            "title": "Stop Perfecting Your Config",
+            "link": "https://evantravers.com/articles/2024/07/09/stop-perfecting-your-config-arkadiusz-chmura/",
             "description": "No Description"
         },
         {
-            "title": "666 = sum(range(1,37)) and other sequences",
-            "link": "https://oeis.org/search?q=666&language=english&go=Search",
+            "title": "Adventures building a spreadsheet engine in Python \u2013 James' Coffee Blog",
+            "link": "https://jamesg.blog/2024/08/21/spreadsheet-engine/",
             "description": "No Description"
         },
         {
-            "title": "Securing a Linux Server",
-            "link": "https://kenhv.com/blog/securing-a-linux-server",
+            "title": "Could you host DjangoCon Europe 2026? Call for organizers",
+            "link": "https://www.djangoproject.com/weblog/2024/aug/28/could-you-host-djangocon-europe-2026-cfp/",
             "description": "No Description"
         },
         {
-            "title": "FreeBSD \u2013 Assign OVH Failover IPs to FreeBSD Jails \u2013 IT Notes",
-            "link": "https://it-notes.dragas.net/2022/01/14/freebsd-assign-ovh-failover-ips-to-freebsd-jails/",
+            "title": "Oakland's new school buses reduce pollution and double as giant batteries",
+            "link": "https://grist.org/transportation/oakland-electric-school-buses-battery-storage/",
+            "description": "No Description"
+        },
+        {
+            "title": "Standardized designs arrive to help build more homes faster",
+            "link": "https://news.gov.bc.ca/releases/2024HOUS0164-001430",
+            "description": "No Description"
+        },
+        {
+            "title": "Show HN: Eloquent \u2013 simplify SQL query construction in Rust",
+            "link": "https://github.com/tjardoo/eloquent-rs",
+            "description": "No Description"
+        },
+        {
+            "title": "Time Appliances Project Call #12 (December 16, 2020) [video]",
+            "link": "https://www.youtube.com/watch?v=wHYvS7MtBok",
             "description": "No Description"
         }
     ]

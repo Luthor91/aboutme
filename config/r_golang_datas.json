@@ -2,6 +2,60 @@
     "items": [
         {
             "subreddit": "golang",
+            "title": "hush: Yet Another CLI Password Manager in Go",
+            "link": "https://www.reddit.com/r/golang/comments/1f94j20/hush_yet_another_cli_password_manager_in_go/",
+            "description": "Hey Gophers I ve developed a CLI password manager called hush using Go and I d really appreciate your feedback and insights Here s a brief overview of what hush does Stores passwords locally with encryption Uses a master password for access Supports adding retrieving and removing passwords Can generate..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Naming idempotent functions",
+            "link": "https://www.reddit.com/r/golang/comments/1f92zqy/naming_idempotent_functions/",
+            "description": "I've got a function using the cloudflare-go which creates a DNS record, but I'd like to do so idempotently so it's really CreateOrUpdateRecord(), I'm wondering what patterns are common for naming such idempotent functions?"
+        },
+        {
+            "subreddit": "golang",
+            "title": "Fibratus 2.2.0 - adversary tradecraft detection, protection, and hunting",
+            "link": "https://www.reddit.com/r/golang/comments/1f91uox/fibratus_220_adversary_tradecraft_detection/",
+            "description": "This is a long overdue release But for a good reason Fibratus https github com rabbitstack fibratus 2 2 0 marks the start of a new era I worked relentlessly during the past year to reorient the focus towards a security tool capable of adversary tradecraft detection protection and hunting..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "build go app for windows 7",
+            "link": "https://www.reddit.com/r/golang/comments/1f917q2/build_go_app_for_windows_7/",
+            "description": "I know golang doesn't support windows 7 after 1.20, and I looking to way to build my app for windows 7, is there a way to do this if I use golang 1.23"
+        },
+        {
+            "subreddit": "golang",
+            "title": "Boxcars, a program for playing backgammon online and offline, is coming soon to Steam",
+            "link": "https://store.steampowered.com/app/3182230/Boxcars/",
+            "description": ""
+        },
+        {
+            "subreddit": "golang",
+            "title": "Golang SaaS / Web app template (Open-Source)",
+            "link": "https://www.reddit.com/r/golang/comments/1f8v1vv/golang_saas_web_app_template_opensource/",
+            "description": "I built a few internal apps with Golang HTMLX but it s a pain to package everything all the time I m thinking of building a distribution which includes Echo Just for sessions and other useful middleware like CSRF Teams 2 factor auth but will be easily disabled if you..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "How do I autogenerate a TS client based on my Go REST routes?",
+            "link": "https://www.reddit.com/r/golang/comments/1f8um8y/how_do_i_autogenerate_a_ts_client_based_on_my_go/",
+            "description": "Coming from ASP NET I am used to getting my Swagger UI generated automatically for me This allows me to autogenerate a TS client based on the Swagger that s being generated for use in my SPA so I don t have to 1 write the client side API and..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "How current do you keep production Go versions?",
+            "link": "https://www.reddit.com/r/golang/comments/1f8u8nl/how_current_do_you_keep_production_go_versions/",
+            "description": "I m reasonably new with Go and I m wondering what best practices are for maintaining a current version of Go in your production applications I understand that only the past two releases are supported https go dev doc devel release but how big a concern is it if my..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Looking for a web stack that offers decent DX with decent front end interactivity",
+            "link": "https://www.reddit.com/r/golang/comments/1f8txy7/looking_for_a_web_stack_that_offers_decent_dx/",
+            "description": "TLDR I want to write websites if possible only in go to avoid having two servers saves on server costs but I have no idea about web tech in go in the book Let s Go you use a very simple system with go templates but compared to something like..."
+        },
+        {
+            "subreddit": "golang",
             "title": "Golang research papers",
             "link": "https://www.reddit.com/r/golang/comments/1f8t6vl/golang_research_papers/",
             "description": "I recently stumbled across https://go.dev/wiki/ResearchPapers\nIt stopped 2021. Is there a new page?"
@@ -16,7 +70,7 @@
             "subreddit": "golang",
             "title": "How to exclude Mocks created using MockGen in your official package GoDocs",
             "link": "https://www.reddit.com/r/golang/comments/1f8roml/how_to_exclude_mocks_created_using_mockgen_in/",
-            "description": "I would also like to know .... Is there any way that exported methods defined on unexpected fields be shown in GoDoc ?"
+            "description": "I would also like to know .... Is there any way that exported methods defined on unexported fields be shown in GoDoc ?"
         },
         {
             "subreddit": "golang",
@@ -28,7 +82,7 @@
             "subreddit": "golang",
             "title": "Is VSCode auto imports broken?",
             "link": "https://www.reddit.com/r/golang/comments/1f8oovv/is_vscode_auto_imports_broken/",
-            "description": "Hey My VSCode won t suggest and add functions from other packages in my module I expected Intellisense to work similar to a Python project where all functions from the project are listed and when selected an import statement is also automatically added to the top of the file is..."
+            "description": "Hey My VSCode won t suggest and add functions from other packages in my module I have gopls installed and set as the language server in VSCode settings I expected Intellisense to work similar to a Python project where all functions from the project are listed and when selected an..."
         },
         {
             "subreddit": "golang",
@@ -125,60 +179,6 @@
             "title": "I can not write a net/Conn example about template programming",
             "link": "https://www.reddit.com/r/golang/comments/1f7tbiv/i_can_not_write_a_netconn_example_about_template/",
             "description": "head payload head payload AType head 1 byte value indicate the payload length BType head 1 byte value indicate the head payload length const AType 1 BType 2 type Conn struct TheType int raw net Conn func slf Conn ReadFramePayload byte error if slf TheType AType var head make byte..."
-        },
-        {
-            "subreddit": "golang",
-            "title": "Testing in Golang - a crash article to get you going",
-            "link": "https://thedevelopercafe.com/articles/testing-in-go-929e2ad2",
-            "description": ""
-        },
-        {
-            "subreddit": "golang",
-            "title": "Cellular Automata terminal simulator in Go`",
-            "link": "https://www.youtube.com/shorts/NTaHi1l9XZg",
-            "description": ""
-        },
-        {
-            "subreddit": "golang",
-            "title": "seq - A Go Iterator Module",
-            "link": "https://www.reddit.com/r/golang/comments/1f7f6vh/seq_a_go_iterator_module/",
-            "description": "seq https pkg go dev github com GodsBoss g seq is a module that builds upon the iterators introduced in Go 1 23 https go dev doc go1 23 Provides the usual suspects like Filter Map or Reduce but also some more interesting mechanisms like throttling or cancellation Comes with..."
-        },
-        {
-            "subreddit": "golang",
-            "title": "pdfcpu rolling on..",
-            "link": "https://www.reddit.com/r/golang/comments/1f7etfg/pdfcpu_rolling_on/",
-            "description": "pdfcpu v0 8 1 is out PDF 2 0 encryption Improved CJK support Extended annotation support Check out countless samples https github com pdfcpu pdfcpu tree master pkg samples https github com pdfcpu pdfcpu tree master pkg samples Check it out https github com pdfcpu pdfcpu releases tag v0 8..."
-        },
-        {
-            "subreddit": "golang",
-            "title": "iteration filter for Go 1.23",
-            "link": "https://www.reddit.com/r/golang/comments/1f7d9pq/iteration_filter_for_go_123/",
-            "description": "You can create filtered iter Seq iter Seq2 It will filter execution of yields given in for range The implementation side processes of iter Seq are not filtered tingtt iterutil github com https github com tingtt iterutil tingtt iterutil pkg go dev https pkg go dev github com tingtt iterutil..."
-        },
-        {
-            "subreddit": "golang",
-            "title": "Struggling to Understand Go 1.23 Iterators: How Does the Loop Work?",
-            "link": "https://www.reddit.com/r/golang/comments/1f7d89d/struggling_to_understand_go_123_iterators_how/",
-            "description": "I have been trying to understand the concept of iterators introduced in the new Go 1 23 release but I m struggling to comprehend how the iteration call happens multiple times and where the boolean value for stopping the loop is obtained Here s my code snippet for reference package..."
-        },
-        {
-            "subreddit": "golang",
-            "title": "Is wails.io used by big tech? ",
-            "link": "https://www.reddit.com/r/golang/comments/1f7994u/is_wailsio_used_by_big_tech/",
-            "description": "I'm trying wails, it's great! Which companies use it?"
-        },
-        {
-            "subreddit": "golang",
-            "title": "go build from debug produces wrong codesigned binary",
-            "link": "https://www.reddit.com/r/golang/comments/1f78qjw/go_build_from_debug_produces_wrong_codesigned/",
-            "description": "This is kind of a random issue if I change a few lines around maybe it ll start working or not Basically here is what happens go build o __debug_bin288148591 gcflags all N l __debug_bin288148591 zsh killed __debug_bin288148591 Then the binary is removed If I remove l it seems to..."
-        },
-        {
-            "subreddit": "golang",
-            "title": "A simple, no-install blogging platform \ud83d\ude2d",
-            "link": "https://tunalog.org/en-us/index.html",
-            "description": ""
         }
     ]
 }
