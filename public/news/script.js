@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const themeSelect = document.getElementById('theme-select');
     const redditDropdown = document.getElementById('reddit-dropdown');
     const dropdownButton = document.getElementById('reddit-button'); // Change the selector for the dropdown button
+    const backToTopButton = document.getElementById('back-to-top');
 
     const getRawUrl = (source) => `https://raw.githubusercontent.com/${username}/${repo}/${branch}/config/${source}_datas.json`;
 
@@ -122,10 +123,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     });
 
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+        const tabs = document.getElementById('tabs');
+        if (tabs.style.display === 'none' || tabs.style.display === '') {
+            tabs.style.display = 'flex';
+        } else {
+            tabs.style.display = 'none';
+        }
+    });
+
     // Gestion du menu déroulant Reddit
     dropdownButton.addEventListener('click', (event) => {
         event.stopPropagation(); // Stop propagation to prevent closing dropdown immediately
         redditDropdown.classList.toggle('show');
+        re
     });
 
     document.addEventListener('click', (event) => {
@@ -142,4 +153,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             redditDropdown.classList.remove('show');
         }
     });
+
+    backToTopButton.addEventListener('click', function(event) {
+        event.preventDefault();  // Empêche le comportement par défaut du lien
+        window.scrollTo({ top: 0, behavior: 'smooth' });  // Faire défiler en douceur vers le haut de la page
+    });
+
 });

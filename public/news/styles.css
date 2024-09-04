@@ -1,20 +1,26 @@
 :root {
-    --header-height: 50px; /* Ajustez selon la hauteur de votre .header */
+    --header-height: 50px;
+    --primary-color: #007bff;
+    --secondary-color: #0056b3;
+    --hover-color: #003d7a;
+    --text-color: #333;
+    --background-color: #f4f4f4;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
     margin: 0;
     padding: 0;
 }
 
 .header {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: var(--primary-color);
     color: white;
     position: sticky;
     top: 0;
@@ -22,17 +28,29 @@ body {
     height: var(--header-height);
 }
 
+.menu-toggle {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-toggle img {
+    width: 30px;
+    height: 30px;
+}
+
 .tabs {
-    display: flex;
-    border-bottom: 3px solid #007bff;
-    background-color: #007bff;
-    position: sticky; /* Utilisez position: sticky pour garder les tabs en vue lors du scroll */
-    top: var(--header-height); /* Garder les onglets juste en dessous de l'en-tête */
-    z-index: 999; /* Assurez-vous qu'il reste au-dessus du contenu mais en dessous de l'en-tête */
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--primary-color);
+    padding-left: 20px;
+    height: var(--header-height);
 }
 
 .tab-button {
-    background-color: #0056b3;
+    background-color: var(--secondary-color);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -43,14 +61,13 @@ body {
 }
 
 .tab-button:hover {
-    background-color: #003d7a;
+    background-color: var(--hover-color);
 }
 
 .tab-button.active {
-    background-color: #003d7a;
+    background-color: var(--hover-color);
 }
 
-/* Styles pour le menu déroulant */
 .dropdown {
     position: relative;
 }
@@ -58,9 +75,9 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
@@ -68,8 +85,8 @@ body {
     display: block;
 }
 
-.dropdown-content .subreddit-button {
-    background-color: #f9f9f9;
+.subreddit-button {
+    background-color: white;
     border: none;
     padding: 12px 16px;
     text-align: left;
@@ -77,8 +94,8 @@ body {
     cursor: pointer;
 }
 
-.dropdown-content .subreddit-button:hover {
-    background-color: #f1f1f1;
+.subreddit-button:hover {
+    background-color: var(--background-color);
 }
 
 .search-bar {
@@ -88,7 +105,7 @@ body {
     justify-content: center;
 }
 
-#search-input {
+.search-input {
     width: 100%;
     max-width: 600px;
     padding: 10px 20px;
@@ -99,8 +116,8 @@ body {
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-#search-input:focus {
-    border-color: #007bff;
+.search-input:focus {
+    border-color: var(--primary-color);
     box-shadow: 0 2px 8px rgba(0, 123, 255, 0.5);
     outline: none;
 }
@@ -112,18 +129,18 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#error-message {
+.error-message {
     color: red;
     font-weight: bold;
     margin-top: 20px;
 }
 
-#news-list {
+.news-list {
     list-style-type: none;
     padding: 0;
 }
 
-#news-list li {
+.news-list-item {
     margin-bottom: 20px;
     padding: 15px;
     border: 1px solid #ddd;
@@ -133,90 +150,101 @@ body {
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-#news-list li:hover {
-    background-color: #f1f1f1;
+.news-list-item:hover {
+    background-color: var(--background-color);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-#news-list h3 {
+.news-list-title {
     margin: 0;
     font-size: 18px;
-    color: #333;
+    color: var(--text-color);
 }
 
-#news-list a {
+.news-list-link {
     text-decoration: none;
-    color: #007bff;
+    color: var(--primary-color);
     font-weight: bold;
 }
 
-#news-list a:hover {
+.news-list-link:hover {
     text-decoration: underline;
 }
 
-#news-list p.description {
+.news-list-description {
     margin: 10px 0 0;
     color: #666;
     font-style: italic;
 }
 
-/* Styles pour les petits écrans (téléphones) */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-color);
+}
+
+.back-to-top {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .tabs {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     :root {
-        --header-height: 40px; /* Réduire la hauteur du header pour les petits écrans */
+        --header-height: 40px;
     }
 
     .tabs {
         flex-direction: column;
         width: 100%;
-        top: var(--header-height);
     }
 
     .tab-button {
-        border-radius: 0;
         width: 100%;
         text-align: left;
-        padding: 10px 20px;
     }
 
     .dropdown-button {
         width: 100%;
-        padding: 10px 20px;
-        padding-left: 0px;
-        font-size: 14px;
+        padding-left: 0;
     }
 
     .content {
         width: 100%;
-        margin-left: 0;
+        margin: 0;
     }
 }
 
-/* Styles pour les très petits écrans (jusqu'à 580px) */
 @media only screen and (max-width: 580px) {
     :root {
         --header-height: 40px;
     }
 
     .tabs {
-        width: 100%;
         margin-bottom: 10px;
-        top: var(--header-height);
     }
 
     .content {
         width: 90%;
-        margin-left: 0;
     }
 
     .tab-button {
         font-size: 14px;
-        padding: 8px 15px;
     }
 
     .dropdown-button {
-        width: 100%;
-        padding: 8px 15px;
         font-size: 14px;
     }
-}
+}   

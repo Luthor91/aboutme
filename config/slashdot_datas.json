@@ -1,6 +1,36 @@
 {
     "items": [
         {
+            "title": "World's First Zinc-Iron Battery Megafactory Opens For Business",
+            "link": "https://hardware.slashdot.org/story/24/09/04/045204/worlds-first-zinc-iron-battery-megafactory-opens-for-business?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Sweden s Enerpoly has opened the world s first zinc ion battery megafactory near Stockholm aiming for a 100 MWh annual capacity by 2026 According to Enerpoly this megafactory will serve Europe s needs for safe energy storage and also utilize an all European supply chain to boot reports New..."
+        },
+        {
+            "title": "Northern Lights Imperiled Infrastructure From Power Grids To Satellites",
+            "link": "https://news.slashdot.org/story/24/09/03/2240242/northern-lights-imperiled-infrastructure-from-power-grids-to-satellites?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "An anonymous reader quotes a Bloomberg article written by Jason Leopold The aurora borealis or northern lights is a colorful display in the night sky that comes from geomagnetic storms in space When charged particles from the sun smash into the Earth s upper atmosphere they create bright kaleidoscopic ribbons..."
+        },
+        {
+            "title": "NaNoWriMo Is In Disarray After Organizers Defend AI Writing Tools",
+            "link": "https://slashdot.org/story/24/09/03/2232245/nanowrimo-is-in-disarray-after-organizers-defend-ai-writing-tools?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "The Verge s Jess Weatherbed reports The organization behind National Novel Writing Month NaNoWriMo is being slammed online after it claimed that opposing the use of AI writing tools is classist and ableist On Saturday NaNoWriMo published its stance on the technology announcing that it doesn t explicitly support or..."
+        },
+        {
+            "title": "Intel's Dow Status Under Threat As Struggling Chipmaker's Shares Plunge",
+            "link": "https://slashdot.org/story/24/09/03/2225253/intels-dow-status-under-threat-as-struggling-chipmakers-shares-plunge?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Intel s slumping share price could cost it a spot in the Dow Jones Industrial Average Reuters reports Analysts and investors said Intel was likely to be removed from the Dow pointing to a near 60 decline in the company s shares this year that has made it the worst..."
+        },
+        {
+            "title": "Bluesky Adds 2 Million New Users After Brazil's X Ban",
+            "link": "https://tech.slashdot.org/story/24/09/03/2216217/bluesky-adds-2-million-new-users-after-brazils-x-ban?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "In the days following Brazil s shutdown of X the decentralized social networking startup Bluesky added over 2 million new users up from just half a million as of Friday This rapid growth led some users to encounter the occasional error that would state there were Not Enough Resources to..."
+        },
+        {
+            "title": "Oprah's Upcoming AI Television Special Sparks Outrage Among Tech Critics",
+            "link": "https://entertainment.slashdot.org/story/24/09/03/2139235/oprahs-upcoming-ai-television-special-sparks-outrage-among-tech-critics?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "An anonymous reader quotes a report from Ars Technica On Thursday ABC announced an upcoming TV special titled AI and the Future of Us An Oprah Winfrey Special The one hour show set to air on September 12 aims to explore AI s impact on daily life and will feature..."
+        },
+        {
             "title": "M4 Mac Mini Likely To Lose Support For USB-A, Keep Internal Power Supply",
             "link": "https://apple.slashdot.org/story/24/09/03/2123208/m4-mac-mini-likely-to-lose-support-for-usb-a-keep-internal-power-supply?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "According to Mark Gurman Apple s upcoming M4 Mac mini will undergo a major redesign dropping USB A ports entirely in favor of five USB C ports The new design will also feature front ports for the first time an internal power supply and retain Ethernet HDMI and the headphone..."
@@ -44,36 +74,6 @@
             "title": "Mobile Phones Not Linked To Brain Cancer, Biggest Study To Date Finds",
             "link": "https://science.slashdot.org/story/24/09/03/1610238/mobile-phones-not-linked-to-brain-cancer-biggest-study-to-date-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "Mobile phones are not linked to brain and head cancers a comprehensive review of the highest quality evidence available commissioned by the World Health Organization has found From a report Led by the Australian Radiation Protection and Nuclear Safety Agency Arpansa the systematic review examined more than 5 000 studies..."
-        },
-        {
-            "title": "Japan Swelters Through Hottest Summer While Parts of China Log Warmest August on Record",
-            "link": "https://news.slashdot.org/story/24/09/03/1540211/japan-swelters-through-hottest-summer-while-parts-of-china-log-warmest-august-on-record?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Japan has recorded its hottest summer on record after a sweltering three months marked by thousands of instances of extreme heat with meteorologists warning that unseasonably high temperatures will continue through the autumn From a report The average temperature in June July and August was 1 76C higher than the..."
-        },
-        {
-            "title": "Nvidia Takes an Added Role Amid AI Craze: Data-Center Designer",
-            "link": "https://tech.slashdot.org/story/24/09/03/1414215/nvidia-takes-an-added-role-amid-ai-craze-data-center-designer?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Nvidia dominates the chips at the center of the AI boom It wants to conquer almost everything else that makes those chips tick too From a report Chief Executive Jensen Huang is increasingly broadening his company s focus and seeking to widen its advantage over competitors by offering software data..."
-        },
-        {
-            "title": "How Do Gold Nuggets Form? Earthquakes May Be the Key",
-            "link": "https://science.slashdot.org/story/24/09/03/1332228/how-do-gold-nuggets-form-earthquakes-may-be-the-key?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Scientists have finally solved a long standing mystery about the geologic process behind these large pieces of gold found in quartz rock From a report Gold has always been a hot commodity But these days finding a nugget isn t too tricky Much of the world s gold is mined..."
-        },
-        {
-            "title": "Canva To Hike Subscription Prices Up To 300% Amid AI Push",
-            "link": "https://slashdot.org/story/24/09/03/1254250/canva-to-hike-subscription-prices-up-to-300-amid-ai-push?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Canva a popular online design platform plans to significantly increase prices for some of its business subscriptions next year citing the addition of generative AI features The company s Teams subscription which supports multiple users will see price hikes of up to 300 in some regions From a report Subscribers..."
-        },
-        {
-            "title": "Star Wars Outlaws Is A Crappy Masterpiece",
-            "link": "https://entertainment.slashdot.org/story/24/09/03/1014230/star-wars-outlaws-is-a-crappy-masterpiece?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Kotaku reviews Star Wars Outlaws Ubisoft s latest AAA title I was staring at a wall It was an early mission in Ubisoft s latest behemothic RPG Star Wars Outlaws in which I was charged with infiltrating an Empire base to recover some information from a computer and this wall..."
-        },
-        {
-            "title": " No Screens Before Age of Two, Swedish Health Authority Tells Parents",
-            "link": "https://news.slashdot.org/story/24/09/03/0838232/no-screens-before-age-of-two-swedish-health-authority-tells-parents?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Children under the age of two should not be exposed to any screens whatsoever and teenagers should have no more than three hours of screen time a day according to guidelines announced by health authorities in Sweden From a report Parents and guardians should think about how they use screens..."
         }
     ]
 }

@@ -2,6 +2,36 @@
     "items": [
         {
             "subreddit": "javascript",
+            "title": "WTF Wednesday (September 04, 2024)",
+            "link": "https://www.reddit.com/r/javascript/comments/1f8mww6/wtf_wednesday_september_04_2024/",
+            "description": "Post a link to a GitHub repo or another code chunk that you would like to have reviewed and brace yourself for the comments Whether you re a junior wanting your code sharpened or a senior interested in giving some feedback and have some time to spare to review someone..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] One Site, Multi-Apps",
+            "link": "https://www.reddit.com/r/javascript/comments/1f8mnx9/askjs_one_site_multiapps/",
+            "description": "I told myself that the only way to prove that my app is clean is by showing it coexisting with unrelated apps in the same web site with each app staying out of the other apps state information etc For example the URIs of two apps could be https mysite..."
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] Uninitialized const in the TDZ ",
+            "link": "https://www.reddit.com/r/javascript/comments/1f8kahn/askjs_uninitialized_const_in_the_tdz/",
+            "description": "How in the JavaScript can declare the const variable in tdz in variable environment while we can't declare const without initializing it?"
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] What do you hate the most about getting your first job that has JS tech?",
+            "link": "https://www.reddit.com/r/javascript/comments/1f8h0hs/askjs_what_do_you_hate_the_most_about_getting/",
+            "description": "I heard it's very saturated now, is that true?\n\nWhat are the recruiters really looking for? Specific framework or soft skill?\n\nDo they really look for work experience even if it's entry level?"
+        },
+        {
+            "subreddit": "javascript",
+            "title": "[AskJS] How can I get better at JS to do challenges?",
+            "link": "https://www.reddit.com/r/javascript/comments/1f8fbna/askjs_how_can_i_get_better_at_js_to_do_challenges/",
+            "description": "I know the basic JS and construction of simple functions and loops etc But when I try to do Easy code wars challenges I struggle pretty hard What can I do to improve I ve watched several videos on beginners tutorials and grasped what they teach Any other materials you..."
+        },
+        {
+            "subreddit": "javascript",
             "title": "A guide to file uploads in Remix",
             "link": "https://programmingarehard.com/2024/09/03/remix-file-uploads.html/",
             "description": ""
@@ -35,12 +65,6 @@
             "title": "[AskJS] How long until I\u2019m ready for react? ",
             "link": "https://www.reddit.com/r/javascript/comments/1f84wb8/askjs_how_long_until_im_ready_for_react/",
             "description": "Hello Reddit I am proficient in Python I have made a bunch of Flask apps I have been dabbling in JavaScript for a while now probably 3 4 months Went through code academy for most of it and I think I ve finally got a grasp on the language However..."
-        },
-        {
-            "subreddit": "javascript",
-            "title": "I built an AI tool to handle my mom\u2019s invoices and saved her 20hrs!",
-            "link": "https://github.com/abhishekpatil4/GmailGenius",
-            "description": ""
         },
         {
             "subreddit": "javascript",
@@ -155,30 +179,6 @@
             "title": "[AskJS] Redux store external changes question",
             "link": "https://www.reddit.com/r/javascript/comments/1f6de96/askjs_redux_store_external_changes_question/",
             "description": "noob here what s the recommended approach to bind external changes from the server to the store im thinking of using a single action named EVENT passing in propertyName and value which will be dispatched from a websocket listener my only concern is modularity as components would now have the..."
-        },
-        {
-            "subreddit": "javascript",
-            "title": "[AskJS] Is React\u2019s Traditional Component Model Becoming Outdated?",
-            "link": "https://www.reddit.com/r/javascript/comments/1f687yi/askjs_is_reacts_traditional_component_model/",
-            "description": "With all the recent changes and debates surrounding React s future direction especially around the controversial fetch on render approach it seems like the community is questioning whether React s traditional component model is still the best way to handle state and data What do you think Are we reaching..."
-        },
-        {
-            "subreddit": "javascript",
-            "title": "How I Created a 3.78MB Docker Image for a JavaScript Service",
-            "link": "https://shenzilong.cn/record/How%20I%20Created%20a%203.78MB%20Docker%20Image%20for%20a%20JavaScript%20Service",
-            "description": ""
-        },
-        {
-            "subreddit": "javascript",
-            "title": "[AskJS] Evaluating a Few SSGs for Class Project - Community / User Opinions Welcome!",
-            "link": "https://www.reddit.com/r/javascript/comments/1f62toj/askjs_evaluating_a_few_ssgs_for_class_project/",
-            "description": "Hi all I am a student just getting my feet wet for the first time I am hoping to just test a few things out but would love some community input to guide me as I try each one of these out Or maybe your input helps me focus on..."
-        },
-        {
-            "subreddit": "javascript",
-            "title": "Node.js REPL from/to the browser",
-            "link": "https://github.com/guest271314/native-messaging-nodejs/tree/eval",
-            "description": ""
         }
     ]
 }

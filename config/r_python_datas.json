@@ -2,6 +2,24 @@
     "items": [
         {
             "subreddit": "Python",
+            "title": "Nemo Agent - Python AI Coder!",
+            "link": "https://www.reddit.com/r/Python/comments/1f8o6fm/nemo_agent_python_ai_coder/",
+            "description": "Hi All I am launching Nemo Agent an open source Python AI coder It creates a full application from a prompt I have tested with leetcode streamlit flask fastapi and tkinter Nemo Agent supports mistral nemo Ollama and OpenAI I would love to get your feedback about the concept implementation..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Python script for detection of matching pngs in 4 different ways",
+            "link": "https://www.reddit.com/r/Python/comments/1f8kvlk/python_script_for_detection_of_matching_pngs_in_4/",
+            "description": "Is this script worth sharing I have a python script that works for me in Ubuntu Linux Compares all pngs in a directory same size 4 different ways its a little crazy but it works for me identifying looping in my 4k uhd art videos I make I explode the..."
+        },
+        {
+            "subreddit": "Python",
+            "title": "Wednesday Daily Thread: Beginner questions",
+            "link": "https://www.reddit.com/r/Python/comments/1f8f4hr/wednesday_daily_thread_beginner_questions/",
+            "description": "Weekly Thread Beginner Questions Welcome to our Beginner Questions thread Whether you re new to Python or just looking to clarify some basics this is the thread for you How it Works 1 Ask Anything Feel free to ask any Python related question There are no bad questions here 2..."
+        },
+        {
+            "subreddit": "Python",
             "title": "intra-search : Semantically search within pdf documents.",
             "link": "https://www.reddit.com/r/Python/comments/1f8adlk/intrasearch_semantically_search_within_pdf/",
             "description": "Hello everyone I thought it might be good to share a small project I did a couple of weeks back What My Project Does It is a simple tool for performing meaning based semantic search within a pdf document It runs entirely in your local machine and uses internet only..."
@@ -161,24 +179,6 @@
             "title": "QCut, a quantum circuit-knitting python package",
             "link": "https://www.reddit.com/r/Python/comments/1f6j2pm/qcut_a_quantum_circuitknitting_python_package/",
             "description": "What My Project Does QCut is a quantum circuit knitting package for performing wire cuts especially designed to not use reset gates or mid circuit measurements since on early NISQ devices they pose significant errors if available at all QCut has been designed to work with IQM s qpus and..."
-        },
-        {
-            "subreddit": "Python",
-            "title": "Github-dlr: Download individual files and folders from Github recursively.",
-            "link": "https://www.reddit.com/r/Python/comments/1f6gwks/githubdlr_download_individual_files_and_folders/",
-            "description": "What My Project Does Github dlr is a terminal tool that lets users download individual folders and files from a Github repository in an easy way without needing to clone the entire project https github com rocktimsaikia github dlr https github com rocktimsaikia github dlr Target Audience Terminal users who..."
-        },
-        {
-            "subreddit": "Python",
-            "title": "I am sharing Python Data Science courses and projects on YouTube",
-            "link": "https://www.reddit.com/r/Python/comments/1f6gt56/i_am_sharing_python_data_science_courses_and/",
-            "description": "Hello I wanted to share that I am sharing free courses and projects on my YouTube Channel I have more than 200 videos and I created playlists for learning Data Science I am leaving the playlist link below have a great day Data Science Full Courses amp Projects gt https..."
-        },
-        {
-            "subreddit": "Python",
-            "title": " Scribo - A simple, efficient and content-first static site generator (SSG)",
-            "link": "https://www.reddit.com/r/Python/comments/1f6f6g3/scribo_a_simple_efficient_and_contentfirst_static/",
-            "description": "Hey guys I was tinkering with a little open source project and thought I d share it with you all It s a static site generator using Python that uses Markdown for content and file system based routing You can install it using pip The project s docs site is..."
         }
     ]
 }

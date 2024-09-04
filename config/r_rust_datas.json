@@ -2,6 +2,66 @@
     "items": [
         {
             "subreddit": "rust",
+            "title": "choose between rust and go for writing a download manager based on aria2",
+            "link": "https://www.reddit.com/r/rust/comments/1f8o50x/choose_between_rust_and_go_for_writing_a_download/",
+            "description": "I m at a crossroads between choosing Rust and Golang for my new project I m a full stack developer Python JavaScript and have worked on a few projects with C and Java as well I want to expand my skills so I m planning to start a new project..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "this code is so terrible\ud83e\udd26\u200d\u2642\ufe0f. it's in the crossterm crate, who let this through?",
+            "link": "https://www.reddit.com/r/rust/comments/1f8o07t/this_code_is_so_terrible_its_in_the_crossterm/",
+            "description": "rust let str match self Color Reset gt reset Color Black gt black Color DarkGrey gt dark_grey Color Red gt red Color DarkRed gt dark_red Color Green gt green Color DarkGreen gt dark_green Color Yellow gt yellow Color DarkYellow gt dark_yellow Color Blue gt blue Color DarkBlue gt dark_blue Color..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Is there a way to build tauri application and use whisperx?",
+            "link": "https://www.reddit.com/r/rust/comments/1f8nyu2/is_there_a_way_to_build_tauri_application_and_use/",
+            "description": "I was creating a tuari application which would locally record the mic and speaker Is there anyway we can have integration with WhisperX https github com m bain whisperX or something like this for transcription as well locally The quality of transcription of whisperx and diarization is extremely good Or..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "A little distraction for you: XOR operator and other AI Assistants considerations",
+            "link": "https://bufferunderrun.net/posts/2024/quiz-1-xor-operator-and-llms/",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "Read from stdin with timeout.",
+            "link": "https://www.reddit.com/r/rust/comments/1f8n3g3/read_from_stdin_with_timeout/",
+            "description": "Hello everyone I am in a bit of a pickle I want to read a line from stdin with a timeout of 30 seconds I can do it with Tokio but I was wondering if there is a lighter simpler way to to it For clarity I want to do..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "This Month in Rust OSDev: August 2024",
+            "link": "https://rust-osdev.com/this-month/2024-08/",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "What are future feature of the rust programming language?",
+            "link": "https://www.reddit.com/r/rust/comments/1f8lqz8/what_are_future_feature_of_the_rust_programming/",
+            "description": "By future feature i means the most impactful feature that will exist"
+        },
+        {
+            "subreddit": "rust",
+            "title": "Should accessibility be baked in to TUI libraries/apps?",
+            "link": "https://www.reddit.com/r/rust/comments/1f8jwln/should_accessibility_be_baked_in_to_tui/",
+            "description": "I ask because I don\u2019t know if people who need screen readers would use TUI apps much. I don\u2019t know anything about how visually impaired people use tech though\n\n[View Poll](https://www.reddit.com/poll/1f8jwln)"
+        },
+        {
+            "subreddit": "rust",
+            "title": "The Rust Programming Language Book chapter 8 exercise critique",
+            "link": "https://www.reddit.com/r/rust/comments/1f8ger7/the_rust_programming_language_book_chapter_8/",
+            "description": "I wrote a program in Rust after reading Chapter 8 in the Rust Programming Language book This is the final exercise developing a program that takes user input and adds a department an employee or both to a company If you want to see it in my github see my..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Added orcs and some new game mechanics, everything written in Rust. Only first few minutes worth watching, if anything.",
+            "link": "https://youtu.be/PMoX2CBtHPc",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
             "title": "Struggeling with modularizing cli tool",
             "link": "https://www.reddit.com/r/rust/comments/1f8arxb/struggeling_with_modularizing_cli_tool/",
             "description": "Hy there I ve written a CLI tool and most of the code is in main rs I have red the rust book and multiple threads blogs about how to modularize but I m still struggeling The tool has multiple commands and subcommands e g profile clone quick mass Intuitively..."
@@ -119,66 +179,6 @@
             "title": "Published my first crate and looking for feedback",
             "link": "https://www.reddit.com/r/rust/comments/1f7zb1z/published_my_first_crate_and_looking_for_feedback/",
             "description": "I started out working on an aviation related project where I downloaded the FAA s airspace definition files which are these 600 column wide fixed width monstrosities of text files The libraries I found for parsing fixed width files all had runtime defined data structures that needed to be defined..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "How can I improve my Readme",
-            "link": "https://www.reddit.com/r/rust/comments/1f7y53v/how_can_i_improve_my_readme/",
-            "description": "Hi I recently created a Readme for my GitHub repository using gprm I want to add some personal touch to it and also mention rust a lot more Do you have any idea how I can archive this or any feedback Here is my readme it is actually my profile..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "New Rustling",
-            "link": "https://www.reddit.com/r/rust/comments/1f7w70b/new_rustling/",
-            "description": "Hi I just started learning Rust a bit over a week ago and I m really enjoying it I started with the Rustlings project The Rust Programming Language and articles here and there I m nevertheless a bit concerned that this could be a bit of a departure of what..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "Dealing with json-ld in serde_json",
-            "link": "https://www.reddit.com/r/rust/comments/1f7vsk0/dealing_with_jsonld_in_serde_json/",
-            "description": "how would i parse some json-ld in serde\\_json? It's struggling with the @\\\\context field because it's an array of multiple different types. Here's a sample of the json: [https://bin.wanderingwires.net/L+WISb.json](https://bin.wanderingwires.net/L+WISb.json)"
-        },
-        {
-            "subreddit": "rust",
-            "title": "Lifetime mismatch when implementing trait method with lifetime parameter",
-            "link": "https://www.reddit.com/r/rust/comments/1f7t01d/lifetime_mismatch_when_implementing_trait_method/",
-            "description": "I m trying to implement the LogRecord trait for the LogRecordImpl struct but I m running into a lifetime mismatch error Here s my code use std borrow Cow pub trait LogRecord fn set_body lt a gt amp mut self body AnyValue lt a gt derive Debug Clone PartialEq pub..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "Binary without ld-linux.so dependency",
-            "link": "https://www.reddit.com/r/rust/comments/1f7ry6n/binary_without_ldlinuxso_dependency/",
-            "description": "Hi I m wondering how to create a binary that does not depend on the dynamic linker ld linux so http ld linux so without removing std from the dependencies is this possible I tried rustflags C target feature crt static C link arg nostartfiles but the resulting binary still..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "Rust for Linux maintainer steps down in frustration",
-            "link": "https://www.theregister.com/2024/09/02/rust_for_linux_maintainer_steps_down/",
-            "description": ""
-        },
-        {
-            "subreddit": "rust",
-            "title": "dasm 0.1.0 - Tiny instruction assembler currently supporting x86 and amd64 for use in compilers",
-            "link": "https://github.com/DvvCz/dasm",
-            "description": ""
-        },
-        {
-            "subreddit": "rust",
-            "title": "Suggestions for protecting / anti-cracking paid, offline Rust app ",
-            "link": "https://www.reddit.com/r/rust/comments/1f7n63f/suggestions_for_protecting_anticracking_paid/",
-            "description": "Hey all I acknowledge this is a bit of an odd request but I m looking for any clever ideas people might have in this regard I am developing a desktop application in Rust that I intend to license and sell and as such will not be open sourced The..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "How do I configure per-profile settings in Rust?",
-            "link": "https://www.reddit.com/r/rust/comments/1f7mdn1/how_do_i_configure_perprofile_settings_in_rust/",
-            "description": "Hello I m Java Spring delveoper I m trying to do some batchability work with Rust at work And I m using the profiles that local dev staging and live In Spring I processed it with application profile yml and managed it in the application project But in Rust I..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "[tutorial] Rust lifetimes, subtyping, variance",
-            "link": "https://developerlife.com/2024/09/02/rust-lifetimes/",
-            "description": ""
         }
     ]
 }
