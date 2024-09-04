@@ -314,7 +314,7 @@ body {
 
     #reddit-dropdown {
         min-width: 20%;
-        left: 50%;
+        left: 65%;
         box-sizing: border-box;
         max-height: 60vh; /* Réduire la hauteur pour les très petits écrans */
     }
