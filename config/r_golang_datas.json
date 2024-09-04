@@ -2,6 +2,12 @@
     "items": [
         {
             "subreddit": "golang",
+            "title": "Golang research papers",
+            "link": "https://www.reddit.com/r/golang/comments/1f8t6vl/golang_research_papers/",
+            "description": "I recently stumbled across https://go.dev/wiki/ResearchPapers\nIt stopped 2021. Is there a new page?"
+        },
+        {
+            "subreddit": "golang",
             "title": "Curious on DI opinions - constructor vs parameter",
             "link": "https://www.reddit.com/r/golang/comments/1f8sed2/curious_on_di_opinions_constructor_vs_parameter/",
             "description": "Hello I m curious on the community s opinion on best non framework DI I ve been told by more senior engineers Stat away from setter injection Not sure why But we mainly pass dependencies around via parameters Many of our handlers have messy signatures that rely on many prob..."
@@ -173,12 +179,6 @@
             "title": "A simple, no-install blogging platform \ud83d\ude2d",
             "link": "https://tunalog.org/en-us/index.html",
             "description": ""
-        },
-        {
-            "subreddit": "golang",
-            "title": "Looking for some mentor help in unit testing",
-            "link": "https://www.reddit.com/r/golang/comments/1f771kc/looking_for_some_mentor_help_in_unit_testing/",
-            "description": "Hi,\n\nI am a beginner in Golang. I am struggling to write unit testing code and achieve code coverage. I need some mentor help on this. Please let me know if anyone who can help me on this."
         }
     ]
 }

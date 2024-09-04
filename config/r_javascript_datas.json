@@ -2,6 +2,12 @@
     "items": [
         {
             "subreddit": "javascript",
+            "title": "Explicit is better than implicit",
+            "link": "https://www.trevorlasn.com/blog/-explicit-is-better-than-implicit/",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
             "title": "WTF Wednesday (September 04, 2024)",
             "link": "https://www.reddit.com/r/javascript/comments/1f8mww6/wtf_wednesday_september_04_2024/",
             "description": "Post a link to a GitHub repo or another code chunk that you would like to have reviewed and brace yourself for the comments Whether you re a junior wanting your code sharpened or a senior interested in giving some feedback and have some time to spare to review someone..."
@@ -173,12 +179,6 @@
             "title": "[AskJS] Anybody get Node.js' Single executable applications process to work?",
             "link": "https://www.reddit.com/r/javascript/comments/1f6ijis/askjs_anybody_get_nodejs_single_executable/",
             "description": "SOLVED Solution cp home user bin node node_eval echo main nm_nodejs_eval js output sea prep blob gt sea config json node no warnings experimental sea config sea config json bun install postject modify cli js shebang to home user bin node because node is not installed is just in PATH..."
-        },
-        {
-            "subreddit": "javascript",
-            "title": "[AskJS] Redux store external changes question",
-            "link": "https://www.reddit.com/r/javascript/comments/1f6de96/askjs_redux_store_external_changes_question/",
-            "description": "noob here what s the recommended approach to bind external changes from the server to the store im thinking of using a single action named EVENT passing in propertyName and value which will be dispatched from a websocket listener my only concern is modularity as components would now have the..."
         }
     ]
 }

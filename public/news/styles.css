@@ -18,11 +18,13 @@ body {
     justify-content: space-between;
     padding: 10px 20px;
     background-color: var(--primary-color);
-    color: white;
+    color: var(--text-color);
     position: sticky;
     top: 0;
     z-index: 1000;
     height: var(--header-height);
+
+    border-bottom: 2px solid black; /* Bordure noire de 5 pixels en bas */
 }
 
 /* Conteneur pour les onglets et le sélecteur de thème */
@@ -41,7 +43,7 @@ body {
     background-color: #007bff;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: var(--text-color);
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -66,7 +68,7 @@ body {
 
 .tab-button {
     background-color: var(--secondary-color);
-    color: white;
+    color: var(--text-color);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -144,9 +146,13 @@ body {
 /* Contenu principal */
 .content {
     padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
     background-color: var(--background-color);
-    border-radius: 5px;
+    border-radius: 5px; 
     box-shadow: 0 2px 5px var(--box-shadow-color);
+
+    border-top: 1px solid black; /* Bordure noire de 5 pixels en haut */
 }
 
 .error-message {
@@ -241,65 +247,69 @@ body {
     text-decoration: underline;
 }
 
-/* Responsive Styles */
-@media (min-width: 768px) {
-    .tabs {
-        display: flex;
-    }
-}
-
+/* Styles pour les écrans de petite taille */
 @media only screen and (max-width: 768px) {
-    :root {
-        --header-height: 40px;
+    .dropdown-content {
+        min-width: 100%; /* Faire en sorte que le menu déroulant ait la même largeur que les onglets */
     }
 
-    .tabs {
-        flex-direction: column;
-        width: 100%;
+    .subreddit-button {
+        background-color: var(--dropdown-background-color);
+        border: none;
+        padding: 10px 15px; /* Ajuster le padding pour correspondre aux onglets */
+        text-align: center; /* Centrer le texte dans le bouton */
+        width: 100%; /* Faire en sorte que les boutons du menu déroulant aient la même largeur que les onglets */
+        box-sizing: border-box; /* S'assurer que le padding est inclus dans la largeur totale */
+        cursor: pointer;
+        display: inline-block; /* Assurer que les boutons s'affichent correctement */
+        font-size: 16px; /* Taille de police similaire à celle des onglets */
+        height: 100%; /* Assurer que la hauteur des boutons est la même que celle des onglets */
     }
 
-    .tab-button {
-        width: 100%;
-        text-align: left;
-    }
-
-    .dropdown {
-        width: 100%;
-    }
-
-    .dropdown-button {
-        width: 100%;
-        padding-left: 0;
-    }
-
-    .content {
-        width: 100%;
-        margin: 0;
+    .subreddit-button:hover {
+        background-color: var(--background-color);
     }
 }
 
+/* Styles pour les très petits écrans */
 @media only screen and (max-width: 580px) {
-    :root {
-        --header-height: 40px;
+    .dropdown-content {
+        min-width: 100%; /* Assurer la largeur des éléments du menu déroulant */
     }
 
-    .tabs {
-        margin-bottom: 10px;
+    .subreddit-button {
+        padding: 8px; /* Ajuster le padding pour les très petits écrans */
+        font-size: 14px; /* Réduire la taille de la police pour les très petits écrans */
+        height: auto; /* Assurer que la hauteur des boutons soit ajustée automatiquement */
     }
+}
 
-    .content {
-        width: 90%;
-    }
+/* Styles généraux pour les éléments du menu déroulant */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--dropdown-background-color);
+    color: var(--dropdown-text-color);
+    min-width: 100%; /* Assurer que le menu déroulant a la même largeur que les onglets */
+    box-shadow: 0px 8px 16px 0px var(--box-shadow-color);
+    box-sizing: border-box; /* Inclure le padding dans la largeur totale */
+}
 
-    .tab-button {
-        font-size: 14px;
-    }
+.dropdown-content.show {
+    display: block;
+}
 
-    .dropdown {
-        width: 100%;
-    }
-
-    .dropdown-button {
-        font-size: 14px;
-    }
+.subreddit-button {
+    background-color: var(--dropdown-background-color);
+    border: none;
+    padding: 10px 15px; /* Ajuster le padding pour correspondre aux onglets */
+    text-align: center; /* Centrer le texte dans le bouton */
+    width: 100%; /* Assurer que le bouton prend toute la largeur disponible */
+    cursor: pointer;
+    display: inline-block; /* Assurer que les boutons s'affichent correctement */
+    font-size: 16px; /* Taille de police similaire à celle des onglets */
+    height: 50px; /* Assurer une hauteur uniforme pour tous les boutons */
+    line-height: 1.5; /* Ajuster la hauteur de ligne pour un alignement vertical correct */
 }

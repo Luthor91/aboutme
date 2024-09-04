@@ -8,12 +8,6 @@
         },
         {
             "subreddit": "rust",
-            "title": "I Landed 50 Interviews in a Month Using This Incredible AI Tool for Job Applications!",
-            "link": "https://www.reddit.com/r/rust/comments/1f8rzct/i_landed_50_interviews_in_a_month_using_this/",
-            "description": "Have you ever wished the job application process could be easier Meet LinkedIn AI Hawk This nifty tool automates your LinkedIn job applications allowing you to apply to multiple positions with tailored applications in no time How does it work It analyzes your professional background and the job descriptions then..."
-        },
-        {
-            "subreddit": "rust",
             "title": "I want to do many projects but I don't know where to start",
             "link": "https://www.reddit.com/r/rust/comments/1f8rklj/i_want_to_do_many_projects_but_i_dont_know_where/",
             "description": "There are many projects that I am curious about but I don't know how they work and how to do them in practice and theory and I have no idea where to start learning.\n\nExample: I want to create my own project:\n\nCode Editor, Database, Programming language, etc..."
@@ -41,12 +35,6 @@
             "title": "choose between rust and go for writing a download manager based on aria2",
             "link": "https://www.reddit.com/r/rust/comments/1f8o50x/choose_between_rust_and_go_for_writing_a_download/",
             "description": "I m at a crossroads between choosing Rust and Golang for my new project I m a full stack developer Python JavaScript and have worked on a few projects with C and Java as well I want to expand my skills so I m planning to start a new project..."
-        },
-        {
-            "subreddit": "rust",
-            "title": "this code is so terrible\ud83e\udd26\u200d\u2642\ufe0f. it's in the crossterm crate, who let this through?",
-            "link": "https://www.reddit.com/r/rust/comments/1f8o07t/this_code_is_so_terrible_its_in_the_crossterm/",
-            "description": "rust let str match self Color Reset gt reset Color Black gt black Color DarkGrey gt dark_grey Color Red gt red Color DarkRed gt dark_red Color Green gt green Color DarkGreen gt dark_green Color Yellow gt yellow Color DarkYellow gt dark_yellow Color Blue gt blue Color DarkBlue gt dark_blue Color..."
         },
         {
             "subreddit": "rust",
@@ -179,6 +167,18 @@
             "title": "Done with The Book and Rustlings, what next?",
             "link": "https://www.reddit.com/r/rust/comments/1f82l41/done_with_the_book_and_rustlings_what_next/",
             "description": "Hello I am a machine learning researcher with knowledge of Python my main instrument C and C who has decided to learn Rust I don t have immediate use for Rust but want to have it in my toolbox I had read and mostly understood The Book after which I..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "[Media] This weird error shows up whenever I open a rust file in neovim(it uses rust-analyzer) but there is no error shown when I run `cargo check`",
+            "link": "https://i.redd.it/4ndt2wt9wlmd1.png",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
+            "title": "gccrs August 2024 monthly report",
+            "link": "https://rust-gcc.github.io/2024/09/03/2024-08-monthly-report.html",
+            "description": ""
         }
     ]
 }
