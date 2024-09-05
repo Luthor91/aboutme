@@ -1,138 +1,148 @@
 {
     "hackernews": [
         {
-            "title": "Key aspects of Palantir's Federated Data Platform lack legal basis",
-            "link": "https://www.theregister.com/2024/09/05/fdp_lacks_legal_basis/",
+            "title": "Asus' new mini PC has a Copilot AI button on the front for some reason",
+            "link": "https://www.theverge.com/2024/9/4/24235910/asus-nuc-14-pro-ai-copilot-button-mini-pc",
             "description": "No Description"
         },
         {
-            "title": "SEO Interlinking with Cursor",
-            "link": "https://twitter.com/theluk246/status/1831635262046106013",
+            "title": "PostgreSQL 17 RC1 Released",
+            "link": "https://www.postgresql.org/about/news/postgresql-17-rc1-released-2926/",
             "description": "No Description"
         },
         {
-            "title": "the US should place a value of $1.17M per additional birth",
-            "link": "https://model-thinking.com/p/refillable-planet",
+            "title": "How to make friends outside of school",
+            "link": "https://jeena.net/how-to-make-friends",
             "description": "No Description"
         },
         {
-            "title": "Control of robots mediated by fungal mycelia",
-            "link": "https://www.science.org/doi/10.1126/scirobotics.adk8019",
+            "title": "Composing everythings together in FastAPI with pydantic-resolve",
+            "link": "https://github.com/allmonday/pydantic-resolve-demo",
             "description": "No Description"
         },
         {
-            "title": "Julian Barbour on the End of Time [video]",
-            "link": "https://www.youtube.com/watch?v=GoTeGW2csPk",
+            "title": "Why Can't the U.S. Build Ships?",
+            "link": "https://www.construction-physics.com/p/why-cant-the-us-build-ships",
             "description": "No Description"
         },
         {
-            "title": "Conch Republic",
-            "link": "https://en.wikipedia.org/wiki/Conch_Republic",
+            "title": "Sustainable Procurement Policy: Definition and Implementation",
+            "link": "https://www.get-flowie.com/en/blog/sustainable-procurement-policy-definition-and-implementation",
             "description": "No Description"
         },
         {
-            "title": "Using SLOs in API Management",
-            "link": "https://apichangelog.substack.com/p/using-slos-in-api-management",
+            "title": "Google/Facebook partner admits it can listen to device microphone to serve ads",
+            "link": "https://www.dexerto.com/tech/google-facebook-partner-admits-it-can-listen-to-device-microphone-to-serve-ads-2888041/",
             "description": "No Description"
         },
         {
-            "title": "First high-quality feline iPSCs generated without genetic footprint",
-            "link": "https://www.omu.ac.jp/en/info/research-news/entry-61599.html",
+            "title": "Classic HN: Itappmonrobot (2007)",
+            "link": "https://thedailywtf.com/articles/ITAPPMONROBOT",
             "description": "No Description"
         },
         {
-            "title": "Columbus Stops Cyber Researcher from Flagging Stolen Police Data",
-            "link": "https://www.bloomberg.com/news/newsletters/2024-09-04/columbus-stops-cyber-researcher-from-flagging-stolen-police-data",
+            "title": "Hacking Sales as an Introvert",
+            "link": "https://shwin.co/blog/hacking-sales-as-an-introvert",
             "description": "No Description"
         },
         {
-            "title": "A syntax-highlighting pager for Git, diff, grep, and blame output",
-            "link": "https://github.com/dandavison/delta",
+            "title": "Show HN: We built a knowledge hub for running LLMs on edge devices",
+            "link": "https://github.com/NexaAI/Awesome-LLMs-on-device",
+            "description": "Hey HN Alex and Zack from Nexa AI here We are excited to share a project our team has been passionately working on recently in collaboration with Jiajun from Meta Qun from San Francisco State University and Xin and Qi from the University of North Texas p Running AI models..."
+        },
+        {
+            "title": "How AI Disrupts Tech Investing",
+            "link": "https://unchartedterritories.tomaspueyo.com/p/how-ai-disrupts-tech-investing",
             "description": "No Description"
         },
         {
-            "title": "Railway Orientated Programming",
-            "link": "https://github.com/aseminjakiw/functionalCsharp",
+            "title": "Accelerated, Production-Ready Graph Analytics for NetworkX Users",
+            "link": "https://developer.nvidia.com/blog/accelerated-production-ready-graph-analytics-for-networkx-users/",
             "description": "No Description"
         },
         {
-            "title": "Adding algebraic data types to Nickel",
-            "link": "https://www.tweag.io/blog/2024-09-05-algebraic-data-types-nickel/",
+            "title": "I made an ultra-realistic AI chat inspired by Omegle",
+            "link": "https://www.theaipeeps.com/",
             "description": "No Description"
         },
         {
-            "title": "Researchers dig into stability challenges of nuclear fusion\u2013with mayonnaise",
-            "link": "https://engineering.lehigh.edu/news/article/lehigh-university-researchers-dig-deeper-stability-challenges-nuclear-fusion-mayonnaise",
+            "title": "The Six Million Dollar Man Opening and Closing Theme",
+            "link": "https://www.youtube.com/watch?v=0CPJ-AbCsT8",
             "description": "No Description"
         },
         {
-            "title": "My home setup v5.5: home's consumption using a iOS widget, and a NAS",
-            "link": "https://giuliomagnifico.blog/post/2024-08-20-my-home-setup-v5.5/",
+            "title": "Dashboard Analytics",
+            "link": "https://socket.dev/blog/socket-introduces-new-dashboard-analytics",
             "description": "No Description"
         },
         {
-            "title": "TYPO3: Open-Source Enterprise CMS for Robust Web Content Management",
-            "link": "https://github.com/TYPO3/typo3",
+            "title": "Show HN: Code Runner \u2013 Instant online execution of code",
+            "link": "https://koko1928.github.io/CodeRunner/",
+            "description": "Slightly modified."
+        },
+        {
+            "title": "Using PHP with Kafka",
+            "link": "https://medium.com/@jha.ameet/integrate-apache-kafka-with-php-2b8d48c22358",
             "description": "No Description"
         },
         {
-            "title": "The More Senior Your Job Title, the More You Need to Keep a Journal",
-            "link": "https://hbr.org/2017/07/the-more-senior-your-job-title-the-more-you-need-to-keep-a-journal",
+            "title": "Brief Introduction to Vision Language Models",
+            "link": "https://www.lightly.ai/post/introduction-to-vision-language-models",
             "description": "No Description"
         },
         {
-            "title": "Rethinking Exercise: How Too Much Can Speed Up Aging, According to Finnish Study (2023)",
-            "link": "https://www.thomashealthblog.com/?p=19078",
+            "title": "Newly Discovered Antibody Protects Against All Covid-19 Variants",
+            "link": "https://news.utexas.edu/2024/09/03/newly-discovered-antibody-protects-against-all-covid-19-variants/",
             "description": "No Description"
         },
         {
-            "title": "How RDMA Became the Fuel for Fast Networks",
-            "link": "https://blogs.nvidia.com/blog/what-is-rdma/",
+            "title": "Takeaways from Darknet Diaries \u2013 Explaining the Intricate Web of SaaS Security",
+            "link": "https://www.reco.ai/blog/5-takeaways-from-darknet-diaries-intricate-web-of-saas-security",
             "description": "No Description"
         },
         {
-            "title": "America's Space Force Is Preparing for the Risk of War",
-            "link": "https://www.wsj.com/politics/national-security/americas-space-force-is-preparing-for-the-risk-of-war-d6b5e9c7",
+            "title": "Show HN: VibeShuffle \u2013 A smart shuffle CLI music player",
+            "link": "https://github.com/SeanPedersen/VibeShuffle",
+            "description": "Quickly coded this side project using Perplexity as a code assistant. This tool embeds your mp3 files and allows to play similar tracks (based on the current track) or shuffle a new random track until you find one that fits your mood (and VibeShuffle continues with similar tracks)."
+        },
+        {
+            "title": "The World as a Neural Network",
+            "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7712105/",
             "description": "No Description"
         },
         {
-            "title": "Remotely Producing Terraform from an API",
-            "link": "https://nitric.io/blog/terraform-api",
+            "title": "Melty: Cursor alternative, a open source AI code editor",
+            "link": "https://github.com/meltylabs/melty",
             "description": "No Description"
         },
         {
-            "title": "China's binge-buying of chipmaking equipment could yield overcapacity problem",
-            "link": "https://www.cnbc.com/2024/09/04/chinas-binge-buying-of-chipmaking-equipment-could-yield-another-overcapacity-problem.html",
+            "title": "Show HN: Detect GAPS in UI test coverage and know what tests are missing",
+            "link": "https://info.appsurify.com/testmap-ui-coverage",
             "description": "No Description"
         },
         {
-            "title": "Mushroom learns to crawl after being given robot body",
-            "link": "https://www.independent.co.uk/tech/robot-mushroom-biohybrid-robotics-cornell-b2606970.html",
+            "title": "Putting life in the hands of a rock'n'roll band",
+            "link": "https://www.thetimes.com/comment/columnists/article/putting-life-in-the-hands-of-a-rocknroll-band-qv7hcr7jz",
             "description": "No Description"
         },
         {
-            "title": "Toyota confirms third-party data breach impacting customers",
-            "link": "https://www.bleepingcomputer.com/news/security/toyota-confirms-third-party-data-breach-impacting-customers/",
+            "title": "Best Free VPNs: all compared in one place",
+            "link": "https://old.reddit.com/r/VPN/comments/1f7xv99/best_free_vpns_according_to_reddit_and_my_research/",
             "description": "No Description"
         },
         {
-            "title": "Beyond Procedure Calls as Component Glue: Connectors Deserve Metaclass Status",
-            "link": "https://2024.splashcon.org/details/splash-2024-Onward-papers/9/Beyond-Procedure-Calls-as-Component-Glue-Connectors-Deserve-Metaclass-Status",
+            "title": "I made illustrated book editor",
+            "link": "https://www.huez.ai/",
             "description": "No Description"
         },
         {
-            "title": "Show HN: I made SparkToApp to find and post app ideas",
-            "link": "https://sparktoapp.com/",
-            "description": "Hey HN p A few months ago I was struggling to come up with an app idea to build That is when the idea of building SparkToApp came to mind I thought if I struggle with coming up with app ideas surely other people would too p I made SparkToApp..."
-        },
-        {
-            "title": "Feds Indict Musician on Landmark Streaming Fraud Charges",
-            "link": "https://www.rollingstone.com/music/music-news/feds-arrest-musician-on-massive-streaming-fraud-claims-1235095009/",
+            "title": "Building a breakout element with container units",
+            "link": "https://piccalil.li/blog/building-a-breakout-element-with-container-units/",
             "description": "No Description"
         },
         {
-            "title": "Why don't more people use Linux?",
-            "link": "https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f53",
+            "title": "List of Polyglots",
+            "link": "https://en.wikipedia.org/wiki/List_of_polyglots",
             "description": "No Description"
         }
     ],
@@ -319,6 +329,12 @@
         },
         {
             "subreddit": "javascript",
+            "title": "Introducing Qustar: A New Way to Query SQL Databases",
+            "link": "https://github.com/tilyupo/qustar",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
             "title": "[AskJS] Put an image inside a element, parent element have one onClick but that onclick is not working for the child element even when it's inside the parent\n",
             "link": "https://www.reddit.com/r/javascript/comments/1f9kaiu/askjs_put_an_image_inside_a_element_parent/",
             "description": "Look at this code img is clearly inside the lt a gt tag and img should also target onclick but that function is not called when I click img is there anyway I can make it work that img tag also target that function lt a href class nav link..."
@@ -492,9 +508,9 @@
             "description": ""
         },
         {
-            "subreddit": "javascript",
-            "title": "Found an open-source codebase that's similar to Skool (Learning Management System)",
-            "link": "https://github.com/webprodigies/webprodigies-grouple",
+            "subreddit": "rust",
+            "title": "Haven't seen anyone do this kind of tutorial much yet so I went ahead to do it",
+            "link": "https://youtu.be/DQB-cJPYChg?si=le8NW5ENAxZYzD9v",
             "description": ""
         },
         {
@@ -672,18 +688,6 @@
             "description": "I was creating a tuari application which would locally record the mic and speaker Is there anyway we can have integration with WhisperX https github com m bain whisperX or something like this for transcription as well locally The quality of transcription of whisperx and diarization is extremely good Or..."
         },
         {
-            "subreddit": "rust",
-            "title": "A little distraction for you: XOR operator and other AI Assistants considerations",
-            "link": "https://bufferunderrun.net/posts/2024/quiz-1-xor-operator-and-llms/",
-            "description": ""
-        },
-        {
-            "subreddit": "golang",
-            "title": "Switching to Go from C++, a journey ahead",
-            "link": "https://www.reddit.com/r/golang/comments/1f9k8c5/switching_to_go_from_c_a_journey_ahead/",
-            "description": "Hello Gophers I have been coding in C C for 4 years now basically my whole career and picked an interest on Go fairly recently so far I have covered basics and really enjoyed the language while doing so which made me passionate about switching to Go entirely I am..."
-        },
-        {
             "subreddit": "golang",
             "title": "Go mod tidy",
             "link": "https://www.reddit.com/r/golang/comments/1f9jim6/go_mod_tidy/",
@@ -858,6 +862,18 @@
             "description": ""
         },
         {
+            "subreddit": "golang",
+            "title": "Ergo Framework 3.0 sets sail today \u2026\u26f5\u2026 ! This is an actor-based framework with network transparency for creating event-driven architecture in Golang. Inspired by Erlang. Zero dependencies.",
+            "link": "https://github.com/ergo-services/ergo?tab=readme-ov-file#v300-2024-09-04-tag-version-v1999300",
+            "description": ""
+        },
+        {
+            "subreddit": "Python",
+            "title": "I've been tracking Python, Django, NumPy and several other frameworks in job listings this year",
+            "link": "https://www.reddit.com/r/Python/comments/1f9l9zt/ive_been_tracking_python_django_numpy_and_several/",
+            "description": "Hi all I built a website to track programing languages skills frameworks in jobs Perhaps unsurprsingly Python https job zip trend python is by far the biggest category in software engineering https job zip hiring category software engineering I m tracking many other Python frameworks and libraries as well Django..."
+        },
+        {
             "subreddit": "Python",
             "title": "Yet another 12 factor configuration helper : python-direnv",
             "link": "https://www.reddit.com/r/Python/comments/1f9jfgv/yet_another_12_factor_configuration_helper/",
@@ -1030,12 +1046,6 @@
             "title": "Logging insanity in FastAPI on Google App Engine? I Built a Custom Solution!",
             "link": "https://www.reddit.com/r/Python/comments/1f70wpp/logging_insanity_in_fastapi_on_google_app_engine/",
             "description": "Hey everyone I ve been working with FastAPI on Google App Engine GAE and found the logging experience to be well frustrating The lack of clear structured logging across the request lifecycle was a major pain point So I decided to create a custom Cloud Logging handler specifically for FastAPI..."
-        },
-        {
-            "subreddit": "Python",
-            "title": "Monday Daily Thread: Project ideas!",
-            "link": "https://www.reddit.com/r/Python/comments/1f6syvh/monday_daily_thread_project_ideas/",
-            "description": "Weekly Thread Project Ideas Welcome to our weekly Project Ideas thread Whether you re a newbie looking for a first project or an expert seeking a new challenge this is the place for you How it Works 1 Suggest a Project Comment your project idea be it beginner friendly or..."
         },
         {
             "subreddit": "C_Programming",

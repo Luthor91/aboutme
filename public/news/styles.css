@@ -102,6 +102,7 @@ body {
     border: none; /* Supprimer la bordure pour correspondre au style des onglets */
     border-radius: 5px; /* Garder les coins arrondis comme les onglets */
     padding: 10px 20px; /* Espacement similaire aux onglets */
+    padding-left: 5px;
     cursor: pointer; /* Curseur pointeur pour indiquer que c'est cliquable */
     transition: background-color 0.3s, color 0.3s; /* Transition pour le changement de couleur */
     font-size: 16px; /* Taille de police similaire aux onglets */
@@ -283,7 +284,7 @@ body {
         position: relative; /* Positionné relativement pour le menu */
         max-height: 70vh; /* Hauteur maximale pour les petits écrans */
         min-width: auto; /* Ajuster la largeur minimale pour les petits écrans */
-        padding-left: 0;
+        padding-left: 5px;
         margin: 0 auto; /* Centrer le bouton si nécessaire */
     }
 
@@ -343,7 +344,7 @@ body {
         border-radius: 5px; /* Garder les coins arrondis */
         font-size: 12px; /* Réduire la taille de la police */
         min-width: auto; /* Ajuster la largeur minimale */
-        padding-left: 0;
+        padding-left: 5px;
         box-sizing: border-box;
         max-height: 60vh; /* Hauteur maximale pour les très petits écrans */
     }
