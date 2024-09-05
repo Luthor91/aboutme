@@ -29,10 +29,7 @@ update:
 	$(PYTHON) -m venv venv
 	./venv/bin/pip install -r requirements.txt
 	. venv/bin/activate
-	$(PYTHON) scripts/fetch_hackernews.py
-	$(PYTHON) scripts/fetch_slashdot.py
-	$(PYTHON) scripts/fetch_devto.py
-	$(PYTHON) scripts/fetch_reddit.py
+	$(PYTHON) scripts/fetch_datas.py
 
 deploy: 
 	@git add .

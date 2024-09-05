@@ -6,8 +6,8 @@
     "maxWordLength": 30,
     "urls": {
         "devto": "https://dev.to/api/articles",
-        "hackernews": "https://hn.algolia.com/api/v1/search_by_date?tags=story&hitsPerPage={MAX_ARTICLES}",
-        "reddit": "https://www.reddit.com/{subreddit}/new.json?limit={MAX_ARTICLES}",
+        "hackernews": "https://hn.algolia.com/api/v1/search_by_date?tags=story&hitsPerPage=",
+        "reddit": "https://www.reddit.com/{subreddit}/new.json?limit=",
         "slashdot": "https://rss.slashdot.org/Slashdot/slashdotMain"
       },
     "keywordsToSkip": [  
