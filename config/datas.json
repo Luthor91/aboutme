@@ -1,6 +1,41 @@
 {
     "hackernews": [
         {
+            "title": "Control of robots mediated by fungal mycelia",
+            "link": "https://www.science.org/doi/10.1126/scirobotics.adk8019",
+            "description": "No Description"
+        },
+        {
+            "title": "Julian Barbour on the End of Time [video]",
+            "link": "https://www.youtube.com/watch?v=GoTeGW2csPk",
+            "description": "No Description"
+        },
+        {
+            "title": "Conch Republic",
+            "link": "https://en.wikipedia.org/wiki/Conch_Republic",
+            "description": "No Description"
+        },
+        {
+            "title": "Using SLOs in API Management",
+            "link": "https://apichangelog.substack.com/p/using-slos-in-api-management",
+            "description": "No Description"
+        },
+        {
+            "title": "First high-quality feline iPSCs generated without genetic footprint",
+            "link": "https://www.omu.ac.jp/en/info/research-news/entry-61599.html",
+            "description": "No Description"
+        },
+        {
+            "title": "Columbus Stops Cyber Researcher from Flagging Stolen Police Data",
+            "link": "https://www.bloomberg.com/news/newsletters/2024-09-04/columbus-stops-cyber-researcher-from-flagging-stolen-police-data",
+            "description": "No Description"
+        },
+        {
+            "title": "A syntax-highlighting pager for Git, diff, grep, and blame output",
+            "link": "https://github.com/dandavison/delta",
+            "description": "No Description"
+        },
+        {
             "title": "Railway Orientated Programming",
             "link": "https://github.com/aseminjakiw/functionalCsharp",
             "description": "No Description"
@@ -31,7 +66,7 @@
             "description": "No Description"
         },
         {
-            "title": "Rethinking Exercise: How Too Much Can Speed Up Aging, According to Finnish Study",
+            "title": "Rethinking Exercise: How Too Much Can Speed Up Aging, According to Finnish Study (2023)",
             "link": "https://www.thomashealthblog.com/?p=19078",
             "description": "No Description"
         },
@@ -98,41 +133,6 @@
         {
             "title": "MSS, MSS Clamping, Pmtud, and MTU",
             "link": "https://lostintransit.se/2024/09/05/mss-mss-clamping-pmtud-and-mtu/",
-            "description": "No Description"
-        },
-        {
-            "title": "AI breakthrough raises hopes for better cancer diagnosis",
-            "link": "https://www.ft.com/content/0a8f2c61-77f4-43ce-87d2-a7b421bbda85",
-            "description": "No Description"
-        },
-        {
-            "title": "OpenAI co-founder Ilya Sutskever raises $1B for his new AI firm",
-            "link": "https://www.cnbc.com/2024/09/04/openai-co-founder-ilya-sutskever-raises-1-billion-for-his-new-ai-firm.html",
-            "description": "No Description"
-        },
-        {
-            "title": "Cellular interactions driving kidney disease progression after injury",
-            "link": "https://medicalxpress.com/news/2024-09-cells-involved-unhealthy-relationships-acute.html",
-            "description": "No Description"
-        },
-        {
-            "title": "Generative Artificial Intelligence Report for Australian Securities and Investm",
-            "link": "https://www.aph.gov.au/DocumentStore.ashx?id=b4fd6043-6626-4cbe-b8ee-a5c7319e94a0",
-            "description": "No Description"
-        },
-        {
-            "title": "Swift Creator Chris Lattner on Mojo and Roc [video]",
-            "link": "https://www.youtube.com/watch?v=ENviIxDTmUA",
-            "description": "No Description"
-        },
-        {
-            "title": "OpenAI's SearchGPT Reviews",
-            "link": "https://www.androidauthority.com/searchgpt-first-reactions-3478389/",
-            "description": "No Description"
-        },
-        {
-            "title": "End of an era as physical Stamp Duty presses decommissioned by UK gov (2021)",
-            "link": "https://www.gov.uk/government/news/end-of-an-era-as-stamp-presses-decommissioned-by-hmrc",
             "description": "No Description"
         }
     ],
@@ -319,6 +319,12 @@
         },
         {
             "subreddit": "javascript",
+            "title": "The fastest JS color library",
+            "link": "https://romgrk.com/posts/color-bits/",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
             "title": "[AskJS] How popcat.click was made?",
             "link": "https://www.reddit.com/r/javascript/comments/1f9gqcy/askjs_how_popcatclick_was_made/",
             "description": "I am curious about a web app named popcat click http popcat click which was one of the trending site in 2021 but still it fascinates me how can I build a site like this amount of high traffic site where people are clicking like hell concurrent process had been..."
@@ -490,12 +496,6 @@
             "title": "[AskJS] Amazon FEE-2 Phone Interview Scheduled : What Should I Expect?",
             "link": "https://www.reddit.com/r/javascript/comments/1f6r9xy/askjs_amazon_fee2_phone_interview_scheduled_what/",
             "description": "Hey everyone I have an FEE 2 phone interview scheduled for this week and I m trying to prepare as best as I can According to the HR the initial phone screening with the Hiring Manager will focus on LeetCode based data structures and algorithms DSA questions However the documents..."
-        },
-        {
-            "subreddit": "javascript",
-            "title": "[AskJS] Anybody get Node.js' Single executable applications process to work?",
-            "link": "https://www.reddit.com/r/javascript/comments/1f6ijis/askjs_anybody_get_nodejs_single_executable/",
-            "description": "SOLVED Solution cp home user bin node node_eval echo main nm_nodejs_eval js output sea prep blob gt sea config json node no warnings experimental sea config sea config json bun install postject modify cli js shebang to home user bin node because node is not installed is just in PATH..."
         },
         {
             "subreddit": "rust",
@@ -679,6 +679,12 @@
         },
         {
             "subreddit": "golang",
+            "title": "Switching to Go from C++, a journey ahead",
+            "link": "https://www.reddit.com/r/golang/comments/1f9k8c5/switching_to_go_from_c_a_journey_ahead/",
+            "description": "Hello Gophers I have been coding in C C for 4 years now basically my whole career and picked an interest on Go fairly recently so far I have covered basics and really enjoyed the language while doing so which made me passionate about switching to Go entirely I am..."
+        },
+        {
+            "subreddit": "golang",
             "title": "Go mod tidy",
             "link": "https://www.reddit.com/r/golang/comments/1f9jim6/go_mod_tidy/",
             "description": "Anyone else find themselves running this command 100 times a day. What gives?"
@@ -849,12 +855,6 @@
             "subreddit": "golang",
             "title": "How Namespaced Cache Keys Improve Service Interoperability",
             "link": "https://medium.com/@pliutau/how-namespaced-cache-keys-improve-service-interoperability-0aada70c33ff",
-            "description": ""
-        },
-        {
-            "subreddit": "golang",
-            "title": "Ergo Framework 3.0 sets sail today \u2026\u26f5\u2026 ! This is an actor-based framework with network transparency for creating event-driven architecture in Golang. Inspired by Erlang. Zero dependencies.",
-            "link": "https://github.com/ergo-services/ergo?tab=readme-ov-file#v300-2024-09-04-tag-version-v1999300",
             "description": ""
         },
         {
