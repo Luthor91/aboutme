@@ -18,8 +18,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     await loadConfig();
-    const { maxArticles, maxDescriptionLength } = config;
-
+    const { maxArticles, maxDescriptionLength, urls, subreddits, keywordsToSkip } = config;
+    console.log(config);
+    
     // Sélecteurs
     const tabs = document.querySelectorAll('.tab-button');
     const newsList = document.getElementById('news-list');
@@ -30,36 +31,88 @@ document.addEventListener('DOMContentLoaded', async () => {
     const dropdownButton = document.getElementById('reddit-button');
     const backToTopButton = document.getElementById('back-to-top');
 
-    const getRawUrl = (source) => `https://raw.githubusercontent.com/${username}/${repo}/${branch}/config/${source}_datas.json`;
+    const getApiUrl = (source, subreddit = '') => {
+        let apiUrl = urls[source];
+        if (source === 'reddit' && subreddit) {
+            apiUrl = apiUrl.replace('{subreddit}', subreddit).replace('{MAX_ARTICLES}', maxArticles);
+        } else {
+            apiUrl = apiUrl.replace('{MAX_ARTICLES}', maxArticles);
+        }
+        return apiUrl;
+    };
 
-    // Fonction pour récupérer les données
-    const fetchData = async (source) => {
-        if (!source) return;
-        const url = getRawUrl(source);
+    const fetchDataFromApi = async (url, cacheName) => {
+        // Vérifier si la réponse est en cache
+        const cache = await caches.open(cacheName);
+        const cachedResponse = await cache.match(url);
+
+        if (cachedResponse) {
+            console.log(`Données récupérées depuis le cache: ${url}`);
+            return cachedResponse.json();
+        }
 
         try {
             const response = await fetch(url);
-            const data = response.ok ? await response.json() : await fetch(`/config/${source}_datas.json`).then(r => r.json());
-            displayArticles(data.items, searchInput.value);  // Passe la valeur de recherche à la fonction
+            const data = await response.json();
+
+            // Storer la réponse dans le cache
+            cache.put(url, new Response(JSON.stringify(data)));
+
+            console.log(`Données récupérées depuis l'API: ${url}`);
+            return data;
+        } catch (error) {
+            if (cachedResponse) {
+                console.warn(`Erreur réseau. Utilisation du cache: ${url}`);
+                return cachedResponse.json();
+            } else {
+                throw new Error(`Échec de la requête et du cache pour ${url}`);
+            }
+        }
+    };
+
+    // Fonction pour récupérer les données des différentes APIs
+    const fetchData = async (source, subreddit = '') => {
+        const apiUrl = getApiUrl(source, subreddit);
+        const cacheName = 'api-data-cache';
+        
+        try {
+            const data = await fetchDataFromApi(apiUrl, cacheName);
+            if (source === 'reddit') {
+                displayArticles(data.data.children.map(child => child.data), searchInput.value); // Reddit a une structure différente
+            } else if (source === 'hackernews') {
+                displayArticles(data.hits, searchInput.value); // Hackernews a une structure différente
+            } else if (source === 'devto') {
+                displayArticles(data, searchInput.value);
+            } else {
+                displayArticles(data.items, searchInput.value); // RSS feed comme slashdot
+            }
         } catch (error) {
             console.error('Fetch error:', error);
             errorMessage.textContent = 'Failed to load data. Please try again later.';
         }
     };
 
-    // Filtrage et affichage des articles
+    // Filtrage des articles selon les mots-clés à ignorer et la recherche
     const filterArticles = (articles, query) => {
         if (!query.trim()) return articles.slice(0, maxArticles); // Affiche tous les articles si la recherche est vide
+
         const keywords = query.toLowerCase().split(/\s+/);
         return articles.filter(item => {
-            const title = item.title.toLowerCase();
-            const description = item.description.toLowerCase();
+            const title = item.title ? item.title.toLowerCase() : '';
+            const description = item.description ? item.description.toLowerCase() : '';
+            
+            // Exclure les articles avec des mots-clés à ignorer
+            if (keywordsToSkip.some(keyword => title.includes(keyword) || description.includes(keyword))) {
+                return false;
+            }
+
+            // Filtrer selon la recherche
             return keywords.some(keyword => title.includes(keyword) || description.includes(keyword));
         }).slice(0, maxArticles);
     };
 
     const truncateDescription = (description) => {
-        if (description.length <= maxDescriptionLength) return description;
+        if (!description || description.length <= maxDescriptionLength) return description;
         const truncated = description.slice(0, maxDescriptionLength);
         const lastSpace = truncated.lastIndexOf(' ');
         return lastSpace > 0 ? truncated.slice(0, lastSpace) + '...' : truncated + '...';
@@ -70,15 +123,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         const filteredItems = filterArticles(articles, query);
     
         filteredItems.forEach(item => {
-            if (item.link && item.link !== 'No Link') {
+            if (item.url || item.link) {
                 const listItem = document.createElement('li');
-                listItem.classList.add('news-list-item');  // Ajout de la classe "news-list-item"
+                listItem.classList.add('news-list-item');
                 
-                // Enveloppe tout le contenu dans un seul lien <a>
+                const link = item.url ? item.url : item.link;
+                const title = item.title ? item.title : 'No title';
+                const description = truncateDescription(item.description ? item.description : 'No description');
+
                 listItem.innerHTML = `
-                    <a href="${item.link}" target="_blank" class="news-list-link">
-                        <h3>${item.title}</h3>
-                        <p class="description">${truncateDescription(item.description)}</p>
+                    <a href="${link}" target="_blank" class="news-list-link">
+                        <h3>${title}</h3>
+                        <p class="description">${description}</p>
                     </a>
                 `;
                 
@@ -94,10 +150,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             description: li.querySelector('p.description').textContent,
             link: li.querySelector('a').href
         }));
-        displayArticles(articles, searchInput.value); // Filtre les articles en fonction de la recherche
+        displayArticles(articles, searchInput.value);
     });
 
-    // Fonction pour changer le thème
+    // Gestion du changement de thème
     const changeTheme = (theme) => {
         document.body.classList.remove('light-theme', 'dark-theme', 'autumn-theme', 'refined-dark-theme');
         document.body.classList.add(`${theme}`);
@@ -107,66 +163,52 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Initialisation du thème
     const savedTheme = localStorage.getItem('selectedTheme') || 'light-theme';
     changeTheme(savedTheme);
-    themeSelect.value = savedTheme; 
+    themeSelect.value = savedTheme;
 
-    // Gestion du changement de thème
     themeSelect.addEventListener('change', (e) => changeTheme(e.target.value));
 
     // Gestion des onglets
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
-            // Retirer la classe "active" de tous les onglets
             tabs.forEach(t => t.classList.remove('active'));
-    
-            // Ajouter la classe "active" à l'onglet cliqué
             tab.classList.add('active');
-    
             fetchData(tab.dataset.source);
-
         });
+    });
+
+    // Gestion du menu déroulant Reddit
+    dropdownButton.addEventListener('click', (event) => {
+        event.stopPropagation();
+        toggleDropdown();
+    });
+
+    redditDropdown.addEventListener('click', (event) => {
+        if (event.target.matches('.subreddit-button')) {
+            const subreddit = event.target.dataset.source;
+            fetchData('reddit', subreddit);
+            dropdownButton.textContent = event.target.textContent + '▼';
+            redditDropdown.classList.remove('show');
+        }
     });
 
     // Fonction pour afficher le dropdown à la position du bouton
     function toggleDropdown() {
-        // Récupérer les coordonnées et dimensions du bouton
         const rect = dropdownButton.getBoundingClientRect();
-        
-        // Calculer la position du dropdown en fonction du bouton
-        redditDropdown.style.top = `${rect.bottom + window.scrollY}px`; // En dessous du bouton
-        redditDropdown.style.left = `${rect.left + window.scrollX}px`; // Aligné au bouton
-
-        // Basculer la classe "show" pour afficher ou cacher le dropdown
+        redditDropdown.style.top = `${rect.bottom + window.scrollY}px`;
+        redditDropdown.style.left = `${rect.left + window.scrollX}px`;
         redditDropdown.classList.toggle('show');
-        console.log("toggled");
-        
     }
 
-    // Gestion du menu déroulant Reddit
-    dropdownButton.addEventListener('click', (event) => {
-        event.stopPropagation(); // Stop propagation to prevent closing dropdown immediately
-        toggleDropdown();
-    });
-
-    // Fermer le menu déroulant lorsqu'on clique à l'extérieur
     document.addEventListener('click', (event) => {
         if (!event.target.closest('#reddit-button') && !event.target.closest('#reddit-dropdown') && redditDropdown.classList.contains('show')) {
             redditDropdown.classList.remove('show');
         }
     });
 
-    redditDropdown.addEventListener('click', (event) => {
-        if (event.target.matches('.subreddit-button')) {
-            const subreddit = event.target.dataset.source;
-            fetchData(subreddit);
-            dropdownButton.textContent = event.target.textContent + '▼';
-            redditDropdown.classList.remove('show');
-        }
-    });
-
     // Gestion du bouton retour en haut
     backToTopButton.addEventListener('click', function(event) {
-        event.preventDefault();  // Empêche le comportement par défaut du lien
-        window.scrollTo({ top: 0, behavior: 'smooth' });  // Faire défiler en douceur vers le haut de la page
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
     fetchData("hackernews");
