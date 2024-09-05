@@ -3,11 +3,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     const username = 'Luthor91';
     const repo = 'aboutme';
     const branch = 'main';
+    const datas = "config/config.json";
+    const url = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/${datas}`;
     let config = {};
 
     // Charger la configuration depuis GitHub
     const loadConfig = async () => {
-        const url = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/config/config.json`;
         try {
             const response = await fetch(url);
             config = response.ok ? await response.json() : { maxArticles: 30, maxDescriptionLength: 150 };
@@ -33,12 +34,35 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Fonction pour récupérer les données
     const fetchData = async (source) => {
         if (!source) return;
-        const url = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/datas.json`;
-
         try {
-            const response = await fetch(url);
-            const data = response.ok ? await response.json() : await fetch(`/datas.json`).then(r => r.json());
-            displayArticles(data[source] && data[source].items, searchInput.value);  // Passe la valeur de recherche à la fonction
+            let data;
+            if (source === 'reddit') {
+                // Vérifier si la configuration Reddit est correcte
+                if (!config.reddit || !config.reddit.subreddit) {
+                    throw new Error('Reddit configuration is missing');
+                }
+                // Trouver la clé du subreddit correspondant au data-source
+                const subredditKey = Object.keys(config.reddit.subreddit).find(key => config.reddit.subreddit[key] === source);
+                if (!subredditKey) {
+                    throw new Error(`Subreddit not found for source: ${source}`);
+                }
+                // Construire l'URL pour Reddit
+                const subredditUrl = `https://www.reddit.com/r/${subredditKey}/new.json?limit=${maxArticles}`;
+                const response = await fetch(subredditUrl, { headers: { 'User-agent': 'Mozilla/5.0' } });
+                data = response.ok ? await response.json() : { data: { children: [] } };
+            } else {
+                const response = await fetch(url);
+                data = response.ok ? await response.json() : await fetch(`/${datas}`).then(r => r.json());
+            }
+
+            // Utiliser 'r/' pour les autres sources sauf Reddit
+            console.log("source : ", source);
+            
+            const key = config.sources.contains(source) ? source : `r/${source}`;
+            console.log('Key:', key);
+            console.log('Data:', data[key] || []);
+            
+            displayArticles(source === 'reddit' ? data.data.children : data[key], searchInput.value);  // Passe la valeur de recherche à la fonction
         } catch (error) {
             console.error('Fetch error:', error);
             errorMessage.textContent = 'Failed to load data. Please try again later.';
@@ -64,8 +88,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     const displayArticles = (articles, query) => {
+        console.log('Articles:', articles);
+        
         newsList.innerHTML = '';
-        if (!articles) {
+        if (!articles || !articles.length) {
             errorMessage.textContent = 'No data available.';
             return;
         }
@@ -139,7 +165,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Basculer la classe "show" pour afficher ou cacher le dropdown
         redditDropdown.classList.toggle('show');
-        console.log("toggled");
         
     }
 
@@ -159,7 +184,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     redditDropdown.addEventListener('click', (event) => {
         if (event.target.matches('.subreddit-button')) {
             const subreddit = event.target.dataset.source;
-            fetchData(subreddit);
+            fetchData(subreddit); // Utiliser le nom du subreddit
             dropdownButton.textContent = event.target.textContent + '▼';
             redditDropdown.classList.remove('show');
         }
@@ -171,5 +196,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });  // Faire défiler en douceur vers le haut de la page
     });
 
+    // Initialement charger les données de Hackernews
     fetchData("hackernews");
 });
