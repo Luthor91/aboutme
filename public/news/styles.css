@@ -283,7 +283,7 @@ body {
         position: relative; /* Positionné relativement pour le menu */
         max-height: 70vh; /* Hauteur maximale pour les petits écrans */
         min-width: auto; /* Ajuster la largeur minimale pour les petits écrans */
-        left: 5%; /* Aligner à gauche pour éviter le décalage */
+        padding-left: 5px;
         margin: 0 auto; /* Centrer le bouton si nécessaire */
     }
 
@@ -343,7 +343,7 @@ body {
         border-radius: 5px; /* Garder les coins arrondis */
         font-size: 12px; /* Réduire la taille de la police */
         min-width: auto; /* Ajuster la largeur minimale */
-        left: 5%; /* Ajuster la position à gauche pour les très petits écrans */
+        padding-left: 5px;
         box-sizing: border-box;
         max-height: 60vh; /* Hauteur maximale pour les très petits écrans */
     }
