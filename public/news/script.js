@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const searchInput = document.getElementById('search-input');
     const themeSelect = document.getElementById('theme-select');
     const redditDropdown = document.getElementById('reddit-dropdown');
-    const dropdownButton = document.getElementById('reddit-button');
     const backToTopButton = document.getElementById('back-to-top');
 
     // Fonction pour récupérer les données
@@ -60,7 +59,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (isFromReddit) {
                 const articles = (data["reddit"] || []).filter(article => article.subreddit === source);
                 displayArticles(articles, searchInput.value); 
-            }else {
+            } else {
                 const articles = data[source] || [];
                 displayArticles(articles, searchInput.value);  // Passe la valeur de recherche à la fonction
             }   
@@ -90,7 +89,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     const displayArticles = (articles, query) => {
-
         newsList.innerHTML = '';
         if (!articles || !articles.length) {
             errorMessage.textContent = 'No data available.';
@@ -146,48 +144,25 @@ document.addEventListener('DOMContentLoaded', async () => {
         tab.addEventListener('click', () => {
             // Retirer la classe "active" de tous les onglets
             tabs.forEach(t => t.classList.remove('active'));
+            redditDropdown.classList.remove('active');
     
             // Ajouter la classe "active" à l'onglet cliqué
             tab.classList.add('active');
     
             fetchData(tab.dataset.source);
-
         });
     });
 
-    // Fonction pour afficher le dropdown à la position du bouton
-    function toggleDropdown() {
-        // Récupérer les coordonnées et dimensions du bouton
-        const rect = dropdownButton.getBoundingClientRect();
-        
-        // Calculer la position du dropdown en fonction du bouton
-        redditDropdown.style.top = `${rect.bottom + window.scrollY}px`; // En dessous du bouton
-        redditDropdown.style.left = `${rect.left + window.scrollX}px`; // Aligné au bouton
+    redditDropdown.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        redditDropdown.classList.toggle('active');
 
-        // Basculer la classe "show" pour afficher ou cacher le dropdown
-        redditDropdown.classList.toggle('show');
-    }
+    });
 
     // Gestion du menu déroulant Reddit
-    dropdownButton.addEventListener('click', (event) => {
-        event.stopPropagation(); // Stop propagation to prevent closing dropdown immediately
-        toggleDropdown();
-    });
-
-    // Fermer le menu déroulant lorsqu'on clique à l'extérieur
-    document.addEventListener('click', (event) => {
-        if (!event.target.closest('#reddit-button') && !event.target.closest('#reddit-dropdown') && redditDropdown.classList.contains('show')) {
-            redditDropdown.classList.remove('show');
-        }
-    });
-
-    redditDropdown.addEventListener('click', (event) => {
-        if (event.target.matches('.subreddit-button')) {
-            const subreddit = event.target.dataset.source;
-            fetchData(subreddit); // Utiliser le nom du subreddit
-            dropdownButton.textContent = event.target.textContent + '▼';
-            redditDropdown.classList.remove('show');
-        }
+    redditDropdown.addEventListener('change', (event) => {
+        const subreddit = event.target.value;
+        fetchData(subreddit); // Utiliser le nom du subreddit
     });
 
     // Gestion du bouton retour en haut

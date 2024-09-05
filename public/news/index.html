@@ -20,28 +20,24 @@
             
             <!-- Onglets (Tabs) -->
             <div id="tabs" class="tabs">
+                <select id="reddit-dropdown" class="dropdown-select">
+                    <option value="" disabled selected>Reddit ▼</option>
+                    <option value="C_Programming">C</option>
+                    <option value="java">Java</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="rust">Rust</option>
+                    <option value="golang">Golang</option>
+                    <option value="python">Python</option>
+                    <option value="Haskell">Haskell</option>
+                    <option value="cobol">Cobol</option>
+                    <option value="csharp">C#</option>
+                    <option value="fsharp">F#</option>
+                </select>
                 <button class="tab-button active" data-source="hackernews">Hacker News</button>
-                <button class="tab-button" data-source="slashdot">Slashdot</button>               
-                <!-- Reddit Dropdown Tab -->
-                <div class="dropdown">
-                    <button class="tab-button" id="reddit-button">Reddit ▼</button>
-                </div>
+                <button class="tab-button" data-source="slashdot">Slashdot</button>
                 <button class="tab-button" data-source="devto">Dev.to</button>
             </div>
         </div>
-    </div>
-
-    <div id="reddit-dropdown" class="dropdown-content">
-        <button class="subreddit-button" data-source="C_Programming">C</button>
-        <button class="subreddit-button" data-source="java">Java</button>
-        <button class="subreddit-button" data-source="javascript">JavaScript</button>
-        <button class="subreddit-button" data-source="rust">Rust</button>
-        <button class="subreddit-button" data-source="golang">Golang</button>
-        <button class="subreddit-button" data-source="python">Python</button>
-        <button class="subreddit-button" data-source="Haskell">Haskell</button>
-        <button class="subreddit-button" data-source="cobol">Cobol</button>
-        <button class="subreddit-button" data-source="csharp">C#</button>
-        <button class="subreddit-button" data-source="fsharp">F#</button>
     </div>
 
     <div class="search-bar">

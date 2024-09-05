@@ -1,149 +1,139 @@
 {
     "hackernews": [
         {
-            "title": "Color-Changing BMWs Could Be on the Road in Five Years",
-            "link": "https://www.thedrive.com/news/color-changing-bmws-could-be-on-the-road-by-2027",
+            "title": "Railway Orientated Programming",
+            "link": "https://github.com/aseminjakiw/functionalCsharp",
             "description": "No Description"
         },
         {
-            "title": "Hono \u2013 A Lightweight Back End Framework for Cloud-Native Applications",
-            "link": "https://jsdev.space//hono-backend-cloud/",
+            "title": "Adding algebraic data types to Nickel",
+            "link": "https://www.tweag.io/blog/2024-09-05-algebraic-data-types-nickel/",
             "description": "No Description"
         },
         {
-            "title": "rusEFI - open source Engine Control Unit (ECU)",
-            "link": "https://rusefi.com/",
+            "title": "Researchers dig into stability challenges of nuclear fusion\u2013with mayonnaise",
+            "link": "https://engineering.lehigh.edu/news/article/lehigh-university-researchers-dig-deeper-stability-challenges-nuclear-fusion-mayonnaise",
             "description": "No Description"
         },
         {
-            "title": "Building PC game UIs using React",
-            "link": "https://www.frontendundefined.com/posts/essays/pc-game-ui-react/",
+            "title": "My home setup v5.5: home's consumption using a iOS widget, and a NAS",
+            "link": "https://giuliomagnifico.blog/post/2024-08-20-my-home-setup-v5.5/",
             "description": "No Description"
         },
         {
-            "title": "My Computer Science Website",
-            "link": "https://csstudy.pages.dev/",
+            "title": "TYPO3: Open-Source Enterprise CMS for Robust Web Content Management",
+            "link": "https://github.com/TYPO3/typo3",
             "description": "No Description"
         },
         {
-            "title": "Unlock 1M RPS: Experience Triple the Speed with Valkey",
-            "link": "https://valkey.io/blog/unlock-one-million-rps/",
+            "title": "The More Senior Your Job Title, the More You Need to Keep a Journal",
+            "link": "https://hbr.org/2017/07/the-more-senior-your-job-title-the-more-you-need-to-keep-a-journal",
             "description": "No Description"
         },
         {
-            "title": "Debate between silver and copper (2500 BC)",
-            "link": "https://en.wikipedia.org/wiki/Debate_between_silver_and_copper",
+            "title": "Rethinking Exercise: How Too Much Can Speed Up Aging, According to Finnish Study",
+            "link": "https://www.thomashealthblog.com/?p=19078",
             "description": "No Description"
         },
         {
-            "title": "SoundSee \u2013 Insight with Audio AI, Giving Meaning to Sound Patterns",
-            "link": "https://www.bosch.com/research/research-fields/artificial-intelligence/audio-ai/",
+            "title": "How RDMA Became the Fuel for Fast Networks",
+            "link": "https://blogs.nvidia.com/blog/what-is-rdma/",
             "description": "No Description"
         },
         {
-            "title": "US, Britain, EU to sign first international AI treaty",
-            "link": "https://www.reuters.com/technology/artificial-intelligence/us-britain-eu-sign-agreement-ai-standards-ft-reports-2024-09-05/",
+            "title": "America's Space Force Is Preparing for the Risk of War",
+            "link": "https://www.wsj.com/politics/national-security/americas-space-force-is-preparing-for-the-risk-of-war-d6b5e9c7",
             "description": "No Description"
         },
         {
-            "title": "WatchWitch \u2013 Hacking the Apple Watch [video]",
-            "link": "https://www.youtube.com/watch?v=mI0teN4hPYQ",
+            "title": "Remotely Producing Terraform from an API",
+            "link": "https://nitric.io/blog/terraform-api",
             "description": "No Description"
         },
         {
-            "title": "Stability AI Brings New Stable Diffusion Models to Amazon Bedrock",
-            "link": "https://venturebeat.com/ai/stability-ai-looks-to-grow-stable-diffusion-text-to-image-ai-usage-with-amazon-bedrock/",
+            "title": "China's binge-buying of chipmaking equipment could yield overcapacity problem",
+            "link": "https://www.cnbc.com/2024/09/04/chinas-binge-buying-of-chipmaking-equipment-could-yield-another-overcapacity-problem.html",
             "description": "No Description"
         },
         {
-            "title": "Prince of Packaging",
-            "link": "https://twitter.com/jmechner/status/1831585901350158436",
+            "title": "Mushroom learns to crawl after being given robot body",
+            "link": "https://www.independent.co.uk/tech/robot-mushroom-biohybrid-robotics-cornell-b2606970.html",
             "description": "No Description"
         },
         {
-            "title": "California City, California",
-            "link": "https://en.wikipedia.org/wiki/California_City,_California",
+            "title": "Toyota confirms third-party data breach impacting customers",
+            "link": "https://www.bleepingcomputer.com/news/security/toyota-confirms-third-party-data-breach-impacting-customers/",
             "description": "No Description"
         },
         {
-            "title": "Creating a Git Commit: The Hard Way",
-            "link": "https://avestura.dev/blog/creating-a-git-commit-the-hard-way",
+            "title": "Beyond Procedure Calls as Component Glue: Connectors Deserve Metaclass Status",
+            "link": "https://2024.splashcon.org/details/splash-2024-Onward-papers/9/Beyond-Procedure-Calls-as-Component-Glue-Connectors-Deserve-Metaclass-Status",
             "description": "No Description"
         },
         {
-            "title": "Show HN: Zudoku \u2013 Open-Source Documentation Framework for APIs",
-            "link": "https://github.com/zuplo/zudoku",
-            "description": "Hey all At Zuplo we couldn t find an open source documentation solution that met our high standards for both trustworthiness and programmability so we decided to create our own you know as you do p Zudoku is a framework for building high quality interactive API documentation We ve now..."
+            "title": "Show HN: I made SparkToApp to find and post app ideas",
+            "link": "https://sparktoapp.com/",
+            "description": "Hey HN p A few months ago I was struggling to come up with an app idea to build That is when the idea of building SparkToApp came to mind I thought if I struggle with coming up with app ideas surely other people would too p I made SparkToApp..."
         },
         {
-            "title": "The Root of Human Fear Towards AI and Unconventional Minds",
-            "link": "https://www.noemamag.com/why-we-fear-diverse-intelligence-like-ai/",
+            "title": "Feds Indict Musician on Landmark Streaming Fraud Charges",
+            "link": "https://www.rollingstone.com/music/music-news/feds-arrest-musician-on-massive-streaming-fraud-claims-1235095009/",
             "description": "No Description"
         },
         {
-            "title": "AI Sound Sensor System Sent to ISS",
-            "link": "https://www.bosch.com/stories/acoustic-sensors/",
+            "title": "Why don't more people use Linux?",
+            "link": "https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f53",
             "description": "No Description"
         },
         {
-            "title": "x-cmd: A CLI that include LLM client, Package Manager, shell command enhancement",
-            "link": "https://github.com/x-cmd/x-cmd",
+            "title": "We Hunted Hidden Police Signals at the DNC",
+            "link": "https://www.wired.com/story/dnc-hidden-signal-hunt/",
             "description": "No Description"
         },
         {
-            "title": "U.S. says Russia funded media company that paid right-wing influencers millions",
-            "link": "https://www.cbsnews.com/news/russia-tenet-media-right-wing-influencers-justice-department/",
+            "title": "Destroying Lego Towers [video]",
+            "link": "https://www.youtube.com/watch?v=HY6q9hwYcoc",
             "description": "No Description"
         },
         {
-            "title": "Show HN: Using Wikipedia page views as alternative data source to Google Trends",
-            "link": "https://substack.com/@franz101/p-148522892",
+            "title": "MSS, MSS Clamping, Pmtud, and MTU",
+            "link": "https://lostintransit.se/2024/09/05/mss-mss-clamping-pmtud-and-mtu/",
             "description": "No Description"
         },
         {
-            "title": "Radical Simplicity in Technology",
-            "link": "https://www.radicalsimpli.city?1",
+            "title": "AI breakthrough raises hopes for better cancer diagnosis",
+            "link": "https://www.ft.com/content/0a8f2c61-77f4-43ce-87d2-a7b421bbda85",
             "description": "No Description"
         },
         {
-            "title": "Show HN: WuppieFuzz, an open source coverage-guided REST API fuzzer",
-            "link": "https://github.com/TNO-S3/WuppieFuzz",
-            "description": "WuppieFuzz, a coverage-guided REST API fuzzer developed on top of LibAFL, targeting a wide audience of end-users, with a strong focus on ease-of-use, explainability of the discovered flaws and modularity. WuppieFuzz supports all three settings of testing (black box, grey box and white box)."
-        },
-        {
-            "title": "The Rise and Fall of the English Sentence",
-            "link": "https://nautil.us/the-rise-and-fall-of-the-english-sentence-236880/",
+            "title": "OpenAI co-founder Ilya Sutskever raises $1B for his new AI firm",
+            "link": "https://www.cnbc.com/2024/09/04/openai-co-founder-ilya-sutskever-raises-1-billion-for-his-new-ai-firm.html",
             "description": "No Description"
         },
         {
-            "title": "Fool Me Once: Russian Influence Operation Doppelganger Continues on X, Facebook",
-            "link": "https://alliance4europe.eu/russian-influence-doppelganger-june-x-meta",
+            "title": "Cellular interactions driving kidney disease progression after injury",
+            "link": "https://medicalxpress.com/news/2024-09-cells-involved-unhealthy-relationships-acute.html",
             "description": "No Description"
         },
         {
-            "title": "Five Geek Social Fallacies",
-            "link": "https://plausiblydeniable.com/five-geek-social-fallacies/",
+            "title": "Generative Artificial Intelligence Report for Australian Securities and Investm",
+            "link": "https://www.aph.gov.au/DocumentStore.ashx?id=b4fd6043-6626-4cbe-b8ee-a5c7319e94a0",
             "description": "No Description"
         },
         {
-            "title": "Liam Gallagher buys battered sausage in chippy",
-            "link": "https://www.bbc.co.uk/news/uk-england-derbyshire-65562098",
+            "title": "Swift Creator Chris Lattner on Mojo and Roc [video]",
+            "link": "https://www.youtube.com/watch?v=ENviIxDTmUA",
             "description": "No Description"
         },
         {
-            "title": "SD: Intuitive find and replace CLI (sed alternative)",
-            "link": "https://github.com/chmln/sd",
+            "title": "OpenAI's SearchGPT Reviews",
+            "link": "https://www.androidauthority.com/searchgpt-first-reactions-3478389/",
             "description": "No Description"
         },
         {
-            "title": "QEMU Version 9.1.0 Released",
-            "link": "https://www.qemu.org/2024/09/03/qemu-9-1-0/",
+            "title": "End of an era as physical Stamp Duty presses decommissioned by UK gov (2021)",
+            "link": "https://www.gov.uk/government/news/end-of-an-era-as-stamp-presses-decommissioned-by-hmrc",
             "description": "No Description"
-        },
-        {
-            "title": "Show HN: Sunrise Alarm Clock for Apple TV with Total Black Screen Sounds",
-            "link": "https://apps.apple.com/us/app/sleep-sounds-sunrise-alarm/id6502920973",
-            "description": "Fall asleep with a total black screen and soothing sleep sounds, then wake up gently to natural light with a sunrise alarm clock. Dark Sleep for Apple TV offers relaxing sounds, blackout mode, and a sunrise alarm to help you sleep better and wake refreshed."
         }
     ],
     "reddit": [
@@ -509,6 +499,18 @@
         },
         {
             "subreddit": "rust",
+            "title": "Question: if I have a Vec&lt;T&gt; how do I pass a part of it as [T; n] to a function by \"reference\" (not a copy), I want the fn to modify the original (example below).",
+            "link": "https://www.reddit.com/r/rust/comments/1f9iyfz/question_if_i_have_a_vect_how_do_i_pass_a_part_of/",
+            "description": "Here is my specific use case I have this function pub fn blend_simd base amp mut u8 4 fill_color amp u8 4 let original_max_alpha base 3 max fill_color 3 keep it around because it gets overwritten by the SIMD stuff let base_simd u16x4 u8x4 from_slice base cast let fill_color_simd u16x4..."
+        },
+        {
+            "subreddit": "rust",
+            "title": "Do I need to clean the completed tasks in `tokio::task::JoinSet` ?",
+            "link": "/r/learnrust/comments/1f9ihn4/do_i_need_to_clean_the_completed_tasks_in/",
+            "description": ""
+        },
+        {
+            "subreddit": "rust",
             "title": "This Week in Rust #563",
             "link": "https://this-week-in-rust.org/blog/2024/09/04/this-week-in-rust-563/",
             "description": ""
@@ -676,16 +678,16 @@
             "description": ""
         },
         {
-            "subreddit": "rust",
-            "title": "Read from stdin with timeout.",
-            "link": "https://www.reddit.com/r/rust/comments/1f8n3g3/read_from_stdin_with_timeout/",
-            "description": "Hello everyone I am in a bit of a pickle I want to read a line from stdin with a timeout of 30 seconds I can do it with Tokio but I was wondering if there is a lighter simpler way to to it For clarity I want to do..."
+            "subreddit": "golang",
+            "title": "Go mod tidy",
+            "link": "https://www.reddit.com/r/golang/comments/1f9jim6/go_mod_tidy/",
+            "description": "Anyone else find themselves running this command 100 times a day. What gives?"
         },
         {
-            "subreddit": "rust",
-            "title": "This Month in Rust OSDev: August 2024",
-            "link": "https://rust-osdev.com/this-month/2024-08/",
-            "description": ""
+            "subreddit": "golang",
+            "title": "Does Go get allocator bottlenecked on multicore systems",
+            "link": "https://www.reddit.com/r/golang/comments/1f9ixfv/does_go_get_allocator_bottlenecked_on_multicore/",
+            "description": "A common bottleneck to scaling multithreaded Java applications across many cores is that the allocator amp GC doesn t parallelize well Is this also the case for Go applications Go has a stack per goroutine afaik and has value types so nonallocating code is at least possible to write Programs..."
         },
         {
             "subreddit": "golang",
@@ -856,16 +858,10 @@
             "description": ""
         },
         {
-            "subreddit": "golang",
-            "title": "(Testing) how should we mock remote calls?",
-            "link": "https://www.reddit.com/r/golang/comments/1f8jwd8/testing_how_should_we_mock_remote_calls/",
-            "description": "Let s say that we have a microservice Normally when we turn on this microservice its web framework will immediately makes many remote calls e g HTTP for a bunch of legitimate reasons to get the latest cloud configuration settings to initialize HTTP clients to establish a socket connection to..."
-        },
-        {
-            "subreddit": "golang",
-            "title": "Cannot build code when learning from a book",
-            "link": "https://www.reddit.com/r/golang/comments/1f8h5c8/cannot_build_code_when_learning_from_a_book/",
-            "description": "I have started studying this book Build an Orchestrator in Go From Scratch After the code on chapter 3 I keep getting errors like this github com docker docker client http github com docker docker client go pkg mod github com docker docker v27 2 0 incompatible client errors go..."
+            "subreddit": "Python",
+            "title": "Yet another 12 factor configuration helper : python-direnv",
+            "link": "https://www.reddit.com/r/Python/comments/1f9jfgv/yet_another_12_factor_configuration_helper/",
+            "description": "Hi Python I ve developed another app to manage environment variables What My Project Does This allows you to load _direnv your environment variables like load _dotenv once you allow them through direnv but unlocks the full power of the bash shell instead of being limited to basic key value..."
         },
         {
             "subreddit": "Python",
@@ -1042,10 +1038,28 @@
             "description": "Weekly Thread Project Ideas Welcome to our weekly Project Ideas thread Whether you re a newbie looking for a first project or an expert seeking a new challenge this is the place for you How it Works 1 Suggest a Project Comment your project idea be it beginner friendly or..."
         },
         {
-            "subreddit": "Python",
-            "title": "Introducing fastapi-gae-logging",
-            "link": "https://www.reddit.com/r/Python/comments/1f6s12z/introducing_fastapigaelogging/",
-            "description": "https://github.com/chrisK824/fastapi-gae-logging\n\nCustom Cloud Logging handler for FastAPI applications deployed in Google App Engine. Groups logs coming from the same request lifecycle and propagates the maximum log level throughout the request lifecycle using middleware and context management."
+            "subreddit": "C_Programming",
+            "title": "Trying to find an IDE to learn C",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f9jviz/trying_to_find_an_ide_to_learn_c/",
+            "description": "Hi sorry if I m annoying anyone I know there are similiar posts here but I can t find the advice I m looking for I am a complete beginner in C and I want to learn the very basics before a programming class that I take this year For..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "One of the big question",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f9j247/one_of_the_big_question/",
+            "description": "I m college student in korea Also not that good at programming And the most weird thing to me was their testing methods They give some weird question and answer the result of the codes E G What happen if input 212ag23gg include lt stdio h gt int main void..."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "Where do I learn various data structures like linked-list after having learned about pointers?",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f9j06d/where_do_i_learn_various_data_structures_like/",
+            "description": "I want to learn from this language first before jumping to python."
+        },
+        {
+            "subreddit": "C_Programming",
+            "title": "How is beej's guide to c?",
+            "link": "https://www.reddit.com/r/C_Programming/comments/1f9ioli/how_is_beejs_guide_to_c/",
+            "description": ""
         },
         {
             "subreddit": "C_Programming",
@@ -1099,7 +1113,7 @@
             "subreddit": "C_Programming",
             "title": "Understanding the Program, But Struggling to write the Code \u2013 Need Guidance!",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f92uvx/understanding_the_program_but_struggling_to_write/",
-            "description": "From Few Months I started learning programming but whenever I solve a question I didn't able to write the code. I started with C language but I'm facing problems what should I do? "
+            "description": "\nI understand the problem statement and what needs to be done, but I am unable to write the code. When I use ChatGPT, I understand how it has solved the problem, but I am still unable to code it myself. \n\nI'm using C language "
         },
         {
             "subreddit": "C_Programming",
@@ -1202,30 +1216,6 @@
             "title": "Help for writing code guidelines",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f7ygqv/help_for_writing_code_guidelines/",
             "description": "Which style F1 F2 F3 better represents or should represent the guidelines of your code Please comment c The function f never returns nullptr int f void F1 int p f if p nullptr assert false return using p void F2 int p f assert p nullptr using p void..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "Do you think an in-memory relational database can be faster than C++ STL Map?",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f7xu7d/do_you_think_an_inmemory_relational_database_can/",
-            "description": "CrossDB is a written in C.\n\nhttps://github.com/crossdb-org/crossdb\n\nBenchmark Test vs. C++ STL Map and HashMap\n\nhttps://crossdb.org/blog/benchmark/crossdb-vs-stlmap/\n\nCrossDB in-memory database performance is between C++ STL Map and HashMap."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "Does it make sense to write your own operating system kernel right now",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f7thp7/does_it_make_sense_to_write_your_own_operating/",
-            "description": "I've been learning the C programming language for a few months now, and I've been thinking about writing my own kernel, is there any point in writing one even as practice"
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "I made a random numbers library for cryptography",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f7js8z/i_made_a_random_numbers_library_for_cryptography/",
-            "description": "Hey guys it s my first time posting here So long story short one day I wondered how Python s Random library generates random numbers and eventually learned about their use in cryptography Ever since I ve been obsessed with random numbers and made a small C library with quite..."
-        },
-        {
-            "subreddit": "C_Programming",
-            "title": "reading virtual files from /proc/PID in C program - Linux",
-            "link": "https://www.reddit.com/r/C_Programming/comments/1f7hnyp/reading_virtual_files_from_procpid_in_c_program/",
-            "description": "I m writing a simple program where every process from proc is printed out on the screen and I also want to have the names of each process so I tried file proc 88 status gt it says it s name but when I try to check the file size..."
         },
         {
             "subreddit": "haskell",
@@ -2102,6 +2092,11 @@
     ],
     "slashdot": [
         {
+            "title": "Discord Lowers Free Upload Limit To 10MB",
+            "link": "https://hardware.slashdot.org/story/24/09/05/0149255/discord-lowers-free-upload-limit-to-10mb?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Discord has reduced the upload limit for free users from 25MB to 10MB per file citing financial and operational reasons Every day millions of files are uploaded to Discord and stored securely for your future access Storage management is expensive so we regularly review how people use Discord and their..."
+        },
+        {
             "title": "Saturn's Rings Will Vanish Temporarily In Six Months",
             "link": "https://science.slashdot.org/story/24/09/05/0132246/saturns-rings-will-vanish-temporarily-in-six-months?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "Earth com has an interesting article about the temporary disappearance of Saturn s rings in about six months writes longtime Slashdot reader YVRGeek From the report Come March 2025 Saturn s majestic rings will become virtually invisible to earth based observers This phenomenon occurs due to the unique tilt of..."
@@ -2170,11 +2165,6 @@
             "title": "In Consumer Hardware, Niche is the New Mainstream",
             "link": "https://hardware.slashdot.org/story/24/09/04/189234/in-consumer-hardware-niche-is-the-new-mainstream?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "A pair of devices launching Wednesday highlight a growing trend in consumer hardware doing one thing well Axios writes From the report The smartphone rendered many formerly standalone devices obsolete but now some tech with a single purpose can offer an experience that a digital Swiss Army knife can t..."
-        },
-        {
-            "title": "Internet Archive Digital Lending Isn't Fair Use, 2nd Cir. Says",
-            "link": "https://news.slashdot.org/story/24/09/04/1728215/internet-archive-digital-lending-isnt-fair-use-2nd-cir-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "Internet Archive s controlled digital lending system and removal of controls during the pandemic don t qualify as fair use the Second Circuit affirmed Wednesday Bloomberg Law Four major book publishers again thwarted the online repository s defense that its one to one lending practices mirrored those of traditional libraries..."
         }
     ]
 }

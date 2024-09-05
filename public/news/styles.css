@@ -3,6 +3,7 @@
     --header-height: 50px;
 }
 
+
 /* Styles généraux */
 body {
     font-family: Arial, sans-serif;
@@ -39,6 +40,7 @@ body {
     z-index: 10;
 }
 
+/* Sélecteur de thème */
 #theme-select {
     appearance: none; /* Masque la flèche par défaut dans la plupart des navigateurs */
     -webkit-appearance: none; /* Masque la flèche sur WebKit (Chrome, Safari) */
@@ -91,46 +93,56 @@ body {
 }
 
 /* Menu déroulant Reddit */
-.dropdown {
-    position: relative;
-    z-index: 2000;
-}
-
 #reddit-dropdown {
-    display: none; /* Cacher par défaut */
-    position: absolute; /* Positionner relativement au document */
-    top: calc(var(--header-height) + 10px); /* Positionner juste en dessous du header */
-    left: 22%;
-    max-height: 80vh; /* Hauteur maximale pour éviter le débordement */
-    background-color: var(--dropdown-background-color);
-    color: var(--dropdown-text-color);
-    box-shadow: 0px 8px 16px 0px var(--box-shadow-color);
-    box-sizing: border-box;
-    z-index: 3000;
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto; /* Ajout d'un défilement vertical si nécessaire */
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    opacity: 0; /* Cacher par défaut */
-    transform: translateY(-10px); /* Positionner légèrement au-dessus */
+    appearance: none; /* Masque la flèche par défaut dans la plupart des navigateurs */
+    -webkit-appearance: none; /* Masque la flèche sur WebKit (Chrome, Safari) */
+    -moz-appearance: none; /* Masque la flèche sur Firefox */
+    background-color: var(--primary-color); /* Utiliser la couleur primaire pour correspondre aux onglets */
+    color: var(--text-color); /* Assurer la cohérence des couleurs */
+    border: none; /* Supprimer la bordure pour correspondre au style des onglets */
+    border-radius: 5px; /* Garder les coins arrondis comme les onglets */
+    padding: 10px 20px; /* Espacement similaire aux onglets */
+    cursor: pointer; /* Curseur pointeur pour indiquer que c'est cliquable */
+    transition: background-color 0.3s, color 0.3s; /* Transition pour le changement de couleur */
+    font-size: 16px; /* Taille de police similaire aux onglets */
+    position: relative; /* Positionné relativement au parent */
+    z-index: 3000; /* Assurer que le bouton est au-dessus des autres éléments */
 }
 
-#reddit-dropdown.show {
-    display: flex;
-    opacity: 1; /* Afficher */
-    transform: translateY(0); /* Revenir à la position initiale */
+#reddit-dropdown.active {
+    background-color: var(--hover-color);
 }
 
-.subreddit-button {
-    background-color: var(--dropdown-background-color);
+/* Options dans le menu déroulant Reddit */
+#reddit-dropdown .subreddit-button {
+    background-color: var(--primary-color); /* Correspondre aux onglets */
+    color: var(--text-color);
     border: none;
-    padding: 10px 15px;
+    padding: 10px 20px;
     text-align: center;
     cursor: pointer;
     font-size: 16px;
+    border-radius: 5px; /* Coins arrondis pour une apparence cohérente */
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.subreddit-button:hover {
+#reddit-dropdown .subreddit-button:hover {
+    background-color: var(--hover-color); /* Changer de couleur au survol */
+}
+
+#reddit-dropdown.show {
+    opacity: 1; /* Affiché */
+    transform: translateY(0); /* Revenir à la position initiale */
+}
+
+#reddit-dropdown option {
+    padding: 10px;
+    background-color: var(--dropdown-background-color);
+    border: none;
+    cursor: pointer;
+}
+
+#reddit-dropdown option:hover {
     background-color: var(--background-color);
 }
 
@@ -261,14 +273,22 @@ body {
 /* Styles pour les écrans de petite taille */
 @media only screen and (max-width: 768px) {
     #reddit-dropdown {
-        max-height: 70vh; /* Réduire la hauteur pour les petits écrans */
-        min-width: 20%;
-        left: 50%;
+        padding: 8px 15px; /* Ajuster le padding pour les petits écrans */
+        background-color: var(--primary-color); /* Utiliser la couleur primaire */
+        color: var(--text-color); /* Assurer la cohérence des couleurs */
+        border-radius: 5px; /* Garder les coins arrondis */
+        font-size: 14px; /* Réduire la taille de la police pour les petits écrans */
+        position: relative; /* Positionné relativement pour le menu */
+        max-height: 70vh; /* Hauteur maximale pour les petits écrans */
+        min-width: auto; /* Ajuster la largeur minimale pour les petits écrans */
+        left: 0; /* Aligner à gauche pour éviter le décalage */
+        margin: 0 auto; /* Centrer le bouton si nécessaire */
     }
 
-    .subreddit-button {
-        padding: 10px 15px;
-        font-size: 16px;
+    /* Style des options dans le menu déroulant */
+    #reddit-dropdown option {
+        padding: 8px 12px; /* Ajuster le padding pour les options */
+        font-size: 14px; /* Réduire la taille de la police pour les options */
     }
 
     .tabs-container {
@@ -317,15 +337,20 @@ body {
     }
 
     #reddit-dropdown {
-        min-width: 20%;
-        left: 65%;
+        padding: 6px 10px; /* Ajuster le padding pour les très petits écrans */
+        background-color: var(--primary-color); /* Couleur de fond */
+        color: var(--text-color); /* Couleur du texte */
+        border-radius: 5px; /* Garder les coins arrondis */
+        font-size: 12px; /* Réduire la taille de la police */
+        min-width: auto; /* Ajuster la largeur minimale */
+        left: 0%; /* Ajuster la position à gauche pour les très petits écrans */
         box-sizing: border-box;
-        max-height: 60vh; /* Réduire la hauteur pour les très petits écrans */
+        max-height: 60vh; /* Hauteur maximale pour les très petits écrans */
     }
 
-    .subreddit-button {
-        padding: 8px 12px;
-        font-size: 14px;
-        height: auto;
+    /* Style des options dans le menu déroulant */
+    #reddit-dropdown option {
+        padding: 6px 10px; /* Ajuster le padding pour les options */
+        font-size: 12px; /* Réduire la taille de la police pour les options */
     }
 }
