@@ -19,7 +19,7 @@ def load_config():
             "maxArticles": 30,
             "maxWordsDescription": 50,
             "keywordsToSkip": ["paywall", "fermented"],
-            "subreddits": ["r/java", "r/javascript", "r/rust", "r/golang", "r/python", "r/C_Programming"],
+            "subreddits": ["r/java", "r/javascript", "r/rust", "r/golang", "r/python", "r/C_Programming", "r/Haskell", "r/cobol", "r/fsharp", "r/csharp"],
             "urls": {
                 "devto": "https://dev.to/api/articles",
                 "hackernews": "https://hn.algolia.com/api/v1/search_by_date?query=programming&tags=story&page=",

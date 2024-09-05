@@ -3,14 +3,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     const username = 'Luthor91';
     const repo = 'aboutme';
     const branch = 'main';
-    const datas = "config/config.json";
-    const url = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/${datas}`;
+    const data_file = "config/datas.json";
+    const config_file = "config/config.json";
+    const url = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/`;
     let config = {};
+    let data = {};
 
     // Charger la configuration depuis GitHub
     const loadConfig = async () => {
         try {
-            const response = await fetch(url);
+            const response = await fetch(`${url}${config_file}`);
             config = response.ok ? await response.json() : { maxArticles: 30, maxDescriptionLength: 150 };
         } catch (error) {
             console.error('Fetch error for config:', error);
@@ -18,7 +20,19 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     };
 
+    // Charger les données depuis GitHub
+    const loadData = async () => {
+        try {
+            const response = await fetch(`${url}${data_file}`);
+            data = response.ok ? await response.json() : {};
+        } catch (error) {
+            console.error('Fetch error for data:', error);
+            data = {};
+        }
+    };
+
     await loadConfig();
+    await loadData();
     const { maxArticles, maxDescriptionLength } = config;
 
     // Sélecteurs
@@ -35,34 +49,22 @@ document.addEventListener('DOMContentLoaded', async () => {
     const fetchData = async (source) => {
         if (!source) return;
         try {
-            let data;
-            if (source === 'reddit') {
-                // Vérifier si la configuration Reddit est correcte
-                if (!config.reddit || !config.reddit.subreddit) {
-                    throw new Error('Reddit configuration is missing');
-                }
-                // Trouver la clé du subreddit correspondant au data-source
-                const subredditKey = Object.keys(config.reddit.subreddit).find(key => config.reddit.subreddit[key] === source);
-                if (!subredditKey) {
-                    throw new Error(`Subreddit not found for source: ${source}`);
-                }
-                // Construire l'URL pour Reddit
-                const subredditUrl = `https://www.reddit.com/r/${subredditKey}/new.json?limit=${maxArticles}`;
-                const response = await fetch(subredditUrl, { headers: { 'User-agent': 'Mozilla/5.0' } });
-                data = response.ok ? await response.json() : { data: { children: [] } };
-            } else {
-                const response = await fetch(url);
-                data = response.ok ? await response.json() : await fetch(`/${datas}`).then(r => r.json());
+            const isFromReddit = config.subreddits && config.subreddits.includes(`r/${source}`);
+            
+            // Vérifier si les données sont disponibles
+            if (!data) {
+                throw new Error('Data not available');
             }
 
-            // Utiliser 'r/' pour les autres sources sauf Reddit
-            console.log("source : ", source);
-            
-            const key = config.sources.contains(source) ? source : `r/${source}`;
-            console.log('Key:', key);
-            console.log('Data:', data[key] || []);
-            
-            displayArticles(source === 'reddit' ? data.data.children : data[key], searchInput.value);  // Passe la valeur de recherche à la fonction
+            // Afficher les articles en fonction de la source
+            if (isFromReddit) {
+                const articles = (data["reddit"] || []).filter(article => article.subreddit === source);
+                displayArticles(articles, searchInput.value); 
+            }else {
+                const articles = data[source] || [];
+                displayArticles(articles, searchInput.value);  // Passe la valeur de recherche à la fonction
+            }   
+
         } catch (error) {
             console.error('Fetch error:', error);
             errorMessage.textContent = 'Failed to load data. Please try again later.';
@@ -88,8 +90,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     const displayArticles = (articles, query) => {
-        console.log('Articles:', articles);
-        
+
         newsList.innerHTML = '';
         if (!articles || !articles.length) {
             errorMessage.textContent = 'No data available.';
@@ -165,7 +166,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Basculer la classe "show" pour afficher ou cacher le dropdown
         redditDropdown.classList.toggle('show');
-        
     }
 
     // Gestion du menu déroulant Reddit

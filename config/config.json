@@ -24,6 +24,10 @@
         "r/rust", 
         "r/golang", 
         "r/python", 
-        "r/C_Programming"
+        "r/C_Programming",
+        "r/Haskell",
+        "r/cobol",
+        "r/fsharp",
+        "r/csharp"
     ]
   }
