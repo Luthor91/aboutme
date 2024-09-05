@@ -126,6 +126,10 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
+#reddit-dropdown:hover {
+    background-color: var(--hover-color); /* Changer de couleur au survol */
+}
+
 #reddit-dropdown .subreddit-button:hover {
     background-color: var(--hover-color); /* Changer de couleur au survol */
 }
