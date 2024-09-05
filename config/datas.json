@@ -1,6 +1,31 @@
 {
     "hackernews": [
         {
+            "title": "Local Governments Got Hooked on Tyler Tech's Janky Software",
+            "link": "https://www.bloomberg.com/news/features/2024-09-05/tyler-tech-s-odyssey-software-took-over-local-government-and-courts",
+            "description": "No Description"
+        },
+        {
+            "title": "Show HN: AI Agent for Automating Prospecting and Outreach",
+            "link": "https://chromewebstore.google.com/detail/etenus/cjofcncnolkimapbjiajldocanlljfdn",
+            "description": "No Description"
+        },
+        {
+            "title": "Show HN: A balanced team building service for MMORPG guilds",
+            "link": "https://bteamgen.tyghsh.cc/about",
+            "description": "Hello I recently launched a web service for managing team creation for guild events or training sessions called BTeamGen I wanted to share it here for getting some feedback p BTeamGen is a website that helps you create and share balanced teams from Google Forms data Teams are built based..."
+        },
+        {
+            "title": "The First AI Benchmarks Pitting AMD Against Nvidia",
+            "link": "https://www.nextplatform.com/2024/09/03/the-first-ai-benchmarks-pitting-amd-against-nvidia/",
+            "description": "No Description"
+        },
+        {
+            "title": "Explore Central Bank Digital Currencies (CBDCs) with Mastercard",
+            "link": "https://www.mastercard.com/global/en/business/issuers/crypto/central-bank-digital-currencies.html",
+            "description": "No Description"
+        },
+        {
             "title": "Writers will dominate in a world of LLMs",
             "link": "https://curiousest.com/editing-science-fiction-with-llms/",
             "description": "No Description"
@@ -104,36 +129,6 @@
             "title": "Show HN: Assertly \u2013 scriptable monitoring for infosec, IT, compliance, DevOps",
             "link": "https://www.assertly.com",
             "description": "Hey HN p Jaka here solo founder of Assertly a href https x2F x2F www assertly com rel nofollow https x2F x2F www assertly com a Assertly is a monitoring tool for continuous infosec IT compliance and DevOps regression testing It enables teams to automate periodic checks using JavaScript p..."
-        },
-        {
-            "title": "Good Software Development Habits",
-            "link": "https://zarar.dev/good-software-development-habits/",
-            "description": "No Description"
-        },
-        {
-            "title": "Stephen Wolfram Reflects on What Is ChatGPT Doing and Why Does It Work? [video]",
-            "link": "https://www.youtube.com/watch?v=Aw7_CBczUD4",
-            "description": "No Description"
-        },
-        {
-            "title": "Vorobyov, Navalny and others vs. Russia: ECRH judgment on Telegram surveilance",
-            "link": "https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-235490%22]}",
-            "description": "No Description"
-        },
-        {
-            "title": "Laravel raises a $57M Series A from Accel",
-            "link": "https://laravel-news.com/laravel-raises-57-million-series-a",
-            "description": "No Description"
-        },
-        {
-            "title": "Writing much better tests in Elixir by Xochitl P\u00e9rez",
-            "link": "https://elixirforum.com/t/writing-much-better-tests-in-elixir-by-xochitl-perez-code-beam-lite-mexico-2023/65896",
-            "description": "No Description"
-        },
-        {
-            "title": "Are they listening? How to monitor mic and protect your privacy with Malloc",
-            "link": "https://blog.mallocprivacy.com/are-they-listening-to-us-e67303d06cda",
-            "description": "No Description"
         }
     ],
     "reddit": [

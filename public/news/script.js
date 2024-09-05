@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         try {
             const response = await fetch(`${url}${config_file}`);
             config = response.ok ? await response.json() : { maxArticles: 30, maxDescriptionLength: 150 };
+            config.subreddits.map(v => v.toLowerCase());
         } catch (error) {
             console.error('Fetch error for config:', error);
             config = { maxArticles: 30, maxDescriptionLength: 150 };
@@ -49,7 +50,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!source) return;
         try {
             source = source.toLowerCase();
-            console.log(config.subreddits);
             
             const isFromReddit = config.subreddits && config.subreddits.includes(`r/${source}`);
             
@@ -60,7 +60,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Afficher les articles en fonction de la source
             if (isFromReddit) {
-                console.log(article.subreddit)
                 const articles = (data["reddit"] || []).filter(article => article.subreddit == source);
                 displayArticles(articles, searchInput.value); 
             } else {
