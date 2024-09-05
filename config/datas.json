@@ -1228,181 +1228,181 @@
             "description": "Which style F1 F2 F3 better represents or should represent the guidelines of your code Please comment c The function f never returns nullptr int f void F1 int p f if p nullptr assert false return using p void F2 int p f assert p nullptr using p void..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Nothing printing in vscode",
             "link": "https://www.reddit.com/r/haskell/comments/1f9as8j/nothing_printing_in_vscode/",
             "description": "I am very new to Haskell and tried running a hello world program on vscode but when I click the run button nothing happens and nothing is outputted in the terminal"
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Call for Volunteers - Security Response Team",
             "link": "https://www.reddit.com/r/haskell/comments/1f946kd/call_for_volunteers_security_response_team/",
             "description": "The Security Response Team SRT is formally calling for applications to join the SRT People from the Haskell community with information security experience are encouraged to apply This is an opportunity to have a large impact on the practice of Haskell programming going forward Since its inception the SRT has..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "7 Levels of Type Safety in Haskell: Lists, from extreme dynamic to extreme dependent",
             "link": "https://blog.jle.im/entry/levels-of-type-safety-haskell-lists.html",
             "description": ""
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "how do we know which things are exported and which not ?",
             "link": "https://www.reddit.com/r/haskell/comments/1f8ux4j/how_do_we_know_which_things_are_exported_and/",
             "description": "I wanted to use `maybeToList` but it showed an error, then after much research I found that only the `Maybe` constructor is exported by `GHC.Internal.Maybe`\nby looking at source \u00f8n hackage\n\nis there a convenient way I am missing ?\n"
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "`Natural` present multiple places",
             "link": "https://www.reddit.com/r/haskell/comments/1f8s13q/natural_present_multiple_places/",
             "description": "I want to use the Natural defined in base but it is not exported by default so I went to to base https hackage haskell org package base Here when I did a quick cmd f I find three results GHC Natural GHC Num Natural Numeric Natural Are they same..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Second Book/ Intermediate Resource",
             "link": "https://www.reddit.com/r/haskell/comments/1f8rqhw/second_book_intermediate_resource/",
             "description": "I completed learning begeinner s haskell from CIS1940 by Brent I also did the youtube playlist by Graham Hutton and wokring my way through Learn Haskell by building a blog generator in the whole process I used LYAH as a reference As this was recommended on the haskell org page..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "haskell-ts-mode: new haskell mode for emacs using treesitter, now on elpa",
             "link": "https://codeberg.org/pranshu/haskell-ts-mode/src/branch/main",
             "description": ""
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Secure by Design: A goal to create a secure-by-design RTS",
             "link": "https://www.reddit.com/r/haskell/comments/1f89f9g/secure_by_design_a_goal_to_create_a/",
             "description": "See https www cisa gov resources tools resources secure by design https www cisa gov resources tools resources secure by design GHC Haskell s RTS is written in a mixture of C and Haskell I believe a worthy goal should be to rewrite all C code and any other code..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "openTempFile: invalid argument (Invalid argument)compiler",
             "link": "https://www.reddit.com/r/haskell/comments/1f83p4k/opentempfile_invalid_argument_invalid/",
             "description": "Greetings I am new to Haskell and when I code Haskell on vscode an error message says openTempFile invalid argument Invalid argument compiler Even though there is no syntax error and I can load the file into ghci and run the functions it s annoying and I was trying to..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Stack and Cabal, do they do same thing or different ?",
             "link": "https://www.reddit.com/r/haskell/comments/1f7xrow/stack_and_cabal_do_they_do_same_thing_or_different/",
             "description": "I am very confused about Haskell tooling system I installed Haskell from ghcup which was very awesome as it installed all the necessary things with one command I learnt basic haskell now I am trying to make projects so I want to know about which build tool to use Cabal..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "How do you Architect Large Haskell Code Bases?",
             "link": "https://www.reddit.com/r/haskell/comments/1f7rsxp/how_do_you_architect_large_haskell_code_bases/",
             "description": "N b I mostly write Lisp and Go these days I ve only written toys in Haskell 1 Naively making invalid states unrepresentable seems like it d couple you to a single understanding of the problem space causing issues when your past assumptions are challenged etc How do you architect..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Variable not in scope",
             "link": "https://www.reddit.com/r/haskell/comments/1f7r9jb/variable_not_in_scope/",
             "description": "Please help I ve tried all I m new and I don t know why does this happen When I run the program called a1 an error that says variable a1 not in scope appears It is not even a variable it s the name of the program I made..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Lemmy temperature check",
             "link": "https://www.reddit.com/r/haskell/comments/1f6k12u/lemmy_temperature_check/",
             "description": "I was just curious how folks are feeling these days about Reddit alternatives I ve been enjoying Lemmy personally and I find that for technical stuff in particular the communities are definitely growing feeling less ghost town ish little by little Haskell wise it seems like https programming dev c..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "How does lexP work?",
             "link": "https://www.reddit.com/r/haskell/comments/1f6jhtu/how_does_lexp_work/",
             "description": "So I ended up writing Comma Separated Tuple newtype CST a CST a a instance Show a gt Show CST a where show CST a b show a show b instance Read a gt Read CST a where readPrec parens do a lt readPrec Punc lt lexP b lt readPrec..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "How to download and use haskell on macOS?",
             "link": "https://www.reddit.com/r/haskell/comments/1f6do4l/how_to_download_and_use_haskell_on_macos/",
             "description": "I use MacBook Air M1 I ve tried going to https www haskell org ghcup https www haskell org ghcup and entered the command curl proto https tlsv1 2 sSf https get ghcup haskell org https get ghcup haskell org sh in the terminal When I tried entering ghc version..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Can you make mobile and desktop apps with Haskell?",
             "link": "https://www.reddit.com/r/haskell/comments/1f65wc3/can_you_make_mobile_and_desktop_apps_with_haskell/",
             "description": "It would appear by looking at SimpleX Chat github repo the haskell backend can be used for the SimpleX Android iOS and desktop app Is this the case with Haskell I do not know Haskell but how does it compare to other multiplatform frameworks like Dart Flutter for making and..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Monthly Hask Anything (September 2024)",
             "link": "https://www.reddit.com/r/haskell/comments/1f618g2/monthly_hask_anything_september_2024/",
             "description": "This is your opportunity to ask any questions you feel don't deserve their own threads, no matter how small or simple they might be!"
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Hoogle appears to be down",
             "link": "https://www.reddit.com/r/haskell/comments/1f5mbox/hoogle_appears_to_be_down/",
             "description": "I get `502 Bad Gateway` at the moment, https://downforeveryoneorjustme.com reports it's down as well."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Is monad just a decorator for the arguments?",
             "link": "https://www.reddit.com/r/haskell/comments/1f591s7/is_monad_just_a_decorator_for_the_arguments/",
             "description": "Just stumbled upon a thought \"what if there would be decorators, but the arguments instead of the function\"  \nand I instantly went \"isn't that what monad is?\"\n\nps i don't know what monad is, so i am not sure if I reinvented it or something else"
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Recursion schemes without ugly wrappers?",
             "link": "https://www.reddit.com/r/haskell/comments/1f50i94/recursion_schemes_without_ugly_wrappers/",
             "description": "I tried to ask this question in a language agnostic way here https old reddit com r functionalprogramming comments 1f4hsxi implementing_recursion_schemes_without_ugly and I m actually using ReScript https rescript lang org a dialect of OCaml focused on the JavaScript ecosystem But since the Haskell community probably has more experience with..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "AST Polymorhic ",
             "link": "https://www.reddit.com/r/haskell/comments/1f4zasb/ast_polymorhic/",
             "description": "    How do I have to define my AST that it also accecpts Doubles not only Int in NumE \n    Can I constrain it to Num \n    \n    data FAE  = NumE  Int\n              | AddE FAE FAE\n              | IdE String\n              | FunE String FAE\n              | AppE FAE FAE \n      deriving (Show, Eq)data FAE  = NumE  Int\n    "
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "[Well-Typed] GHC activities report: June-August 2024",
             "link": "https://www.well-typed.com/blog/2024/08/ghc-activities-report-june-august-2024/",
             "description": ""
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Parsers are relative bimonads",
             "link": "https://dev.to/artemisyo/parsers-are-relative-bimonads-20cd",
             "description": "A blog post in which I go over modelling parsers as bimonads as a natural extension of parser composition to error handling It s my first blogpost and I ve forgotten that I should probably advertise it a bit It hasn t gotten much traction which I find a bit..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "how does freer-simple library alternate effect handlers?",
             "link": "https://www.reddit.com/r/haskell/comments/1f4hjme/how_does_freersimple_library_alternate_effect/",
             "description": "I m reading code in https github com lexi lambda freer simple https github com lexi lambda freer simple and the paper Freer monad more extensible effects https okmij org ftp Haskell extensible more pdf https okmij org ftp Haskell extensible more pdf I have created a new module as..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Getting Started with Nix for Haskell",
             "link": "https://abhinavsarkar.net/posts/nix-for-haskell/",
             "description": ""
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Logic programming with extensible types in Haskell",
             "link": "https://www.reddit.com/r/haskell/comments/1f3l2ov/logic_programming_with_extensible_types_in_haskell/",
             "description": "Hi everyone I d like to share a new paper we just published that explains how we are bringing statically typed logic programming into Haskell You can find the paper at https ntrs nasa gov citations 20240010266 https ntrs nasa gov citations 20240010266 https preview redd it bqorqqc63hld1 png width..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Haskquill: Compile-time QDSL for SQL queries",
             "link": "https://www.reddit.com/r/haskell/comments/1f2r7c8/haskquill_compiletime_qdsl_for_sql_queries/",
             "description": "Hello everyone I developed a small library based on quill https github com zio zio quill which is written in scala It allows you to create correct SQL queries during compilation and display them to the user I originally started this project because there is essentially no runtime overhead compared..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "Anduril Industries' Electromagnetic Warfare Team is Hiring",
             "link": "https://www.reddit.com/r/haskell/comments/1f2x743/anduril_industries_electromagnetic_warfare_team/",
             "description": "Anduril Industries is once again hiring Haskell engineers to work on electromagnetic warfare products This is a unique opportunity to use Haskell to implement high performance applications in an embedded setting Anduril has adopted Nix at large and we use IOG s generously maintained Haskell nix project to build all..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "How is pipes-safe supposed to work?",
             "link": "https://www.reddit.com/r/haskell/comments/1f35f92/how_is_pipessafe_supposed_to_work/",
             "description": "pipes safe https hackage haskell org package pipes safe 2 3 5 is designed to bring resource management and exception handling to the pipes ecosystem but I can t get it to work in the simplest of cases If I m using the normal Control Exception ecosystem and I throw..."
         },
         {
-            "subreddit": "haskell",
+            "subreddit": "Haskell",
             "title": "TIL: Someone created PLHaskell to use Haskell as PostgreSQL procedural language",
             "link": "https://github.com/ed-o-saurus/PLHaskell",
             "description": ""
