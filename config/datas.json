@@ -1,148 +1,138 @@
 {
     "hackernews": [
         {
-            "title": "Asus' new mini PC has a Copilot AI button on the front for some reason",
-            "link": "https://www.theverge.com/2024/9/4/24235910/asus-nuc-14-pro-ai-copilot-button-mini-pc",
+            "title": "Writers will dominate in a world of LLMs",
+            "link": "https://curiousest.com/editing-science-fiction-with-llms/",
             "description": "No Description"
         },
         {
-            "title": "PostgreSQL 17 RC1 Released",
-            "link": "https://www.postgresql.org/about/news/postgresql-17-rc1-released-2926/",
+            "title": "If you're going to block your time, do this, too",
+            "link": "https://samestuffdifferentday.net/2024/09/04/blocking-time-give-details/",
             "description": "No Description"
         },
         {
-            "title": "How to make friends outside of school",
-            "link": "https://jeena.net/how-to-make-friends",
+            "title": "Sigmalite. An open source sigma rule evaluator",
+            "link": "https://blog.runreveal.com/introducing-sigmalite/",
             "description": "No Description"
         },
         {
-            "title": "Composing everythings together in FastAPI with pydantic-resolve",
-            "link": "https://github.com/allmonday/pydantic-resolve-demo",
+            "title": "Verizon to acquire Frontier in $20B deal to boost fiber network",
+            "link": "https://www.cnn.com/2024/09/05/tech/verizon-frontier-deal/index.html",
             "description": "No Description"
         },
         {
-            "title": "Why Can't the U.S. Build Ships?",
-            "link": "https://www.construction-physics.com/p/why-cant-the-us-build-ships",
+            "title": "How I would like all the documentation to be realised",
+            "link": "https://github.com/Teygeta/nuxt-doc",
             "description": "No Description"
         },
         {
-            "title": "Sustainable Procurement Policy: Definition and Implementation",
-            "link": "https://www.get-flowie.com/en/blog/sustainable-procurement-policy-definition-and-implementation",
+            "title": "Kids Should Be Taught to Think Logically",
+            "link": "https://www.scientificamerican.com/article/the-u-s-should-teach-kids-to-think-logically/",
             "description": "No Description"
         },
         {
-            "title": "Google/Facebook partner admits it can listen to device microphone to serve ads",
-            "link": "https://www.dexerto.com/tech/google-facebook-partner-admits-it-can-listen-to-device-microphone-to-serve-ads-2888041/",
+            "title": "Brutal Heat Wave Will Extend Streak of 100 Days of 100 Degrees F",
+            "link": "https://www.scientificamerican.com/article/brutal-southwest-heat-wave-will-extend-streak-of-100-days-of-100-degrees-f/",
             "description": "No Description"
         },
         {
-            "title": "Classic HN: Itappmonrobot (2007)",
-            "link": "https://thedailywtf.com/articles/ITAPPMONROBOT",
+            "title": "Top Open-Source CRUD Projects with the Most GitHub Stars",
+            "link": "https://www.nocobase.com/en/blog/crud-projects",
             "description": "No Description"
         },
         {
-            "title": "Hacking Sales as an Introvert",
-            "link": "https://shwin.co/blog/hacking-sales-as-an-introvert",
+            "title": "Arrest of Telegram's Founder Illuminates Global Anxieties About Social Platforms",
+            "link": "https://www.newyorker.com/culture/infinite-scroll/the-arrest-of-telegrams-founder-illuminates-global-anxieties-about-social-platforms",
             "description": "No Description"
         },
         {
-            "title": "Show HN: We built a knowledge hub for running LLMs on edge devices",
-            "link": "https://github.com/NexaAI/Awesome-LLMs-on-device",
-            "description": "Hey HN Alex and Zack from Nexa AI here We are excited to share a project our team has been passionately working on recently in collaboration with Jiajun from Meta Qun from San Francisco State University and Xin and Qi from the University of North Texas p Running AI models..."
-        },
-        {
-            "title": "How AI Disrupts Tech Investing",
-            "link": "https://unchartedterritories.tomaspueyo.com/p/how-ai-disrupts-tech-investing",
+            "title": "OpenSSL 3.4 Alpha 1 Released with New Features",
+            "link": "https://www.phoronix.com/news/OpenSSL-3.4-Alpha-1",
             "description": "No Description"
         },
         {
-            "title": "Accelerated, Production-Ready Graph Analytics for NetworkX Users",
-            "link": "https://developer.nvidia.com/blog/accelerated-production-ready-graph-analytics-for-networkx-users/",
+            "title": "Virtual fences could save the Iberian lynx from becoming roadkill",
+            "link": "https://www.cnn.com/science/spain-iberian-lynx-virtual-fence-spc-c2e/index.html",
             "description": "No Description"
         },
         {
-            "title": "I made an ultra-realistic AI chat inspired by Omegle",
-            "link": "https://www.theaipeeps.com/",
+            "title": "Conspiracy Theatre of the Absurd: \"Birds Aren't Real\" as Parodic Hypermimesis",
+            "link": "https://www.tandfonline.com/doi/full/10.1080/02773945.2024.2375196",
             "description": "No Description"
         },
         {
-            "title": "The Six Million Dollar Man Opening and Closing Theme",
-            "link": "https://www.youtube.com/watch?v=0CPJ-AbCsT8",
+            "title": "Leon is your open-source personal assistant who can live on your server",
+            "link": "https://getleon.ai/",
             "description": "No Description"
         },
         {
-            "title": "Dashboard Analytics",
-            "link": "https://socket.dev/blog/socket-introduces-new-dashboard-analytics",
+            "title": "The Deep Religious Roots of American Economics",
+            "link": "https://thereader.mitpress.mit.edu/the-deep-religious-roots-of-american-economics/",
             "description": "No Description"
         },
         {
-            "title": "Show HN: Code Runner \u2013 Instant online execution of code",
-            "link": "https://koko1928.github.io/CodeRunner/",
-            "description": "Slightly modified."
-        },
-        {
-            "title": "Using PHP with Kafka",
-            "link": "https://medium.com/@jha.ameet/integrate-apache-kafka-with-php-2b8d48c22358",
+            "title": "DJI Neo review: The little drone that could",
+            "link": "https://www.tomsguide.com/cameras-photography/drones/dji-neo-review",
             "description": "No Description"
         },
         {
-            "title": "Brief Introduction to Vision Language Models",
-            "link": "https://www.lightly.ai/post/introduction-to-vision-language-models",
+            "title": "Show HN: Hacker League \u2013 Open-Source Rocket League on Linux",
+            "link": "https://github.com/moritztng/hacker-league",
             "description": "No Description"
         },
         {
-            "title": "Newly Discovered Antibody Protects Against All Covid-19 Variants",
-            "link": "https://news.utexas.edu/2024/09/03/newly-discovered-antibody-protects-against-all-covid-19-variants/",
+            "title": "Crypto Scams and Lonely Americans",
+            "link": "https://www.theatlantic.com/ideas/archive/2024/09/bitcoin-scams-lonely-americans/679700/",
             "description": "No Description"
         },
         {
-            "title": "Takeaways from Darknet Diaries \u2013 Explaining the Intricate Web of SaaS Security",
-            "link": "https://www.reco.ai/blog/5-takeaways-from-darknet-diaries-intricate-web-of-saas-security",
+            "title": "Leverage AI and Large Language Models for Next-Generation Knowledge Management",
+            "link": "https://spin.atomicobject.com/ai-llms-knowledge-management/",
             "description": "No Description"
         },
         {
-            "title": "Show HN: VibeShuffle \u2013 A smart shuffle CLI music player",
-            "link": "https://github.com/SeanPedersen/VibeShuffle",
-            "description": "Quickly coded this side project using Perplexity as a code assistant. This tool embeds your mp3 files and allows to play similar tracks (based on the current track) or shuffle a new random track until you find one that fits your mood (and VibeShuffle continues with similar tracks)."
+            "title": "Show HN: Fleeting \u2013 simplest way to \"Docker run/build\" in the cloud",
+            "link": "https://github.com/jakajancar/fleeting",
+            "description": "Hey p While building my last project also published today check it out 1 I had the need to run some docker jobs in the cloud for CI x2F CD with more flexibility than GitHub Actions offers specifically in my chosen cloud x2F region x2F architecture x2F instance type p..."
         },
         {
-            "title": "The World as a Neural Network",
-            "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7712105/",
+            "title": "Mastering the Spark UI",
+            "link": "https://docs.databricks.com/en/optimizations/spark-ui-guide/index.html",
             "description": "No Description"
         },
         {
-            "title": "Melty: Cursor alternative, a open source AI code editor",
-            "link": "https://github.com/meltylabs/melty",
+            "title": "Show HN: Assertly \u2013 scriptable monitoring for infosec, IT, compliance, DevOps",
+            "link": "https://www.assertly.com",
+            "description": "Hey HN p Jaka here solo founder of Assertly a href https x2F x2F www assertly com rel nofollow https x2F x2F www assertly com a Assertly is a monitoring tool for continuous infosec IT compliance and DevOps regression testing It enables teams to automate periodic checks using JavaScript p..."
+        },
+        {
+            "title": "Good Software Development Habits",
+            "link": "https://zarar.dev/good-software-development-habits/",
             "description": "No Description"
         },
         {
-            "title": "Show HN: Detect GAPS in UI test coverage and know what tests are missing",
-            "link": "https://info.appsurify.com/testmap-ui-coverage",
+            "title": "Stephen Wolfram Reflects on What Is ChatGPT Doing and Why Does It Work? [video]",
+            "link": "https://www.youtube.com/watch?v=Aw7_CBczUD4",
             "description": "No Description"
         },
         {
-            "title": "Putting life in the hands of a rock'n'roll band",
-            "link": "https://www.thetimes.com/comment/columnists/article/putting-life-in-the-hands-of-a-rocknroll-band-qv7hcr7jz",
+            "title": "Vorobyov, Navalny and others vs. Russia: ECRH judgment on Telegram surveilance",
+            "link": "https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-235490%22]}",
             "description": "No Description"
         },
         {
-            "title": "Best Free VPNs: all compared in one place",
-            "link": "https://old.reddit.com/r/VPN/comments/1f7xv99/best_free_vpns_according_to_reddit_and_my_research/",
+            "title": "Laravel raises a $57M Series A from Accel",
+            "link": "https://laravel-news.com/laravel-raises-57-million-series-a",
             "description": "No Description"
         },
         {
-            "title": "I made illustrated book editor",
-            "link": "https://www.huez.ai/",
+            "title": "Writing much better tests in Elixir by Xochitl P\u00e9rez",
+            "link": "https://elixirforum.com/t/writing-much-better-tests-in-elixir-by-xochitl-perez-code-beam-lite-mexico-2023/65896",
             "description": "No Description"
         },
         {
-            "title": "Building a breakout element with container units",
-            "link": "https://piccalil.li/blog/building-a-breakout-element-with-container-units/",
-            "description": "No Description"
-        },
-        {
-            "title": "List of Polyglots",
-            "link": "https://en.wikipedia.org/wiki/List_of_polyglots",
+            "title": "Are they listening? How to monitor mic and protect your privacy with Malloc",
+            "link": "https://blog.mallocprivacy.com/are-they-listening-to-us-e67303d06cda",
             "description": "No Description"
         }
     ],
@@ -329,6 +319,12 @@
         },
         {
             "subreddit": "javascript",
+            "title": "An \u00a8everything is a stream\u00a8 UI library",
+            "link": "https://github.com/reactivehtml/rimmel",
+            "description": ""
+        },
+        {
+            "subreddit": "javascript",
             "title": "Introducing Qustar: A New Way to Query SQL Databases",
             "link": "https://github.com/tilyupo/qustar",
             "description": ""
@@ -502,10 +498,10 @@
             "description": ""
         },
         {
-            "subreddit": "javascript",
-            "title": "I've been tracking mentions of JavaScript in job postings since the start of the year!",
-            "link": "https://job.zip/trend/javascript",
-            "description": ""
+            "subreddit": "rust",
+            "title": "New Rust Desktop Program",
+            "link": "https://www.reddit.com/r/rust/comments/1f9mjrh/new_rust_desktop_program/",
+            "description": "Hello fellow Rustaceans I just finished developing the first version of my rust desktop program my first major rust project This desktop program allows your to parameterize and reuse segments of python code known as snippets with an intractable UI using Tauri and a python API using PyO3 s extension..."
         },
         {
             "subreddit": "rust",
@@ -682,10 +678,22 @@
             "description": "I m at a crossroads between choosing Rust and Golang for my new project I m a full stack developer Python JavaScript and have worked on a few projects with C and Java as well I want to expand my skills so I m planning to start a new project..."
         },
         {
-            "subreddit": "rust",
-            "title": "Is there a way to build tauri application and use whisperx?",
-            "link": "https://www.reddit.com/r/rust/comments/1f8nyu2/is_there_a_way_to_build_tauri_application_and_use/",
-            "description": "I was creating a tuari application which would locally record the mic and speaker Is there anyway we can have integration with WhisperX https github com m bain whisperX or something like this for transcription as well locally The quality of transcription of whisperx and diarization is extremely good Or..."
+            "subreddit": "golang",
+            "title": "Is it a good idea to have a micro-service just to manage cronjobs ?",
+            "link": "https://www.reddit.com/r/golang/comments/1f9mmy2/is_it_a_good_idea_to_have_a_microservice_just_to/",
+            "description": "I was thinking of making a new service for cronjobs to easily manage and scale just the cronjobs as it was kinda overwhelming the main server was planning to make a new micro service for handling this Was planning to make one using asynq https github com hibiken asynq need..."
+        },
+        {
+            "subreddit": "golang",
+            "title": "Database Transactions in Go with Layered Architecture",
+            "link": "https://threedots.tech/post/database-transactions-in-go/",
+            "description": ""
+        },
+        {
+            "subreddit": "golang",
+            "title": "What's the correct way to serve Golang web app?",
+            "link": "https://www.reddit.com/r/golang/comments/1f9m8k8/whats_the_correct_way_to_serve_golang_web_app/",
+            "description": "I am using chi for the router in the docs example they are using http ListenAndServe 3000 r and I have no complains about that on my local setup but what about in production what s the correct way to serve Golang app Should it be proxied with Nginx HAProxy..."
         },
         {
             "subreddit": "golang",
@@ -850,559 +858,541 @@
             "description": "I am currently writing a small service where I receive about 100k JSON payloads per day via https There is a lot of information in that payload that is not yet needed Just a few columns But it can be interesting information later so I want to store the payload..."
         },
         {
-            "subreddit": "golang",
-            "title": "Is VSCode auto imports broken?",
-            "link": "https://www.reddit.com/r/golang/comments/1f8oovv/is_vscode_auto_imports_broken/",
-            "description": "Hey My VSCode won t suggest and add functions from other packages in my module I have gopls installed and set as the language server in VSCode settings I expected Intellisense to work similar to a Python project where all functions from the project are listed and when selected an..."
-        },
-        {
-            "subreddit": "golang",
-            "title": "How Namespaced Cache Keys Improve Service Interoperability",
-            "link": "https://medium.com/@pliutau/how-namespaced-cache-keys-improve-service-interoperability-0aada70c33ff",
-            "description": ""
-        },
-        {
-            "subreddit": "golang",
-            "title": "Ergo Framework 3.0 sets sail today \u2026\u26f5\u2026 ! This is an actor-based framework with network transparency for creating event-driven architecture in Golang. Inspired by Erlang. Zero dependencies.",
-            "link": "https://github.com/ergo-services/ergo?tab=readme-ov-file#v300-2024-09-04-tag-version-v1999300",
-            "description": ""
-        },
-        {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "I've been tracking Python, Django, NumPy and several other frameworks in job listings this year",
             "link": "https://www.reddit.com/r/Python/comments/1f9l9zt/ive_been_tracking_python_django_numpy_and_several/",
             "description": "Hi all I built a website to track programing languages skills frameworks in jobs Perhaps unsurprsingly Python https job zip trend python is by far the biggest category in software engineering https job zip hiring category software engineering I m tracking many other Python frameworks and libraries as well Django..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Yet another 12 factor configuration helper : python-direnv",
             "link": "https://www.reddit.com/r/Python/comments/1f9jfgv/yet_another_12_factor_configuration_helper/",
-            "description": "Hi Python I ve developed another app to manage environment variables What My Project Does This allows you to load _direnv your environment variables like load _dotenv once you allow them through direnv but unlocks the full power of the bash shell instead of being limited to basic key value..."
+            "description": "Hi Python I ve developed another app to manage environment variables https github com nicolas graves python direnv https github com nicolas graves python direnv What My Project Does This allows you to load_direnv your environment variables like load_dotenv It is designed around shell code execution instead of being limited..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "I couldn't find a guide to get hourly Wikipedia views so I wrote one myself",
             "link": "https://www.reddit.com/r/Python/comments/1f9hcb7/i_couldnt_find_a_guide_to_get_hourly_wikipedia/",
             "description": "I recently noticed fetching Google trends via the unofficial Python api is broken If you are running into similar issues I wrote a guide how to use Wikipedia views as a measure instead https substack com franz101 p 148522892 The tutorial includes how to get daily views simple and hourly..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Python Libraries to Extract Table from PDF",
             "link": "https://www.reddit.com/r/Python/comments/1f9fv7y/python_libraries_to_extract_table_from_pdf/",
             "description": "Here's a blog with a tutorial using multiple Python libraries to extract tables: [https://unstract.com/blog/extract-tables-from-pdf-python/](https://unstract.com/blog/extract-tables-from-pdf-python/)\n\nVideo tutorial: [https://www.youtube.com/live/YfW5vVwgbyo?t=2799s](https://www.youtube.com/live/YfW5vVwgbyo?t=2799s) "
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Thursday Daily Thread: Python Careers, Courses, and Furthering Education!",
             "link": "https://www.reddit.com/r/Python/comments/1f98kuz/thursday_daily_thread_python_careers_courses_and/",
             "description": "Weekly Thread Professional Use Jobs and Education Welcome to this week s discussion on Python in the professional world This is your spot to talk about job hunting career growth and educational resources in Python Please note this thread is not for recruitment How it Works 1 Career Talk Discuss..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Is Python easier to break into than other languages coming fron experience in a different stack?",
             "link": "https://www.reddit.com/r/Python/comments/1f92ekl/is_python_easier_to_break_into_than_other/",
             "description": "Im looking to get out of.net because its a career dead end in my local area but no java jobs consider me even though i have spring boot projects. Python seems less opinionated with libraries like fastapi so i wonder if its easier to break in as a generalist."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Nice looking, data display tables in Python? [+Video]",
             "link": "https://www.reddit.com/r/Python/comments/1f8zg2c/nice_looking_data_display_tables_in_python_video/",
             "description": "Ahoy I wanted to share a video my buddies made They maintain the great _tables package a library for building pretty tables with Python e g for publication or the web If that s something you might want to do you might want to check this out Here s their..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Introducing WSCE: A Custom Shell Environment Built with Python",
             "link": "https://www.reddit.com/r/Python/comments/1f8sslp/introducing_wsce_a_custom_shell_environment_built/",
             "description": "Over the past few weeks I ve been working on a custom shell environment called WSCE Built entirely in Python it mimics the functionality of an operating system and comes packed with features like a fake boot sequence a text editor and more It s designed to provide a unique..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Introducing fastapi-endpoints. A file-based router plugin",
             "link": "https://www.reddit.com/r/Python/comments/1f8sf9n/introducing_fastapiendpoints_a_filebased_router/",
             "description": "Hello everyone This is a project that I started and decided to make it open source What My Project Does This is a file based router for FastAPI It will include all routers into the FastAPI app automatically as it has an auto discovery feature It helped me with the..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Wednesday Daily Thread: Beginner questions",
             "link": "https://www.reddit.com/r/Python/comments/1f8f4hr/wednesday_daily_thread_beginner_questions/",
             "description": "Weekly Thread Beginner Questions Welcome to our Beginner Questions thread Whether you re new to Python or just looking to clarify some basics this is the thread for you How it Works 1 Ask Anything Feel free to ask any Python related question There are no bad questions here 2..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "intra-search : Semantically search within pdf documents.",
             "link": "https://www.reddit.com/r/Python/comments/1f8adlk/intrasearch_semantically_search_within_pdf/",
             "description": "Hello everyone I thought it might be good to share a small project I did a couple of weeks back What My Project Does It is a simple tool for performing meaning based semantic search within a pdf document It runs entirely in your local machine and uses internet only..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Snappea: A Simple Task Queue for Python",
             "link": "https://www.reddit.com/r/Python/comments/1f8a152/snappea_a_simple_task_queue_for_python/",
             "description": "I ve always been obsessed with making software as easy to install and use as possible That obsession led me to build Snappea a simple lightweight alternative to Celery for managing background tasks in Python applications What My Project Does Snappea is a minimal task queue system that uses SQLite..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "cookiecutter-uv: A modern template for quickly starting Python projects with uv",
             "link": "https://www.reddit.com/r/Python/comments/1f85wak/cookiecutteruv_a_modern_template_for_quickly/",
             "description": "Hey everyone Two years ago I created a cookiecutter project https github com fpgmaas cookiecutter poetry for Python projects using Poetry for dependency management With the recent launch of uv https docs astral sh uv I ve started incorporating it into more of my projects so I decided to develop..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Module Found - Generate missing modules on the fly",
             "link": "https://www.reddit.com/r/Python/comments/1f83l3f/module_found_generate_missing_modules_on_the_fly/",
             "description": "Hey everyone I ve been working on this project as part of a talk I m giving at PyCon in my country The talk is about Python s import system where I explain how the import machinery works behind the scenes and then give example extensions to it module found..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Check missing dependencies won't break your package with pytest-missing-modules",
             "link": "https://www.reddit.com/r/Python/comments/1f8218j/check_missing_dependencies_wont_break_your/",
             "description": "Supporting optional dependencies like Matplotlib supporting multiple backends can be hard usually to tests When developing my own packages I often had to write custom Pytest fixtures that would fake a module is missing so I could check that my package would still be importable with and without some optional..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "PixelLens for PyCharm: Visualize Numpy, PyTorch,TensorFlow and Pillow data right from the debugger",
             "link": "https://www.reddit.com/r/Python/comments/1f812xx/pixellens_for_pycharm_visualize_numpy/",
             "description": "PixelLens for PyCharm I work as a data scientist and I often need to visualize a NumPy array or PyTorch tensor while debugging Typically this involves manually running code in the debug console with matplotlib s imshow or cv2 s imwrite This process becomes even more tedious when the data..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Generators underused in corporate settings?",
             "link": "https://www.reddit.com/r/Python/comments/1f7zh22/generators_underused_in_corporate_settings/",
             "description": "I ve worked at a couple of places that used Python And I ve rarely seen anyone regularly using the yield keyword I also very rarely see people using lazy comprehensions like foo parse line for line in file bar sum postprocess item for item in foo And so I..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "pdf-nupper: n-up (combine) pages in PDF files",
             "link": "https://www.reddit.com/r/Python/comments/1f7xfpq/pdfnupper_nup_combine_pages_in_pdf_files/",
             "description": "What My Project Does I ve been using a Python script to n up PDF files for some time when printing PDFs N upping means combining a few pages to a single page For example you can combine a PDF that has lecture slides as 2x2 so 4 slides will..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Spyder 6 IDE Released",
             "link": "https://www.reddit.com/r/Python/comments/1f7w2rn/spyder_6_ide_released/",
             "description": "Spyder 6 has been released. The Spyder IDE now has standalone installers for Windows, Linux and Mac. Alternatively it can be installed using a conda-forge Python environment:\n\n[https://github.com/spyder-ide/spyder/releases](https://github.com/spyder-ide/spyder/releases) "
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Tuesday Daily Thread: Advanced questions",
             "link": "https://www.reddit.com/r/Python/comments/1f7lwin/tuesday_daily_thread_advanced_questions/",
             "description": "Weekly Wednesday Thread Advanced Questions Dive deep into Python with our Advanced Questions thread This space is reserved for questions about more advanced Python topics frameworks and best practices How it Works 1 Ask Away Post your advanced Python questions here 2 Expert Insights Get answers from experienced developers 3..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Why not just get your plots in numpy?!",
             "link": "https://www.reddit.com/r/Python/comments/1f7jfgd/why_not_just_get_your_plots_in_numpy/",
             "description": "Seriously that s the question https github com bedbad justpyplot Why not just have simple plot1 values size title scatter True pt_color gt np ndarray function API that gives you your plot parts like figure and grid axis labels etc as numpy arrays for you to overlay mask render stretch..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Web scraping with GPT-4o: powerful but expensive ",
             "link": "https://www.reddit.com/r/Python/comments/1f7g0t9/web_scraping_with_gpt4o_powerful_but_expensive/",
             "description": "Hey folks So I ve been messing around with OpenAI s new structured outputs feature and decided to build an AI powered web scraper Thought I d share some of the cool and not so cool stuff I found The Good This thing can parse some pretty complex tables I..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Synchronize tasks with Windows' Task Manager",
             "link": "https://www.reddit.com/r/Python/comments/1f7fmj7/synchronize_tasks_with_windows_task_manager/",
             "description": "What My Project Does This is the code I use in production to fully automatize the process of synchronizing creating updating and deleting scheduled tasks on our Windows server Since there aren t a lot of resources online for working with win32 objects I thought I could share it in..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Anatomy of a Textual User Interface",
             "link": "https://www.reddit.com/r/Python/comments/1f79kwq/anatomy_of_a_textual_user_interface/",
             "description": "Hi folks,  \nI wrote about building an AI Chat interface with Python and Textual.\n\n[https://textual.textualize.io/blog/2024/09/15/anatomy-of-a-textual-user-interface/](https://textual.textualize.io/blog/2024/09/15/anatomy-of-a-textual-user-interface/)"
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Deta Space is shutting down. ",
             "link": "https://www.reddit.com/r/Python/comments/1f775pr/deta_space_is_shutting_down/",
             "description": "After an incredible run we ve made the difficult decision to shut down Deta Space You can continue to login https deta space login for 45 days until sunset on October 17 2024 at which point we will start deleting all apps hosted or installed and data in Collections We..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Smartcut: Super fast cutting and trimming of videos",
             "link": "https://www.reddit.com/r/Python/comments/1f767df/smartcut_super_fast_cutting_and_trimming_of_videos/",
             "description": "What My Project Does Smartcut is to my knowledge the most robust open source implementation of frame accurate video cutting without recoding a k a smart cut smart encoding smart render etc It uses PyAV and libavcodec ffmpeg internals to encode a small part of the video near the cutpoints..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Use python -m http.server in SSL",
             "link": "https://www.reddit.com/r/Python/comments/1f75ga9/use_python_m_httpserver_in_ssl/",
             "description": "A script to wrap http.server with SSL support\n\n[https://valarmorghulis.io/tech/202409-python-http-serveri-in-ssl/](https://valarmorghulis.io/tech/202409-python-http-serveri-in-ssl/)\n\n"
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Error \"returned non-zero exit status 4294967274\"... Do you know what it could be?",
             "link": "https://www.reddit.com/r/Python/comments/1f74tcw/error_returned_nonzero_exit_status_4294967274_do/",
             "description": "When debugging code to add subtitles to a video file with the Moviepy library I m getting the error returned non zero exit status 4294967274 Do you know what it could be ffmpeg is unable to correctly interpret the path to the srt subtitle file it concatenates a video file..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Object and Type Unification",
             "link": "https://www.reddit.com/r/Python/comments/1f731v8/object_and_type_unification/",
             "description": "Have had a conversation with ChatGPT about the wildest and craziest idea about unifying object and type into a single entity that has the combined functionality of both Essentially the equivalent at the lower level of doing class MyEntity object type ChatGPT Conversation https chatgpt com share a56d0e9d 1458 4111..."
         },
         {
-            "subreddit": "Python",
+            "subreddit": "python",
             "title": "Logging insanity in FastAPI on Google App Engine? I Built a Custom Solution!",
             "link": "https://www.reddit.com/r/Python/comments/1f70wpp/logging_insanity_in_fastapi_on_google_app_engine/",
             "description": "Hey everyone I ve been working with FastAPI on Google App Engine GAE and found the logging experience to be well frustrating The lack of clear structured logging across the request lifecycle was a major pain point So I decided to create a custom Cloud Logging handler specifically for FastAPI..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Trying to find an IDE to learn C",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f9jviz/trying_to_find_an_ide_to_learn_c/",
             "description": "Hi sorry if I m annoying anyone I know there are similiar posts here but I can t find the advice I m looking for I am a complete beginner in C and I want to learn the very basics before a programming class that I take this year For..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "One of the big question",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f9j247/one_of_the_big_question/",
             "description": "I m college student in korea Also not that good at programming And the most weird thing to me was their testing methods They give some weird question and answer the result of the codes E G What happen if input 212ag23gg include lt stdio h gt int main void..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Where do I learn various data structures like linked-list after having learned about pointers?",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f9j06d/where_do_i_learn_various_data_structures_like/",
             "description": "I want to learn from this language first before jumping to python."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "How is beej's guide to c?",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f9ioli/how_is_beejs_guide_to_c/",
             "description": ""
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "What project would be a good final goal?",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f9i2sw/what_project_would_be_a_good_final_goal/",
             "description": "I recently started to learn C and was wondering what projects people think are good evidence of a deep understanding of the language I have seen things that seem hard building your own complier and particle simulator But I wasn t sure how much those projects provide in terms of..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "ISO/IEC 13239:2002 implementation in C",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f9hki8/isoiec_132392002_implementation_in_c/",
             "description": "Does anyone know a library written in C that implements the full ISO/IEC 13239:2002 specification? If not, what are your recommendations for libraries that implement part of it?\n\nI need this library for point to point communication over an asynchronous link(UART)."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Preprocessor riddle: change the name of a function",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f9ggf9/preprocessor_riddle_change_the_name_of_a_function/",
             "description": "I have a few functions that depending on some build time constant I need to change their name to have some prefix for instance this function definition int foo_func int a int b needs to change to int PRE_foo_func int a int b if SOME_CONDITION is defined The straight forward..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "why using pointer?",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f9dsn8/why_using_pointer/",
             "description": "im a new at C program learned just before pointer amp struct i heard that pointer using for like point the adress of the parameter but still dont know why we use it it seems it helps to make the program lighter and optimize the program is it right and..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Well this is a super-useful dissertation... (\"Program analysis and specialization for the C programming language\") --- A Partial evaluator for ANSI C?",
             "link": "https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=b7efe971a34a0f2482e0b2520ffb31062dcdde62",
             "description": ""
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Is this code safe? If not, why?",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f99gnc/is_this_code_safe_if_not_why/",
             "description": "```c\n#include &lt;stdio.h&gt;\n\ntypedef char *string;\n\nstring prompt(string message) {\n  printf(\"%s\", message);\n  string input = (char*) malloc(sizeof(char) * 100);\n  char c;\n  size_t size = 0;\n\n  while ((c = fgetc(stdin)) != '\\n') {\n    if (size &gt; 99) {\n      free(input);\n      return \"\";\n    }\n    input[size] = c;\n    size++;\n  }\n  input[size + 1] = '\\0';\n  return input;\n}\n```"
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "What makes `scanf` wait?",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f95ljb/what_makes_scanf_wait/",
             "description": "I m having a tough time finding a single place where this kind of question is answered Bits and pieces but not the whole This was a hand waved part of my early C education and I am only now addressing this gap in my knowledge After reading the C99..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Variidic functions",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f94oc9/variidic_functions/",
             "description": "How variidic functions work And what is va_list And va_arg I SEARCHED ONLINE AND ASKED AI only what I got that those are data types and still do not understand And If you could where to learn about these kind thing since most courses are short and do not include..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Understanding the Program, But Struggling to write the Code \u2013 Need Guidance!",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f92uvx/understanding_the_program_but_struggling_to_write/",
             "description": "\nI understand the problem statement and what needs to be done, but I am unable to write the code. When I use ChatGPT, I understand how it has solved the problem, but I am still unable to code it myself. \n\nI'm using C language "
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "why this error is coming everytime!!!!, please anyone help ",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f8zjys/why_this_error_is_coming_everytime_please_anyone/",
             "description": ""
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Use of relocating loader.",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f8xwhh/use_of_relocating_loader/",
             "description": "Sorry if this question is not suited for this subreddit but I read that relocating loaders are useful when operating system that starts each program at memory address 0 A programmer writes a program that uses memory addresses 0 through 999 and compiles it The compiled program includes instructions that..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Help in understanding SCM_Rights",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f8ukmr/help_in_understanding_scm_rights/",
             "description": "So I have a lot of questions regarding SCM _Rights I have listed them down and i know not everyone has the time to answer these many questions So if you can direct me to right resources to learn how the SCM _Rights work and how I can get started..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Safest way to print to the stdout",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f8ss3d/safest_way_to_print_to_the_stdout/",
             "description": "I am currently doing a project in C and was wondering what would be the safest way to print to the stdout I will mainly be dealing with strings I know there are safety issues with printf such as type safety and overflows I am currently using fprintf so if..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "White / Black list C program",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f8p523/white_black_list_c_program/",
             "description": "Hell guys i was working on an email validator by C language in order to master the language And i want to add two external source code for the allowed and the non allowed domaine words and address words So how can I engage two external page to do this..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "What kind of literature would you recommend to a beginner in C?",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f8ovnz/what_kind_of_literature_would_you_recommend_to_a/",
             "description": "I'm going to start writing in C, what literature can I read first?"
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Find the size of an array",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f8oh9f/find_the_size_of_an_array/",
             "description": "`void sort(int arr[]) {`\n\n`int length = sizeof(arr)/sizeof(arr[0]);`\n\n`}`\n\n  \nI am using sizeof operator to find the size of an array passed as an argument but an error is coming. Can you please help with this code?"
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "What are best resources to study C (recursion, arrays, pointers, memory allocation) in 4-5 weeks",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f8mi2s/what_are_best_resources_to_study_c_recursion/",
             "description": "My background I have no experience with programming in C at all All I ve done is an entry level college course on Python My situation I am enrolled in a Data Structures and Algorithms course in C that will start in 4 ish weeks I cannot drop the course..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Casting a int pointer to char pointer",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f8i9im/casting_a_int_pointer_to_char_pointer/",
             "description": "I was curious to see what happens when casting a pointer to an integer to a char pointer Here is my input int word 0xDEADBEEF int pword amp word printf Word 0x X n word printf PWord 0x X n pword char pchar char pword printf PChar 0x X n..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Yet Another \"Linker Can't Find Libs\" Post",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f8i3ee/yet_another_linker_cant_find_libs_post/",
             "description": "SOLVED When you include the lib extension on an absolute path it works but if you include it when just including the filename and having the libs directory indicated it doesn t work Don t include the lib guys I think I also remember this and my 25 years of..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "How to determine whether a pointer is an element of an array using only standard C?",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f8fbov/how_to_determine_whether_a_pointer_is_an_element/",
             "description": "The solution I currently use works but I recently learned that the standard doesn t actually gurantee that Here s the implementation bool is_elm_within int arr int len int elm uintptr_t begin uintptr_t arr uintptr_t end uintptr_t arr len uintptr_t elm_ uintptr_t elm return elm_ gt begin amp amp elm_..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "How to activate auto bracket closing in Dev C++?",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f8d9xs/how_to_activate_auto_bracket_closing_in_dev_c/",
             "description": "Recently started programming C and switch from VSCode to DevC++. My biggest complain is that when I type ( or \\[ or { the brackets don't close automatically. I have to type in the closed bracket after. Didn't like it :("
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "How to Fix This Exe Output File Issue?",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f83rii/how_to_fix_this_exe_output_file_issue/",
             "description": "Recently my exe output files wont open how to fix this My codes are correct and there are no error so i am very clueless about the issue my previous exe output files works perfectly I appreciate all the answers brothers thank you very much in advance https reddit com..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "dynamic structures in shared memory - round 2",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f80ird/dynamic_structures_in_shared_memory_round_2/",
             "description": "So two weeks ago I made a thread in here and realized it was too convoluted of an example so I went back to the drawing board and simplified it My goal is to create two programs one that defines a dynamic structure in shared memory and another that attaches..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "C3: A Modern Take on C - Exploring the New Kid on the Block.",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f7z1h9/c3_a_modern_take_on_c_exploring_the_new_kid_on/",
             "description": "Hey everyone I ve been diving into C3 lately and wanted to share my thoughts and ask for your opinions As a C programmer I m always interested in exploring new languages that build upon the foundations of C while offering modern features C3 seems to be a promising language..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "I was hoping some people might be willing to look over and review my \"memory allocator\"",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f7ym7c/i_was_hoping_some_people_might_be_willing_to_look/",
             "description": "Hello I ve been working on memory allocator of sorts for dynamic memory in particular basically it uses a fake address space ram or whatever the proper term is i forgor and allows you to malloc to this memory which gives you a fake pointer you can use to read..."
         },
         {
-            "subreddit": "C_Programming",
+            "subreddit": "c_programming",
             "title": "Help for writing code guidelines",
             "link": "https://www.reddit.com/r/C_Programming/comments/1f7ygqv/help_for_writing_code_guidelines/",
             "description": "Which style F1 F2 F3 better represents or should represent the guidelines of your code Please comment c The function f never returns nullptr int f void F1 int p f if p nullptr assert false return using p void F2 int p f assert p nullptr using p void..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Nothing printing in vscode",
             "link": "https://www.reddit.com/r/haskell/comments/1f9as8j/nothing_printing_in_vscode/",
             "description": "I am very new to Haskell and tried running a hello world program on vscode but when I click the run button nothing happens and nothing is outputted in the terminal"
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Call for Volunteers - Security Response Team",
             "link": "https://www.reddit.com/r/haskell/comments/1f946kd/call_for_volunteers_security_response_team/",
             "description": "The Security Response Team SRT is formally calling for applications to join the SRT People from the Haskell community with information security experience are encouraged to apply This is an opportunity to have a large impact on the practice of Haskell programming going forward Since its inception the SRT has..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "7 Levels of Type Safety in Haskell: Lists, from extreme dynamic to extreme dependent",
             "link": "https://blog.jle.im/entry/levels-of-type-safety-haskell-lists.html",
             "description": ""
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "how do we know which things are exported and which not ?",
             "link": "https://www.reddit.com/r/haskell/comments/1f8ux4j/how_do_we_know_which_things_are_exported_and/",
             "description": "I wanted to use `maybeToList` but it showed an error, then after much research I found that only the `Maybe` constructor is exported by `GHC.Internal.Maybe`\nby looking at source \u00f8n hackage\n\nis there a convenient way I am missing ?\n"
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "`Natural` present multiple places",
             "link": "https://www.reddit.com/r/haskell/comments/1f8s13q/natural_present_multiple_places/",
             "description": "I want to use the Natural defined in base but it is not exported by default so I went to to base https hackage haskell org package base Here when I did a quick cmd f I find three results GHC Natural GHC Num Natural Numeric Natural Are they same..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Second Book/ Intermediate Resource",
             "link": "https://www.reddit.com/r/haskell/comments/1f8rqhw/second_book_intermediate_resource/",
             "description": "I completed learning begeinner s haskell from CIS1940 by Brent I also did the youtube playlist by Graham Hutton and wokring my way through Learn Haskell by building a blog generator in the whole process I used LYAH as a reference As this was recommended on the haskell org page..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "haskell-ts-mode: new haskell mode for emacs using treesitter, now on elpa",
             "link": "https://codeberg.org/pranshu/haskell-ts-mode/src/branch/main",
             "description": ""
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Secure by Design: A goal to create a secure-by-design RTS",
             "link": "https://www.reddit.com/r/haskell/comments/1f89f9g/secure_by_design_a_goal_to_create_a/",
             "description": "See https www cisa gov resources tools resources secure by design https www cisa gov resources tools resources secure by design GHC Haskell s RTS is written in a mixture of C and Haskell I believe a worthy goal should be to rewrite all C code and any other code..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "openTempFile: invalid argument (Invalid argument)compiler",
             "link": "https://www.reddit.com/r/haskell/comments/1f83p4k/opentempfile_invalid_argument_invalid/",
             "description": "Greetings I am new to Haskell and when I code Haskell on vscode an error message says openTempFile invalid argument Invalid argument compiler Even though there is no syntax error and I can load the file into ghci and run the functions it s annoying and I was trying to..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Stack and Cabal, do they do same thing or different ?",
             "link": "https://www.reddit.com/r/haskell/comments/1f7xrow/stack_and_cabal_do_they_do_same_thing_or_different/",
             "description": "I am very confused about Haskell tooling system I installed Haskell from ghcup which was very awesome as it installed all the necessary things with one command I learnt basic haskell now I am trying to make projects so I want to know about which build tool to use Cabal..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "How do you Architect Large Haskell Code Bases?",
             "link": "https://www.reddit.com/r/haskell/comments/1f7rsxp/how_do_you_architect_large_haskell_code_bases/",
             "description": "N b I mostly write Lisp and Go these days I ve only written toys in Haskell 1 Naively making invalid states unrepresentable seems like it d couple you to a single understanding of the problem space causing issues when your past assumptions are challenged etc How do you architect..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Variable not in scope",
             "link": "https://www.reddit.com/r/haskell/comments/1f7r9jb/variable_not_in_scope/",
             "description": "Please help I ve tried all I m new and I don t know why does this happen When I run the program called a1 an error that says variable a1 not in scope appears It is not even a variable it s the name of the program I made..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Lemmy temperature check",
             "link": "https://www.reddit.com/r/haskell/comments/1f6k12u/lemmy_temperature_check/",
             "description": "I was just curious how folks are feeling these days about Reddit alternatives I ve been enjoying Lemmy personally and I find that for technical stuff in particular the communities are definitely growing feeling less ghost town ish little by little Haskell wise it seems like https programming dev c..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "How does lexP work?",
             "link": "https://www.reddit.com/r/haskell/comments/1f6jhtu/how_does_lexp_work/",
             "description": "So I ended up writing Comma Separated Tuple newtype CST a CST a a instance Show a gt Show CST a where show CST a b show a show b instance Read a gt Read CST a where readPrec parens do a lt readPrec Punc lt lexP b lt readPrec..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "How to download and use haskell on macOS?",
             "link": "https://www.reddit.com/r/haskell/comments/1f6do4l/how_to_download_and_use_haskell_on_macos/",
             "description": "I use MacBook Air M1 I ve tried going to https www haskell org ghcup https www haskell org ghcup and entered the command curl proto https tlsv1 2 sSf https get ghcup haskell org https get ghcup haskell org sh in the terminal When I tried entering ghc version..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Can you make mobile and desktop apps with Haskell?",
             "link": "https://www.reddit.com/r/haskell/comments/1f65wc3/can_you_make_mobile_and_desktop_apps_with_haskell/",
             "description": "It would appear by looking at SimpleX Chat github repo the haskell backend can be used for the SimpleX Android iOS and desktop app Is this the case with Haskell I do not know Haskell but how does it compare to other multiplatform frameworks like Dart Flutter for making and..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Monthly Hask Anything (September 2024)",
             "link": "https://www.reddit.com/r/haskell/comments/1f618g2/monthly_hask_anything_september_2024/",
             "description": "This is your opportunity to ask any questions you feel don't deserve their own threads, no matter how small or simple they might be!"
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Hoogle appears to be down",
             "link": "https://www.reddit.com/r/haskell/comments/1f5mbox/hoogle_appears_to_be_down/",
             "description": "I get `502 Bad Gateway` at the moment, https://downforeveryoneorjustme.com reports it's down as well."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Is monad just a decorator for the arguments?",
             "link": "https://www.reddit.com/r/haskell/comments/1f591s7/is_monad_just_a_decorator_for_the_arguments/",
             "description": "Just stumbled upon a thought \"what if there would be decorators, but the arguments instead of the function\"  \nand I instantly went \"isn't that what monad is?\"\n\nps i don't know what monad is, so i am not sure if I reinvented it or something else"
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Recursion schemes without ugly wrappers?",
             "link": "https://www.reddit.com/r/haskell/comments/1f50i94/recursion_schemes_without_ugly_wrappers/",
             "description": "I tried to ask this question in a language agnostic way here https old reddit com r functionalprogramming comments 1f4hsxi implementing_recursion_schemes_without_ugly and I m actually using ReScript https rescript lang org a dialect of OCaml focused on the JavaScript ecosystem But since the Haskell community probably has more experience with..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "AST Polymorhic ",
             "link": "https://www.reddit.com/r/haskell/comments/1f4zasb/ast_polymorhic/",
             "description": "    How do I have to define my AST that it also accecpts Doubles not only Int in NumE \n    Can I constrain it to Num \n    \n    data FAE  = NumE  Int\n              | AddE FAE FAE\n              | IdE String\n              | FunE String FAE\n              | AppE FAE FAE \n      deriving (Show, Eq)data FAE  = NumE  Int\n    "
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "[Well-Typed] GHC activities report: June-August 2024",
             "link": "https://www.well-typed.com/blog/2024/08/ghc-activities-report-june-august-2024/",
             "description": ""
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Parsers are relative bimonads",
             "link": "https://dev.to/artemisyo/parsers-are-relative-bimonads-20cd",
             "description": "A blog post in which I go over modelling parsers as bimonads as a natural extension of parser composition to error handling It s my first blogpost and I ve forgotten that I should probably advertise it a bit It hasn t gotten much traction which I find a bit..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "how does freer-simple library alternate effect handlers?",
             "link": "https://www.reddit.com/r/haskell/comments/1f4hjme/how_does_freersimple_library_alternate_effect/",
             "description": "I m reading code in https github com lexi lambda freer simple https github com lexi lambda freer simple and the paper Freer monad more extensible effects https okmij org ftp Haskell extensible more pdf https okmij org ftp Haskell extensible more pdf I have created a new module as..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Getting Started with Nix for Haskell",
             "link": "https://abhinavsarkar.net/posts/nix-for-haskell/",
             "description": ""
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Logic programming with extensible types in Haskell",
             "link": "https://www.reddit.com/r/haskell/comments/1f3l2ov/logic_programming_with_extensible_types_in_haskell/",
             "description": "Hi everyone I d like to share a new paper we just published that explains how we are bringing statically typed logic programming into Haskell You can find the paper at https ntrs nasa gov citations 20240010266 https ntrs nasa gov citations 20240010266 https preview redd it bqorqqc63hld1 png width..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Haskquill: Compile-time QDSL for SQL queries",
             "link": "https://www.reddit.com/r/haskell/comments/1f2r7c8/haskquill_compiletime_qdsl_for_sql_queries/",
             "description": "Hello everyone I developed a small library based on quill https github com zio zio quill which is written in scala It allows you to create correct SQL queries during compilation and display them to the user I originally started this project because there is essentially no runtime overhead compared..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "Anduril Industries' Electromagnetic Warfare Team is Hiring",
             "link": "https://www.reddit.com/r/haskell/comments/1f2x743/anduril_industries_electromagnetic_warfare_team/",
             "description": "Anduril Industries is once again hiring Haskell engineers to work on electromagnetic warfare products This is a unique opportunity to use Haskell to implement high performance applications in an embedded setting Anduril has adopted Nix at large and we use IOG s generously maintained Haskell nix project to build all..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "How is pipes-safe supposed to work?",
             "link": "https://www.reddit.com/r/haskell/comments/1f35f92/how_is_pipessafe_supposed_to_work/",
             "description": "pipes safe https hackage haskell org package pipes safe 2 3 5 is designed to bring resource management and exception handling to the pipes ecosystem but I can t get it to work in the simplest of cases If I m using the normal Control Exception ecosystem and I throw..."
         },
         {
-            "subreddit": "Haskell",
+            "subreddit": "haskell",
             "title": "TIL: Someone created PLHaskell to use Haskell as PostgreSQL procedural language",
             "link": "https://github.com/ed-o-saurus/PLHaskell",
             "description": ""
@@ -1769,6 +1759,18 @@
         },
         {
             "subreddit": "csharp",
+            "title": "Silly thing that makes me happy",
+            "link": "https://www.reddit.com/r/csharp/comments/1f9lt20/silly_thing_that_makes_me_happy/",
+            "description": "Every once in awhile I forget how versatile LINQ can be and I m sure its nothing to most of you but this made me happy today I hate forms that make me scroll to the middle to get the most common country var countries await _context Countries OrderByDescending c..."
+        },
+        {
+            "subreddit": "csharp",
+            "title": "New to c#",
+            "link": "https://www.reddit.com/r/csharp/comments/1f9lotz/new_to_c/",
+            "description": "Hi im new and i want to learn c but w3school s tutorial guide tells me to install net core which i dont have or i dont have it showin in visual studio Does anyone have another suggested website to learn from or are there any way to add net..."
+        },
+        {
+            "subreddit": "csharp",
             "title": "Is there an efficient way to copy an entire Http response stream to a file stream while reading the last byte of the stream?",
             "link": "https://www.reddit.com/r/csharp/comments/1f9iexo/is_there_an_efficient_way_to_copy_an_entire_http/",
             "description": "The problem with reading the end of the http response stream is you can t seek to the end The problem with the file stream is it seems to be unperformant to check the last byte copied to it Is there a way to copy Http gt file and get..."
@@ -1934,18 +1936,6 @@
             "title": "Livro ",
             "link": "https://www.reddit.com/r/csharp/comments/1f7u6h7/livro/",
             "description": "Bom dia, livros em portugu\u00eas de c#?"
-        },
-        {
-            "subreddit": "csharp",
-            "title": "[WPF] [non mvvm] Binding DataGridTextColumn Forground property.",
-            "link": "https://www.reddit.com/r/csharp/comments/1f7tw6g/wpf_non_mvvm_binding_datagridtextcolumn_forground/",
-            "description": "Binding Foreground property commented xaml fails there is no datacontext for property ForeColor All other properties are fine A solution I found on SO DataGridTemplateColumn below commented xaml solves this particular issue but raises another The editability is lost column cell does not go into edit mode when double clicked..."
-        },
-        {
-            "subreddit": "csharp",
-            "title": "Executing PowerShell Commands with Local User Credentials in C# Service Agent",
-            "link": "https://www.reddit.com/r/csharp/comments/1f7pfha/executing_powershell_commands_with_local_user/",
-            "description": "\"Good day, friends. I am using C# to create a service agent to send remediations to multiple machines. The issue lies in running it as System. Is there a way to provide a local username and password to open a PowerShell window with the local user?\""
         }
     ],
     "devto": [
@@ -2102,6 +2092,11 @@
     ],
     "slashdot": [
         {
+            "title": "Deutsche Bank Chief Tells Germans: Work Longer and Harder",
+            "link": "https://slashdot.org/story/24/09/05/1249239/deutsche-bank-chief-tells-germans-work-longer-and-harder?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+            "description": "Deutsche Bank CEO Christian Sewing this week urged Germans to work harder to help restore the country s economy From a report Investors are already doubting our ability to reform but especially our ability and our will to perform Sewing said at the Handelsblatt banking summit in Frankfurt More growth..."
+        },
+        {
             "title": "Discord Lowers Free Upload Limit To 10MB",
             "link": "https://hardware.slashdot.org/story/24/09/05/0149255/discord-lowers-free-upload-limit-to-10mb?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "Discord has reduced the upload limit for free users from 25MB to 10MB per file citing financial and operational reasons Every day millions of files are uploaded to Discord and stored securely for your future access Storage management is expensive so we regularly review how people use Discord and their..."
@@ -2170,11 +2165,6 @@
             "title": "Admins Wonder If the Cloud Was Such a Good Idea After All",
             "link": "https://slashdot.org/story/24/09/04/1829233/admins-wonder-if-the-cloud-was-such-a-good-idea-after-all?utm_source=rss1.0mainlinkanon&utm_medium=feed",
             "description": "After an initial euphoric rush to the cloud admins are questioning the value and promise of the tech giant s services The Register According to a report published by UK cloud outfit Civo more than a third of organizations surveyed reckoned that their move to the cloud had failed to..."
-        },
-        {
-            "title": "In Consumer Hardware, Niche is the New Mainstream",
-            "link": "https://hardware.slashdot.org/story/24/09/04/189234/in-consumer-hardware-niche-is-the-new-mainstream?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-            "description": "A pair of devices launching Wednesday highlight a growing trend in consumer hardware doing one thing well Axios writes From the report The smartphone rendered many formerly standalone devices obsolete but now some tech with a single purpose can offer an experience that a digital Swiss Army knife can t..."
         }
     ]
 }

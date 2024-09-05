@@ -23,9 +23,9 @@
         "r/javascript", 
         "r/rust", 
         "r/golang", 
-        "r/Python", 
-        "r/C_Programming",
-        "r/Haskell",
+        "r/python", 
+        "r/c_programming",
+        "r/haskell",
         "r/cobol",
         "r/fsharp",
         "r/csharp"

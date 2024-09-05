@@ -48,6 +48,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const fetchData = async (source) => {
         if (!source) return;
         try {
+            source = source.toLowerCase();
+            console.log(config.subreddits);
+            
             const isFromReddit = config.subreddits && config.subreddits.includes(`r/${source}`);
             
             // Vérifier si les données sont disponibles
@@ -57,7 +60,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Afficher les articles en fonction de la source
             if (isFromReddit) {
-                const articles = (data["reddit"] || []).filter(article => article.subreddit === source);
+                console.log(article.subreddit)
+                const articles = (data["reddit"] || []).filter(article => article.subreddit == source);
                 displayArticles(articles, searchInput.value); 
             } else {
                 const articles = data[source] || [];

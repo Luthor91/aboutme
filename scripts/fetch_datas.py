@@ -19,7 +19,7 @@ def load_config():
             "maxArticles": 30,
             "maxWordsDescription": 50,
             "keywordsToSkip": ["paywall", "fermented"],
-            "subreddits": ["r/java", "r/javascript", "r/rust", "r/golang", "r/python", "r/C_Programming", "r/Haskell", "r/cobol", "r/fsharp", "r/csharp"],
+            "subreddits": ["r/java", "r/javascript", "r/rust", "r/golang", "r/Python", "r/C_Programming", "r/Haskell", "r/cobol", "r/fsharp", "r/csharp"],
             "urls": {
                 "devto": "https://dev.to/api/articles",
                 "hackernews": "https://hn.algolia.com/api/v1/search_by_date?query=programming&tags=story&page=",
@@ -117,7 +117,7 @@ def fetch_reddit():
                 if len(items) >= MAX_ARTICLES:
                     break
                 items.append({
-                    'subreddit': post_data.get('subreddit', 'No Subreddit'),
+                    'subreddit': post_data.get('subreddit', 'No Subreddit').lower(),
                     'title': title,
                     'link': link,
                     'description': limit_words(description, MAX_WORDS_DESCRIPTION)
