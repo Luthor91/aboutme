@@ -17,7 +17,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .photo-container {
@@ -78,7 +78,7 @@ h2 {
 }
 
 .profile, .experience, .education, .projects {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .skills {
@@ -103,6 +103,17 @@ h2 {
     font-size: 14px;
     margin-bottom: 3px;
 }
+
+.invisible-link {
+    color: inherit;  /* Conserve la couleur du texte parent */
+    text-decoration: none;  /* Supprime le soulignement */
+}
+
+.invisible-link:hover, .invisible-link:focus {
+    color: inherit;  /* Conserve la couleur même au survol */
+    text-decoration: none;  /* Aucun changement au survol */
+}
+
 
 .divider {
     border: none;
