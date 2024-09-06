@@ -25,6 +25,20 @@ install:
 	$(PYTHON) -m venv venv
 	./venv/bin/pip install -r requirements.txt
 
+install1:
+	curl -sSL https://get.haskellstack.org/ | sh
+	stack build
+
+clean-install:
+	stack clean
+	stack update
+	stack build
+
+exec:
+	stack init
+	stack build
+	stack exec fetch-data-exe
+
 update:
 	$(PYTHON) -m venv venv
 	./venv/bin/pip install -r requirements.txt

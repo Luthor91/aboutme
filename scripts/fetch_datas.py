@@ -7,6 +7,10 @@ import xml.etree.ElementTree as ET
 # Chemin du fichier de configuration local
 CONFIG_PATH = "config/config.json"
 
+# Constantes pour les valeurs par défaut
+NO_TITLE = 'No Title'
+NO_LINK = 'No Link'
+
 # Fonction pour charger la configuration depuis le fichier config.json
 def load_config():
     try:
@@ -59,8 +63,8 @@ def fetch_devto():
     
     items = []
     for item in data:
-        title = item.get('title', 'No Title')
-        link = item.get('url', 'No Link')
+        title = item.get('title', NO_TITLE)
+        link = item.get('url', NO_LINK)
         description = item.get('description', 'No Description')
         
         if link and not contains_keyword(title, KEYWORDS_TO_SKIP):
@@ -82,10 +86,10 @@ def fetch_hackernews():
     # Extraire les articles
     items = []
     for hit in data['hits']:
-        title = hit.get('title', 'No Title')
-        link = hit.get('url', 'No Link')
+        title = hit.get('title', NO_TITLE)
+        link = hit.get('url', NO_LINK)
         
-        if link and link != 'No Link' and not contains_keyword(title, KEYWORDS_TO_SKIP):
+        if link and link != NO_LINK and not contains_keyword(title, KEYWORDS_TO_SKIP):
             if len(items) >= MAX_ARTICLES:
                 break
             items.append({
@@ -109,8 +113,8 @@ def fetch_reddit():
         items = []
         for post in data['data']['children']:
             post_data = post['data']
-            title = post_data.get('title', 'No Title')
-            link = post_data.get('url', 'No Link')
+            title = post_data.get('title', NO_TITLE)
+            link = post_data.get('url', NO_LINK)
             description = post_data.get('selftext', '')
 
             if link and not contains_keyword(title, KEYWORDS_TO_SKIP):
@@ -146,11 +150,11 @@ def fetch_slashdot():
         link_elem = item.find('rss:link', namespaces)
         description_elem = item.find('rss:description', namespaces)
 
-        title = title_elem.text if title_elem is not None else 'No Title'
-        link = link_elem.text if link_elem is not None else 'No Link'
+        title = title_elem.text if title_elem is not None else NO_TITLE
+        link = link_elem.text if link_elem is not None else NO_LINK
         description = description_elem.text if description_elem is not None else ''
         
-        if link and link != 'No Link' and not contains_keyword(title, KEYWORDS_TO_SKIP):
+        if link and link != NO_LINK and not contains_keyword(title, KEYWORDS_TO_SKIP):
             if len(items) >= MAX_ARTICLES:
                 break
             items.append({
