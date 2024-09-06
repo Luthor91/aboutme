@@ -1,97 +1,63 @@
+/* Général */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .cv-container {
-    width: 60%;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-header {
     display: flex;
-    align-items: center;
-    margin-bottom: 0px;
+    flex-direction: row;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 80%;
+    background: #f4f4f4;
+    border-radius: 8px;
 }
 
-.photo-container {
-    width: 150px;
-    height: 150px;
+.left-column {
+    flex: 0.8; /* Réduit la largeur de la colonne de gauche */
     margin-right: 20px;
-    display: block;
+    min-height: 100vh; /* Ajustez selon vos besoins */
+    background-color: #e0e0e0; /* Couleur d'arrière-plan différente pour la colonne de gauche */
+    padding: 10px; /* Ajoutez un peu de padding si nécessaire */
+}
+
+.right-column {
+    flex: 2;
 }
 
 .profile-photo {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.header-content {
-    text-align: left;
-    margin-top: 20px;
+    width: 80%;
+    height: auto; /* 10% de la hauteur de l'écran en mode normal */
+    display: block;
+    border-radius: 50%; /* Rend l'image circulaire */
+    margin: 0 auto; /* Centre l'image horizontalement */
 }
 
 .header-content h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-.contact-info {
-    font-size: 18px;
-    line-height: 1.8; 
-    margin-top: 10px;
-}
-
-.icon {
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-    margin-right: 8px;
-}
-
-
-h1 {
-    margin: 0;
-    font-size: 2em;
-    color: #333;
-}
-
-.contact-info {
-    font-size: 0.9em;
-    color: #555;
-}
-
-h2 {
-    font-size: 1.5em;
-    color: #444;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
-}
-
-.profile, .experience, .education, .projects {
-    margin-bottom: 15px;
-}
-
-.skills {
-    margin: 20px 0;
-}
-
-.skills-category {
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
-.skills-category h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
+.contact-info {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.icon {
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 20px; /* Ajustez la largeur */
+    height: 20px; /* Ajustez la hauteur */
+}
+
+.skills h2, .profile h2, .experience h2, .education h2, .projects h2, .hobbies h2 {
+    font-size: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .skills-category ul {
@@ -99,50 +65,119 @@ h2 {
     padding: 0;
 }
 
-.skills-category ul li {
-    font-size: 14px;
-    margin-bottom: 3px;
+/* Ajoutez ce style à votre fichier styles.css */
+.skills-category li {
+    margin-bottom: 8px;
+    position: relative; /* Nécessaire pour positionner les éléments pseudo */
+    padding-left: 20px; /* Ajustez la valeur pour définir la tabulation */
 }
 
-.invisible-link {
-    color: inherit;  /* Conserve la couleur du texte parent */
-    text-decoration: none;  /* Supprime le soulignement */
+.skills-category li strong {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    position: relative;
+    padding-right: 10px; /* Espace entre le texte du label et le contenu */
 }
 
-.invisible-link:hover, .invisible-link:focus {
-    color: inherit;  /* Conserve la couleur même au survol */
-    text-decoration: none;  /* Aucun changement au survol */
+.skills-category li::after {
+    content: " "; /* Ajoute un espace après le */
+    display: block;
+    padding-left: 20px; /* Ajustez la valeur pour définir l'espace après le `:` */
 }
 
+.job-details {
+    font-weight: bold;
+}
 
-.divider {
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-button {
+    background-color: #007BFF;
+    color: #fff;
     border: none;
-    border-top: 1px solid #ddd;
-    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-h3 {
-    font-size: 1.2em;
-    color: #333;
-}
-
-.job-details, .education-item p {
-    font-size: 0.9em;
-    color: #666;
-}
-
-.job, .education-item, .project {
-    margin-bottom: 20px;
+.download-button:hover {
+    background-color: #0056b3;
 }
 
 footer {
     text-align: center;
-    margin-top: 30px;
-    font-size: 0.8em;
-    color: #aaa;
+    margin-top: 20px;
+    font-size: 14px;
 }
 
-/* Afficher la photo uniquement si elle est chargée */
-.photo-container img[src] {
-    display: block;
+/* Styles pour l'impression */
+@media print {
+    body {
+        font-size: 10px; /* Réduit la taille des caractères pour l'impression */
+    }
+
+    .cv-container {
+        max-width: 100%;
+        padding: 10px; /* Réduit le padding de la cv-container */
+        margin: 0; /* Supprime les marges */
+    }
+
+    .left-column,
+    .right-column {
+        margin: 0; /* Supprime les marges des colonnes */
+        padding: 0; /* Supprime le padding des colonnes */
+    }
+
+    .profile-photo {
+        left: 0%;
+        page-break-before: avoid; /* Évite de couper l'image entre les pages */
+    }
+
+    .header-content h1,
+    .skills h2,
+    .profile h2,
+    .experience h2,
+    .education h2,
+    .projects h2,
+    .hobbies h2 {
+        font-size: 12px; /* Réduit la taille des titres */
+        margin-bottom: 5px; /* Réduit les marges inférieures */
+        padding-bottom: 2px; /* Réduit le padding inférieur */
+    }
+
+    .contact-info {
+        font-size: 10px; /* Réduit la taille de la police pour les informations de contact */
+    }
+
+    .skills-category li {
+        padding-left: 5px; /* Réduit la tabulation pour les éléments de liste */
+        margin-bottom: 0px; /* Réduit la marge inférieure pour les éléments de liste */
+    }
+
+    .skills-category li strong {
+        font-size: 10px; /* Réduit la taille de la police pour les labels */
+        padding-right: 5px; /* Réduit l'espace entre le label et le contenu */
+    }
+
+    .job-details {
+        font-size: 10px; /* Réduit la taille de la police pour les détails du travail */
+    }
+
+    .button-container {
+        display: none; /* Masque le bouton de téléchargement lors de l'impression */
+    }
+
+    footer {
+        display: none;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
 }
