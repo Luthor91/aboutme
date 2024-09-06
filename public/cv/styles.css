@@ -90,6 +90,13 @@ body {
     font-weight: bold;
 }
 
+.bullet-point::before {
+    content: "•"; /* Code pour la puce */
+    margin-right: 5px; /* Espace entre la puce et le texte */
+    font-size: 18px; /* Ajustez la taille si nécessaire */
+    vertical-align: middle; /* Aligne verticalement avec le texte */
+}
+
 .button-container {
     text-align: center;
     margin-top: 20px;
