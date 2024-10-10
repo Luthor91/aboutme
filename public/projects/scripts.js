@@ -1,10 +1,17 @@
 // Structure de données pour les projets
 const projects = [
+    
     {
         name: "Discord_TenshiBot",
         description: "Un bot discord de modération avancée principalement.",
         technologies: ["Golang", "API REST", "Postgresql", "Script Bash", "Makefile"],
         link: "https://github.com/Luthor91/Discord_TenshiBot"
+    },
+    {
+        name: "SelfActu",
+        description: "Un petit site web statique permettant de se mettre à jour sur les dernières actualités.",
+        technologies: ["HTML", "CSS", "Javascript", "Makefile"],
+        link: "https://luthor91.github.io/aboutme/public/news/"
     },
     {
         name: "gameEngine2d",
