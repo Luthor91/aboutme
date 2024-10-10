@@ -128,10 +128,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // Fonction pour changer le thème
-    const changeTheme = (theme) => {
+    const changeTheme = (theme, themeSelect) => {
         document.body.classList.remove('light-theme', 'dark-theme', 'autumn-theme', 'refined-dark-theme');
         document.body.classList.add(`${theme}`);
         localStorage.setItem('selectedTheme', theme);
+        themeSelect.value = theme;
     };
 
     // Initialisation du thème
