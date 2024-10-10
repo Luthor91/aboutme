@@ -136,9 +136,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Initialisation du thème
     const savedTheme = localStorage.getItem('selectedTheme') || 'light-theme';
-    console.log(savedTheme);
-    
-    changeTheme(savedTheme);
+
+    // Vérification du format du thème
+    const themePattern = /^[a-z]+-theme$/; // Expression régulière pour le format [mot_random]-theme
+    if (themePattern.test(savedTheme)) {
+        changeTheme(savedTheme);
+    } else {
+        changeTheme('light-theme'); // Définit le thème par défaut si le format n'est pas valide
+    }
+
     themeSelect.value = savedTheme; 
 
     // Gestion du changement de thème
@@ -161,7 +167,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     redditDropdown.addEventListener('click', () => {
         tabs.forEach(t => t.classList.remove('active'));
         redditDropdown.classList.toggle('active');
-
     });
 
     // Gestion du menu déroulant Reddit
