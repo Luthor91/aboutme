@@ -136,6 +136,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Initialisation du thème
     const savedTheme = localStorage.getItem('selectedTheme') || 'light-theme';
+    console.log(savedTheme);
+    
     changeTheme(savedTheme);
     themeSelect.value = savedTheme; 
 
