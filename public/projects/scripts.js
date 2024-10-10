@@ -10,7 +10,7 @@ const projects = [
     {
         name: "SelfActu",
         description: "Un petit site web statique permettant de se mettre à jour sur les dernières actualités.",
-        technologies: ["HTML", "CSS", "Javascript", "Makefile"],
+        technologies: ["HTML", "CSS", "Javascript", "Python", "Makefile"],
         link: "https://luthor91.github.io/aboutme/public/news/"
     },
     {
