@@ -132,24 +132,31 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.body.classList.remove('light-theme', 'dark-theme', 'autumn-theme', 'refined-dark-theme');
         document.body.classList.add(`${theme}`);
         localStorage.setItem('selectedTheme', theme);
-        themeSelect.value = theme;
-    };
+    
+        if (themeSelect) {
+            themeSelect.value = theme; // S'assure que la valeur sélectionnée correspond au thème actuel
+        }
+    };    
 
     // Initialisation du thème
-    const savedTheme = localStorage.getItem('selectedTheme') || 'light-theme';
+    if (themeSelect) {
+        const savedTheme = localStorage.getItem('selectedTheme') || 'light-theme';
 
-    // Vérification du format du thème
-    const themePattern = /^[a-z]+-theme$/; // Expression régulière pour le format [mot_random]-theme
-    if (themePattern.test(savedTheme)) {
-        changeTheme(savedTheme);
+        // Vérification du format du thème
+        const themePattern = /^[a-z]+-theme$/; // Expression régulière pour le format [mot_random]-theme
+        if (themePattern.test(savedTheme)) {
+            changeTheme(savedTheme, themeSelect); // Ajout de themeSelect
+        } else {
+            changeTheme('light-theme', themeSelect); // Définit le thème par défaut si le format n'est pas valide
+        }
+
+        themeSelect.value = savedTheme; 
+
+        // Gestion du changement de thème
+        themeSelect.addEventListener('change', (e) => changeTheme(e.target.value, themeSelect));
     } else {
-        changeTheme('light-theme'); // Définit le thème par défaut si le format n'est pas valide
+        console.error("Element 'theme-select' not found in the DOM.");
     }
-
-    themeSelect.value = savedTheme; 
-
-    // Gestion du changement de thème
-    themeSelect.addEventListener('change', (e) => changeTheme(e.target.value));
 
     // Gestion des onglets
     tabs.forEach(tab => {
