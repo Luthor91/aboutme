@@ -14,6 +14,12 @@ const projects = [
         link: "https://luthor91.github.io/aboutme/docs/news/"
     },
     {
+        name: "Maze_Solver",
+        description: "Un générateur et solveur de labyrinthes utilisant 3 algorithmes de recherches, DFS, BFS et A*.",
+        technologies: ["Golang", "Raylib", "Makefile"],
+        link: "https://github.com/Luthor91/Maze_Solver"
+    },
+    {
         name: "gameEngine2d",
         description: "Un moteur de jeu en cours de développement se concentrant sur la facilité d'utilisation.",
         technologies: ["C", "Makefile", "SDL2"],
