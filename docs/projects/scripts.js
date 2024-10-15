@@ -2,7 +2,7 @@ const projects = [
     {
         name: "Discord_TenshiBot",
         description: "Un bot discord de modération avancée principalement.",
-        extendedDescription: "Discord_TenshiBot est un bot de modération avancée pour Discord, permettant de gérer efficacement les serveurs via des commandes personnalisées. Le projet utilise des techniques de parsing pour interpréter les commandes des utilisateurs et intègre les API Discord et Riot Games pour des fonctionnalités variées comme la gestion des statistiques de jeu. L'installation sur une machine Linux est automatisée via un script bash, et la compilation du projet est facilitée par un Makefile. De plus, le bot prend en charge des actions asynchrones pour répondre aux commandes sans interruption des autres tâches.",
+        extendedDescription: "Discord_TenshiBot est un bot de modération avancée pour Discord, permettant de gérer efficacement les serveurs via des commandes personnalisées. Le projet utilise des techniques de parsing pour interpréter les commandes des utilisateurs et intègre les API Discord et Riot Games pour des données du jeu. L'installation sur une machine Linux est automatisée via un script bash, et la compilation du projet est facilitée par un Makefile. De plus, le bot prend en charge des actions asynchrones pour répondre aux commandes sans interruption des autres tâches.",
         technologies: ["Golang", "API REST", "Postgresql", "Script Bash", "Makefile"],
         link: "https://github.com/Luthor91/Discord_TenshiBot"
     },
