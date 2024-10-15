@@ -3,14 +3,14 @@ const projects = [
         name: "Discord_TenshiBot",
         description: "Un bot discord de modération avancée principalement.",
         extendedDescription: "Discord_TenshiBot est un bot de modération avancée pour Discord, permettant de gérer efficacement les serveurs via des commandes personnalisées. Le projet utilise des techniques de parsing pour interpréter les commandes des utilisateurs et intègre les API Discord et Riot Games pour des données du jeu. L'installation sur une machine Linux est automatisée via un script bash, et la compilation du projet est facilitée par un Makefile. De plus, le bot prend en charge des actions asynchrones pour répondre aux commandes sans interruption des autres tâches.",
-        technologies: ["Golang", "API REST", "Postgresql", "Script Bash", "Makefile"],
+        technologies: ["Golang", "API REST", "Postgresql", "Shell", "Makefile"],
         link: "https://github.com/Luthor91/Discord_TenshiBot"
     },
     {
         name: "SelfActu",
         description: "Un petit site web statique permettant de se mettre à jour sur les dernières actualités.",
         extendedDescription: "SelfActu est un site web statique qui permet aux utilisateurs de consulter les dernières actualités grâce à un processus de mise à jour automatisé. Le site utilise un script Python pour effectuer du web scraping sur plusieurs sources d'informations, et un Makefile permet de déclencher les mises à jour de manière régulière et sans intervention manuelle. Grâce à son design simple et épuré, SelfActu fonctionne efficacement sans base de données dynamique, offrant un contenu mis à jour avec un minimum de ressources.",
-        technologies: ["HTML", "CSS", "Javascript", "Python", "Makefile"],
+        technologies: ["JavaScript", "Python", "Makefile", "Web Scrapping"],
         link: "https://luthor91.github.io/aboutme/docs/news/"
     },
     {
@@ -52,7 +52,7 @@ const projects = [
         name: "AppGestionCours",
         description: "Application permettant de gérer des inscriptions et des planifications de cours.",
         extendedDescription: "AppGestionCours est une application conçue pour faciliter la gestion des inscriptions et la planification des cours. Elle utilise une architecture MVC pour séparer les différentes couches du projet et exploite Redis pour le cache afin d'améliorer la performance des requêtes. L'application permet aux administrateurs d'organiser les cours, de gérer les inscrits, et de générer des horaires en fonction des disponibilités, tout en assurant un accès rapide grâce au cache.",
-        technologies: ["Golang", "Postgresql", "Redis", "Cache", "API REST"],
+        technologies: ["Golang", "Postgresql", "Redis", "API REST"],
         link: "https://github.com/Luthor91/AppGestionCours"
     },
     // Projets en équipe
