@@ -66,7 +66,7 @@ const projects = [
         name: "NetworkScanner",
         description: "Application permettant de gérer d'avoir des informations sur les machines présent sur son réseau.",
         extendedDescription: "NetworkScanner est une application encore en cours de développement permettant d'avoir des informations sur son réseau, l'application sort un fichier .json qui sera amené à être analysé par une page Web.",
-        technologies: ["Java", "Swing", "Réseau"],
+        technologies: ["Java", "Swing", "Maven", "Réseau"],
         link: "https://github.com/Luthor91/NetworkScanner"
     },
     // Projets en équipe
