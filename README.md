@@ -2,6 +2,9 @@
 
 Ce document fournit les instructions nécessaires pour utiliser le `Makefile` afin d'exécuter la page web en local.
 
+**[Lien de l'application](https://luthor91.github.io/aboutme/)**  
+
+
 ## Prérequis
 
 Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votre machine :

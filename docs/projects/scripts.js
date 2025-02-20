@@ -16,7 +16,7 @@ const projects = [
     {
         name: "SelfActu",
         description: "Un petit site web statique permettant de se mettre à jour sur les dernières actualités.",
-        extendedDescription: "SelfActu est un site web statique qui permet aux utilisateurs de consulter les dernières actualités grâce à un processus de mise à jour automatisé. Le site utilise un script Python pour effectuer du web scraping sur plusieurs sources d'informations, et un Makefile permet de déclencher les mises à jour de manière régulière et sans intervention manuelle. Grâce à son design simple et épuré, SelfActu fonctionne efficacement sans base de données dynamique, offrant un contenu mis à jour avec un minimum de ressources.",
+        extendedDescription: "SelfActu est un site web statique qui permet aux utilisateurs de consulter les dernières actualités grâce à un processus de mise à jour automatisé. Le site utilise un script Python pour effectuer du web scraping sur plusieurs sources d'informations, et un Makefile permet de déclencher les mises à jour de manière régulière et sans intervention manuelle. Grâce à son design simple et épuré, SelfActu fonctionne efficacement sans base de données dynamique, offrant un contenu mis à jour avec un minimum de ressources.  Liens de l'application : https://luthor91.github.io/aboutme/news/",
         technologies: ["JavaScript", "Python", "Makefile", "Web Scrapping"],
         link: "https://luthor91.github.io/aboutme/docs/news/"
     },
@@ -68,6 +68,13 @@ const projects = [
         extendedDescription: "NetworkScanner est une application encore en cours de développement permettant d'avoir des informations sur son réseau, l'application sort un fichier .json qui sera amené à être analysé par une page Web.",
         technologies: ["Java", "Swing", "Maven", "Réseau"],
         link: "https://github.com/Luthor91/NetworkScanner"
+    },
+    {
+        name: "WakfuTeamBuilder",
+        description: "Application Web simple permettant d'aider les joueurs de Wakfu à construire leur équipe.",
+        extendedDescription: "WakfuTeamBuilder est une application encore en cours d'amélioration permettant d'avoir des informations sur son équipe de personnage sur le MMORPG Wakfu, l'application permet de lister les points fort et faible de l'équipe. Liens de l'application : https://luthor91.github.io/WakfuTeamBuilder/builder/",
+        technologies: ["Javascript", "Makefile"],
+        link: "https://github.com/Luthor91/WakfuTeamBuilder"
     },
     // Projets en équipe
     {
