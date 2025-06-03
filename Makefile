@@ -1,6 +1,6 @@
 # Définir la version de Python à utiliser
-PYTHON := python3
-PACKAGE := requests 
+PYTHON := python3.11
+PACKAGE := requests
 
 # Définir le port sur lequel le serveur sera lancé
 PORT := 8000
@@ -31,7 +31,7 @@ update:
 	. venv/bin/activate
 	$(PYTHON) scripts/fetch_datas.py
 
-deploy: 
+deploy:
 	@git add .
 	@git commit -m "update news data"
 	@git push $(GIT_REPO)
