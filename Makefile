@@ -1,5 +1,5 @@
 # Définir la version de Python à utiliser
-PYTHON := python3
+PYTHON := python3.11
 PACKAGE := requests
 
 # Définir le port sur lequel le serveur sera lancé

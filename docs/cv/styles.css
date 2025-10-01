@@ -21,7 +21,7 @@ body {
     margin-right: 20px;
     min-height: 100vh; /* Ajustez selon vos besoins */
     background-color: #e0e0e0; /* Couleur d'arrière-plan différente pour la colonne de gauche */
-    padding: 10px; /* Ajoutez un peu de padding si nécessaire */
+    padding: 5px; /* Ajoutez un peu de padding si nécessaire */
 }
 
 .right-column {
