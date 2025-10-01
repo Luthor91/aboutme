@@ -121,6 +121,23 @@ footer {
     font-size: 14px;
 }
 
+ul {
+    margin-top: 4px;   /* réduit l'espace avant la liste */
+    margin-bottom: 8px; /* réduit l'espace après la liste */
+    padding-left: 18px; /* ajuste l'indentation des puces */
+}
+
+h3 {
+    margin-top: 16px;   /* réduit l’espace au-dessus */
+    margin-bottom: 8px; /* réduit l’espace en dessous */
+}
+
+p {
+    margin-top: 8px;   /* réduit l’espace au-dessus */
+    margin-bottom: 6px; /* réduit l’espace en dessous */
+}
+
+
 /* Styles pour l'impression */
 @media print {
     body {
