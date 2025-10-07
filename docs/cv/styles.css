@@ -138,6 +138,21 @@ p {
 }
 
 
+/* Invisible à l'écran, présent en impression PDF */
+.ats-keywords {
+  font-size: 0.1pt;      /* minuscule */
+  line-height: 0.1;      /* compact */
+  color: #fff;           /* blanc sur fond blanc */
+  margin: 0;
+  padding: 0;
+}
+
+/* Optionnel : encore plus discret à l'écran */
+@media screen {
+  .ats-keywords { opacity: 0; }
+}
+
+
 /* Styles pour l'impression */
 @media print {
     body {
