@@ -1,5 +1,5 @@
 # Définir la version de Python à utiliser
-PYTHON := python3.11
+PYTHON := py -3.12
 PACKAGE := requests
 
 # Définir le port sur lequel le serveur sera lancé
@@ -13,7 +13,7 @@ GIT_REPO := https://github.com/Luthor91/aboutme.git
 
 # Commande pour démarrer un serveur HTTP simple
 serve:
-	@echo "Starting server on http://127.0.0.1:$(PORT)"
+	@echo "Starting server on http://127.0.0.1:$(PORT)/docs/cv/index.html"
 	$(PYTHON) -m http.server $(PORT)
 
 freeze:

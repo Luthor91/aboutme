@@ -46,6 +46,12 @@ body {
     line-height: 1.6;
 }
 
+.left-column-name {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 16px;
+}
+
 .icon {
     vertical-align: middle;
     margin-right: 8px;
@@ -60,6 +66,14 @@ body {
     margin-bottom: 10px;
 }
 
+.experience h4 {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.experience .project-detail {
+    padding-bottom: 5px;
+}
 .skills-category ul {
     list-style-type: none;
     padding: 0;
@@ -93,6 +107,7 @@ body {
 .bullet-point::before {
     content: "•"; /* Code pour la puce */
     margin-right: 5px; /* Espace entre la puce et le texte */
+    margin-bottom: 5px; /* Espace entre la puce et le texte */
     font-size: 18px; /* Ajustez la taille si nécessaire */
     vertical-align: middle; /* Aligne verticalement avec le texte */
 }
@@ -188,8 +203,19 @@ p {
         padding-bottom: 2px; /* Réduit le padding inférieur */
     }
 
+    .project div {
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
     .contact-info {
         font-size: 10px; /* Réduit la taille de la police pour les informations de contact */
+    }
+
+    .left-column-name {
+        font-size: 12px;
+        text-align: center;
     }
 
     .skills-category li {
@@ -200,6 +226,15 @@ p {
     .skills-category li strong {
         font-size: 10px; /* Réduit la taille de la police pour les labels */
         padding-right: 5px; /* Réduit l'espace entre le label et le contenu */
+    }
+
+    .experience h4 {
+        padding-bottom: 1px;
+        margin-bottom: 3px;
+    }
+
+    .experience .project-detail {
+        padding-bottom: 1px;
     }
 
     .job-details {

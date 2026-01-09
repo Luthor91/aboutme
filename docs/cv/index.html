@@ -1,11 +1,14 @@
 <!DOCTYPE html>
+
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Killian LOPEZ</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="cv-container" id="cv-container">
         <div class="left-column">
@@ -14,17 +17,19 @@
                     <!-- Photo -->
                     <img src="assets/photo.png" alt="Photo" class="profile-photo">
                     <p class="contact-info">
+                        <span class="left-column-name">Killian LOPEZ</span>
+                        <br>
                         <img src="assets/address.png" alt="Adresse" class="icon"> <span>Fleury Mérogis (91700)</span>
                         <br>
                         <img src="assets/phone.png" alt="Téléphone" class="icon"> <span>(+33) 6 98 13 46 07</span>
                         <br>
                         <img src="assets/mail.png" alt="Email" class="icon"> <span>Killian.Lopez@outlook.com</span>
                         <br>
-                        <img src="assets/github.png" alt="Github" class="icon"> <span><a href="https://github.com/Luthor91" target="_blank">Luthor91</a></span>
+                        <img src="assets/github.png" alt="Github" class="icon"> <span><a href="https://github.com/Luthor91" target="_blank">Github Luthor91</a></span>
                         <br>
-                        <img src="assets/linkedin.png" alt="LinkedIn" class="icon"> <span><a href="https://www.linkedin.com/in/killian-lopez-44074a20a/" target="_blank">LinkedIn</a></span>
+                        <img src="assets/linkedin.png" alt="LinkedIn" class="icon"> <span><a href="https://www.linkedin.com/in/killian-lopez-44074a20a/" target="_blank">LinkedIn killian-lopez</a></span>
                         <br>
-                        <img src="assets/site.png" alt="Site Personnel" class="icon"> <span><a href="https://luthor91.github.io/projects" target="_blank">Site Personnel</a></span>
+                        <img src="assets/site.png" alt="Site Personnel" class="icon"> <span><a href="https://luthor91.github.io/projects" target="_blank">Site Personnel luthor91.github.io/projects</a></span>
                     </p>
                 </div>
             </header>
@@ -35,7 +40,7 @@
                 <div class="skills-category">
                     <h3>Langages et Technologies</h3>
                     <ul>
-                        <li><strong>Langages :</strong>    PHP, Typescript, Javascript, Java, Golang, Python, bash, C, Rust </li>
+                        <li><strong>Langages de développement :</strong>    PHP, Typescript, Javascript, Java, Golang, Python, bash, C, Rust </li>
                         <li><strong>Bases de données :</strong>    PostgreSQL, Redis, Neo4J, MongoDB</li>
                         <li><strong>Frontend :</strong>    React, Angular, Vue, Next.JS, Twig</li>
                         <li><strong>Backend :</strong>     Spring, Symfony, NodeJS</li>
@@ -63,37 +68,70 @@
         </div>
 
         <div class="right-column">
-            <h1>LOPEZ Killian - Développeur</h1>
+            <h1>Développeur</h1>
             <section class="profile">
                 <h2>Profil</h2>
-                <p>Développeur passionné, je me spécialise dans la réimplémentation et
-                    l'adaptation de logiciels pour des besoins personnels et professionnels.
+                <p>
+                    Développeur backend spécialisé dans la conception d'API en PHP/Symfony et Golang,
+                    avec une attention particulière portée à la performance, la qualité du code
+                    et la maintenabilité.
                 </p>
             </section>
 
             <section class="experience">
                 <h2>Expérience Professionnelle</h2>
-                
+
                 <div class="job">
-                    <h3>Développeur, Ouidou 2025, Avril - Octobre</h3>
+                    <h3>Ingénieur d'Études et Développement — Ouidou</h3>
+                    <p class="job-meta">Avril 2025 - Octobre 2025 · Paris</p>
+
+                    <p>
+                        Intervention sur plusieurs applications métiers pour des organismes publics,
+                        dans un contexte de maintenance évolutive et corrective, avec des contraintes
+                        réglementaires fortes.
+                    </p>
+
+                    <h4>CGLLS — Projets GESCO & DHPC (applications interconnectées)</h4>
+                    <p>
+                        <p class="project-detail"> Applications de gestion des cotisations des organismes de logement social. </p>
+
+                        <strong>GESCO</strong> : application destinée aux organismes de logement social.
+                        <br>
+                        <strong>DHPC</strong> : application interne accessible uniquement par la CGLLS,
+                        principalement orientée maintenance.
+                    </p>
+
                     <ul>
-                        <li>Technologies utilisées : Symfony, Angular, Typescript, Docker</li>
-                        <li>Développement d'un module de contrôle pour les cotisations d'organisme.</li>
-                        <li>Mise en place de tests PHPUnit.</li>
-                        <li>Implémentations de features, et maintenance.</li>
+                        <li>Développement et maintenance de fonctionnalités backend Symfony.</li>
+                        <li>Maintenance corrective et évolutive sur un socle applicatif commun.</li>
+                        <li>Optimisation de requêtes SQL critiques.</li>
+                        <li>Mise en place et maintenance de tests unitaires (PHPUnit).</li>
+                        <li>Travail sur des applications à accès restreint et données sensibles.</li>
                     </ul>
-                </div>
-                <div class="job">
-                    <h3>Développeur en alternance, DGGN, Janvier 2023 - Septembre 2024</h3>
-                    <p>Projet de Journal de bord partagé.</p>
+
+                    <p><strong>Stack technique :</strong> Symfony, PHP 7+, Angular, TypeScript, Docker, PostgreSQL</p>
+
+                    <h4>ATIH — Projet Innovarc</h4>
+                    <p class="project-detail">
+                        Application de gestion de projets dans le domaine médical,
+                        utilisée par des acteurs institutionnels du secteur de la santé.
+                    </p>
+
                     <ul>
-                        <li>Technologies utilisées : PHP, JavaScript, HTML, CSS, PostgreSQL.</li>
-                        <li>Refonte d'une application de journal de bord pour remonter les informations terrain aux supérieurs hiérarchiques.</li>
-                        <li>Mise en place d'un système de rôles pour gérer les permissions des utilisateurs selon leur niveau hiérarchique.</li>
-                        <li>Participation à la rédaction du Dossier d'Architecture Technique et du Dossier d'Installation de l'application.</li>
+                        <li>Maintenance corrective et évolutive de l'application.</li>
+                        <li>Analyse et correction d'anomalies fonctionnelles et techniques.</li>
+                        <li>Interventions ciblées sur des modules existants.</li>
                     </ul>
+
+                    <p>
+                        <strong>Stack technique :</strong>
+                        Twig, Symfony (PHP-FPM 7+), MySQL 5.7
+                    </p>
                 </div>
+
+                <!-- Expérience précédente inchangée -->
             </section>
+
 
             <section class="education">
                 <h2>Formation</h2>
@@ -117,18 +155,18 @@
 
             <section class="projects">
                 <h2>Projets Personnels</h2>
-                
+
                 <div class="project">
                     <h3><a href="https://wakdraft.ovh" class="invisible-link" target="_blank">Fansite communautaire - Wakdraft</a></h3>
                     <p>
-                        Site apprécié et utilisé permettant à la communauté du jeu Wakfu répondant à un besoin d'optimisation de son équipe.
+                        Site apprécié répondant à un besoin d'optimisation de son équipe déployé sous OVH avec mises à jours régulières.
                         <br>
                         <span class="bullet-point"></span>
                         <strong>Technologies utilisées :</strong> Golang, Vue, Typescript, PostgreSQL, Docker.
                     </p>
                 </div>
 
-                <div class="project">
+                <!--div class="project">
                     <h3><a href="https://github.com/Luthor91/gameEngine2d.git" class="invisible-link" target="_blank">Game Engine 2D</a></h3>
                     <p>
                         Un moteur de jeu 2D encore en cours de développement mettant l'accent sur la simplicité d'utilisation.
@@ -136,15 +174,14 @@
                         <span class="bullet-point"></span>
                         <strong>Technologies utilisées :</strong> C, SDL2, Make.
                     </p>
-                </div>
+                </div-->
 
             </section>
 
             <section class="hobbies">
                 <h2>Hobbies</h2>
                 <p>
-                    En dehors de mon activité professionnelle, je consacre du temps à des projets personnels en développement.
-                    J'explore de nouvelles technologies et développe des outils ou applications pour approfondir mes connaissances.
+                    Appliquer et renforcer mes connaissances dans le développement de projets personnels
                 </p>
             </section>
         </div>
